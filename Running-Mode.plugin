@@ -1,0 +1,7 @@
+#!name=Running Mode
+#!desc=切换模式
+#!author=Sun
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/WiFi.png
+
+[Script]
+network-changed script-path=https://raw.githubusercontent.com/deezertidal/private/main/Running-Mode.js?token=GHSAT0AAAAAABWAXCNTYBV2IH37BBZZZBUCYWGHPTA, tag=SSID 运行模式
