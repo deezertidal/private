@@ -58,9 +58,9 @@ function manager() {
   }
   if (!config.silence) {
     notify(
-      `🤖 ${isSurge ? "Surge" : "Loon"} 运行模式`,
+      `🤖 {isSurge ? "Surge" : "Loon"} 运行模式`,
       `当前网络：${ssid ? ssid : "蜂窝数据"}`,
-      `${isSurge ? "Surge" : "Loon"} 已切换至${MODE_NAMES[mode]}`
+      `{isSurge ? "Surge" : "Loon"} 已切换至${MODE_NAMES[mode]}`
     );
   }
 }
