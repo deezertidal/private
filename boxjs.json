@@ -1,4 +1,12 @@
 {
+
+  "id": "qxnav.com",
+  "name": "å¥‡å¿ƒåº”ç”¨è®¢é˜…åˆé›†",
+  "author": "é™Œè·¯",
+  "icon": "http://qxnav.com/images/molu.png",
+  "repo": "https://qxnav.com/rules/QuantumultX/qixin.boxjs.json",
+  "updatetime":"2021.5.17",
+
   "message":"ä¸ªäººè‡ªç”¨åˆé›†ï¼Œä¸å®šæ—¶æ›´æ–°ï¼Œä¸å–œå‹¿å–·ï¼",
   "apps": [
       {
