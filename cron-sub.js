@@ -1,6 +1,8 @@
+# 自动同步gist配置
 cron "30 6-23/3 * * *" script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/dist/cron-sync-artifacts.min.js, tag=Auto-Gist
-cron "15 7-18/2 * * *" script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/10010v3/10010.js, tag=流量监控, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/# Task配置 By Tartarus
-# Loon群组：https://t.me/Loon0x00
+
+# 联通免流监控
+cron "15 7-18/2 * * *" script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/10010v3/10010.js, tag=流量监控, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/
 
 # Boxjs
 cron "0 * * * *" script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/Delete_All.js, enable=false, tag=抹掉Boxjs全局备份
