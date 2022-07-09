@@ -6,13 +6,8 @@ cron "30 6-23/3 * * *" script-path=https://raw.githubusercontent.com/Peng-YM/Sub
 # 联通免流监控
 cron "15 7-18/2 * * *" script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/10010v3/10010.js, tag=流量监控, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/
 
-# Boxjs
-cron "0 * * * *" script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/Delete_All.js, enable=false, tag=抹掉Boxjs全局备份
-cron "0 * * * *" script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/Delete_Cache.js, enable=false, tag=抹掉Boxjs订阅缓存
 
 # By Evilbutcher GitHub：https://github.com/evilbutcher/Quantumult_X/tree/master
-
-cron "25 4 8 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/glados.js, enable=false, tag=GLaDOS签到
 cron "45 4 8 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, enable=false, tag=机场签到
 cron "0 5 8 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js, enable=false, tag=机场签到Cookie版
 
@@ -22,7 +17,6 @@ cron "15 1 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/ma
 
 # By chavyleung      GitHub：https://github.com/chavyleung/scripts
 cron "5 3 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/JD_BaiTiao.js, enable=false, tag=京东白条
-cron "10 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, enable=false, tag=百度签到(网页)
 cron "0 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js, enable=false, tag= 顺丰速运
 cron "20 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js, enable=false, tag=V2EX
 cron "0 5 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, enable=false, tag=中国联通
