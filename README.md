@@ -1,7 +1,7 @@
 # private
 搬运自用，不适合大多数人 
 ****
-loon代理链路检测插件  
+代理链路检测插件  
 https://raw.githubusercontent.com/deezertidal/private/main/NodeLinkCheck.plugin  
 <br>
 sub-store重命名脚本操作  
