@@ -1,7 +1,3 @@
-//修改host为v.qq.com,添加前缀免流，添加后缀混淆
-/*辅助脚本过滤 https://raw.githubusercontent.com/deezertidal/private/main/port-filter.js，筛选80 443端口
-*/
-
 const rootNamespace = '@xream'
 const subNamespace = 'sub_store_mega'
 const namespace = `${rootNamespace}.${subNamespace}`
