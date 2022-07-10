@@ -1,5 +1,3 @@
-// 修改免流host,添加后缀名
-
 const rootNamespace = '@xream'
 const subNamespace = 'sub_store_mega'
 const namespace = `${rootNamespace}.${subNamespace}`
@@ -18,14 +16,14 @@ const pathOpt = getVal('path')
 /* network */
 const network = getVal('network')
 /* network */
-const defaultNetworkPath = getVal('免流混淆') || '/'
+const defaultNetworkPath = getVal('defaultNetworkPath') || '/'
 /* 节点名前缀 */
 const prefix = getVal('prefix') || ''
 /* 节点名后缀 */
 const suffix = getVal('suffix') || ''
 /* 附加 Host 前缀 */
-const hostPrefix = getVal('改') || ''
-const hostSuffix = getVal('hostSuffix') || ''
+const hostPrefix = getVal('vmess-host') || ''
+const hostSuffix = getVal('免流混淆') || ''
 /* 附加 Path 前缀 */
 const pathPrefix = getVal('pathPrefix') || ''
 const pathSuffix = getVal('pathSuffix') || ''
