@@ -1,6 +1,6 @@
 /**
  * 为 VMess WebSocket 节点修改混淆 host
- * https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/scripts/vmess-ws-obfs-host.js#host=v.qq.com
+ * https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/scripts/vmess-ws-obfs-host.js#host=v.qq.com
  */
 function operator(proxies) {
     const { host } = $arguments;
