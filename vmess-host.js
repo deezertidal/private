@@ -1,3 +1,5 @@
+// 修改免流host,添加后缀名
+
 const rootNamespace = '@xream'
 const subNamespace = 'sub_store_mega'
 const namespace = `${rootNamespace}.${subNamespace}`
