@@ -6,7 +6,7 @@ const $ = new Env(subNamespace)
 
 const KEY_CACHE = `${namespace}.cache`
 
-const title = getVal('title') || 'Sub-Store Mega'
+const title = getVal('Sub-Store Mega') || 
 
 const disabled = getVal('disabled')
 /* 混淆 */
