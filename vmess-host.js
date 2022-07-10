@@ -1,3 +1,5 @@
+//修改host为v.qq.com,添加前缀免流，添加后缀混淆
+
 const rootNamespace = '@xream'
 const subNamespace = 'sub_store_mega'
 const namespace = `${rootNamespace}.${subNamespace}`
