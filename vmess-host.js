@@ -10,7 +10,7 @@ const title = getVal('title') || 'Sub-Store Mega'
 
 const disabled = getVal('disabled')
 /* 混淆 */
-const host = getVal('v.qq.com')
+const host = getVal('host') || 'v.qq.com'
 /* 路径 */
 const pathOpt = getVal('path')
 /* network */
@@ -18,9 +18,9 @@ const network = getVal('network')
 /* network */
 const defaultNetworkPath = getVal('defaultNetworkPath') || '/'
 /* 节点名前缀 */
-const prefix = getVal('vmess host') || ''
+const prefix = getVal('prefix') || '免流'
 /* 节点名后缀 */
-const suffix = getVal('80/443') || ''
+const suffix = getVal('suffix') || '混淆'
 /* 附加 Host 前缀 */
 const hostPrefix = getVal('hostPrefix') || ''
 const hostSuffix = getVal('hostSuffix') || ''
