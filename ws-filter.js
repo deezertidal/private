@@ -1,3 +1,3 @@
 function filter(proxies) {
-  return proxies.map(p => [ws].includes(p.transport));
+  return proxies.map(p => ws.includes(p.transport));
 }
