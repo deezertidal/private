@@ -8,7 +8,6 @@ function filter(proxies) {
  });
 }
 */
-
 const rootNamespace = '@xream'
 const subNamespace = 'sub_store_mega'
 const namespace = `${rootNamespace}.${subNamespace}`
@@ -25,7 +24,8 @@ const host = getVal('host') || 'v.qq.com'
 /* 路径 */
 const pathOpt = getVal('path')
 /* network */
-const network = getVal('network')
+const network = getVal('network') || 'ws'
+
 /* network */
 const defaultNetworkPath = getVal('defaultNetworkPath') || '/'
 /* 节点名前缀 */
@@ -45,7 +45,7 @@ const ipSuffix = String(getVal('ipSuffix')) === 'true'
 const networkPrefix = String(getVal('networkPrefix')) === 'true'
 const networkSuffix = String(getVal('networkSuffix')) === 'true'
 /* 端口 */
-const port = getVal('80')
+const port = getVal('port') || '80'
 /* 排序 */
 const autoSort = String(getVal('sort')) === 'true'
 /* 域名 转 IP */
@@ -130,7 +130,7 @@ async function main(proxies) {
 async function proxyHander(p) {
   /* network */
   if (network) {
-    p = ws(p, network)
+    p = setNetwork(p, network)
   }
   /* 混淆 */
   if (host) {
