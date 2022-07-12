@@ -45,7 +45,7 @@ const ipSuffix = String(getVal('ipSuffix')) === 'true'
 const networkPrefix = String(getVal('networkPrefix')) === 'true'
 const networkSuffix = String(getVal('networkSuffix')) === 'true'
 /* 端口 */
-const port = getVal('80,443')
+const port = getVal('80')
 /* 排序 */
 const autoSort = String(getVal('sort')) === 'true'
 /* 域名 转 IP */
