@@ -4,6 +4,6 @@ function filter(proxies) {
 function filter(proxies) {
   const allowedNetworks = ['ws'] // ['tcp', 'ws', 'h2', 'http', 'grpc']
  return proxies.map(p => {
-  return p.port === [80,443] && allowedNetworks.includes(p.network) 
+  return p.port === ['80','443'] && allowedNetworks.includes(p.network) 
  });
 }
