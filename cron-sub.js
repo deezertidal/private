@@ -1,7 +1,7 @@
 # 自用cron收集
 
 # 自动同步订阅配置
-cron "30 6-23/3 * * *" script-path=https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/backend/dist/cron-sync-artifacts.min.js, tag=Auto-Gist
+cron "30 6-23/3 * * *" script-path=https://raw.githubusercontent.com/sub-store-org/Sub-Store/de892aaa2bfecb5d3325da66f9cf30f3fd6d4369/backend/dist/cron-sync-artifacts.min.js, tag=Auto-Gist
 
 # 联通免流监控
 cron "15 7-18/2 * * *" script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/10010v3/10010.js, tag=流量监控, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/
