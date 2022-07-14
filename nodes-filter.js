@@ -18,6 +18,10 @@ function filter(proxies) {
 		return p.type === "vmess" && p.network === "ws"
 	});
 */
+
+
+# author:史提芬周
+
 function filter(proxies) {
   const allowedNetworks = ['ws'] // ['tcp', 'ws', 'h2', 'http', 'grpc']
   const port = [80,443]
