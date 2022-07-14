@@ -1,6 +1,5 @@
-# private
+# 自用脚本收集  
 ## 搬运自用 不适合大多数人 
-****
 ###### 代理链路检测插件  
 https://raw.githubusercontent.com/deezertidal/private/main/NodeLinkCheck.plugin  
 <br>
