@@ -10,6 +10,9 @@ https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=zh&
 sub-stores脚本过滤，筛选80 443端口  
 https://raw.githubusercontent.com/deezertidal/private/main/port-filter.js  
 <br>
+sub-stores脚本过滤,筛选80,443，vmess,ws节点  
+https://raw.githubusercontent.com/deezertidal/private/main/nodes-filter.js  
+<br>
 sub-store脚本操作，修改host，添加前缀后缀  
 https://raw.githubusercontent.com/deezertidal/private/main/vmess-host.js  
 <br>
