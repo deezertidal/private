@@ -1,5 +1,7 @@
 # 自用cron收集
 
+cron "0 8 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js, enable=false, tag=苏宁易购
+
 # 自动同步订阅配置
 cron "30 6-23/3 * * *" script-path=https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/backend/dist/cron-sync-artifacts.min.js, tag=Auto-Gist
 
