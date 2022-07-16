@@ -1,7 +1,7 @@
 [URL Rewrite]
 
 #!name=Q-Search
-#!desc=bd空格关键字
+#!desc=切换百度搜索
 #!icon=https://raw.githubusercontent.com/Coldvvater/Loon/master/IMG/Q.png
 
 #wk (Wikipedia中文)
