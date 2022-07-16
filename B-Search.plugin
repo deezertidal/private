@@ -1,8 +1,8 @@
 [URL Rewrite]
 
-#!name=Q-Search
+#!name=B-Search
 #!desc=切换百度搜索
-#!icon=https://raw.githubusercontent.com/Coldvvater/Loon/master/IMG/Q.png
+#!icon= https://iconarchive.com/download/i83826/designbolts/cute-social-2014/Baidu.ico
 
 #wk (Wikipedia中文)
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wk\+([^&]+) https://zh.wikipedia.org/wiki/$2 302
