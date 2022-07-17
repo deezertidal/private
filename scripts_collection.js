@@ -1,3 +1,6 @@
+# 收集自各位masters
+
+
 # 自动同步订阅配置
 cron "30 6-23/3 * * *" script-path=https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/backend/dist/cron-sync-artifacts.min.js, tag=Auto-Gist
 
