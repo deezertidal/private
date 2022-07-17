@@ -1,3 +1,5 @@
+/*根据原作者peng-YM脚本稍作修改自用*/
+
 let config = {
   silence: false, // 是否静默运行，默认false
   cellular: "PROXY", // 蜂窝数据下的模式，RULE代表规则模式，PROXY代表全局代理，DIRECT代表全局直连
