@@ -2,7 +2,7 @@
 #!desc=WPS解锁本地会员,支持大陆版以及非大陆版(2022.07.10)
 #!openUrl=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/WPSOffice
 #!author=@R·E https://t.me/Functional_Store_Hub
-#!icon= https://p.pptfans.cn/2021/05/24/pptfans_f42f9f42e920210524004728315.png
+#!icon= https://pic1.zhimg.com/80/v2-1197c0241d40b6677a0979294c0f0234_1440w.jpg
 
 [Script]
 http-response ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$ script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js, requires-body=true, timeout=10, tag=WPS会员
