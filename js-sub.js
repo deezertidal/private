@@ -1,4 +1,4 @@
-#根据Tartarus2014的脚本稍作修改以自用
+/*根据Tartarus2014的脚本稍作修改以自用*/
 
 http-request ^https?:\/\/api\.tidal\.com\/v1\/(pages\/album|(user|track|page)s\/(\d+)\/(state|subscription|lyrics|onboarding|playbackinfopostpaywall)) script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js, timeout=10, tag=Tidal HiFi
 http-response https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)) requires-body=1, script-path=https://raw.githubusercontent.com/Sunert/Script/master/Script/BiliHD.js, tag=Bilipj
