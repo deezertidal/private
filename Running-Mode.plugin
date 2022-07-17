@@ -1,5 +1,6 @@
 #!name=Running Mode
 #!desc=切换模式
+#!author=peng-YM
 
 [Script]
 network-changed script-path=https://raw.githubusercontent.com/deezertidal/private/main/Running-Mode.js, tag=SSID 运行模式
