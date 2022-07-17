@@ -1,7 +1,5 @@
 #!name=WPS会员
-#!desc=WPS解锁本地会员,支持大陆版以及非大陆版(2022.07.10)
-#!openUrl=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/WPSOffice
-#!author=@R·E https://t.me/Functional_Store_Hub
+#!desc=WPS解锁本地会员
 #!icon= https://pic1.zhimg.com/80/v2-1197c0241d40b6677a0979294c0f0234_1440w.jpg
 
 [Script]
