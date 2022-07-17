@@ -1,3 +1,4 @@
+// 作者author= futurkk
 // 在以下十二个连接中选择你原节点的格式及你需要的格式复制并修改[&airport=]部分即可。
 // [airport=]后需添加你需要的前缀，如[&airport=Texon]则效果为：[Texon HK 1]或[Texon Hong Kong 1]或[Texon HKG 1]或[Texon 香港 1]
 // > 如需在前缀添加符号，需对整个前缀进行一次encode转码操作。
