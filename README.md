@@ -18,6 +18,6 @@ https://raw.githubusercontent.com/deezertidal/private/main/vmess-host.js
 ###### WiFi下规则模式，数据下全局代理（for loon）  
 https://raw.githubusercontent.com/deezertidal/private/main/Running-Mode.plugin  
 <br>
-###### 定时免流监控，同步sub-store（loon，quantumultX，shadowrocket）  
+###### 定时免流监控，同步sub-store，各类定时脚本（for loon）  
 https://raw.githubusercontent.com/deezertidal/private/main/cron-sub.js  
 <br>
