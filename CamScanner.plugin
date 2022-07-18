@@ -1,7 +1,7 @@
 #!name=扫描全能王
 #!desc=解锁扫描全能王
 #!author=NobyDa
-#!icon=https://play-lh.googleusercontent.com/gsspv1FU-tH36UbMUSDJhk1_zSVd3j5p5J4hihQhs1AKuG0AUFqhkH9_pFOwkMHqj2Eh=w240-h480-rw
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/cs.png
 
 [Mitm]
 hostname =ap*.intsig.net
