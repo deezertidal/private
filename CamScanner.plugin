@@ -1,0 +1,10 @@
+#!name=扫描全能王
+#!desc=解锁扫描全能王
+#!author=NobyDa
+#!icon=https://play-lh.googleusercontent.com/gsspv1FU-tH36UbMUSDJhk1_zSVd3j5p5J4hihQhs1AKuG0AUFqhkH9_pFOwkMHqj2Eh=w240-h480-rw
+
+[Mitm]
+hostname =ap*.intsig.net
+
+[Script]
+http-response https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? requires-body=1, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js, tag=扫描全能王
