@@ -4,6 +4,7 @@
 #!desc=切换百度搜索
 #!icon= https://raw.githubusercontent.com/deezertidal/private/main/icons/Baidu.png
 #!author=zqess
+/*地址栏输入bd+空格+关键字 切换百度搜索*/
 
 #wk (Wikipedia中文)
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wk\+([^&]+) https://zh.wikipedia.org/wiki/$2 302
