@@ -1,7 +1,8 @@
 #!name=Spotify Premium
-#!desc=²¿·Ö½âËøpremium,½¨ÒéÖØĞÂµÇÂ¼,ÒôÖÊ²»ÄÜÉèÖÃÎª³¬¸ß
+#!desc=éƒ¨åˆ†è§£é”premium,å»ºè®®é‡æ–°ç™»å½•,éŸ³è´¨ä¸èƒ½è®¾ç½®ä¸ºè¶…é«˜
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
 #!author=app2smile
+
 
 [Mitm]
 hostname =spclient.wg.spotify.com
