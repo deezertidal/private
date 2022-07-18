@@ -1,10 +1,9 @@
-#!name=°Ù¶ÈÔÆ¼ÓËÙ
-#!desc=Tidal»áÔ±½âËø
+#!name=ç™¾åº¦äº‘åŠ é€Ÿ
+#!desc=Tidalä¼šå‘˜è§£é”
 #!author=NobyDa
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Dark/Baidu_Cloud.png
 
 [Mitm]
 hostname =pan.baidu.com
-
 [Script]
-http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js, tag=°Ù¶ÈÔÆ¼ÓËÙ
+http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js, tag=ç™¾åº¦äº‘åŠ é€Ÿ
