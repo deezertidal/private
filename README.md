@@ -1,6 +1,6 @@
 # 自用脚本收集  
 ## 搬运自用配置脚本插件
-
+###### [Loon-Gallery插件(for loon)](https://raw.githubusercontent.com/Peng-YM/Loon-Gallery/master/loon-gallery.plugin)
 ###### [WPS会员解锁（for loon)](https://raw.githubusercontent.com/deezertidal/private/main/WPS.plugin)
 ###### [bd+空格+关键字 切换百度搜索(for loon)](https://raw.githubusercontent.com/deezertidal/private/main/B-Search.plugin)
 ###### [自用脚本集(for loon)](https://raw.githubusercontent.com/deezertidal/private/main/scripts_collection.js)
