@@ -1,7 +1,7 @@
 #!name=酷我会员
 #!desc=解锁酷我年费会员
 #!author=NobyDa
-#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Music_Enhance.png
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/kuwo.png
 
 [Mitm]
 hostname =vip1.kuwo.cn
