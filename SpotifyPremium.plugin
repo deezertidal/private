@@ -1,8 +1,7 @@
 #!name=Spotify Premium
-#!desc=音质不能设置为超高 
+#!desc=部分解锁premium,建议重新登录,音质不能设置为超高
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
 #!author=app2smile
-
 
 [Mitm]
 hostname =spclient.wg.spotify.com
