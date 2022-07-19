@@ -13,7 +13,6 @@
 ###### [WPS会员解锁插件（for loon)](https://raw.githubusercontent.com/deezertidal/private/main/WPS.plugin)
 ###### [spotify会员解锁插件（for loon)](https://raw.githubusercontent.com/deezertidal/private/main/SpotifyPremium.plugin)
 ###### [Tidal会员解锁插件（for loon)](https://raw.githubusercontent.com/deezertidal/private/main/Tidal-HiFi.plugin)
-###### [WPS会员解锁插件（for loon)](https://raw.githubusercontent.com/deezertidal/private/main/WPS.plugin)
 ###### [切换百度搜索插件(for loon)](https://raw.githubusercontent.com/deezertidal/private/main/B-Search.plugin)
 ###### [代理链路检测插件（for loon)](https://raw.githubusercontent.com/deezertidal/private/main/NodeLinkCheck.plugin) 
 ###### [网络模式切换（for loon)](https://raw.githubusercontent.com/deezertidal/private/main/Running-Mode.plugin)
