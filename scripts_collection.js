@@ -1,4 +1,4 @@
-// 脚本集
+// Modified by https://github.com/deezertidal
 
 /*脚本任务(京东 顺丰 联通等)*/
 cron "30 6-23/3 * * *" script-path=https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/backend/dist/cron-sync-artifacts.min.js, tag=Auto-Gist
