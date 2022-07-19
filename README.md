@@ -22,7 +22,7 @@
 ###### [自用BoxJS集(loon,quantumultX,surge)](https://raw.githubusercontent.com/deezertidal/private/main/Boxjs.json)
 ****
 ###### [Sub-Store插件](https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Loon.plugin)
-###### [sub-store重命名脚本(loon,quantumultX,shadowrocket)](https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=zh&output=zh&airport=你需要的机场名)
-###### [sub-store脚本过滤，筛选80 443端口（loon，quantumultX，shadowrocket)](https://raw.githubusercontent.com/deezertidal/private/main/port-filter.js)
-###### [sub-store脚本过滤,筛选80,443，vmess,ws节点（loon，quantumultX，shadowrocket)](https://raw.githubusercontent.com/deezertidal/private/main/nodes-filter.js) 
-###### [sub-store脚本操作，修改host，添加前缀后缀（loon，quantumultX，shadowrocket)](https://raw.githubusercontent.com/deezertidal/private/main/vmess-host.js)
+###### [Sub-Store重命名脚本(loon,quantumultX,shadowrocket)](https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=zh&output=zh&airport=你需要的机场名)
+###### [Sub-Store脚本过滤，筛选80 443端口（loon，quantumultX，shadowrocket)](https://raw.githubusercontent.com/deezertidal/private/main/port-filter.js)
+###### [Sub-Store脚本过滤,筛选80,443，vmess,ws节点（loon，quantumultX，shadowrocket)](https://raw.githubusercontent.com/deezertidal/private/main/nodes-filter.js) 
+###### [Sub-Store脚本操作，修改host，添加前缀后缀（loon，quantumultX，shadowrocket)](https://raw.githubusercontent.com/deezertidal/private/main/vmess-host.js)
