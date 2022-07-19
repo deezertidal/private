@@ -1,7 +1,7 @@
 # 自用脚本收集  
 ## 搬运自用配置脚本插件
 ###### [loon完整脚本配置文件](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Full.conf)
-###### [loon精选脚本配置文件](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Basic.conf)
+###### [loon基础配置文件](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Basic.conf)
 ###### [完整脚本](https://raw.githubusercontent.com/deezertidal/private/main/Script_Ultra.js)
 ###### [精选脚本](https://raw.githubusercontent.com/deezertidal/private/main/scripts_collection.js)
 ****
