@@ -1,4 +1,4 @@
-/*根据原作者peng-YM脚本稍作修改自用*/
+/*根据原作者peng-YM脚本稍作修改*/
 
 let config = {
   silence: false, // 是否静默运行，默认false
