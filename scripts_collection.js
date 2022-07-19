@@ -132,7 +132,9 @@ http-request ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/bt\/h5\/m\/queryUserSignFl
 
 /*获取途虎cookie*/
 http-request https://api.tuhu.cn/User/GetUserCurrentAndNextGradeInfo script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/tuhu/tuhu.Cookie.js, tag=途虎养车
-/*
+
+
+'''
 # Gear
 http-response ^https\:\/\/api.revenuecat.com\/v1\/subscribers(.+) script-path=https://ghproxy.com/https://raw.githubusercontent.com/ThorJsbox/QuanX/master/Rewrite_local/Gearpro.js, requires-body=true, timeout=10, tag=Gear
 
@@ -216,7 +218,7 @@ http-response ^https:\/\/planner5d\.com\/api\/sets script-path=https://raw.githu
 
 #all apps monkey
 http-response ^https:\/\/www\.api\.monkeyuni\.net\/api\/.+\/mobile\/account\/load-update script-path=https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/monkey.js
-*/
+
 
 /*hostname = api.textnow.me, *.videostarapp.com, avatar-nct.nixcdn.com, spclient.wg.spotify.com, *.googlevideo.com, oa.zalo.me, vsco.co, api.gyrosco.pe, origin-prod-phoenix.jibjab.com, api.termius.com, api.picsart.c*, api.meiease.c*, api.unfold.app, viva-asia1.vvbrd.com, graph.nhaccuatui.com, api.memrise.com, api.sync.me, pool.elsanow.io, lambda.us-east-1.amazonaws.com, api.mondlylanguages.com, api.busuu.com, owa.videoshowiosglobalserver.com:0, accounts.elevateapp.net, purchases.ws.pho.to, api-intl.mr.meitu.com, bmall.camera360.com, api.tv.zing.vn, api.calm.com, www.calm.com, api.global.mp3.zing.vn, apimboom2.globaldelight.net, photos.adobe.io, license.pdfexpert.com, subs.platforms.team, apic.musixmatch.com, api.getmimo.com, api.revenuecat.com, pixmagicapp.com, engbright.com, api.lingokids.com, www.peacefulsoundsapp.com, duolingo-leaderboards-prod.duolingo.com, commerce-i18n-api.faceu.mobi, mobi, mobile-api.adguard.com, api.blinkist.com, api.sololearn.com, receipts.cerebralgardens.com, api-kinemaster-assetstore.*, api.pushover.net, api-cs.intsig.net, api.overhq.com, api.appsyscode.com, api.freeletics.com, api.shred.app, receipt-validator.herewetest.com, api.deezer.com, iap.aps-sdk.com, education.github.com, api.revenuecat.com, backend.getdrafts.com, ssl-api.itranslateapp.com, sk.ulysses.app, dayone.me, license.enpass.io, mp.bybutter.com, *.grammarly.com, splice.oracle.*.com, api.keepkeep.com, planner5d.com, secure.istreamer.com, www.api.monkeyuni.net, account.wps.com, menscoach-api.asqq.io,biz.caiyunapp.com, api.revenuecat.com*/
 hostname = daojia.jd.com,group.baicizhan.com,i.meituan.com,promotion.waimai.meituan.com,m.client.10010.com,act.10010.com,mcs-mimp-web.sf-express.com,*.v2ex.com,api.m.jd.com,jdjoy.jd.com,jdread-api.jd.com,api.tuhu.cn,ms.jr.jd.com,me-api.jd.com,*.xxjjappss.com,*.huaerdadi.com,tncj.hortorgames.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,ios.prod.ftl.netflix.com,duoting.tatatimes.com,cm.szsszykj.com,avoscloud.com,api.flexibits.com,d.syshhc.top,115.28.168.103,dbapi.ganbuguo.com,api.591master.com,www.mindmeister.com,sports.lifesense.com,api.pushover.net,subs.platforms.team,api.hulusaas.com,snailsleep.net,music.snailsleep.net,community.snailsleep.net,api.jiaonizuocai.com,nmeditation.snailsleep.net,claritywallpaper.com,subscription-service.neuralprisma.com,mappsv5.caixin.com,diary.7english.cn,api.gotokeep.com,*.ddly666.top,hkj178.com,a.jxjt888.top,lysl2020.com,www.i3zh.com,mb3admin.com,api2.mubu.com,mp.weixin.qq.com,r.inews.qq.com,api.revenuecat.com,vip1.kuwo.cn,api.gamer.com.tw,ap*.intsig.net,newdrugs.dxy.cn,account.wps.cn,viva.v21xy.com,api.bjxkhc.com,api.vnision.com,api.picsart.c*,api.meiease.c*,api.bilibili.com,getuserinfo.321mh.com,getuserinfo-globalapi.zymk.cn,www.google.*,ios.fuliapps.com,apple.fuliapps.com,ios.xiangjiaoapps.com,apple.xiangjiaoapps.com,*.xiangxiangapps.com,vsco.co,weixin110.qq.com,api.ithome.com,*.xxjjappss.com,pan.baidu.com,api.vuevideo.net,testflight.apple.com,me-api.jd.com,draw.jdfcloud.com,account.huami.com,api.tidal.com,spclient.wg.spotify.com
