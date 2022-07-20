@@ -20,8 +20,8 @@ if (boxConfig) {
 const isLoon = typeof $loon !== "undefined";
 const isSurge = typeof $httpClient !== "undefined" && !isLoon;
 const MODE_NAMES = {
-  RULE: "🚦WiFi分流模式",
-  PROXY: "🚀全局免流模式",
+  RULE: "🚦Rule Mode",
+  PROXY: "🚀Proxy Mode",
   DIRECT: "🎯全局直连模式",
 };
 
@@ -60,9 +60,9 @@ function manager() {
   }
   if (!config.silence) {
     notify(
-      ` ${isSurge ? "Surge" : "Loon"} 运行模式`,
-      `当前网络：${ssid ? ssid : "蜂窝数据"}`,
-      `${isSurge ? "Surge" : "Loon"} 已切换至${MODE_NAMES[mode]}`
+      ` ${isSurge ? "Surge" : "Your iPhone"} has changed`,
+      `to：${ssid ? ssid : "蜂窝数据"}`,
+      `${isSurge ? "Surge" : "Loon"}${MODE_NAMES[mode]}`
     );
   }
 }
