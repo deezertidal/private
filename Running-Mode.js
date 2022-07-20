@@ -61,7 +61,7 @@ function manager() {
   if (!config.silence) {
     notify(
       ` ${isSurge ? "Surge" : "Your iPhone"} has changed`,
-      `to：${ssid ? ssid : "蜂窝数据"}`,
+      `to：${ssid ? ssid : "Cellular"}`,
       `${isSurge ? "Surge" : "Loon"}${MODE_NAMES[mode]}`
     );
   }
