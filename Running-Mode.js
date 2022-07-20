@@ -62,7 +62,7 @@ function manager() {
     notify(
       ` ${isSurge ? "Surge" : "iPhone"} 已切换至`,
       `${ssid ? ssid : ""}`
-      `${isSurge ? "Surge" : ""}${MODE_NAMES[mode]}`
+      `${isSurge ? "Surge" : ""}${MODE_NAMES[mode]}`,
     );
   }
 }
