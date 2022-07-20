@@ -20,8 +20,8 @@ if (boxConfig) {
 const isLoon = typeof $loon !== "undefined";
 const isSurge = typeof $httpClient !== "undefined" && !isLoon;
 const MODE_NAMES = {
-  RULE: "🚦Rule Mode",
-  PROXY: "🚀Proxy Mode",
+  RULE: "规则模式",
+  PROXY: "全局模式",
   DIRECT: "🎯全局直连模式",
 };
 
@@ -60,9 +60,9 @@ function manager() {
   }
   if (!config.silence) {
     notify(
-      ` ${isSurge ? "Surge" : "Your iPhone"} has changed`,
-      `to：${ssid ? ssid : "Cellular"}`,
-      `${isSurge ? "Surge" : "Loon"}${MODE_NAMES[mode]}`
+      ` ${isSurge ? "Surge" : "iPhone"} 已切换至`,
+      `${ssid ? ssid : ""}`
+      `${isSurge ? "Surge" : ""}${MODE_NAMES[mode]}`
     );
   }
 }
