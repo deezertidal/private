@@ -16,6 +16,13 @@
 ###### [切换百度搜索插件(for loon)](https://raw.githubusercontent.com/deezertidal/private/main/B-Search.plugin)
 ###### [代理链路检测插件（for loon)](https://raw.githubusercontent.com/deezertidal/private/main/NodeLinkCheck.plugin) 
 ###### [网络模式切换（for loon)](https://raw.githubusercontent.com/deezertidal/private/main/Running-Mode.plugin)
+###### [广告屏蔽插件(for loon)](https://raw.githubusercontent.com/deezertidal/private/main/AdBlock.plugin)
+###### [波点音乐插件(for loon)](https://raw.githubusercontent.com/deezertidal/private/main/Bodian.plugin)
+###### [禁用iOS更新插件(for loon)](https://raw.githubusercontent.com/deezertidal/private/main/DisableUpdate.plugin)
+###### [奈飞评分插件(for loon)](https://raw.githubusercontent.com/deezertidal/private/main/Ratings.plugin)
+###### [番茄小说插件(for loon)](https://raw.githubusercontent.com/deezertidal/private/main/fanqienovel.plugin)
+###### [iRingo for TestFlight插件(for loon)](https://raw.githubusercontent.com/deezertidal/private/main/iRingo_TestFlight.plugin)
+
 ****
 ###### [图标集(loon，quantumultX)](https://raw.githubusercontent.com/deezertidal/private/main/icons.json)
 ****
