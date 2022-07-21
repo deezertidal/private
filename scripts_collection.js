@@ -133,9 +133,6 @@ http-request ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/bt\/h5\/m\/queryUserSignFl
 /*获取途虎cookie*/
 http-request https://api.tuhu.cn/User/GetUserCurrentAndNextGradeInfo script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/tuhu/tuhu.Cookie.js, tag=途虎养车
 
-/*Wi-Fi下规则模式 数据下全局模式*/
-network-changed script-path= https://raw.githubusercontent.com/deezertidal/private/main/Running-Mode.js,tag=网络切换模式
-
 /*WPS会员*/
 http-response ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$ script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js, requires-body=1, timeout=10, tag=WPS会员
 
