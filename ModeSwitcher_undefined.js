@@ -14,14 +14,14 @@ var conf = JSON.parse(confStr)
 if (conf.ssid == "your ssid name") {
    
   
-    $config.setRunningModel(0)
+    $config.setRunningModel(0或1或2)
     //设置select策略组所对应的策略，子策略不存在时将保持原先的策略不变
-    $config.setSelectPolicy("⛔ 广告拦截","DIRECT")
-    $notification.post("Network changed","Change Running Model to Global Direct","⛔ 广告拦截 to DIRECT")
+    $config.setSelectPolicy("策略1","子策略1")
+    $notification.post("通知标题","通知副标题1","通知内容1")
 } else {
-    $config.setRunningModel(1)
-    $config.setSelectPolicy("⛔ 广告拦截","REJECT")
-    $notification.post("Network changed","Change Running Model to Filter by rule","⛔ 广告拦截 to REJECT")
+    $config.setRunningModel(0或1或2)
+    $config.setSelectPolicy("策略2","子策略2")
+    $notification.post("通知标题","通知副标题2","通知内容2")
 }
 
 //一次性同时设置多个策略组的策略
