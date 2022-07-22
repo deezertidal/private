@@ -146,9 +146,6 @@ generic script-path=https://raw.githubusercontent.com/Loon0x00/LoonScript/main/M
 generic script-path=https://raw.githubusercontent.com/Loon0x00/LoonScript/main/MediaCheck/discovery_check.js, tag=Discovery-解锁查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/discovery+.png
 generic script-path=https://raw.githubusercontent.com/Loon0x00/LoonScript/main/MediaCheck/check.js, tag=流媒体-解锁查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ForeignMedia.png
 
-/*网络切换模式*/
-network-changed script-path=https://raw.githubusercontent.com/deezertidal/private/main/ModeSwitcher.js,tag=Mode Switcher
-
 /*Gear浏览器pro*/
 http-response ^https\:\/\/api.revenuecat.com\/v1\/subscribers(.+) script-path=https://ghproxy.com/https://raw.githubusercontent.com/ThorJsbox/QuanX/master/Rewrite_local/Gearpro.js, requires-body=true, timeout=10, tag=Gear Pro
 
