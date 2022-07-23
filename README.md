@@ -3,7 +3,7 @@
 
 |:balloon:|:link:|
 |--|--|
-|:white_check_mark:含完整脚本的配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Full.conf)|
+|:white_check_mark:含完整脚本及插件的配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Full.conf)|
 |:white_check_mark:基础配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Basic.conf)|
 |:white_check_mark:完整脚本订阅链接|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Script_Ultra.js)|
 |:white_check_mark:自用脚本订阅链接|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/scripts_collection.js)|
