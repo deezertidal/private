@@ -1,7 +1,7 @@
 # :balloon:自用脚本收集  
 ## 搬运自用配置脚本插件
 
-|:name_badge:|:link:|
+|:balloon:|:link:|
 |--|--|
 |:white_check_mark:含完整脚本的配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Full.conf)|
 |:white_check_mark:基础配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Basic.conf)|
