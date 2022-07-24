@@ -152,9 +152,6 @@ http-response ^https\:\/\/api.revenuecat.com\/v1\/subscribers(.+) script-path=ht
 /*代理链路检测*/
 generic script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NodeLinkCheck/Script/NodeLinkCheck.js, tag=代理链路检测,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Stack.png
 
-/*手机硬件管家*/
-http:\/\/api\.591master\.com\:8081\/(1.0|3.6.8)\/ui(forum|common)\/(downloadwallpaper|getuser) requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/phoneyjgj.js,tag=手机硬件管家
-
 /*模式切换*/
 network-changed script-path=https://raw.githubusercontent.com/deezertidal/private/main/ModeSwitcher.js,tag=Mode Switcher
 
