@@ -3,9 +3,9 @@
 
 |:octocat:名称|:link:链接|:pushpin:操作说明|
 |--|--|--|
-|:white_check_mark:含完整脚本及插件的配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Full.conf)|Loon-配置-编辑-从URL下载-粘贴链接 自行手动禁用不需要的脚本插件
-|:white_check_mark:基础配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Basic.conf)|Loon-配置-编辑-从URL下载-粘贴链接 自行添加需要的脚本插件
-|:white_check_mark:完整脚本订阅链接|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Script_Ultra.js)|Loon-配置-脚本-订阅脚本-粘贴链接 自行手动禁用不需要的脚本
+|:white_check_mark:含完整脚本及插件的配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Full.conf)|Loon-配置-编辑-从URL下载-粘贴链接（自行手动禁用不需要的脚本插件）
+|:white_check_mark:基础配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Basic.conf)|Loon-配置-编辑-从URL下载-粘贴链接（自行添加需要的脚本插件）
+|:white_check_mark:完整脚本订阅链接|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Script_Ultra.js)|Loon-配置-脚本-订阅脚本-粘贴链接（自行手动禁用不需要的脚本）
 |:white_check_mark:自用脚本订阅链接|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/scripts_collection.js)|自用
 |:white_check_mark:百度云加速插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/BaiduCloud.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:扫描全能王插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/CamScanner.plugin)|Loon-配置-插件-粘贴链接
@@ -26,7 +26,7 @@
 |:white_check_mark:iRingo for TestFlight插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/iRingo_TestFlight.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:BoxJS插件|[:link:链接地址](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.tf.plugin)|Loon-配置-插件-粘贴链接-safari-boxjs.com-添加到主屏幕
 |:white_check_mark:Bili换区插件|[:link:链接地址](https://raw.githubusercontent.com/Coldvvater/Loon/master/Plugin/Bili_Auto_Regions.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Q-Search插件|[:link:链接地址](https://raw.githubusercontent.com/Coldvvater/Loon/master/Plugin/Q-Search.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:Q-Search插件|[:link:链接地址](https://raw.githubusercontent.com/Coldvvater/Loon/master/Plugin/Q-Search.plugin)|Loon-配置-插件-粘贴链接（需设置duckduckgo为默认搜索引擎）
 |:white_check_mark:豆瓣影视插件|[:link:链接地址](https://raw.githubusercontent.com/Coldvvater/Loon/master/Plugin/DouBanPlay.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:字幕增强及双语模块插件|[:link:链接地址](https://raw.githubusercontent.com/DualSubs/DualSubs/main/plugin/DualSubs.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:YouTube字幕增强及双语模块插件|[:link:链接地址](https://raw.githubusercontent.com/DualSubs/DualSubs/main/plugin/DualSubs.YouTube.plugin)|Loon-配置-插件-粘贴链接
@@ -49,7 +49,7 @@
 |:white_check_mark:图标集|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/icons.json)|Loon-更多-UI配置-图标集-粘贴链接
 |:white_check_mark:自用BoxJS集|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Boxjs.json)|BoxJS-订阅-添加订阅-粘贴链接
 |:white_check_mark:Sub-Store插件|[:link:链接地址](https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Loon.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Sub-Store脚本操作：重命名|[:link:链接地址](https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=zh&output=zh&airport=你需要的机场名)|SubStore-订阅编辑-添加操作-脚本操作-粘贴链接
+|:white_check_mark:Sub-Store脚本操作：重命名|[:link:链接地址](https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=zh&output=zh&airport=你需要的机场名)|SubStore-订阅编辑-添加操作-脚本操作-粘贴链接（自行修改自己的机场名）
 |:white_check_mark:Sub-Store脚本过滤：筛选80 443端口|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/port-filter.js)|SubStore-订阅编辑-添加操作-脚本过滤-粘贴链接
 |:white_check_mark:Sub-Store脚本过滤：筛选80,443，vmess,ws节点|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/nodes-filter.js)|SubStore-订阅编辑-添加操作-脚本过滤-粘贴链接
-|:white_check_mark:Sub-Store脚本操作：修改host，添加前缀后缀|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/vmess-host.js)|SubStore-订阅编辑-添加操作-脚本操作-粘贴链接
+|:white_check_mark:Sub-Store脚本操作：修改host，添加前缀后缀|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/vmess-host.js)|SubStore-订阅编辑-添加操作-脚本操作-粘贴链接（自行修改参数）
