@@ -3,9 +3,9 @@
 
 |:octocat:|:link:|:pushpin:|
 |--|--|--|
-|:white_check_mark:含完整脚本及插件的配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Full.conf)|需自行手动禁用不需要的脚本插件
-|:white_check_mark:基础配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Basic.conf)|
-|:white_check_mark:完整脚本订阅链接|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Script_Ultra.js)|需自行手动禁用不需要的脚本
+|:white_check_mark:含完整脚本及插件的配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Full.conf)|自行手动禁用不需要的脚本插件
+|:white_check_mark:基础配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Basic.conf)|自行添加需要的脚本插件
+|:white_check_mark:完整脚本订阅链接|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Script_Ultra.js)|自行手动禁用不需要的脚本
 |:white_check_mark:自用脚本订阅链接|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/scripts_collection.js)|自用
 |:white_check_mark:百度云加速插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/BaiduCloud.plugin)| 
 |:white_check_mark:扫描全能王插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/CamScanner.plugin)| 
