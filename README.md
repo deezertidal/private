@@ -77,11 +77,13 @@
 
 * [@Tartarus2014](https://github.com/Tartarus2014)
 
+* [@I-am-R-E](https://github.com/I-am-R-E)
+
 * [@nzw9314](https://github.com/nzw9314)
 
-* [Qure](https://github.com/Koolson/Qure)
+* [@Qure](https://github.com/Koolson/Qure)
 
-* [Orz](https://github.com/Orz-3/mini)
+* [@Orz](https://github.com/Orz-3/mini)
 
 * [@NobyDa](https://github.com/NobyDa)
 
