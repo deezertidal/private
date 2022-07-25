@@ -56,12 +56,13 @@
 |:white_check_mark:Sub-Store脚本过滤：筛选80,443，vmess,ws节点|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/nodes-filter.js)|SubStore-订阅编辑-添加操作-脚本过滤-粘贴链接
 |:white_check_mark:Sub-Store脚本操作：修改host，添加前缀后缀|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/vmess-host.js)|SubStore-订阅编辑-添加操作-脚本操作-粘贴链接（自行修改参数）
 |:white_check_mark:机场推荐|[:link:公益机场](https://github.com/deezertidal/freevpn/blob/main/README.md)or[付费机场](https://github.com/deezertidal/fee-based/blob/main/README.md)|配置文件中已自带订阅链接，仅分享不维护
+|:white_check_mark:Loon教程|[:link:链接地址](https://github.com/TiyNa/LoonManual)|适合初次使用者
 ****
 ## :warning:免责声明：
 
-* 项目中涉及的任何解锁和解密分析脚本仅用于资源共享和学习研究，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
+* 本项目涉及的任何解锁和解密分析脚本仅用于资源共享和学习研究，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
 
-* 间接使用脚本的任何用户，包括但不限于建立VPS或在某些行为违反国家/地区法律或相关法规的情况下进行传播, 对于由此引起的任何隐私泄漏或其他后果概不负责.
+* 间接使用脚本的任何用户，包括但不限于建立VPS或在某些行为违反国家/地区法律或相关法规的情况下进行传播, 本项目对于由此引起的任何隐私泄漏或其他后果概不负责.
 
 * 请勿将Script项目的任何内容用于商业或非法目的，否则后果自负.
 
