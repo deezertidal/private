@@ -55,7 +55,7 @@
 |:white_check_mark:Sub-Store脚本过滤：筛选80 443端口|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/port-filter.js)|SubStore-订阅编辑-添加操作-脚本过滤-粘贴链接
 |:white_check_mark:Sub-Store脚本过滤：筛选80,443，vmess,ws节点|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/nodes-filter.js)|SubStore-订阅编辑-添加操作-脚本过滤-粘贴链接
 |:white_check_mark:Sub-Store脚本操作：修改host，添加前缀后缀|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/vmess-host.js)|SubStore-订阅编辑-添加操作-脚本操作-粘贴链接（自行修改参数）
-|:white_check_mark:机场推荐|[:link:公益机场](https://github.com/deezertidal/freevpn/blob/main/README.md)or[付费机场](https://github.com/deezertidal/fee-based/blob/main/README.md)|配置文件中已自带订阅链接，仅分享不维护
+|:white_check_mark:机场推荐|[:link:公益机场](https://github.com/deezertidal/freevpn/blob/main/README.md) / [付费机场](https://github.com/deezertidal/fee-based/blob/main/README.md)|配置文件中已自带订阅链接，仅分享不维护
 |:white_check_mark:Loon教程|[:link:链接地址](https://github.com/TiyNa/LoonManual)|适合初次使用者
 ****
 ## :warning:免责声明：
