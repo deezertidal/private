@@ -80,6 +80,8 @@
 
 * [@I-am-R-E](https://github.com/I-am-R-E)
 
+* [@yqc007](https://github.com/yqc007)
+
 * [@nzw9314](https://github.com/nzw9314)
 
 * [@Qure](https://github.com/Koolson/Qure)
