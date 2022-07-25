@@ -1,5 +1,4 @@
-# :balloon:自用脚本收集  
-## 搬运自用配置脚本插件
+# :balloon:Loon脚本插件收集  
 
 |:octocat:名称|:link:链接|:pushpin:操作说明|
 |--|--|--|
