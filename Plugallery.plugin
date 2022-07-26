@@ -1,7 +1,7 @@
 #!name=Plugallery
 #!desc=Loon插件集
 #!author=deezertidal
-#!icon= https://avatars.githubusercontent.com/u/539868?v=4
+#!icon= https://raw.githubusercontent.com/deezertidal/private/main/icons/Plugallery.png
 
 [Script]
 
@@ -70,8 +70,8 @@ http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDe
 
 [URL Rewrite]
 
-/*B-Search*/
 ^https:\/\/www\.google\.com\/search\?q=bd\+([^&]+) https://m.baidu.com/s?word=$1 302
+^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start reject-200
 
 [MITM]
 hostname=sub.store,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,mb3admin.com,api.tidal.com,ap*.intsig.net,vip1.kuwo.cn,api.m.jd.com,account.wps.cn,*account.wps.com,pan.baidu.com,weixin110.qq.com,mp.weixin.qq.com,spclient.wg.spotify.com,m.baidu.com,www.google.com,api.bilibili.com
