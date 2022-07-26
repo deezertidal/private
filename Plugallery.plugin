@@ -68,7 +68,7 @@ network-changed script-path=https://raw.githubusercontent.com/deezertidal/privat
 
 /*emby解锁*/
 //http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice requires-body=1,max-size=0, script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/Emby.js,tag=EMBY
-^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://raw.githubusercontent.com/chneez/qx/main/emby/emby.js
+http-response ^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) requires-body=1,script-path=https://raw.githubusercontent.com/chneez/qx/main/emby/emby.js,tag=EMBY
 
 [URL Rewrite]
 
