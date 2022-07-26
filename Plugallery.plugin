@@ -2,6 +2,7 @@
 #!desc=Loon插件集
 #!author=deezertidal
 #!icon= https://avatars.githubusercontent.com/u/539868?v=4
+
 [Script]
 
 /*Sub-Store*/
@@ -67,5 +68,10 @@ network-changed script-path=https://raw.githubusercontent.com/deezertidal/privat
 /*emby解锁*/
 http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice requires-body=1,max-size=0, script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/Emby.js,tag=EMBY
 
+[URL Rewrite]
+
+/*B-Search*/
+^https:\/\/www\.google\.com\/search\?q=bd\+([^&]+) https://m.baidu.com/s?word=$1 302
+
 [MITM]
-hostname=sub.store,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,mb3admin.com,api.tidal.com,ap*.intsig.net,vip1.kuwo.cn,api.m.jd.com,account.wps.cn,*account.wps.com,pan.baidu.com,weixin110.qq.com,mp.weixin.qq.com
+hostname=sub.store,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,mb3admin.com,api.tidal.com,ap*.intsig.net,vip1.kuwo.cn,api.m.jd.com,account.wps.cn,*account.wps.com,pan.baidu.com,weixin110.qq.com,mp.weixin.qq.com,spclient.wg.spotify.com,m.baidu.com,www.google.com,api.bilibili.com
