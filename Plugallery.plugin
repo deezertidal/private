@@ -70,10 +70,16 @@ network-changed script-path=https://raw.githubusercontent.com/deezertidal/privat
 //http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice requires-body=1,max-size=0, script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/Emby.js,tag=EMBY
 http-response ^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) requires-body=1,script-path=https://raw.githubusercontent.com/chneez/qx/main/emby/emby.js,tag=EMBY
 
+/*YouTube双字幕*/
+http-response ^https?:\/\/(www|m)\.youtube\.com\/youtubei\/v1\/player(\?.*)$ requires-body=1, max-size=0, timeout=30, script-path=https://raw.githubusercontent.com/DualSubs/DualSubs/main/js/DualSubs.YouTube.Player.js, tag=DualSubs.YouTube.Player, argument=
+# http-response ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player(\?.*)$ requires-body=1, binary-body-mode=1, max-size=0, timeout=30, script-path=https://raw.githubusercontent.com/DualSubs/DualSubs/main/js/DualSubs.YouTube.Player.js, tag=DualSubs.YouTube.Player, argument=
+http-request ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext(\?.*)$ requires-body=0, max-size=0, script-path=https://raw.githubusercontent.com/DualSubs/DualSubs/main/js/DualSubs.YouTube.TimedText.request.js, tag=DualSubs.YouTube.TimedText, argument=
+http-response ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext(\?.*)$ requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/DualSubs/DualSubs/main/js/DualSubs.YouTube.TimedText.response.js, tag=DualSubs.YouTube.TimedText, argument=
+
 [URL Rewrite]
 
 ^https:\/\/www\.google\.com\/search\?q=bd\+([^&]+) https://m.baidu.com/s?word=$1 302
 ^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start reject-200
 
 [MITM]
-hostname=sub.store,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,mb3admin.com,api.tidal.com,ap*.intsig.net,vip1.kuwo.cn,api.m.jd.com,account.wps.cn,*account.wps.com,pan.baidu.com,weixin110.qq.com,mp.weixin.qq.com,spclient.wg.spotify.com,m.baidu.com,www.google.com,api.bilibili.com,weather-data.apple.com, api.weather.com
+hostname=sub.store,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,mb3admin.com,api.tidal.com,ap*.intsig.net,vip1.kuwo.cn,api.m.jd.com,account.wps.cn,*account.wps.com,pan.baidu.com,weixin110.qq.com,mp.weixin.qq.com,spclient.wg.spotify.com,m.baidu.com,www.google.com,api.bilibili.com,weather-data.apple.com, api.weather.com, www.youtube.com, m.youtube.com, youtubei.googleapis.com
