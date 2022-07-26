@@ -78,4 +78,4 @@ http-request https:\/\/((weather-data\.apple)|(api.weather))\.com script-path=ht
 ^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start reject-200
 
 [MITM]
-hostname=sub.store,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,mb3admin.com,api.tidal.com,ap*.intsig.net,vip1.kuwo.cn,api.m.jd.com,account.wps.cn,*account.wps.com,pan.baidu.com,weixin110.qq.com,mp.weixin.qq.com,spclient.wg.spotify.com,m.baidu.com,www.google.com,api.bilibili.com
+hostname=sub.store,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,mb3admin.com,api.tidal.com,ap*.intsig.net,vip1.kuwo.cn,api.m.jd.com,account.wps.cn,*account.wps.com,pan.baidu.com,weixin110.qq.com,mp.weixin.qq.com,spclient.wg.spotify.com,m.baidu.com,www.google.com,api.bilibili.com,weather-data.apple.com, api.weather.com
