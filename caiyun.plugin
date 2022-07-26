@@ -1,9 +1,0 @@
-#!name=扫描全能王
-#!desc=解锁扫描全能王
-#!author=NobyDa
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/cs.png
-
-[MITM]
-hostname=weather-data.apple.com, api.weather.com
-[Script]
-http-request https:\/\/((weather-data\.apple)|(api.weather))\.com script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, require-body=false
