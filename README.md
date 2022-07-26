@@ -5,7 +5,6 @@
 |:white_check_mark:含完整脚本及插件的配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Full.conf)|Loon-配置-编辑-从URL下载-粘贴链接（自行手动禁用不需要的脚本插件）
 |:white_check_mark:基础配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Basic.conf)|Loon-配置-编辑-从URL下载-粘贴链接（自行添加需要的脚本插件）
 |:white_check_mark:完整脚本订阅链接|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Script_Ultra.js)|Loon-配置-脚本-订阅脚本-粘贴链接（自行手动禁用不需要的脚本）
-|:white_check_mark:Plugallery,scripts_collection|:no_entry_sign:|:no_entry_sign:自用插件集，脚本任务集
 |:white_check_mark:网易音乐解锁节点|[:link:链接地址](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/NeteaseMusic/AgentNode)|解锁网易云灰色和VIP音乐节点
 |:white_check_mark:百度云加速插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/BaiduCloud.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:扫描全能王插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/CamScanner.plugin)|Loon-配置-插件-粘贴链接
@@ -25,13 +24,13 @@
 |:white_check_mark:禁用iOS更新插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/DisableUpdate.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:奈飞评分插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Ratings.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:番茄小说插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/fanqienovel.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:iRingo for TestFlight插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/iRingo_TestFlight.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:TestFlight插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/iRingo_TestFlight.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:BoxJS插件|[:link:链接地址](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.tf.plugin)|Loon-配置-插件-粘贴链接-safari-boxjs.com-添加到主屏幕
 |:white_check_mark:Bili换区插件|[:link:链接地址](https://raw.githubusercontent.com/Coldvvater/Loon/master/Plugin/Bili_Auto_Regions.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:Q-Search插件|[:link:链接地址](https://raw.githubusercontent.com/Coldvvater/Loon/master/Plugin/Q-Search.plugin)|Loon-配置-插件-粘贴链接（需设置duckduckgo为默认搜索引擎）
 |:white_check_mark:豆瓣影视插件|[:link:链接地址](https://raw.githubusercontent.com/Coldvvater/Loon/master/Plugin/DouBanPlay.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:字幕增强及双语模块插件|[:link:链接地址](https://raw.githubusercontent.com/DualSubs/DualSubs/main/plugin/DualSubs.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:YouTube字幕增强及双语模块插件|[:link:链接地址](https://raw.githubusercontent.com/DualSubs/DualSubs/main/plugin/DualSubs.YouTube.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:字幕增强双语插件|[:link:链接地址](https://raw.githubusercontent.com/DualSubs/DualSubs/main/plugin/DualSubs.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:YouTube双语插件|[:link:链接地址](https://raw.githubusercontent.com/DualSubs/DualSubs/main/plugin/DualSubs.YouTube.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:签到脚本Cookie获取插件|[:link:链接地址](https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_GetCookie.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:TF账户管理插件|[:link:链接地址](https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_TF_Account.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:巴哈姆特动画疯插件|[:link:链接地址](https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_Bahamut_ADS.plugin)|Loon-配置-插件-粘贴链接
