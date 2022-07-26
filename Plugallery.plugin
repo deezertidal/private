@@ -83,4 +83,4 @@ http-response ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext(\?.*)$ requires-
 ^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start reject-200
 
 [MITM]
-hostname=sub.store,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,mb3admin.com,api.tidal.com,ap*.intsig.net,vip1.kuwo.cn,api.m.jd.com,account.wps.cn,*account.wps.com,pan.baidu.com,weixin110.qq.com,mp.weixin.qq.com,spclient.wg.spotify.com,m.baidu.com,www.google.com,api.bilibili.com,weather-data.apple.com, api.weather.com, www.youtube.com, m.youtube.com, youtubei.googleapis.com
+hostname=sub.store,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,mb3admin.com,api.tidal.com,ap*.intsig.net,vip1.kuwo.cn,api.m.jd.com,account.wps.cn,*account.wps.com,pan.baidu.com,weixin110.qq.com,mp.weixin.qq.com,spclient.wg.spotify.com,m.baidu.com,www.google.com,api.bilibili.com
