@@ -60,8 +60,8 @@ generic script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-
 network-changed script-path=https://raw.githubusercontent.com/deezertidal/private/main/ModeSwitcher.js,tag=Mode Switcher
 
 /*emby解锁*/
-#http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice requires-body=1,max-size=0, script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/Emby.js,tag=EMBY
-#http-response ^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) requires-body=1,script-path=https://raw.githubusercontent.com/chneez/qx/main/emby/emby.js,tag=EMBY
+//http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice requires-body=1,max-size=0, script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/Emby.js,tag=EMBY
+http-response ^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) requires-body=1,script-path=https://raw.githubusercontent.com/chneez/qx/main/emby/emby.js,tag=EMBY
 
 [URL Rewrite]
 
