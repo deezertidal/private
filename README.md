@@ -59,7 +59,11 @@
 |:white_check_mark:Sub-Store脚本操作：修改host|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/vmess-host.js)|SubStore-订阅编辑-添加操作-脚本操作-粘贴链接（自行修改参数）
 |:white_check_mark:机场推荐|[:link:公益机场](https://github.com/deezertidal/freevpn/blob/main/README.md) / [付费机场](https://github.com/deezertidal/fee-based/blob/main/README.md)|配置文件中已自带订阅链接，仅分享不维护
 |:white_check_mark:Loon教程|[:link:链接地址](https://github.com/TiyNa/LoonManual)|适合初次使用者
+
+* 除集合类外，脚本插件均署名原作者，如有署名错误，请联系邮箱更正。
+* 如需修改或分享，请保留作者信息。
 ****
+
 ## :warning:免责声明：
 
 * 本项目涉及的任何解锁和解密分析脚本仅用于资源共享和学习研究，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
