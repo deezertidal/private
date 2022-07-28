@@ -47,6 +47,7 @@
 |:white_check_mark:Siri插件|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Siri.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:Apple News插件|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/News.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:Apple TV插件|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/TV.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:流利说解锁插件|[:link:链接地址](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/LiuLiShuoYueDu/LiuLiShuoYueDu.Loon.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:图标集|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/icons.json)|Loon-更多-UI配置-图标集-粘贴链接
 |:white_check_mark:自用BoxJS集|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Boxjs.json)|BoxJS-订阅-添加订阅-粘贴链接
 |:white_check_mark:Sub-Store插件|[:link:链接地址](https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Loon.plugin)|配置-插件-粘贴链接
