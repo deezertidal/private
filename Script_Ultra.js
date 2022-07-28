@@ -360,7 +360,7 @@ http-request https://api.tuhu.cn/User/GetUserCurrentAndNextGradeInfo script-path
 http-request ^https:\/\/operation-api\.jimistore\.com\/* script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/ttwk/ttwk.js, requires-body=true, tag=天天挖矿
 http-response ^https\:\/\/api.revenuecat.com\/v1\/subscribers(.+) script-path=https://ghproxy.com/https://raw.githubusercontent.com/ThorJsbox/QuanX/master/Rewrite_local/Gearpro.js, requires-body=true, timeout=10, tag=Gear
 http-response https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/CaiYun.js,requires-body=1, tag=彩云天气SVIP  
-http-response ^https:\/\/api\.revenuecat\.com\/v\d\/subscribers\/\d+$ script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/vsco.js, requires-bpdy=true, tag=VSCO 
+http-response ^https:\/\/api\.revenuecat\.com\/v\d\/subscribers\/\d+$ script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/vsco.js, requires-body=true, tag=VSCO 
 http-response ^https:\/\/graph\.nhaccuatui\.com\/.*\/users\/info* script-path=https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/nhaccuatui.js
 http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/verify_receipt.js
 http-response ^https:\/\/api\.sync\.me\/api\/purchases\/(report_purchases|get_purchases)  script-path=https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/syn.me.js
