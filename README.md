@@ -5,8 +5,8 @@
 |:white_check_mark:含完整脚本及插件的配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Full.conf)|Loon-配置-编辑-从URL下载-粘贴链接（自行手动禁用不需要的脚本插件）
 |:white_check_mark:基础配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Basic.conf)|Loon-配置-编辑-从URL下载-粘贴链接（自行添加需要的脚本插件）
 |:white_check_mark:完整脚本订阅链接|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Script_Ultra.js)|Loon-配置-脚本-订阅脚本-粘贴链接（自行手动禁用不需要的脚本）
-|:no_entry_sign:scripts_collection.js|:no_entry_sign:|:no_entry_sign:自用脚本集，随时变更内容
-|:no_entry_sign:Plugallery.plugin|:no_entry_sign:|:no_entry_sign:自用插件集，随时变更内容
+|:no_entry_sign:scripts_collect|:no_entry_sign:|:no_entry_sign:自用脚本集，随时变更内容
+|:no_entry_sign:Plugallery|:no_entry_sign:|:no_entry_sign:自用插件集，随时变更内容
 |:white_check_mark:网易音乐解锁节点|[:link:链接地址](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/NeteaseMusic/AgentNode)|解锁网易云灰色和VIP音乐节点
 |:white_check_mark:百度云加速插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/BaiduCloud.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:扫描全能王插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/CamScanner.plugin)|Loon-配置-插件-粘贴链接
@@ -50,6 +50,14 @@
 |:white_check_mark:Apple News插件|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/News.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:Apple TV插件|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/TV.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:流利说解锁插件|[:link:链接地址](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/LiuLiShuoYueDu/LiuLiShuoYueDu.Loon.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:JibJab插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/jibjab.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:Mix Camera插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/mix.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:Picsart插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/picsart.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:Polarr插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/polarr.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:皮皮虾插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ppx.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:VSCO插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/vsco.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:小影插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xiaoying.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:香蕉视频插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xjsp.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:图标集|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/icons.json)|Loon-更多-UI配置-图标集-粘贴链接
 |:white_check_mark:自用BoxJS集|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Boxjs.json)|BoxJS-订阅-添加订阅-粘贴链接
 |:white_check_mark:Sub-Store插件|[:link:链接地址](https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Loon.plugin)|配置-插件-粘贴链接
