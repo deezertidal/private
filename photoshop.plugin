@@ -1,8 +1,0 @@
-#!name=photoshop
-#!desc=photoshop解锁
-
-
-[Script]
-http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile script-path=https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/photoshop.js
-[MITM]
-photos.adobe.io
