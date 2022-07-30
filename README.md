@@ -68,6 +68,7 @@
 |:white_check_mark:机场推荐|[:link:公益机场](https://github.com/deezertidal/freevpn/blob/main/README.md) / [付费机场](https://github.com/deezertidal/fee-based/blob/main/README.md)|配置文件中已自带订阅链接，仅分享不维护
 |:white_check_mark:Loon教程|[:link:链接地址](https://github.com/TiyNa/LoonManual)|适合初次使用者
 
+* 非自用脚本插件未验证有效性
 * 除集合类外，脚本插件均署名原作者，如有署名错误，请联系邮箱更正。
 * 如需修改或分享，请保留作者信息。
 ****
