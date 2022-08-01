@@ -32,14 +32,7 @@ http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1, 
 http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js, tag=百度云加速
 
 /*酷我年费会员*/
-#http-response ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) requires-body=1, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js, tag=酷我年费会员
-
-http-request ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?.+$ script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
-
-http-response ^http://vip1.kuwo.cn/vip/enc/user/vip.+$  requires-body=1,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js
-
-http-response ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver.+$ requires-body=1,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyszzj.js
-http-response ^http://(.+).(lrts|kuwo).(me|cn)(/v2/api/user/info|/a.p|/vip/v2/user/vip) requires-body=1,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js
+http-response ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) requires-body=1, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js, tag=酷我年费会员
 
 /*扫描全能王解锁*/
 http-response https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? requires-body=1, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js, tag=扫描全能王
@@ -82,4 +75,4 @@ http-response ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext(\?.*)$ requires-
 ^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start reject-200
 
 [MITM]
-hostname=sub.store,trade-acs.m.taobao.com,mb3admin.com,api.tidal.com,ap*.intsig.net,vip1.kuwo.cn,api.m.jd.com,account.wps.cn,*account.wps.com,pan.baidu.com,weixin110.qq.com,mp.weixin.qq.com,spclient.wg.spotify.com,m.baidu.com,www.google.com,www.youtube.com, m.youtube.com, youtubei.googleapis.com,*.kuwo.cn, *.lrts.me
+hostname=sub.store,trade-acs.m.taobao.com,mb3admin.com,api.tidal.com,ap*.intsig.net,vip1.kuwo.cn,api.m.jd.com,account.wps.cn,*account.wps.com,pan.baidu.com,weixin110.qq.com,mp.weixin.qq.com,spclient.wg.spotify.com,m.baidu.com,www.google.com,www.youtube.com, m.youtube.com, youtubei.googleapis.com
