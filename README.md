@@ -11,7 +11,8 @@
 |:white_check_mark:百度云加速插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/BaiduCloud.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:扫描全能王插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/CamScanner.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:Emby插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Emby.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:酷我会员插件|[:link:链接1](https://raw.githubusercontent.com/deezertidal/private/main/KuwoVip.plugin)/[:link:链接2](https://raw.githubusercontent.com/deezertidal/private/main/kuwo-unlock.plugin)|Loon-配置-插件-粘贴链接 两个不同的脚本，功能部分重合
+|:white_check_mark:酷我会员插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/KuwoVip.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:酷我数字专辑解锁插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/kuwo-unlock.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:历史价格插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Price.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:WPS会员解锁插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/WPS.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:Nicegram会员解锁插件|[:link:链接地址](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Loon.plugin)|Loon-配置-插件-粘贴链接
