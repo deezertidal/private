@@ -18,6 +18,7 @@
 |:white_check_mark:Nicegram会员解锁插件|[:link:链接地址](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Loon.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:财新会员解锁插件|[:link:链接地址](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXin/Loon.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:spotify会员解锁插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/SpotifyPremium.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:SoundCloud Go+插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/soundcloud.plugin)|Loon-配置-插件-粘贴链接
 |❌Tidal会员解锁插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Tidal-HiFi.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:切换百度搜索插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/B-Search.plugin)|Loon-配置-插件-粘贴链接 地址栏输入bd+空格+关键字
 |:white_check_mark:代理链路检测插件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/NodeLinkCheck.plugin)|Loon-配置-插件-粘贴链接
