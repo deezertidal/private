@@ -1,0 +1,9 @@
+#!name=Bazaart
+#!desc=Bazaart编辑器解锁，进入app恢复购买
+#!author=Marol62926
+#!icon=
+[Script]
+http-response https://buy.itunes.apple.com/verifyReceipt script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/bazaart.js,requires-body=1,max-size=0
+
+[MITM]
+hostname = buy.itunes.apple.com
