@@ -69,6 +69,13 @@
 |:white_check_mark:Alarmy闹钟解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/alarmy.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:彩云天气提醒|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/caiyun.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:Aloha浏览器|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/aloha.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:BedtimeFan助眠风扇|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/BedtimeFan.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:Bazaart解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/bazaart.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:DailyYoga解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/daily-yoga.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:Darkroom解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/darkroom.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:Fabulous解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/fabulous.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:Invideo解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/invideo.plugin)|Loon-配置-插件-粘贴链接
+****
 |:octocat:Sub-Store脚本|:link:链接|:pushpin:操作说明|
 |--|--|--|
 |:white_check_mark:脚本操作：重命名|[:link:链接地址](https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=zh&output=zh&airport=你需要的机场名)|SubStore-订阅编辑-添加操作-脚本操作-粘贴链接（自行修改自己的机场名）
