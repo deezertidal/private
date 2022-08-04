@@ -74,10 +74,13 @@ http-response ^https?:\/\/(www|m)\.youtube\.com\/youtubei\/v1\/player(\?.*)$ req
 http-request ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext(\?.*)$ requires-body=0, max-size=0, script-path=https://raw.githubusercontent.com/DualSubs/DualSubs/main/js/DualSubs.YouTube.TimedText.request.js, tag=DualSubs.YouTube.TimedText, argument=
 http-response ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext(\?.*)$ requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/DualSubs/DualSubs/main/js/DualSubs.YouTube.TimedText.response.js, tag=DualSubs.YouTube.TimedText, argument=
 
+/*彩云天气*/
+http-request https:\/\/((weather-data\.apple)|(api.weather))\.com script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js,tag=彩云天气
+
 [URL Rewrite]
 
 ^https:\/\/www\.google\.com\/search\?q=bd\+([^&]+) https://m.baidu.com/s?word=$1 302
 ^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start reject-200
 
 [MITM]
-hostname=sub.store,trade-acs.m.taobao.com,mb3admin.com,api.tidal.com,ap*.intsig.net,api.m.jd.com,account.wps.cn,*account.wps.com,pan.baidu.com,weixin110.qq.com,mp.weixin.qq.com,spclient.wg.spotify.com,m.baidu.com,www.google.com,www.youtube.com, m.youtube.com, youtubei.googleapis.com,*.kuwo.cn, *.lrts.me
+hostname=sub.store,trade-acs.m.taobao.com,mb3admin.com,api.tidal.com,ap*.intsig.net,api.m.jd.com,account.wps.cn,*account.wps.com,pan.baidu.com,weixin110.qq.com,mp.weixin.qq.com,spclient.wg.spotify.com,m.baidu.com,www.google.com,www.youtube.com, m.youtube.com, youtubei.googleapis.com,*.kuwo.cn, *.lrts.me,weather-data.apple.com, api.weather.com
