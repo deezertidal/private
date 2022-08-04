@@ -67,6 +67,7 @@
 |:white_check_mark:香蕉视频|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xjsp.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:ColorWidgets小组件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/colorwidgets.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:Alarmy闹钟解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/alarmy.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:彩云天气提醒|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/caiyun.plugin)|Loon-配置-插件-粘贴链接
 
 |:octocat:Sub-Store脚本|:link:链接|:pushpin:操作说明|
 |--|--|--|
