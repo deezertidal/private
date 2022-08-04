@@ -1,7 +1,7 @@
 #!name=Darkroom
 #!desc=Darkroom解锁会员 进去app恢复购买
 #!author=Marol62926
-#!icon=
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/darkroom.png
 [Script]
 http-response https://api.revenuecat.com/v1/(receipts|subscribers)/* script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/darkroom.js,requires-body=1,max-size=0
 
