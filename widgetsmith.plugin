@@ -1,6 +1,6 @@
-﻿#!name=Widgetsmith
+#!name=Widgetsmith
 #!desc=Widgetsmith解锁
-#!icon=
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/widgetsmith.png
 #!author=Marol62926
 
 [Script]
@@ -8,6 +8,3 @@ http-response https://api.revenuecat.com/v1/(receipts|subscribers)/* script-path
 
 [MITM]
 hostname = api.revenuecat.com
-
-
-
