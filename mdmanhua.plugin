@@ -1,0 +1,9 @@
+#!name=免耽漫画
+#!desc=免耽漫画解锁
+#!icon=
+#!author=Marol62926
+[Script]
+http-response https://app.lalaldc.cn/api/lifan-customer/customer/info script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/mdmanga.js,requires-body=1,max-size=0
+
+[MITM]
+hostname = app.lalaldc.cn
