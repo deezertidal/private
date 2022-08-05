@@ -1,0 +1,12 @@
+﻿#!name=迅雷
+#!desc=迅雷会员解锁
+#!icon=
+#!author=Marol62926
+
+[Script]
+http-response https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/xunlei.js,requires-body=1,max-size=0
+
+[MITM]
+hostname = xluser-ssl.xunlei.com
+
+
