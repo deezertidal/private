@@ -1,7 +1,7 @@
 #!name=指尖时光
 #!desc=指尖时光解锁会员
 #!author=Marol62926
-#!icon=
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/zjsg.png
 [Script]
 http-response https://integral.dasyibalang.com/User script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/fingertime.js,requires-body=1,max-size=0
 
