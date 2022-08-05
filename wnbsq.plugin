@@ -1,7 +1,7 @@
-﻿#!name=万能变声器
+#!name=万能变声器
 #!desc=万能变声器解锁
 
-#!icon=
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/wnbsq.png
 #!author=Marol62926
 
 [Script]
@@ -9,6 +9,3 @@ http-response https://www.40sishi.com/voice/user/profile script-path=https://raw
 
 [MITM]
 hostname = *.40sishi.com
-
-
-
