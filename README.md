@@ -132,6 +132,8 @@
 
 ### 特别感谢（排名不分先后,如有遗漏请提醒补充）：
 
+* [@Marol62926](https://github.com/Marol62926)
+
 * [@Tartarus2014](https://github.com/Tartarus2014)
 
 * [@I-am-R-E](https://github.com/I-am-R-E)
