@@ -1,9 +1,9 @@
-#!name=a
-#!desc=a
-#!
-#!
+#!name=美图秀秀VIP
+#!desc=美图秀秀解锁
+#!author=I-am-R-E
+#!icon=
 [MITM]
-hostname=*.meitu.com
+hostname= api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com
 [Script]
 
 
