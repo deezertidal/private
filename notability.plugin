@@ -1,3 +1,4 @@
+/*
 #!name=Notability
 #!desc=Notability解锁
 #!author=ddgksf2013
@@ -6,3 +7,4 @@
 http-response https://notability.com/subscriptions requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/notability.js,tag=Notability解锁
 [MITM]
 hostname=notability.com
+*/
