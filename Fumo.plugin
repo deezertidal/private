@@ -1,0 +1,9 @@
+#!name=a
+#!desc=a
+
+
+[MITM]
+hostname= server.yoyiapp.com
+
+[Script]
+http-response ^https://server.yoyiapp.com/fimo-user/user$ requires-body=1,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/fimo.js
