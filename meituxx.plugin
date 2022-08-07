@@ -1,0 +1,10 @@
+#!name=a
+#!desc=a
+#!
+#!
+[MITM]
+hostname=*.meitu.com
+[Script]
+
+
+http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ requires-body=1,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiTuXiuXiu.js
