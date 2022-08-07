@@ -1,0 +1,10 @@
+#!name=D
+#!desc=d
+
+
+
+[MITM]
+hostname= notability.com
+
+[Script]
+http-response https://notability.com/subscriptions requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/notability.js
