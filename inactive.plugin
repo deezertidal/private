@@ -5,7 +5,5 @@
 
 [MITM]
 hostname = biz.caiyunapp.com
-
-
 [Script]
 http-response ^https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) requires-body=1,script-path=https://raw.githubusercontent.com/mymoonyue/QuantumultX/master/Scripts/scripts/caiyun_svip.js
