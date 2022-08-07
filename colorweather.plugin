@@ -1,6 +1,7 @@
-#!name=caiyun
-#!desc=q
-
+#!name=彩云天气SVIP
+#!desc=彩云天气会员解锁
+#!author= ddgksf2013
+#!icon=
 [MITM]
 hostname=biz.caiyunapp.com
 [Script]
