@@ -1,5 +1,7 @@
-#!name=b
-#!desc=b
+#!name=Backgroud Eraser
+#!desc=傲软抠图会员 需登陆账号
+#!author= ddgksf2013
+#!icon=
 [MITM]
 hostname=*.aoscdn.com
 [Script]
