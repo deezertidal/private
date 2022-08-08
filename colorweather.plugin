@@ -1,7 +1,7 @@
 #!name=彩云天气SVIP
 #!desc=彩云天气会员解锁
 #!author= ddgksf2013
-#!icon=
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/caiyun.png
 [MITM]
 hostname=biz.caiyunapp.com
 [Script]
