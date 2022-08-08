@@ -1,7 +1,7 @@
 #!name=pixiv
 #!desc=pixiv pro
 #!author=ddgksf2013
-#!icon=
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/pixiv.png
 [MITM]
 hostname=oauth.secure.pixiv.net
 [Script]
