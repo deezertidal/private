@@ -1,7 +1,7 @@
 #!name=Fimo Pro
 #!desc=Fimo会员解锁 先登陆再开插件
 #!author= ddgksf2013
-#!icon=
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/fimo.png
 
 [MITM]
 hostname= server.yoyiapp.com
