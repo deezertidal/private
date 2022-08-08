@@ -1,0 +1,8 @@
+#!name=pixiv
+#!desc=pixiv pro
+#!author=ddgksf2013
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/pixiv.png
+[MITM]
+hostname=oauth.secure.pixiv.net
+[Script]
+http-response ^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) requires-body=1,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/pixivpro.js
