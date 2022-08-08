@@ -122,6 +122,7 @@
 |:white_check_mark:美图秀秀VIP|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/meituxx.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:起伏会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/qifu.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:Symbolab Pro|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/symbolab.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:Pixiv Show|[:link:链接地址](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/PixivShow/Loon.plugin)|Loon-配置-插件-粘贴链接
 </details>
       
 ****
