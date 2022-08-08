@@ -1,7 +1,7 @@
 #!name=克拉壁纸
 #!desc=克拉壁纸解锁
 #!author= ddgksf2013
-#!icon=
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/clarity.png
 [MITM]
 hostname= claritywallpaper.com
 
