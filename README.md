@@ -95,6 +95,20 @@
 |:white_check_mark:Widgetsmith解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/widgetsmith.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:万能变声器解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wnbsq.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:指尖时光解锁会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/zjsg.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:傲软抠图会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/apowersoft.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:Appraven Pro|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/appraven.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:布丁锁屏|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/bdsp.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:Bilibili 1080P|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/bili.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:BOOM会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/boom.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:克拉壁纸|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/clarity.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:彩云天气SVIP|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/colorweather.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:Ellabook VIP|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ellabook.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:Fimo Pro|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/fimo.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:FT中文网|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ft.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:i Love PDF解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ilovepdf.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:美图秀秀VIP|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/meituxx.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:起伏会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/qifu.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:Symbolab Pro|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/symbolab.plugin)|Loon-配置-插件-粘贴链接
 ****
 |:octocat:Sub-Store脚本|:link:链接|:pushpin:操作说明|
 |--|--|--|
