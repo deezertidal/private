@@ -1,26 +1,21 @@
 # :balloon:Loon脚本插件收集  
-<details>
-  <summary>🟢配置文件.conf</summary>
-  
+
 |:octocat:配置文件|:link:链接|:pushpin:操作说明|
 |--|--|--|
 |:white_check_mark:含完整脚本及插件的配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Full.conf)|Loon-配置-编辑-从URL下载-粘贴链接（自行手动禁用不需要的脚本插件）
 |:white_check_mark:基础配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Basic.conf)|Loon-配置-编辑-从URL下载-粘贴链接（自行添加需要的脚本插件）
-  </details>
   
 ****
-<details>
-  <summary>🟢脚本订阅.js</summary>
+
   
 |:octocat:脚本|:link:链接|:pushpin:操作说明|
 |--|--|--|
 |:white_check_mark:完整脚本订阅链接|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Script_Ultra.js)|Loon-配置-脚本-订阅脚本-粘贴链接（自行手动禁用不需要的脚本）
 |:no_entry_sign:scripts_collect|:no_entry_sign:|:no_entry_sign:自用脚本集，随时变更内容
-</details>
+
     
 ****
-<details>
-  <summary>🟢插件订阅.plugin</summary>
+
   
 |:octocat:插件|:link:链接|:pushpin:操作说明|
 |--|--|--|
@@ -123,11 +118,10 @@
 |:white_check_mark:起伏会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/qifu.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:Symbolab Pro|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/symbolab.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:Pixiv Show|[:link:链接地址](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/PixivShow/Loon.plugin)|Loon-配置-插件-粘贴链接
-</details>
+
       
 ****
-<details>
-  <summary>🟢SubStore脚本</summary>
+
   
 |:octocat:Sub-Store脚本|:link:链接|:pushpin:操作说明|
 |--|--|--|
@@ -135,19 +129,17 @@
 |:white_check_mark:脚本过滤：筛选80 443端口|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/port-filter.js)|SubStore-订阅编辑-添加操作-脚本过滤-粘贴链接
 |:white_check_mark:脚本过滤：筛选80,443，vmess,ws节点|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/nodes-filter.js)|SubStore-订阅编辑-添加操作-脚本过滤-粘贴链接
 |:white_check_mark:脚本操作：修改host|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/vmess-host.js)|SubStore-订阅编辑-添加操作-脚本操作-粘贴链接（自行修改参数）
-</details>
+
     
 ****
-<details>
-  
-  <summary>🟢其他</summary>
+
   
 |:octocat:其他|:link:链接|:pushpin:操作说明|
 |--|--|--|
 |:white_check_mark:机场推荐|[:link:公益机场](https://github.com/deezertidal/freevpn/blob/main/README.md) / [付费机场](https://github.com/deezertidal/fee-based/blob/main/README.md)|配置文件中已自带订阅链接，仅分享不维护
 |:white_check_mark:Loon教程|[:link:链接地址](https://github.com/TiyNa/LoonManual)|适合初次使用者
 |:white_check_mark:网易音乐解锁节点|[:link:链接地址](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/NeteaseMusic/AgentNode)|解锁网易云灰色和VIP音乐节点
-</details>
+
       
 ****
 * 除集合类外，脚本插件均署名原作者，如有署名错误，请联系邮箱更正。
