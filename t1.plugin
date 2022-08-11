@@ -2,12 +2,7 @@
 #!desc=您的海外追剧神器
 
 
-[URL Rewrite]
-^https?:\/\/api\.rr\.tv\/(?:ad\/getAll$|storage/business/rootName/app/homePage) - reject
-
 [Script]
-http-response ^https?:\/\/api\.rr\.tv\/v\dplus\/index\/channel requires-body=true,script-path=https://Choler.github.io/Surge/Script/rrsp.js
-
+http-response ^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) requires-body=true,https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js
 [MITM]
 hostname = api.rr.tv
-
