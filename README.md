@@ -2,15 +2,15 @@
 
 |:octocat:配置文件|:link:链接|:pushpin:操作说明|
 |--|--|--|
-|:white_check_mark:含完整脚本及插件的配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Full.conf)|Loon-配置-编辑-从URL下载-粘贴链接（自行手动禁用不需要的脚本插件）
-|:white_check_mark:基础配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Basic.conf)|Loon-配置-编辑-从URL下载-粘贴链接（自行添加需要的脚本插件）
+|:white_check_mark:含完整脚本及插件的配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Full.conf)|配置-编辑-从URL下载-粘贴链接（自行手动禁用不需要的脚本插件）
+|:white_check_mark:基础配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Basic.conf)|配置-编辑-从URL下载-粘贴链接（自行添加需要的脚本插件）
   
 ****
 
   
 |:octocat:脚本|:link:链接|:pushpin:操作说明|
 |--|--|--|
-|:white_check_mark:完整脚本订阅链接|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Script_Ultra.js)|Loon-配置-脚本-订阅脚本-粘贴链接（自行手动禁用不需要的脚本）
+|:white_check_mark:完整脚本订阅链接|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Script_Ultra.js)|配置-脚本-订阅脚本-粘贴链接（自行手动禁用不需要的脚本）
 |:no_entry_sign:scripts_collect|:no_entry_sign:|:no_entry_sign:自用脚本集，随时变更内容
 
     
@@ -21,122 +21,122 @@
 |--|--|--|
 |:no_entry_sign:Plugallery|:no_entry_sign:|:no_entry_sign:自用插件集，随时变更内容
 |:white_check_mark:Sub-Store|[:link:链接地址](https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Loon.plugin)|配置-插件-粘贴链接
-|:white_check_mark:百度云加速|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/BaiduCloud.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:扫描全能王|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/CamScanner.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Emby|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Emby.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:酷我会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/KuwoVip.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:酷我数字专辑解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/kuwo-unlock.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:历史价格|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Price.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:WPS会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/WPS.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Nicegram会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/nicegram.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:财新会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/caixin.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:spotify会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/SpotifyPremium.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:SoundCloud Go+|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/soundcloud.plugin)|Loon-配置-插件-粘贴链接
-|❌Tidal会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Tidal-HiFi.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:切换百度搜索|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/B-Search.plugin)|Loon-配置-插件-粘贴链接 地址栏输入bd+空格+关键字
-|:white_check_mark:代理链路检测|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/NodeLinkCheck.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:网络模式切换|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Running-Mode.plugin)|Loon-配置-插件-粘贴链接 自行修改[脚本](https://raw.githubusercontent.com/deezertidal/private/main/Running-Mode.js)参数
-|:white_check_mark:广告屏蔽|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/AdBlock.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:波点音乐|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Bodian.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:禁用iOS更新|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/DisableUpdate.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:奈飞评分|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Ratings.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:番茄小说|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/fanqienovel.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:TestFlight|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/iRingo_TestFlight.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:BoxJS|[:link:链接地址](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.tf.plugin)|Loon-配置-插件-粘贴链接-safari-boxjs.com-添加到主屏幕
-|:white_check_mark:Bili换区|[:link:链接地址](https://raw.githubusercontent.com/Coldvvater/Loon/master/Plugin/Bili_Auto_Regions.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Q-Search|[:link:链接地址](https://raw.githubusercontent.com/Coldvvater/Loon/master/Plugin/Q-Search.plugin)|Loon-配置-插件-粘贴链接（需设置duckduckgo为默认搜索引擎）
-|:white_check_mark:豆瓣影视|[:link:链接地址](https://raw.githubusercontent.com/Coldvvater/Loon/master/Plugin/DouBanPlay.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:字幕增强双语|[:link:链接地址](https://raw.githubusercontent.com/DualSubs/DualSubs/main/plugin/DualSubs.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:YouTube双语|[:link:链接地址](https://raw.githubusercontent.com/DualSubs/DualSubs/main/plugin/DualSubs.YouTube.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:签到脚本Cookie获取|[:link:链接地址](https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_GetCookie.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:TF账户管理|[:link:链接地址](https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_TF_Account.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:巴哈姆特动画疯|[:link:链接地址](https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_Bahamut_ADS.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:115网盘|[:link:链接地址](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/115.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:节点流媒体支持检测|[:link:链接地址](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/MediaCheck.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Youtube去广告|[:link:链接地址](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/YouTubeAds.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:微博去广告|[:link:链接地址](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/WeiboAds.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:知乎去广告|[:link:链接地址](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/ZhiHu.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:跳过代理检测|[:link:链接地址](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/skip-proxy.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:DNS解析|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/VirgilClyne/main/modules/DNS/DNS.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:iOS天气|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Weather.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:iOS定位|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Location.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:iOSMitM|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/MitM.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Siri|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Siri.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Apple News|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/News.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Apple TV|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/TV.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:流利说解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/lls.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:JibJab|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/jibjab.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Mix Camera|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/mix.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Picsart|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/picsart.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Polarr|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/polarr.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:皮皮虾|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ppx.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:VSCO|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/vsco.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:小影|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xiaoying.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:香蕉视频|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xjsp.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:ColorWidgets小组件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/colorwidgets.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Alarmy闹钟解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/alarmy.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:彩云天气提醒|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/caiyun.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Aloha浏览器|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/aloha.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:BedtimeFan助眠风扇|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/BedtimeFan.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Bazaart解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/bazaart.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:DailyYoga解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/daily-yoga.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Darkroom解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/darkroom.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Fabulous解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/fabulous.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Invideo解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/invideo.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:忆飞Gif解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/giftr.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:句读解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/judou.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Kika会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/kika.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Mojo会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/mojo.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Musixmatch解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/musixmatch.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:MyFitnessPal解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/myfitnesspal.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Now冥想解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/now.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:奶由壁纸解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/nybz.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Piccollage解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/piccollage.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Pixelcut解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/pixelcut.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:时光手账解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/sgsz.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:ShadowLink解锁会员节点|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/shadowlinkvpn.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Smallpdf解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/smallpdf.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Tangerine解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/tangerine.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Ten Percent解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/tenpercent.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:迅雷会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/thunder.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Workout For Women解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wfw.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Widgetsmith解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/widgetsmith.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:万能变声器解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wnbsq.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:指尖时光解锁会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/zjsg.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:傲软抠图会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/apowersoft.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Appraven Pro|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/appraven.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:布丁锁屏|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/bdsp.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Bilibili 1080P|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/bili.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:BOOM会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/boom.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:克拉壁纸|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/clarity.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:彩云天气SVIP|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/colorweather.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Ellabook VIP|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ellabook.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Fimo Pro|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/fimo.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:FT中文网|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ft.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:i Love PDF解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ilovepdf.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:美图秀秀VIP|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/meituxx.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:起伏会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/qifu.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Symbolab Pro|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/symbolab.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Pixiv Show|[:link:链接地址](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/PixivShow/Loon.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:B612咔叽|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/b612.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:儿歌点点会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/egdd.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:hyperweb会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/hyperweb.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Molycam会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/molycam.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Photomath会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/photomath.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:西窗烛解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xcz.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Accuweatherj解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/accu.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Meistertask解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/meistertask.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:一言解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/yiyan.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:Fantastical解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/fantastical.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:云听解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/yunting.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:豌豆清单解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wdqd.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:EMMO解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/emmo.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:小习惯解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xxg.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:读书笔记解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/dsbj.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:斑马海报解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/zebra.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:My Plate解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/myplate.plugin)|Loon-配置-插件-粘贴链接
-|❌I AM解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/iam.plugin)|Loon-配置-插件-粘贴链接
-|:white_check_mark:iMuseum解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/imuseum.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:百度云加速|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/BaiduCloud.plugin)|配置-插件-粘贴链接
+|:white_check_mark:扫描全能王|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/CamScanner.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Emby|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Emby.plugin)|配置-插件-粘贴链接
+|:white_check_mark:酷我会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/KuwoVip.plugin)|配置-插件-粘贴链接
+|:white_check_mark:酷我数字专辑解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/kuwo-unlock.plugin)|配置-插件-粘贴链接
+|:white_check_mark:历史价格|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Price.plugin)|配置-插件-粘贴链接
+|:white_check_mark:WPS会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/WPS.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Nicegram会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/nicegram.plugin)|配置-插件-粘贴链接
+|:white_check_mark:财新会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/caixin.plugin)|配置-插件-粘贴链接
+|:white_check_mark:spotify会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/SpotifyPremium.plugin)|配置-插件-粘贴链接
+|:white_check_mark:SoundCloud Go+|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/soundcloud.plugin)|配置-插件-粘贴链接
+|❌Tidal会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Tidal-HiFi.plugin)|配置-插件-粘贴链接
+|:white_check_mark:切换百度搜索|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/B-Search.plugin)|配置-插件-粘贴链接 地址栏输入bd+空格+关键字
+|:white_check_mark:代理链路检测|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/NodeLinkCheck.plugin)|配置-插件-粘贴链接
+|:white_check_mark:网络模式切换|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Running-Mode.plugin)|配置-插件-粘贴链接 自行修改[脚本](https://raw.githubusercontent.com/deezertidal/private/main/Running-Mode.js)参数
+|:white_check_mark:广告屏蔽|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/AdBlock.plugin)|配置-插件-粘贴链接
+|:white_check_mark:波点音乐|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Bodian.plugin)|配置-插件-粘贴链接
+|:white_check_mark:禁用iOS更新|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/DisableUpdate.plugin)|配置-插件-粘贴链接
+|:white_check_mark:奈飞评分|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Ratings.plugin)|配置-插件-粘贴链接
+|:white_check_mark:番茄小说|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/fanqienovel.plugin)|配置-插件-粘贴链接
+|:white_check_mark:TestFlight|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/iRingo_TestFlight.plugin)|配置-插件-粘贴链接
+|:white_check_mark:BoxJS|[:link:链接地址](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.tf.plugin)|配置-插件-粘贴链接-safari-boxjs.com-添加到主屏幕
+|:white_check_mark:Bili换区|[:link:链接地址](https://raw.githubusercontent.com/Coldvvater/Loon/master/Plugin/Bili_Auto_Regions.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Q-Search|[:link:链接地址](https://raw.githubusercontent.com/Coldvvater/Loon/master/Plugin/Q-Search.plugin)|配置-插件-粘贴链接（需设置duckduckgo为默认搜索引擎）
+|:white_check_mark:豆瓣影视|[:link:链接地址](https://raw.githubusercontent.com/Coldvvater/Loon/master/Plugin/DouBanPlay.plugin)|配置-插件-粘贴链接
+|:white_check_mark:字幕增强双语|[:link:链接地址](https://raw.githubusercontent.com/DualSubs/DualSubs/main/plugin/DualSubs.plugin)|配置-插件-粘贴链接
+|:white_check_mark:YouTube双语|[:link:链接地址](https://raw.githubusercontent.com/DualSubs/DualSubs/main/plugin/DualSubs.YouTube.plugin)|配置-插件-粘贴链接
+|:white_check_mark:签到脚本Cookie获取|[:link:链接地址](https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_GetCookie.plugin)|配置-插件-粘贴链接
+|:white_check_mark:TF账户管理|[:link:链接地址](https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_TF_Account.plugin)|配置-插件-粘贴链接
+|:white_check_mark:巴哈姆特动画疯|[:link:链接地址](https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_Bahamut_ADS.plugin)|配置-插件-粘贴链接
+|:white_check_mark:115网盘|[:link:链接地址](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/115.plugin)|配置-插件-粘贴链接
+|:white_check_mark:节点流媒体支持检测|[:link:链接地址](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/MediaCheck.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Youtube去广告|[:link:链接地址](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/YouTubeAds.plugin)|配置-插件-粘贴链接
+|:white_check_mark:微博去广告|[:link:链接地址](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/WeiboAds.plugin)|配置-插件-粘贴链接
+|:white_check_mark:知乎去广告|[:link:链接地址](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/ZhiHu.plugin)|配置-插件-粘贴链接
+|:white_check_mark:跳过代理检测|[:link:链接地址](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/skip-proxy.plugin)|配置-插件-粘贴链接
+|:white_check_mark:DNS解析|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/VirgilClyne/main/modules/DNS/DNS.plugin)|配置-插件-粘贴链接
+|:white_check_mark:iOS天气|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Weather.plugin)|配置-插件-粘贴链接
+|:white_check_mark:iOS定位|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Location.plugin)|配置-插件-粘贴链接
+|:white_check_mark:iOSMitM|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/MitM.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Siri|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Siri.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Apple News|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/News.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Apple TV|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/TV.plugin)|配置-插件-粘贴链接
+|:white_check_mark:流利说解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/lls.plugin)|配置-插件-粘贴链接
+|:white_check_mark:JibJab|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/jibjab.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Mix Camera|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/mix.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Picsart|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/picsart.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Polarr|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/polarr.plugin)|配置-插件-粘贴链接
+|:white_check_mark:皮皮虾|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ppx.plugin)|配置-插件-粘贴链接
+|:white_check_mark:VSCO|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/vsco.plugin)|配置-插件-粘贴链接
+|:white_check_mark:小影|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xiaoying.plugin)|配置-插件-粘贴链接
+|:white_check_mark:香蕉视频|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xjsp.plugin)|配置-插件-粘贴链接
+|:white_check_mark:ColorWidgets小组件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/colorwidgets.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Alarmy闹钟解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/alarmy.plugin)|配置-插件-粘贴链接
+|:white_check_mark:彩云天气提醒|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/caiyun.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Aloha浏览器|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/aloha.plugin)|配置-插件-粘贴链接
+|:white_check_mark:BedtimeFan助眠风扇|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/BedtimeFan.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Bazaart解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/bazaart.plugin)|配置-插件-粘贴链接
+|:white_check_mark:DailyYoga解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/daily-yoga.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Darkroom解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/darkroom.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Fabulous解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/fabulous.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Invideo解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/invideo.plugin)|配置-插件-粘贴链接
+|:white_check_mark:忆飞Gif解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/giftr.plugin)|配置-插件-粘贴链接
+|:white_check_mark:句读解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/judou.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Kika会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/kika.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Mojo会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/mojo.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Musixmatch解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/musixmatch.plugin)|配置-插件-粘贴链接
+|:white_check_mark:MyFitnessPal解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/myfitnesspal.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Now冥想解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/now.plugin)|配置-插件-粘贴链接
+|:white_check_mark:奶由壁纸解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/nybz.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Piccollage解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/piccollage.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Pixelcut解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/pixelcut.plugin)|配置-插件-粘贴链接
+|:white_check_mark:时光手账解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/sgsz.plugin)|配置-插件-粘贴链接
+|:white_check_mark:ShadowLink解锁会员节点|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/shadowlinkvpn.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Smallpdf解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/smallpdf.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Tangerine解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/tangerine.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Ten Percent解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/tenpercent.plugin)|配置-插件-粘贴链接
+|:white_check_mark:迅雷会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/thunder.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Workout For Women解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wfw.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Widgetsmith解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/widgetsmith.plugin)|配置-插件-粘贴链接
+|:white_check_mark:万能变声器解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wnbsq.plugin)|配置-插件-粘贴链接
+|:white_check_mark:指尖时光解锁会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/zjsg.plugin)|配置-插件-粘贴链接
+|:white_check_mark:傲软抠图会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/apowersoft.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Appraven Pro|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/appraven.plugin)|配置-插件-粘贴链接
+|:white_check_mark:布丁锁屏|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/bdsp.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Bilibili 1080P|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/bili.plugin)|配置-插件-粘贴链接
+|:white_check_mark:BOOM会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/boom.plugin)|配置-插件-粘贴链接
+|:white_check_mark:克拉壁纸|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/clarity.plugin)|配置-插件-粘贴链接
+|:white_check_mark:彩云天气SVIP|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/colorweather.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Ellabook VIP|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ellabook.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Fimo Pro|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/fimo.plugin)|配置-插件-粘贴链接
+|:white_check_mark:FT中文网|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ft.plugin)|配置-插件-粘贴链接
+|:white_check_mark:i Love PDF解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ilovepdf.plugin)|配置-插件-粘贴链接
+|:white_check_mark:美图秀秀VIP|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/meituxx.plugin)|配置-插件-粘贴链接
+|:white_check_mark:起伏会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/qifu.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Symbolab Pro|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/symbolab.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Pixiv Show|[:link:链接地址](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/PixivShow/Loon.plugin)|配置-插件-粘贴链接
+|:white_check_mark:B612咔叽|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/b612.plugin)|配置-插件-粘贴链接
+|:white_check_mark:儿歌点点会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/egdd.plugin)|配置-插件-粘贴链接
+|:white_check_mark:hyperweb会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/hyperweb.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Molycam会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/molycam.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Photomath会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/photomath.plugin)|配置-插件-粘贴链接
+|:white_check_mark:西窗烛解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xcz.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Accuweatherj解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/accu.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Meistertask解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/meistertask.plugin)|配置-插件-粘贴链接
+|:white_check_mark:一言解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/yiyan.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Fantastical解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/fantastical.plugin)|配置-插件-粘贴链接
+|:white_check_mark:云听解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/yunting.plugin)|配置-插件-粘贴链接
+|:white_check_mark:豌豆清单解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wdqd.plugin)|配置-插件-粘贴链接
+|:white_check_mark:EMMO解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/emmo.plugin)|配置-插件-粘贴链接
+|:white_check_mark:小习惯解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xxg.plugin)|配置-插件-粘贴链接
+|:white_check_mark:读书笔记解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/dsbj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:斑马海报解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/zebra.plugin)|配置-插件-粘贴链接
+|:white_check_mark:My Plate解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/myplate.plugin)|配置-插件-粘贴链接
+|❌I AM解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/iam.plugin)|配置-插件-粘贴链接
+|:white_check_mark:iMuseum解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/imuseum.plugin)|配置-插件-粘贴链接
 
 ****
 
