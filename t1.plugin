@@ -6,7 +6,7 @@
 ^https?:\/\/api\.rr\.tv\/(?:ad\/getAll$|storage/business/rootName/app/homePage) - reject
 
 [Script]
-rrsp_banner = type=http-response,requires-body=true,pattern=^https?:\/\/api\.rr\.tv\/v\dplus\/index\/channel,script-path=https://Choler.github.io/Surge/Script/rrsp.js
+http-response ^https?:\/\/api\.rr\.tv\/v\dplus\/index\/channel requires-body=true,script-path=https://Choler.github.io/Surge/Script/rrsp.js
 
 [MITM]
 hostname = api.rr.tv
