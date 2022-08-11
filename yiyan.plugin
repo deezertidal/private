@@ -1,0 +1,8 @@
+#!name=一言
+#!desc=一言解锁会员
+#!author=ddgksf2013
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/yiyan.png
+[MITM]
+app.yiyan.art
+[Script]
+http-response ^https:\/\/app\.yiyan\.art\/yiyan\/ requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yiyan.js

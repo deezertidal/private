@@ -1,0 +1,8 @@
+#!name=My Plate
+#!desc=My Plate解锁会员
+#!author=Marol62926
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/myplate.png
+[Script]
+http-response https://www.livestrong.com/service/user/profile/* script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/myPlate.js,requires-body=1,max-size=0
+[MITM]
+hostname = www.livestrong.com

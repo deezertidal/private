@@ -1,0 +1,8 @@
+﻿#!name=AccuWeather
+#!desc=AccuWeather解锁会员
+#!author=Marol62926
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/accu.png
+[Script]
+http-response https://app-subscription-proxy.accuweather.com/subscriptions/v1/apple/validate script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/accuWeather.js,requires-body=1,max-size=0
+[MITM]
+hostname = app-subscription-proxy.accuweather.com
