@@ -124,7 +124,19 @@
 |:white_check_mark:Molycam会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/molycam.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:Photomath会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/photomath.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:西窗烛解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xcz.plugin)|Loon-配置-插件-粘贴链接
-      
+|:white_check_mark:Accuweatherj解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/accu.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:Meistertask解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/meistertask.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:一言解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/yiyan.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:Fantastical解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/fantastical.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:云听解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/yunting.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:豌豆清单解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wdqd.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:EMMO解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/emmo.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:小习惯解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xxg.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:读书笔记解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/dsbj.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:斑马海报解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/zebra.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:My Plate解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/myplate.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:I AM解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/iam.plugin)|Loon-配置-插件-粘贴链接
+
 ****
 
   
