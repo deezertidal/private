@@ -136,6 +136,7 @@
 |:white_check_mark:斑马海报解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/zebra.plugin)|Loon-配置-插件-粘贴链接
 |:white_check_mark:My Plate解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/myplate.plugin)|Loon-配置-插件-粘贴链接
 |❌I AM解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/iam.plugin)|Loon-配置-插件-粘贴链接
+|:white_check_mark:iMuseum解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/imuseum.plugin)|Loon-配置-插件-粘贴链接
 
 ****
 
