@@ -1,0 +1,12 @@
+#!name=cinemagrapf
+#!desc=cinemagrapf
+#!author=Marol62926
+#!icon=
+
+
+
+
+[Script]
+http-response https://api.flixel.com/api/verify_credentials requires-body=1 ,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/cinemagrapf.js
+[MITM]
+hostname=api.flixel.com
