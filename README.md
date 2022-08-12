@@ -16,7 +16,7 @@
     
 ****
 
-  
+* ### 现已入驻[:balloon:Loon-Plugin插件仓库](https://loon-gallery.vercel.app/)  
 |:octocat:插件|:link:链接|:pushpin:操作说明|
 |--|--|--|
 |:no_entry_sign:Plugallery|:no_entry_sign:|:no_entry_sign:自用插件集，随时变更内容
