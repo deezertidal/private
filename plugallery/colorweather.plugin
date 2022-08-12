@@ -1,0 +1,8 @@
+#!name=彩云天气SVIP
+#!desc=彩云天气会员解锁
+#!author= ddgksf2013
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/caiyun.png
+[MITM]
+hostname=biz.caiyunapp.com
+[Script]
+http-response https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caiyun.js

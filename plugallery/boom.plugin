@@ -1,0 +1,8 @@
+#!name=Boom
+#!desc=BOOM会员解锁
+#!author=ddgksf2013
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/boom.png
+[Script]
+http-response ^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ requires-body=1,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/boom.js
+[MITM]
+hostname=apimboom2.globaldelight.net

@@ -1,0 +1,8 @@
+#!name=儿歌点点
+#!desc=儿歌点点会员
+#!author=ddgksf2013
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/egdd.png
+[Script]
+http-response http:\/\/gateway\.ergedd\.com\/dduser\/user\/center\/set requires-body=1,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/egdd.js
+[MITM]
+hostname=gateway.ergedd.com

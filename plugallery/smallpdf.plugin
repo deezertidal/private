@@ -1,0 +1,11 @@
+#!name=Smallpdf
+#!desc=Smallpdf解锁
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/smallpdf.png
+#!author=Marol62926
+
+[Script]
+http-response https://pro.smallpdf.com/pro/account script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/smallpdf.js,requires-body=1,max-size=0
+
+[MITM]
+hostname = pro.smallpdf.com
+

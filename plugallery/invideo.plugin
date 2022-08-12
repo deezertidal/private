@@ -1,0 +1,9 @@
+#!name=Invideo
+#!desc=Invideo会员解锁
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/invideo.png
+#!author=Marol62926
+[Script]
+http-response https://payments.invideo.io/(verify_purchase|subscription) script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/filmr.js,requires-body=1,max-size=0
+
+[MITM]
+hostname = payments.invideo.io

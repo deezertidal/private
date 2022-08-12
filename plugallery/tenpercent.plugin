@@ -1,0 +1,12 @@
+#!name=Ten Percent
+#!desc=Ten Percent解锁
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/tenpercent.png
+#!author=Marol62926
+
+[Script]
+http-response https://api.changecollective.com/api/v3/user script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/tenPercent.js,requires-body=1,max-size=0
+
+[MITM]
+hostname = api.changecollective.com
+
+

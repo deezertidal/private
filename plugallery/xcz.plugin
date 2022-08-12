@@ -1,0 +1,8 @@
+#!name=西窗烛
+#!desc=西窗烛会员解锁
+#!author=ddgksf2013
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/xcz.png
+[Script]
+http-response https://lchttpapi.xczim.com/* requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcz.js
+[MITM]
+hostname=lchttpapi.xczim.com

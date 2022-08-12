@@ -1,0 +1,9 @@
+#!name=Aloha浏览器
+#!desc=Aloha VPN浏览器会员解锁
+#!author=Marol62926
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/aloha.png
+[Script]
+http-response https://api.alohaprofile.com/v1/profile_info script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/aloha.js,requires-body=1,max-size=0
+
+[MITM]
+hostname = api.alohaprofile.com
