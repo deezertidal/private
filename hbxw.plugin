@@ -1,0 +1,10 @@
+#!name=烘焙小屋
+#!desc=烘焙小屋解锁会员
+#!author=yqc007
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/hbxw.png
+
+[MITM]
+hostname=apiios_dq.xiangha.com
+
+[Script]
+http-response ^https?:\/\/apiios_dq\.xiangha\.com\/v4\/(dish\/info|User\/getUserData)$ script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/XiangHaBakeProCrack.js,requires-body=1,tag=烘焙小屋解锁会员
