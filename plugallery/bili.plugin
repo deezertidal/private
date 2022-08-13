@@ -3,6 +3,6 @@
 #!author=ddgksf2013
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/bili.png
 [Script]
-http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_diy.js
+http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
 [MITM]
 hostname=app.bilibili.com
