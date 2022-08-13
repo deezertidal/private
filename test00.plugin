@@ -1,0 +1,9 @@
+#!name=T
+#!desc=T
+#!author=T
+#!icon=T
+[MITM]
+hostname = *.bili*.*, 124.239.240.*, 101.89.57.66, 218.94.210.66, 240e:b1:9801:206:11:0:0:*, app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, api.bilibili.com, manga.bilibili.com, grpc.biliapi.net
+
+[Script]
+http-request ^http[s]?:\/\/((app|api)\.(\w{2,15})?\.(com|cn|net|org)).*(playurl|player|reply)?\.(v3|v2|v1)\.(View|Reply|Play(URL|View|Conf)).*$ requires-body=0,script-path=https://gist.githubusercontent.com/ddgksf2013/8509ff4c328943eeb7370801e408cb2e/raw/bili.js
