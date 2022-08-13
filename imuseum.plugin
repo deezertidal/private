@@ -1,8 +1,0 @@
-#!name=IMuseum
-#!desc=IMuseum会员解锁
-#!author=Marol62926
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/imuseum.png
-[Script]
-http-response https://icity-imsm.2q10.com/api/v1/users/mark_paid script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/imuseum.js,requires-body=1,max-size=0
-[MITM]
-hostname = icity-imsm.2q10.com

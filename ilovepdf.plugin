@@ -1,8 +1,0 @@
-#!name=i Love PDF
-#!desc=i Love PDF解锁
-#!author=Marol62926
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/ilovepdf.png
-[MITM]
-hostname = service.ilovepdf.com
-[Script]
-http-response https://service.ilovepdf.com/v1/user requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/lovePdf.js

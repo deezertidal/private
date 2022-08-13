@@ -1,9 +1,0 @@
-#!name=波点音乐
-#!desc=波点音乐去广告
-#!author=zqzess
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/bodian.png
-[URL Rewrite]
-^http:\/\/bd-api\.kuwo\.cn\/api\/service\/resource\/musicResource\/.+ _ reject
-^https:\/\/bodiancdn\.kuwo\.cn\/.+\.mp4 _ reject
-^http:\/\/bd-api\.kuwo\.cn\/api\/service\/resource\/view\?uid _ reject
-^http:\/\/bd-api\.kuwo\.cn\/api\/service\/music\/recommendList\?uid _ reject

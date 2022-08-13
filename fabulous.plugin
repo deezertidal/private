@@ -1,9 +1,0 @@
-#!name=Fabulous
-#!desc=Fabulous会员解锁
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/fabulous.png
-#!author=Marol62926
-[Script]
-http-response https://buy.itunes.apple.com/verifyReceipt script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/fabulous.js,requires-body=1,max-size=0
-
-[MITM]
-hostname = buy.itunes.apple.com

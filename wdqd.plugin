@@ -1,8 +1,0 @@
-#!name=豌豆清单
-#!desc=豌豆清单解锁会员
-#!author=ddgksf2013
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/wdqd.png
-[MITM]
-www.40sishi.com
-[Script]
-http-response ^https:\/\/www\.40sishi\.com\/list\/user\/profile$ requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/wdqd.js

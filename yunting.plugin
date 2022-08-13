@@ -1,8 +1,0 @@
-#!name=云听
-#!desc=云听解锁会员
-#!author=ddgksf2013
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/yunting.png
-[MITM]
-getway.radio.cn
-[Script]
-http-response http://getway.radio.cn/app* requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yt.js

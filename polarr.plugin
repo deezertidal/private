@@ -1,9 +1,0 @@
-#!name=Polarr
-#!desc=polarr解锁
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/polarr.png
-#!author=NobyDa
-[Script]
-http-response ^https:\/\/api\.polaxiong\.com\/v1\/payments\/appleiap\/receipts\/confirmation requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Polarr.js
-
-[MITM]
-hostname = api.polaxiong.com

@@ -1,8 +1,0 @@
-#!name=Ellabook
-#!desc=Ellabook VIP
-#!author=ddgksf2013
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/ellabook.png
-[Script]
-http-response https?:\/\/bookapi\.ellabook\.cn\/rest\/api\/service$ requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/elabook.js
-[MITM]
-hostname=bookapi.ellabook.cn
