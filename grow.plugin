@@ -1,0 +1,9 @@
+#!name=Grow
+#!desc=Grow解锁会员
+#!author=I-am-R-E
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/grow.png
+[Script]
+http-response ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$  requires-body=1,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/Grow.js
+http-response ^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$  requires-body=1,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/Grow.js
+[MITM]
+hostname=api.revenuecat.com
