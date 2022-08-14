@@ -4,16 +4,7 @@
 |--|--|--|
 |:white_check_mark:含完整脚本及插件的配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Full.conf)|配置-编辑-从URL下载-粘贴链接（自行手动禁用不需要的脚本插件）
 |:white_check_mark:基础配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Basic.conf)|配置-编辑-从URL下载-粘贴链接（自行添加需要的脚本插件）
-  
-****
 
-  
-|:octocat:脚本|:link:链接|:pushpin:操作说明|
-|--|--|--|
-|:white_check_mark:完整脚本订阅链接|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Script_Ultra.js)|配置-脚本-订阅脚本-粘贴链接（自行手动禁用不需要的脚本）
-|:no_entry_sign:scripts_collect|:no_entry_sign:|:no_entry_sign:自用脚本集，随时变更内容
-
-    
 ****
 
 * ### 现已入驻[:balloon:Loon-Plugin插件仓库](https://loon-gallery.vercel.app/)  
@@ -124,7 +115,7 @@
 |:white_check_mark:Molycam会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/molycam.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Photomath会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/photomath.plugin)|配置-插件-粘贴链接
 |:white_check_mark:西窗烛解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xcz.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Accuweatherj解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/accu.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Accuweather解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/accu.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Meistertask解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/meistertask.plugin)|配置-插件-粘贴链接
 |:white_check_mark:一言解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/yiyan.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Fantastical解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/fantastical.plugin)|配置-插件-粘贴链接
@@ -137,6 +128,15 @@
 |:white_check_mark:My Plate解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/myplate.plugin)|配置-插件-粘贴链接
 |❌I AM解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/iam.plugin)|配置-插件-粘贴链接
 |:white_check_mark:iMuseum解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/imuseum.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Audiomack解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/audiomack.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Grammarly解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/grammarly.plugin)|配置-插件-粘贴链接
+|:white_check_mark:TOKCAM解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/tokcam.plugin)|配置-插件-粘贴链接
+|:white_check_mark:图图记账解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/tutu.plugin)|配置-插件-粘贴链接
+|:white_check_mark:WallCraft解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wallcraft.plugin)|配置-插件-粘贴链接
+|:white_check_mark:新语听书解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xyts.plugin)|配置-插件-粘贴链接
+|:white_check_mark:一甜相机解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/yitian.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Grow解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/grow.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Xmind思维导图|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xmind.plugin)|配置-插件-粘贴链接
 
 ****
 
