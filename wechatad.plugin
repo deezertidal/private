@@ -1,0 +1,11 @@
+#!name=微信公众号去广告
+#!desc=微信公众号去广告
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/wechatad.png
+#!author=HotKids
+
+
+#微信公众号去广告 by Choler&NobyDa
+[MITM]
+hostname=mp.weixin.qq.com
+[Script]
+http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
