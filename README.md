@@ -7,7 +7,7 @@
 
 ****
 
-* ### 现已入驻[:balloon:Loon-Plugin插件仓库](https://loon-gallery.vercel.app/)  
+* ### 现已入驻[:balloon:Loon-Gallery插件仓库](https://loon-gallery.vercel.app/)  
 |:octocat:插件|:link:链接|:pushpin:操作说明|
 |--|--|--|
 |:white_check_mark:Sub-Store|[:link:链接地址](https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Loon.plugin)|配置-插件-粘贴链接
