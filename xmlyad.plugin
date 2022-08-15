@@ -5,7 +5,6 @@
 
 [MITM]
 hostname = *.xima*.*, *.xmcdn.*
-
 [URL Rewrite]
 # ～ XiMaLaYa_喜马拉雅_播放页_Live@ddgksf2013
 ^https?:\/\/.*\.xima.*\.com\/mobile-playpage\/view\/ - reject
