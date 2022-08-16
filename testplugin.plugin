@@ -5,6 +5,9 @@
 [MITM]
 hostname=vipapi.jxedt.com,api-qing.pomotodo.com
 [Script]
+/*
 http-response ^https://vipapi.jxedt.com/store/(h5\/)?batchCheckRights requires-body=1,script-path=https://raw.githubusercontent.com/huajia2005/quantumultx/main/crack/jxedt.js
 http-response ^https://vipapi.jxedt.com/store/(h5\/)?checkRights requires-body=1,script-path=https://raw.githubusercontent.com/huajia2005/quantumultx/main/crack/jxedt.js
 http-response ^https://api-qing.pomotodo.com/account requires-body=1,script-path=https://raw.githubusercontent.com/huajia2005/quantumultx/main/crack/pomotodo.js
+*/
+http-response ^https?:\/\/media\.deezer\.com\/v1\/get_url$ requires-body=1,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/DeezerHiFiProCrack.js
