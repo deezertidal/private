@@ -3,6 +3,6 @@
 #!author=ddgksf2013
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/xxg.png
 [MITM]
-xianbeikeji.com
+hostname=xianbeikeji.com
 [Script]
 http-response https://xianbeikeji.com/daily/app/user/query requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/mzjz.js
