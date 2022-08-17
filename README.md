@@ -2,8 +2,8 @@
 
 |:octocat:配置文件|:link:链接|:pushpin:操作说明|
 |--|--|--|
-|:white_check_mark:含完整脚本及插件的配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Full.conf)|配置-编辑-从URL下载-粘贴链接（自行手动禁用不需要的脚本插件）
-|:white_check_mark:基础配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Basic.conf)|配置-编辑-从URL下载-粘贴链接（自行添加需要的脚本插件）
+|:warning:含完整脚本及插件的配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Full.conf)|配置-编辑-从URL下载-粘贴链接（降低维护频率）
+|:white_check_mark:基础配置文件（推荐）|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Basic.conf)|配置-编辑-从URL下载-粘贴链接（自行添加需要的脚本插件）
 
 ****
 
