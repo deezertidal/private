@@ -1,7 +1,7 @@
 #!name=酷我音乐会员
 #!desc=听书+下载+解锁数字专辑
 #!author=nameking77
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/kuwo.png
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/kuwovip.png
 [Script]
 /*
 http-response ^http://(.+).(lrts|kuwo).(me|cn)(/v2/api/user/info|/a.p|/vip/v2/user/vip) requires-body=true,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js
