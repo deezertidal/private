@@ -1,0 +1,8 @@
+#!name=绅士
+#!desc=绅士解锁
+#!icon=
+#!author=nameking77
+
+http-response ^https://(.+).lingdu2019.cn/ios_api/portrait/goods_(detail|detail_comment_list|down_detail) requires-body=1,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/shenshi.js
+[mitm] 
+hostname = *.lingdu2019.cn
