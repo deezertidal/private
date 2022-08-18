@@ -14,7 +14,7 @@ http-request ^https?:\/\/boxjs\.(com|net) script-path=https://raw.githubusercont
 
 /*spotify解锁*/
 http-response ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js, requires-body=true, binary-body-mode=true, timeout=10, tag=Spotify Premium
-
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js, requires-body=true, binary-body-mode=true, timeout=10, tag=Spotify歌词翻译
 /*Tidal解锁*/
 http-response ^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+ requires-body=1,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js
 http-request ^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+ requires-body=1,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/TidalHiFiPlusCrack.js
