@@ -3,6 +3,484 @@
 #!author=test
 #!icon=
 [MITM]
-hostname=media.deezer.com
+hostname = homepage-api.smzdm.com, haojia-api.smzdm.com, article-api.smzdm.com,nmeditation.snailsleep.net,8.8.8.8, bea.sportq.com, api.meiyan.com, *.gao1gps.cn, avoscloud.com, app.flashdown365.com, m.samh.xndm.tech, mob2015.kekenet.com, api.m.jd.com, ios.prod.ftl.netflix.com, vipapi.jxedt.com, api.interpreter.caiyunai.com, pocketlists.com, book.haitunwallet.com, mubu.com, app.xunjiepdf.com, miaow.yiyongcad.com, api.lennou.com, api.gkocr.com, vira.llsapp.com, commerce-.*api.faceu.mobi, commerce-api.faceu.mobi, pan.baidu.com, api.revenuecat.com, api.rr.tv, editorapi.115.com, api.lakecoloring.com, ctrl.playcvn.com, dict.eudic.net, m.client.10010.com, api.wakamoment.ga, *.bh3.com, api.diyidan.net, api.flexibits.com, api.jiaonizuocai.com, api.sololearn.com, tncj.hortorgames.com, bkcd.b-cdn.net, souhu.mett.me, ayk.tmdidi.com, m.pearkin.com, www.baidu.com2.club, claritywallpaper.com, bookapi.ihuman.com, rest.zhibo.tv, note.youdao.com, billing.peakcloud.org, api.ithome.com, www.xmind.cn, *.arten.cn, api.weiqire.com, api.shimo.im, pay.wecut.com, *.videostarapp.com, app.api.versa-ai.com, *.bjxkhc.com, api.591master.com, jdytv.cn, user.shywck.com, *.xunjie*.com, api.psy-1.com, snailsleep.net, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com, api.bilibili.com, app.bilibili.com, *.zhihu.com, aweme*.snssdk.com, *.kuwo.cn, vip1.kuwo.cn, *.xiaoxiao*.com, *.tiktokv.com, *.musical.ly, *.amemv.com, p.du.163.com, getuserinfo.321mh.com, getuserinfo-globalapi.zymk.cn, ios.fuliapps.com, vsco.co, api.vnision.com, *.my10api.com, sp.kaola.com, r.inews.qq.com, apple.fuliapps.com, newdrugs.dxy.cn, app101.avictown.cc, api.hlo.xyz, api.ijo.xyz, www.luqijianggushi.com, account.wps.*, u.kanghuayun.com, api.gyrosco.pe, api1.dobenge.cn, api.mvmtv.com, mitaoapp.yeduapp.com, origin-prod-phoenix.jibjab.com, www.3ivf.com, pay.guoing.com, api.termius.com, api.bjxkhc.com, viva.v21xy.com, biz.caiyunapp.com, api.gotokeep.com, ap*.intsig.net, mp.bybutter.com, api.vuevideo.net, api.picsart.c*, api.meiease.c*, splice.oracle.*.com, api.gamer.com.tw, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.lagoapps.com, api.gamer.com.tw, *.xiangxiangapps.com, avatar-nct.nixcdn.com, spclient.wg.spotify.com, oa.zalo.me, origin-prod-phoenix.jibjab.com, api.meiease.c*, api.unfold.app, viva-asia1.vvbrd.com, graph.nhaccuatui.com, api.memrise.com , api.sync.me, pool.elsanow.io, lambda.us-east-1.amazonaws.com, api.mondlylanguages.com, api.busuu.com, owa.videoshowiosglobalserver.com:0, accounts.elevateapp.net, purchases.ws.pho.to, api-intl.mr.meitu.com, bmall.camera360.com, api.tv.zing.vn, api.calm.com, www.calm.com, api.global.mp3.zing.vn, apimboom2.globaldelight.net, photos.adobe.io, license.pdfexpert.com, subs.platforms.team, apic.musixmatch.com, api.getmimo.com, api.revenuecat.com, engbright.com, api.lingokids.com, www.peacefulsoundsapp.com, duolingo-leaderboards-prod.duolingo.com, mobile-api.adguard.com, api.blinkist.com, api-kinemaster-assetstore.*, api.pushover.net, ap*.intsig.net, api.overhq.com, receipt-validator.herewetest.com, lcs-mobile-cops.adobe.io, education.github.com, backend.getdrafts.com, ssl-api.itranslateapp.com, sk.ulysses.app, dayone.me, license.enpass.io, mp.bybutter.com, *.grammarly.com, splice.oracle.*.com, api.keepkeep.com, planner5d.com, secure.istreamer.com, www.api.monkeyuni.net, api.textnow.me,*.xxjjappss.com
+
 [Script]
-http-response ^https?:\/\/media\.deezer\.com\/v1\/get_url$ requires-body=1,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/DeezerHiFiProCrack.js
+#爱美剧Vip(byhuihui）(官网：app.meiju2018.com)
+#ads
+
+#VIP&ads
+http-response ^http(s)://api.bjxkhc.com/index.php/app/ios/(vod/show|(user|vod|topic|type)/index) requires-body=1 ,script-path=https://raw.githubusercontent.com/wf021325/qx/master/js/aimeiju.js
+
+#网易蜗牛读书VIP(ByyxiaocaiandJO2EY)
+
+http-response ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js
+
+#看漫画极速版vip(ByHoGer)
+http-response ^https?:\/\/getuserinfo\.321mh\.com\/app_api\/v5\/getuserinfo\/ requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/kmh.js
+
+#知音漫客VIP(Bymieqq)
+http-response ^https://getuserinfo-globalapi.zymk.cn/app_api/v5/(getuserinfo|coin_account|getuserinfo_ticket|getcomicinfo)/ requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Zymh.js
+
+#哔哩哔哩番剧开启1080P+(ModifiedBy@Macsuny)
+http-response #https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)) requires-body=1 ,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Script/Bilibili/BiliHD.js
+
+#VSCO滤镜VIP
+http-response ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+
+#大片-视频编辑器VIP
+http-response ^https?:\/\/api\.vnision\.com\/v1\/(users\/|banners) requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/dapian.js
+
+#91短视频
+http-response ^https?:\/\/.+\.(my10api|(.*91.*))\.(com|tips|app|xyz)(:\d{2,5})?\/api.php$ requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/91.js
+
+#网易考拉去广告(ByCholer)
+http-response #^https://sp\.kaola\.com/api/openad$ requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wykaola.js
+
+#腾讯新闻去广告(ByCholer)
+http-response #^https://r\.inews\.qq.com\/get(QQNewsUnreadList|RecommendList) requires-body=1 ,script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/QQNews.js
+
+#香蕉视频VIP
+http-response ^https?:\/\/.*\.(lago|fuli|xiang(jiao|xiang))apps\.com\/(ucp\/index|getGlobalData|.+\/reqplay\/) requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xjsp.js
+
+#用药助手解锁专业版(ByPrimovist)
+http-response ^https?:\/\/(i|newdrugs)\.\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=)) requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/yyzs.js
+
+#优乐美,小米粒,彩色直播三合一解锁收费房
+http-response #^https?:\/\/(.+)\.(\w{2,3})(:?\d*)\/(api\/public\/\?service=Live\.checkLive$|public\/\/\?service=Live\.roomCharge$|lg\/video\/loadVideoFees\.do$) requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/zhibo.js
+
+#陆琪讲故事
+http-response ^https:\/\/www\.luqijianggushi\.com\/api\/v2\/user\/get requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/luqi.js
+
+#WPS(ByeHpo)
+http-response ^https://account.wps.*/api/users/ requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+
+#Gyroscope解锁pro(ByMaasea)
+http-response #^https:\/\/api\.gyrosco\.pe\/v1\/account\/$ requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/gyroscope.js
+
+#水印精灵vip(ByAlex0510)
+http-response ^https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/syjl.js
+
+#大千视界
+http-response ^https:\/\/api\.mvmtv\.com\/index\.php.*(c=user.*a=info|a=addr.*vid=.*) requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/dqsj.js
+
+#JibJab解锁pro
+http-response ^https:\/\/origin-prod-phoenix\.jibjab\.com\/v1\/user requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/jibjab.js
+
+#Termius解锁本地pro(ByMaasea)
+http-response #https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Termius.js
+
+#小影解锁Vip(By@hiepkimcdtk55)
+http-response ^https:\/\/viva\.v21xy\.com\/api\/rest\/u\/vip requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/vivavideo.js
+
+#彩云天气Vip
+http-response ^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/NobyDa/QuantumultX/File/ColorWeather.js
+
+#Keep解锁私人课程和动作库(QX存在bug该脚本可能无法生效)
+http-response #^https:\/\/api\.gotokeep\.com\/(.+\/subject|.+\/dynamic) requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Keep.js
+
+#扫描全能王pro
+http-response ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
+
+#VUEpro
+http-response ^https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare) requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js
+
+#NiChi解锁素材
+http-response ^https?:\/\/mp\.bybutter\.com\/mood\/(official-templates|privileges) requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/NiChi.js
+
+#PicsArt美易pro
+http-response ^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js
+
+#Splice视频编辑器pro
+http-response #^https:\/\/splice\.oracle\.\w+\.com\/devices\/me requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Splice.js
+
+#百度云倍速播放
+http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-body=1 ,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
+
+#皮皮虾去广告去水印
+http-response ^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) requires-body=1 ,script-path=https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/Super.js
+
+##越南老哥langkhach270389
+#vsco
+http-response ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/vsco.js
+
+#gyroscope
+http-response ^https:\/\/api\.gyrosco\.pe\/v1\/account\/$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Gyroscope.vip.js
+
+#Termius
+http-response https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Terminus.js
+
+#PicsArt
+http-response ^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/picsArt.vip.js
+
+#Vivavideo
+http-response ^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip* requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/vivavideo.vip.js
+
+#Undfold
+http-response ^https:\/\/api\.unfold\.app\/v1\/ios\/receipts$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Unfold.vip.js
+
+#Nhaccuatui
+http-response ^https:\/\/graph\.nhaccuatui\.com\/.*\/users\/info* requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/nhaccuatui.js
+
+#Memrise
+http-response ^https:\/\/api\.memrise\.com\/.+\/(me\/$|dashboard\/$|leaderboards\/following\/) requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/memrise.vip.js
+
+#Jibjab
+http-response ^https:\/\/origin-prod-phoenix\.jibjab\.com\/v1\/user$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/jibjab.vip.js
+
+#buyhack
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/verify_receipt.js
+
+#sync
+http-response ^https:\/\/api\.sync\.me\/api\/purchases\/(report_purchases|get_purchases) requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/syn.me.js
+
+#elsaresponse
+http-response ^https:\/\/pool\.elsanow\.io\/user\/api\/v1\/purchase$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/elsa-response.js
+
+
+#drops
+http-response ^https:\/\/lambda\.us-east-1\.amazonaws\.com/.*/functions\/prod-4-syncPurchases\/invocations$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/drops.js
+
+#mondly
+http-response ^https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/mondly.vip.js
+
+#busuu
+http-response ^https:\/\/api\.busuu\.com\/users\/me* requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/busuu.vip.js
+
+#Videoshow
+http-response ^https:\/\/owa\.videoshowiosglobalserver\.com\/.*\/iosPayClient requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/videoshow.vip.js
+
+#elevate
+http-response ^https:\/\/accounts\.elevateapp\.net\/api\/users\?user%5Bauthentication_token* requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/elevate.vip.js
+
+#beautyplus
+http-response ^https:\/\/api-intl\.mr\.meitu\.com/.*/subs_offer_elg$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/beautyplusvip.js
+
+#camera360
+http-response ^https:\/\/bmall\.camera360\.com\/api\/(iap\/check-receipt$|mix\/getinfo$) requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/camera360.vip.js
+
+#zingtv
+http-response ^https?:\/\/api\.tv\.zing\.vn\/.*/user* requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/zingtvvipv1.js
+
+#calm
+http-response ^https:\/\/api\.calm\.com\/me$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/calm.vip.js
+
+
+
+#lightroom
+http-response ^https:\/\/photos\.adobe\.io\/v2\/accounts* requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Lightroom.js
+
+#Pdfexpert
+http-response #^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Pdfexpert.vip.js
+
+#productive&sleepzy&weatherlive
+http-response ^https:\/\/subs\.platforms\.team\/.+\/apple\/verify$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/productive.js
+
+#Musixmatch
+http-response ^https:\/\/apic\.musixmatch\.com\/ws\/.*\/config\.get requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/musixmatch.miao.js
+
+#boom
+^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$url302https://raw.githubusercontent.com/langkhach270389/Scripting/master/boom.vip.rsp
+
+#mimo
+http-response ^https:\/\/api\.getmimo\.com\/v1\/subscriptions$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/mimo.vip.js
+
+#mojo&noto
+http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[a-zA-Z0-9_-]*$) requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/revenuecat.js
+
+#Bright
+^https:\/\/engbright\.com\/app-portal\/apple\/receipt$url302https://raw.githubusercontent.com/langkhach270389/Scripting/master/Bright.rsp
+
+#lingokids
+http-response ^https:\/\/api\.lingokids\.com\/v1\/renovate_session$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/lingokids.vip.js
+
+#musicalm
+http-response ^https:\/\/www\.peacefulsoundsapp\.com\/api\/v1\/init$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/musicalm.js
+
+#duolingo_test
+http-response ^https:\/\/duolingo-leaderboards-prod\.duolingo\.com\/leaderboards* requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/duolingo.js
+
+#ulike
+http-response ^https:\/\/commerce-i18n-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/ulike.js
+
+#adguardpremium
+^https:\/\/mobile-api\.adguard\.com\/api\/1\.0\/ios_validate_receipt$url302https://raw.githubusercontent.com/langkhach270389/Scripting/master/Adguard.rsp
+
+#zingmp3
+http-response ^https:\/\/api\.global\.mp3\.zing\.vn\/1\.0\/getUserInfo\?data=* requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/zingmp3.js
+
+#Blinkist
+http-response ^https:\/\/api\.blinkist\.com\/v4\/(me$|me.json$|me\/access$) requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/blinkist.js
+
+#sololearn
+http-response ^https:\/\/api\.sololearn\.com\/(Profile\/GetProfile$|authenticateDevice$) requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/sololearn.js
+
+#kinemaster
+http-response ^https:\/\/api-kinemaster-assetstore\.(nexstreaming|kinemasters)\.com\/.*\/product\/verifyReceipt$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/kinemaster.js
+
+#pushover
+http-response ^https:\/\/api\.pushover\.net\/1\/messages\.json* requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/pushover.js
+
+#CamScanner
+http-response ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/CamScaner.js
+
+#over
+http-response ^https:\/\/api\.overhq\.com\/(user\/token\/refresh$|subscription\/verifyReceipt$) requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/over.vip.js
+
+#speak&translate
+http-response ^https:\/\/receipt-validator\.herewetest\.com\/apple\/verifyTransaction$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/speak&translate.js
+
+#document
+http-response #^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$) requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/documents.js
+
+#workingcopy
+http-response ^https:\/\/education\.github\.com\/api\/user$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/workingcopy.js
+
+#draft
+http-response ^https:\/\/backend\.getdrafts\.com\/api\/.*\/verification* requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/draft.js
+
+#phothop&PSexpress
+http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/photoshop.js
+
+#itranslate&lingo&voice&converse
+http-response ^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/itranslate.js
+
+#ulysses
+^https:\/\/sk\.ulysses\.app\/api\/v1\/user_offers$urlrequest-header(\r\n)If-None-Match:.+(\r\n)request-header$1
+
+http-response ^https:\/\/sk\.ulysses\.app\/api\/v1\/itunes_receipt_verify$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/ulysses.js
+
+#pre_dayone
+;^https:\/\/dayone\.me\/api\/users$urlrequest-header(\r\n)If-None-Match:.+(\r\n)request-header$1
+
+#dayone
+http-response ^https:\/\/dayone\.me\/api\/(users|v2\/users\/account-status)$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/dayone.js
+
+#endel
+http-response ^https:\/\/api-production\.endel\.io\/.*\/user$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/endel.js
+
+#shred
+http-response ^https:\/\/api\.shred\.app\/verifyReceipt$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/shred.js
+
+#nichi
+http-response ^https?:\/\/mp\.bybutter\.com\/mood\/(official-templates|privileges) requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/nichi.js
+
+#grammarly
+http-response ^https:\/\/subscription\.grammarly\.com\/api\/v1$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/grammarly.js
+
+#splice
+http-response ^https:\/\/splice\.oracle\.\w+\.com\/devices\/me requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/splice.js
+
+#planner5d
+http-response ^https:\/\/planner5d\.com\/api\/sets requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/planner5d.js
+
+#playerxtreme
+;^https:\/\/secure\.istreamer\.com\/backend$urlrequest-header(\r\n)If-None-Match:.+(\r\n)request-header$1
+
+http-response ^https:\/\/secure\.istreamer\.com\/backend$ requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/playerxtreme.js
+
+#allappsmonkey
+http-response ^https:\/\/www\.api\.monkeyuni\.net\/api\/.+\/mobile\/account\/load-update requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/monkey.js
+
+#textnow
+http-response ^https:\/\/api\.textnow\.me\/api2.0\/users\/.* requires-body=1 ,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Textnow.js
+
+
+#哔哩哔哩动画精简去广告(By@Kaya)
+http-response ;^https:\/\/app\.bilibili\.com\/(search\/resource|x\/(resource\/show\/tab|v2\/(view|rank|feed|reply\/main|account\/mine))) requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/Bilibili.js
+#解锁B站大会员-圈X规则
+;https:\/\/api\.bilibili\.com\/pgc\/player\/api\/playurlurl302http://api.bili.best:22333/geturl/
+;https:\/\/api.bilibili.com\/pgc\/view\/app\/seasonurl302http://api.bili.best:22333/season/
+#哔哩哔哩个人排行榜
+http-response ;^https:\/\/app\.bilibili\.com\/x\/v2\/space\?access_key requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/bilibili_space_qx.js
+#哔哩哔哩番剧解锁
+http-response ;^https:\/\/api\.bilibili\.com\/pgc\/view\/app\/season requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/bilibili_season_qx.js
+http-response ;^https:\/\/api\.bilibili\.com\/pgc\/player\/api\/playurl requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/bilibili_playurl_qx.js
+
+#驾校一点通(by@superuv)
+http-response ^https:\/\/vipapi\.jxedt\.com\/vip\/check requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/jxydt.js
+
+#彩云小译(by@superuv)
+http-response ^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/cyxy.js
+
+#Bear熊掌记内购解锁
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/bear.js
+
+#Pocketlist(by@superuv)
+http-response ^https:\/\/pocketlists\.com\/api\/v1\/pocketlists.me.get requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/pock.js
+
+#海豚记账(by@superuv)
+http-response https:\/\/book\.haitunwallet\.com\/app\/vip\/status requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/HTJZ.js
+
+#幕布(by@superuv)
+http-response https:\/\/mubu\.com\/api\/app\/user\/info requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/mb.js
+
+#智能证件照相机(by@superuv)
+http-response ^https:\/\/app\.xunjiepdf\.com\/api\/v4\/virtualactregister requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/znzj.js
+
+#猫咪翻译(by@superuv)
+http-response http:\/\/miaow\.yiyongcad\.com\/api\/v4\/memprofile requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/mmfy.js
+
+#微商助手(by@superuv)
+http-response https:\/\/api\.lennou\.com\/user\/info requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/wszs.js
+
+#gk扫描仪(by@superuv)
+http-response ^https:\/\/api\.gkocr\.com\/api\/userlogin1.php requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/smy.js
+
+#流利说.阅读(by@火羽&@singee)
+http-response ^https?:\/\/vira\.llsapp\.com\/api\/v2\/readings\/(accessible|limitation) requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/llyd.js
+
+#人人视频(by@georgeJiang&R)
+http-response ^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/rrtv.js
+
+#云盘解析（MadebyMeeta)
+http-response #^https?:\/\/pan\.baidu\.com\/s\/ requires-body=1 ,script-path=https://raw.githubusercontent.com/MeetaGit/MeetaRules/master/Surge/Scripting/yun_analyze.js
+
+#abaenglish(未测试)
+http-response ^https:\/\/api\.revenuecat\.com\/v1\/(receipts|\d{1,})$ requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/abaenglish.vip.js
+
+#轻颜相机&ulike&蒸汽波相机(vaporcam)三合一解锁VIP(By@sy&Alex0510)
+http-response https://(commerce-.*api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info) requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/qyxj.js
+
+
+#CPUDasher破解(需要ios13恢复购买后禁用掉By@sy)
+http-response ;^https:\/\/p.+-buy\.itunes\.apple\.com\/WebObjects\/MZFinance.woa\/wa\/inAppRegrantPurchaseHistory requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/cupdasher.js
+
+#酷我换肤(已经有的皮肤需要先从本地皮肤删除再换By@sy)
+http-response ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/theme) requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/themekuwo.js
+
+#115离线(请仔细阅读脚本内使用说明Byikanam)
+^https:\/\/editorapi\.115\.com.*url302http://115.com/lx?taskdg=1
+http-response ^http:\/\/115\.com\/lx.*$ requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/115lx.js
+
+#lake
+http-response ^https:\/\/api\.lakecoloring\.com\/v1\/receipt requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/lake.js
+
+#人人影视字幕组(商店版)去广告,保留轮播推荐影片(By@Kaya)
+http-response ^http://ctrl.playcvn.com/app/(init|ads) requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/YYeTs.js
+
+#每日英语阅读/每日外刊解锁课程(Bychamberlen)
+http-response ^https:\/\/dict\.eudic\.net\/jingting\/GetThisChapterTaskStatus? requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/mryy.js
+
+#联通营业厅去轮播广告(ByWangsc1)
+http-response ^https?://m.client.10010.com/uniAdmsInterface/getHomePageAd requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/china_unicom.js
+
+#哔咔漫画屏蔽更新(By@FlintyLemming)
+#iOS2.1.2.1屏蔽2.1.2.2的更新提示
+http-response ^https:\/\/api\.wakamoment\.ga\/init\?platform\=ios requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/blockBikaUpdate.js
+
+#崩坏3跨服(By@FlintyLemming)
+^http:\/\/(\d*\.\d*\.\d*\.\d*)\/query_gameserver\?version=3\.7\.0_gf_ios&t=(\d*)&uid=(\d*)url302http://$1/query_gameserver?version=3.7.0_gf_android&t=$2&uid=$3
+^https:\/\/global1\.bh3\.com\/query_dispatch\?version=3\.7\.0_gf_ios&t=(\d*)url302https://global1.bh3.com/query_dispatch?version=3.7.0_gf_android&t=$1
+
+#第一弹去广告+原画(ByMiaoMiao)
+http-response ^https:\/\/api\.diyidan\.net\/v0\.3\/(user\/personal_homepage|vip_user\/info|tv_series\/index\?appChanne) requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/Diyidan.js
+#修复下载视频清晰度
+(http://musicapi\.diyidan\.net/tv_series/video/download/\d+)/(1|2)url302$1/4
+
+#Fantastical内购解锁(By@sunshy)
+http-response ^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/fantastical.js
+
+#菜谱大全解锁vip(By@photonmang)
+http-response https?:\/\/api\.jiaonizuocai\.com requires-body=1 ,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cpdq.js
+
+#SoloLearnUnlockPRO&PlatinumModerator(By@sunshy)
+http-response https:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$ requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/sololearn.js
+
+#头脑吃鸡
+http-response ^https://tncj.hortorgames.com/chicken/fight/(answer|findQuiz) requires-body=1 ,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tncj/tncj.min.js
+
+#Pear雪梨
+http-response ^https:\/\/(www\.baidu.com2\.club|ayk\.tmdidi\.com|m\.pearkin\.com|souhu\.mett\.me|bkcd\.b-cdn\.net)\/(api\/movie\/WatchMovie|api\/Account\/CheckVip|api\/account\/IndexDetail) requires-body=1 ,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pear.js
+
+#克拉壁纸解锁付费壁纸(By@Dachaw)
+http-response #^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll) requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/clarity.js
+
+#洪恩双语绘本(By军哥哥)
+http-response https:\/\/bookapi\.ihuman\.com\/(v1\/get\_user\_info|v1\/get\_purchase\_list) requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/hnsyhb.js
+
+#中国体育直播unlock(By军哥哥)
+http-response http:\/\/rest\.zhibo\.tv\/room\/get\-room\-info\-v430 requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/zgtyzb.js
+
+#有道云笔记VIP(ByAlex0510)
+http-response https://note.youdao.com/yws/(mapi/payment|api/self) requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/ydybj.js
+
+#Peak解锁Pro
+http-response ^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me? requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/peak.js
+
+#IT之家去新闻列表广告
+http-response ^https?:\/\/api\.ithome\.com\/json\/slide\/index requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/ITHome.js
+http-response ^https?:\/\/api\.ithome\.com\/json\/(newslist|listpage)\/news requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/ITHome.js
+
+#XMind思维导图(by@JigsaWo)
+http-response https:\/\/www\.xmind\.cn\/\_res\/devices requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/XMind.js
+
+#万里影视（byLTribe）
+http-response ^http?:\/\/.*\.arten.cn/login/login requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/Wanliyingshi.js
+
+#奇热小说解锁收费章节(By@@ios4521)
+http-response ^https://api.weiqire.com/api3/(visitor/|user/unlockCharpter) requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/qrxs.js
+
+#石墨文档(ByAlex0510)
+http-response https://api.shimo.im/users/ requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/shimo.js
+
+#VideoStarUnlock（byLTribe）
+http-response ^https?:\/\/.*\.videostarapp\.com\/scripts\/subsNew\.php requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/VideoStar.js
+
+#Pillow(By@CheeryTodo)
+http-response https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/pillow.js
+
+#马卡龙(By@CheeryTodo)
+http-response https://app.api.versa-ai.com/pay/order/iap/check requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/mkl.js
+
+#韩剧TV(By凉意)
+#下载地址请看脚本内说明
+http-response ^https\:\/\/hjapi\.bjxkhc\.com\/v2d2\/users\/.*\/member requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/hanjuTV.js
+
+#手机硬件管家(ByAlex0510)
+http-response http:\/\/api\.591master\.com\:8081\/(1.0|3.6.8)\/ui(forum|common)\/(downloadwallpaper|getuser) requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/sjyjgj.js
+
+#筋斗云tv(By凉意)
+http-response ^http\:\/\/jdytv\.cn\/login\/login\/veifys requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/jdyTV.js
+
+#花椒视频(ByAlex0510)
+http-response http://user.shywck.com/user/userinfo requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/hjsp.js
+
+#迅捷应用6合1（byLTribe）
+http-response ^https?:\/\/.*\.xunjie.*\.com\/api\/v\d\/* requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/xunjie.js
+
+#小睡眠（by黑黑酱）
+http-response ^https:\/\/api\.psy-1\.com\/cosleep\/user\/info requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/xiaoshuimian.js
+
+#蜗牛睡眠会员（by黑黑酱）
+http-response ^https:\/\/snailsleep\.net\/snail\/v1\/profile\/get requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/wnsm.js
+
+#可可英语会员
+http-response ^https:\/\/mob2015\.kekenet\.com\/keke\/mobile\/index\.php requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/kkyy.js
+
+#飒漫画(By@u18888)
+http-response ^https:\/\/m\.samh\.xndm\.tech\/userapi\/info\/v1\/getuserinfo requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/Smh.js
+
+#闪电下载vip(By凉意)
+http-response ^http\:\/\/app\.flashdown365\.com\/ios\/login requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/sdxz.js
+
+
+
+#JAV101无限观看(By凉意)
+http-response ^https\:\/\/pwaapi\.gao1gps\.cn\/v1\/user\/info requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/JAV101.js
+
+#美颜相机一次性解锁内购（by黑黑酱）
+http-response ^https:\/\/api\.meiyan\.com\/iap\/verify\.json requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/myxj.js
+
+#Fit健身会员（by黑黑酱）
+http-response ^https:\/\/bea\.sportq\.com\/SFitWeb\/sfit\/getUserBaseInfo requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/fit.js
+
+[URL Rewrite]
+#爱美剧Vip(byhuihui）(官网：app.meiju2018.com)
+^http(s)://api.bjxkhc.com/index.php/app/ios/ads/index - reject-dict
+^http(s)://api.bjxkhc.com/index.php/app/ios/ver/index_ios$ - reject
+^http(s)://api.bjxkhc.com/index.php/app/ios/pay/ok$ - reject-dict
+#网易蜗牛读书VIP(ByyxiaocaiandJO2EY)
+^https?://p\.du\.163\.com/readtime/info.json - reject
+#remove_manage
+^https:\/\/www\.calm\.com\/mobile\/manage-subscription\?token=* - reject-img
