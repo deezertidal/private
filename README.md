@@ -136,6 +136,11 @@
 |:white_check_mark:一甜相机解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/yitian.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Grow解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/grow.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Xmind思维导图|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xmind.plugin)|配置-插件-粘贴链接
+|:white_check_mark:微信公众号去广告|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wechatad.plugin)|配置-插件-粘贴链接
+|:white_check_mark:微博去广告|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/weiboad.plugin)|配置-插件-粘贴链接
+|:white_check_mark:APP启动页去广告|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/startingad.plugin)|配置-插件-粘贴链接
+|:white_check_mark:哔哩哔哩去广告|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/biliad.plugin)|配置-插件-粘贴链接
+|:white_check_mark:喜马拉雅去广告|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xmlyad.plugin)|配置-插件-粘贴链接
 
 ****
 
