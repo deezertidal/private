@@ -5,7 +5,7 @@
 #!author=superuv
 
 [Script]
-http-response ^https:\/\/pocketlists\.com\/api\/v1\/pocketlists.me.get requires-body=1 ,script-path=https://raw.githubusercontent.com/private/main/pocketlists.js
+http-response ^https:\/\/pocketlists\.com\/api\/v1\/pocketlists.me.get requires-body=1 ,script-path=https://raw.githubusercontent.com/deezertidal/private/main/pocketlists.js
 
 [MITM]
 hostname = pocketlists.com
