@@ -143,6 +143,7 @@
 |:white_check_mark:喜马拉雅去广告|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xmlyad.plugin)|配置-插件-粘贴链接
 |:white_check_mark:网易蜗牛阅读|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wnds.plugin)|配置-插件-粘贴链接
 |:white_check_mark:马卡龙玩图|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/mklwt.plugin)|配置-插件-粘贴链接
+|:white_check_mark:第一弹解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/dyd.plugin)|配置-插件-粘贴链接
 
 ****
 
