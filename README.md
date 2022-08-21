@@ -141,6 +141,8 @@
 |:white_check_mark:APP启动页去广告|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/startingad.plugin)|配置-插件-粘贴链接
 |:white_check_mark:哔哩哔哩去广告|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/biliad.plugin)|配置-插件-粘贴链接
 |:white_check_mark:喜马拉雅去广告|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xmlyad.plugin)|配置-插件-粘贴链接
+|:white_check_mark:网易蜗牛阅读|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wnds.plugin)|配置-插件-粘贴链接
+|:white_check_mark:马卡龙玩图|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/mklwt.plugin)|配置-插件-粘贴链接
 
 ****
 
@@ -151,6 +153,7 @@
 |:white_check_mark:脚本过滤：筛选80 443端口|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/port-filter.js)|SubStore-订阅编辑-添加操作-脚本过滤-粘贴链接
 |:white_check_mark:脚本过滤：筛选80,443，vmess,ws节点|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/nodes-filter.js)|SubStore-订阅编辑-添加操作-脚本过滤-粘贴链接
 |:white_check_mark:脚本操作：修改host|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/vmess-host.js)|SubStore-订阅编辑-添加操作-脚本操作-粘贴链接（自行修改参数）
+
 
     
 ****
