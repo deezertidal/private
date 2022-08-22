@@ -3,14 +3,12 @@
 
 
 [MITM]
-hostname = *.zhulong.com, apigate.zymk.cn, %APPEND% sub.store, *.radio.cn,39.106.98.80, *.xczim.com, p.du.163.com, ap*.intsig.net, %APPEND% account.wps.cn, *account.wps.com, *.peiyinxiu.com, gushici.91iread.com:8011, *.aoscdn.com, ggs.manmeng168.com, apjson.nftvio.space,%APPEND% api.rr.tv, *.qupeiyin.com, dubbing.csweimei.cn, cnapi.qupeiyin.com, bookapi.ellabook.cn, api-weather.andy.works, gateway.ergedd.com, api.risingfalling.com, xrckeji.com, zebra.maka.im, diary.sxyj.net, user.ftmailbox.cn, dida365.com, ticktick.com, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, *account.wps.cn, *account.wps.com, *kuwo*,*lrts*, api.fwxgx.com, app.yiyan.art, mp.weixin.qq.com, *.lingdu2019.cn, zjgeo.eqobc.com, xnour.xonap.com, opzzy.kefsww.com, tqrbq.mpckv.com, api.maijitv.com, api.polaxiong.com, api8.luosijiaoyu.com, *.jstv.com
+hostname = *.zhulong.com, apigate.zymk.cn,  *.radio.cn,39.106.98.80, *.xczim.com, p.du.163.com, ap*.intsig.net, account.wps.cn, *account.wps.com, *.peiyinxiu.com, gushici.91iread.com:8011, *.aoscdn.com, ggs.manmeng168.com, apjson.nftvio.space,api.rr.tv, *.qupeiyin.com, dubbing.csweimei.cn, cnapi.qupeiyin.com, bookapi.ellabook.cn, api-weather.andy.works, gateway.ergedd.com, api.risingfalling.com, xrckeji.com, zebra.maka.im, diary.sxyj.net, user.ftmailbox.cn, dida365.com, ticktick.com, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, *account.wps.cn, *account.wps.com, *kuwo*,*lrts*, api.fwxgx.com, app.yiyan.art, mp.weixin.qq.com, *.lingdu2019.cn, zjgeo.eqobc.com, xnour.xonap.com, opzzy.kefsww.com, tqrbq.mpckv.com, api.maijitv.com, api.polaxiong.com, api8.luosijiaoyu.com, *.jstv.com
 [Script]
 #>001筑龙学社，需要登陆，解锁vip视频课件，土木工程学习用
 http-response ^https?:\/\/(www|m).zhulong.com\/(ucenter/prod-api/personal/myinfo/getUserInfo|edu/prod-api/lesson/lesson/getScheduleByLessonId|/ucenter/prod-api/personal/History/lessonview|edu/prod-api/lesson/lesson/getLesson|edu/prod-api/lesson/lesson/play|bbs/prod-api/thread/thread/getThreadForTid) requires-body=1,script-path=https://raw.githubusercontent.com/lutqhysky/quantumultx/mylove/zhulong/Script/zhulong.js,tag=筑龙学社
 #>002知音漫客，需要登陆，收费漫画,
 http-response ^https:\/\/apigate\.zymk\.cn\/(zymk-getuserinfo-api\/v1\/getuserinfo|zymk-userpurchased-api\/v1\/userpurchased\/paychapters)\/ requires-body=1,script-path=https://raw.githubusercontent.com/lutqhysky/quantumultx/mylove/zhiyinmanke/Script/zhiyinmanke.js,tag=筑龙学社
-#>003Sub-Store,高级订阅管理工具@Peng-YM
-http-request ^https?:\/\/sub\.store script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store.min.js,requires-body=true,tag=Sub-Store
 #>004云听，解锁vip音频
 http-response ^http:\/\/(getway.radio.cn|39.106.98.80)\/app* requires-body=1,script-path=https://raw.githubusercontent.com/lutqhysky/quantumultx/mylove/yunting/Script/yunting.js,tag=云听（2022-08-10）
 #>005西窗烛，解锁vip会员，但是不能下载收费字体，会员字体可用，可下载收费书籍,
