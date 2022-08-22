@@ -1,9 +1,0 @@
-#!name=1
-#!desc=1
-
-
-[MITM]
-hostname = *.zuowenzhitiao.com
-
-[Script]
-http-response ^https?:\/\/(app1|zwzt-h5).zuowenzhitiao.com requires-body=1,script-path=https://raw.githubusercontent.com/lutqhysky/quantumultx/mylove/xiaozhitiao/Script/xiaozhitiao.js
