@@ -167,8 +167,9 @@
 |:white_check_mark:机场推荐|[:link:公益机场](https://github.com/deezertidal/freevpn/blob/main/README.md) / [付费机场](https://github.com/deezertidal/fee-based/blob/main/README.md)|配置文件中已自带订阅链接，仅分享不维护
 |:white_check_mark:Loon教程|[:link:链接地址](https://github.com/TiyNa/LoonManual)|适合初次使用者
 |:white_check_mark:网易音乐解锁节点|[:link:链接地址](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/NeteaseMusic/AgentNode)|解锁网易云灰色和VIP音乐节点
+|:white_check_mark:Altstore|[:link:链接地址](https://altstore.io/)|自签工具（Win10+ or MacOs10.14.4+）
+|:white_check_mark:Youtube.ipa|[:link:链接地址](https://racaty.net/2x09yydnnrd2?fpdi_ticket=)|去广告 后台播放音乐 画中画（需搭配altstore自动刷新签名）
 
-      
 ****
 * 解锁类插件一般需要登录账号恢复购买，如不生效，请卸载重装。
 * 除集合类外，脚本插件均署名原作者，如有署名错误，请联系邮箱更正。
