@@ -39,7 +39,8 @@ hostname = *.xima*.*, *.xmcdn.*
 ^https?:\/\/.*\.xima.*\.com\/api\/v\d\/adRealTime - reject
 # ～ XiMaLaYa_喜马拉雅_屏蔽ting_Ad@ddgksf2013
 ^https?:\/\/.*\.xima.*\.com\/ting\/(loading|feed|home)? - reject
-
+# ～ XiMaLaYa_喜马拉雅_修复轮播Ad失效Bug@ddgksf2013
+^https?:\/\/.*\.xima.*\.com\/discovery-feed\/focus\/queryF - reject
 [Script]
 # ～ XiMaLaYa_喜马拉雅_屏蔽首页滚动_Ad@ddgksf2013
 http-response ^https?:\/\/.*\.xima.*\.com\/discovery-feed\/v\d\/mix requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/xmly_json.js
