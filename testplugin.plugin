@@ -14,7 +14,7 @@ http-response ^https?:\/\/igetcool-gateway\.igetcool\.com\/(app-api-user-server\
 http-response ^https://gw.aoscdn.com/base/vip/client/authorizations requires-body=1,script-path=https://raw.githubusercontent.com/1528473765/QuantumultX/iOS/js/arkt.js 
 
 # ✅ 刷圈兔
-^http://122.51.229.203:8082/app/user requires-body=1,script-path=https://raw.githubusercontent.com/1528473765/QuantumultX/iOS/js/sqt.js
+http-response ^http://122.51.229.203:8082/app/user requires-body=1,script-path=https://raw.githubusercontent.com/1528473765/QuantumultX/iOS/js/sqt.js
 
 # ✅ 微截图2
-^https://api.jietuwan.com/apiv2/user requires-body=1,script-path=https://raw.githubusercontent.com/1528473765/QuantumultX/iOS/js/wjt.js
+http-response ^https://api.jietuwan.com/apiv2/user requires-body=1,script-path=https://raw.githubusercontent.com/1528473765/QuantumultX/iOS/js/wjt.js
