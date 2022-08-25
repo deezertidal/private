@@ -14,11 +14,11 @@ http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ requires-body=
 
 
 #识图百科内购解锁
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1,script-path=https://raw.githubusercontent.com/efzogwiuhn/rule/ios/quantumultx/js/shitubaike.js
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1,script-path=https://raw.githubusercontent.com/efzogwiuhn/rule/ios/quantumultx/js/shitubaike.js
 
 # ? Gear浏览器解锁订阅（By ThorJsbox）
 ;http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1,script-path=https://raw.githubusercontent.com/ThorJsbox/QuanX/master/Rewrite_local/Gear.js
-^https\:\/\/api.revenuecat.com\/v1\/subscribers(.+) requires-body=1,script-path=https://raw.githubusercontent.com/hhse/Mul4hong/master/gear.js
+http-response ^https\:\/\/api.revenuecat.com\/v1\/subscribers(.+) requires-body=1,script-path=https://raw.githubusercontent.com/hhse/Mul4hong/master/gear.js
 
 # > 白描黄金会员
 http-response ^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$ requires-body=1,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Script/baimiao.js
