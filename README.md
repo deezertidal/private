@@ -151,6 +151,8 @@
 |:white_check_mark:知音漫客解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/zymk.plugin)|配置-插件-粘贴链接
 |:white_check_mark:有道云笔记解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ydybj.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Vista看天下解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/vista.plugin)|配置-插件-粘贴链接
+|:white_check_mark:PhotosShop会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/photoshop.plugin)|配置-插件-粘贴链接
+
 
 
 ****
