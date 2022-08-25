@@ -152,7 +152,22 @@
 |:white_check_mark:有道云笔记解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ydybj.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Vista看天下解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/vista.plugin)|配置-插件-粘贴链接
 |:white_check_mark:PhotosShop Express会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/photoshop.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:人人视频去广告|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/rrsp.plugin)|配置-插件-粘贴链接
+|:white_check_mark:七猫小说解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/qmxs.plugin)|配置-插件-粘贴链接
+|:white_check_mark:漫画台小程序解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/mht.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Notability解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/notability.plugin)|配置-插件-粘贴链接
+|:white_check_mark:爱美剧解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/amj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:白描黄金会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/baimiao.plugin)|配置-插件-粘贴链接
+|:white_check_mark:OldRoll相机解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/oldroll.plugin)|配置-插件-粘贴链接
+|:white_check_mark:少年得到解锁会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/sndd.plugin)|配置-插件-粘贴链接
+|:white_check_mark:大蓝鲸|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/dalanjing.plugin)|配置-插件-粘贴链接
+|:white_check_mark:螺畤大语文解锁会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/lsdyw.plugin)|配置-插件-粘贴链接
+|:white_check_mark:语文趣配音解锁会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ywqpy.plugin)|配置-插件-粘贴链接
+|:white_check_mark:配音秀解锁会员|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/pyx.plugin)|配置-插件-粘贴链接
+|:white_check_mark:纸条年度会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/zhitiao.plugin)|配置-插件-粘贴链接
+|:white_check_mark:石墨文档解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/smwd.plugin)|配置-插件-粘贴链接
+|:white_check_mark:美篇解锁vip|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/meipian.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Adobe LightRoom解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/lightroom.plugin)|配置-插件-粘贴链接
 
 
 ****
