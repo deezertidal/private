@@ -5,16 +5,38 @@
 
 
 [MITM]
-hostname=igetcool-gateway.igetcool.com,gw.aoscdn.com , qf.52jietu.com, api.jietuwan.com
+hostname=buy.itunes.apple.com,api.revenuecat.com,baimiao.uzero.cn,*.bybutter.com,api.rr.tv
 
 [Script]
-http-response ^https?:\/\/igetcool-gateway\.igetcool\.com\/(app-api-user-server\/oath\/user\/info\.json|app-api-product-server\/option\/course\/audios\.json|app-api-product-server\/white\/course\/videos\.json) requires-body=1,script-path=https://raw.githubusercontent.com/lutqhysky/quantumultx/mylove/shaomiandedao/Script/shaoniandedao.js
 
-# ✅ 傲软抠图(need登录)
-http-response ^https://gw.aoscdn.com/base/vip/client/authorizations requires-body=1,script-path=https://raw.githubusercontent.com/1528473765/QuantumultX/iOS/js/arkt.js 
+# > OldRoll解锁永久会员
+http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ requires-body=1,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/OldRollFVIPCrack.js
 
-# ✅ 刷圈兔
-http-response ^http://122.51.229.203:8082/app/user requires-body=1,script-path=https://raw.githubusercontent.com/1528473765/QuantumultX/iOS/js/sqt.js
 
-# ✅ 微截图2
-http-response ^https://api.jietuwan.com/apiv2/user requires-body=1,script-path=https://raw.githubusercontent.com/1528473765/QuantumultX/iOS/js/wjt.js
+#识图百科内购解锁
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1,script-path=https://raw.githubusercontent.com/efzogwiuhn/rule/ios/quantumultx/js/shitubaike.js
+
+# ? Gear浏览器解锁订阅（By ThorJsbox）
+;http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1,script-path=https://raw.githubusercontent.com/ThorJsbox/QuanX/master/Rewrite_local/Gear.js
+^https\:\/\/api.revenuecat.com\/v1\/subscribers(.+) requires-body=1,script-path=https://raw.githubusercontent.com/hhse/Mul4hong/master/gear.js
+
+# > 白描黄金会员
+http-response ^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$ requires-body=1,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Script/baimiao.js
+
+# > NiChi 解锁素材
+http-response ^https?:\/\/m(p|ini-hk)\.bybutter\.com\/mood\/(official-templates|privileges) requires-body=1,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Script/NiChi.js
+
+
+
+
+http-response ^https?:\/\/api\.rr\.tv\/\w{3}\/level\/info requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0 
+http-response https://api.rr.tv/v3plus/index/channel\?pageNum=1&position=CHANNEL_INDEX requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0 
+http-response ^https?:\/\/api\.rr\.tv\/app\/config\/h5NativeBar requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0 
+http-response ^https?:\/\/api\.rr\.tv\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_MY requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0
+http-response ^https:\/\/api\.rr\.tv\/user\/privilege\/list requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0
+http-response ^https:\/\/api\.rr\.tv\/ad\/getAll requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0
+http-response ^https:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0
+http-response ^https://api.rr.tv/watch/v4 requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0
+http-response ^https://api.rr.tv/watch/v4 requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0
+http-response ^https://api.rr.tv/user/profile requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0
+http-response ^https://api.rr.tv/watch/v4 requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0
