@@ -5,38 +5,6 @@
 
 
 [MITM]
-hostname=buy.itunes.apple.com,api.revenuecat.com,baimiao.uzero.cn,*.bybutter.com,api.rr.tv
-
+hostname=greasyfork.org, openuserjs.org
 [Script]
-
-# > OldRoll解锁永久会员
-http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ requires-body=1,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/OldRollFVIPCrack.js
-
-
-#识图百科内购解锁
-http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1,script-path=https://raw.githubusercontent.com/efzogwiuhn/rule/ios/quantumultx/js/shitubaike.js
-
-# ? Gear浏览器解锁订阅（By ThorJsbox）
-;http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1,script-path=https://raw.githubusercontent.com/ThorJsbox/QuanX/master/Rewrite_local/Gear.js
-http-response ^https\:\/\/api.revenuecat.com\/v1\/subscribers(.+) requires-body=1,script-path=https://raw.githubusercontent.com/hhse/Mul4hong/master/gear.js
-
-# > 白描黄金会员
-http-response ^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$ requires-body=1,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Script/baimiao.js
-
-# > NiChi 解锁素材
-http-response ^https?:\/\/m(p|ini-hk)\.bybutter\.com\/mood\/(official-templates|privileges) requires-body=1,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Script/NiChi.js
-
-
-
-
-http-response ^https?:\/\/api\.rr\.tv\/\w{3}\/level\/info requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0 
-http-response https://api.rr.tv/v3plus/index/channel\?pageNum=1&position=CHANNEL_INDEX requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0 
-http-response ^https?:\/\/api\.rr\.tv\/app\/config\/h5NativeBar requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0 
-http-response ^https?:\/\/api\.rr\.tv\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_MY requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0
-http-response ^https:\/\/api\.rr\.tv\/user\/privilege\/list requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0
-http-response ^https:\/\/api\.rr\.tv\/ad\/getAll requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0
-http-response ^https:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0
-http-response ^https://api.rr.tv/watch/v4 requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0
-http-response ^https://api.rr.tv/watch/v4 requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0
-http-response ^https://api.rr.tv/user/profile requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0
-http-response ^https://api.rr.tv/watch/v4 requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv_json.js,script-update-interval=0
+http-response ^https:\/\/(greasyfork|openuserjs)\.org\/.*\/.*\.user\.js script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/c739f42f94c6addd2cf4a567bfd387a98146e1a9/Rewrites/GreasyFork/greasy-fork.js, requires-body=true
