@@ -276,5 +276,3 @@
 * [@toulanboy](https://github.com/toulanboy/scripts)
 
 * [@lowking](https://github.com/lowking/Scripts)
-****
-![Image text](https://github.com/deezertidal/shadowrocket-rules/blob/main/IMG/Reward.jpg)
