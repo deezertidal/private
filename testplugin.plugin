@@ -5,6 +5,7 @@
 
 
 [MITM]
-hostname=app.mobileto.vip
+hostname=app.mobileto.vip,wallpaper.soutushenqi.com
 [Script]
 http-response https://app.mobileto.vip/nfc/app/v2/is-vip requires-body=1,script-path=https://raw.githubusercontent.com/deezertidal/private/main/nfc.js
+http-response, http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token requires-body=1,script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/SearchArtifact.js
