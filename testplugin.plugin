@@ -5,7 +5,17 @@
 
 
 [MITM]
-hostname=app.mobileto.vip,wallpaper.soutushenqi.com
+hostname=prod.ukids.cn,47.104.228.152:9100,buy.itunes.apple.com,api.calm.com
+
 [Script]
-http-response https://app.mobileto.vip/nfc/app/v2/is-vip requires-body=1,script-path=https://raw.githubusercontent.com/deezertidal/private/main/nfc.js
-http-response http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token requires-body=1,script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/SearchArtifact.js
+# 小小优趣
+http-response ^https?:\/\/prod\.ukids\.cn\/uch5\/getUser requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lutqhysky/quantumultx/mylove/xiaoxiaoyouqu/Script/xxyq.js
+
+# 精读国学
+http-response ^https?:\/\/47\.104\.228\.152:9100\/api\/apiAppUser\/getUser requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lutqhysky/quantumultx/mylove/jingshuguoxue/Script/jingshuguoxue.js
+
+# PronockOut
+http-response https://buy.itunes.apple.com/verifyReceipt requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/lutqhysky/quantumultx/mylove/Proknockout/Script/ProknockOut.js
+
+# caml解锁免费听
+http-response https://api.calm.com/(me|device|ios/receipt) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Alex0510/Eric/Alex0510/surge/surge/Script/caml.js
