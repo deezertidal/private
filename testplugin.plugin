@@ -4,7 +4,7 @@
 #!icon=
 
 [Script]
-
+http-response ^https:\/\/api\.revenuecat\.com\/v1\/subscribers requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/blocker.js
 http-response ^https?:\/\/api\.revenuecat\.com/v\d/subscribers/\$RCAnonymousID\%\w+ requires-body=1,script-path=https://raw.githubusercontent.com/lutqhysky/quantumultx/mylove/Fileball/Script/Fileball.js
 http-response ^https?:\/\/api2\.rinhome\.com\/\/api\/nUser\/getUserInfo\?\w+ requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/lutqhysky/quantumultx/mylove/sout/Script/soutu.js,script-update-interval=0
 
