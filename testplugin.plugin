@@ -6,7 +6,7 @@
 
 [mitm]
 
-hostname= user-kaji-api.b612kaji.com,buy.itunes.apple.com,buy.itunes.apple.com, partner-ai-api.quthing.com,api.xiuxiu.meitu.com,subscription-api.notedapp.io,wallpaper.soutushenqi.com,buy.itunes.apple.com,www.xmind.cn,api.xunyou.mobi,m2u-api.getkwai.com,api.meiyan.com info.json,
+hostname= user-kaji-api.b612kaji.com,buy.itunes.apple.com,buy.itunes.apple.com, partner-ai-api.quthing.com,api.xiuxiu.meitu.com,subscription-api.notedapp.io,wallpaper.soutushenqi.com,buy.itunes.apple.com,www.xmind.cn,api.xunyou.mobi,m2u-api.getkwai.com,api.meiyan.com
 [Script]
 http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/https.js
 
