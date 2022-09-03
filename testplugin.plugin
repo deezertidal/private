@@ -6,37 +6,6 @@
 
 [mitm]
 
-hostname= user-kaji-api.b612kaji.com,buy.itunes.apple.com,buy.itunes.apple.com, partner-ai-api.quthing.com,api.xiuxiu.meitu.com,subscription-api.notedapp.io,wallpaper.soutushenqi.com,buy.itunes.apple.com,www.xmind.cn,api.xunyou.mobi,m2u-api.getkwai.com,api.meiyan.com
+hostname= /buy.itunes.apple.com
 [Script]
-http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/https.js
-
-
-http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/hyxc.js
-
-
-http-response ^https:\/\/partner-ai-api\.quthing\.com\/ai\/vip\/state requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/ly.js
-
-
-http-response ^https:\/\/api\.xiuxiu\.meitu\.com\/v1 requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/mtxx.js
-
-
-http-response ^https:\/\/subscription-api\.notedapp\.io\/api\/verifyReceipt requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/noteb.js
-
-
-http-response http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/stsq.js
-
-
-http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/upp.js
-
-
-http-response ^https:\/\/www\.xmind\.cn\/_res\/devices requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xmind.js
-
-
-http-response ^https:\/\/api\.xunyou\.mobi\/api\/v1\/android\/sessions requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xyjsq.js
-
-
-http-response ^https?:\/\/m2u-api\.getkwai\.com\/api-server\/api\/v2\/vip\/vipUserInfo requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/ytxj.js
-
-
-http-response ^https:\/\/api\.meiyan\.com\/vip\/user_info\.json requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/myxj.js
-
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/wjglq.js
