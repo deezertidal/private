@@ -168,6 +168,10 @@
 |:white_check_mark:石墨文档解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/smwd.plugin)|配置-插件-粘贴链接
 |:white_check_mark:美篇解锁vip|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/meipian.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Adobe LightRoom解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/lightroom.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Calm解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/calm.plugin)|配置-插件-粘贴链接
+|:white_check_mark:NFC门禁卡公交卡|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/nfc.plugin)|配置-插件-粘贴链接
+|:white_check_mark:搜图神器|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/stsq.plugin)|配置-插件-粘贴链接
+
 
 
 ****
