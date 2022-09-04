@@ -171,7 +171,8 @@
 |:white_check_mark:Calm解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/calm.plugin)|配置-插件-粘贴链接
 |:white_check_mark:NFC门禁卡公交卡|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/nfc.plugin)|配置-插件-粘贴链接
 |:white_check_mark:搜图神器|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/stsq.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:https抓包|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/https.plugin)|配置-插件-粘贴链接
+|:white_check_mark:SSA丝社|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ssa.plugin)|配置-插件-粘贴链接
 
 
 ****
