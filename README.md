@@ -173,6 +173,10 @@
 |:white_check_mark:搜图神器|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/stsq.plugin)|配置-插件-粘贴链接
 |:white_check_mark:https抓包|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/https.plugin)|配置-插件-粘贴链接
 |:white_check_mark:SSA丝社|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ssa.plugin)|配置-插件-粘贴链接
+|:white_check_mark:小小优趣|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xxyq.plugin)|配置-插件-粘贴链接
+
+
+
 
 
 ****
