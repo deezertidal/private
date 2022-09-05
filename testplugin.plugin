@@ -7,7 +7,9 @@
 http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Picsew.js
 http-response https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Pixelmator.js
 
+http-response ^https:\/\/api4\.bybutter\.com\/v4\/(users|shop) requires-body=1,script-path=https://raw.githubusercontent.com/lutqhysky/quantumultx/mylove/hyxj/Script/hyxj.js
 
+http-response ^https:\/\/fcapi\.91por\.vip\/api\/video\/user\/info requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/mgtv.js
 
 [mitm]
-hostname=buy.itunes.apple.com,api.revenuecat.com
+hostname=buy.itunes.apple.com,api.revenuecat.com,api4.bybutter.com,fcapi.91por.vip
