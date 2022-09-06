@@ -16,6 +16,6 @@ http-response ^https:\/\/fcapi\.91por\.vip\/api\/video\/user\/info requires-body
 
 
 
-http-response ^https:\/\/www\.freshhome\.top\/mngruqi requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/rq.js
+http-response ^https:\/\/www\.freshhome\.top\/mngruqi requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/2c618622178879e8465f2254e3bb3641e61a58ce/ycdz/%E5%A6%82%E6%9C%9F-%E6%89%AB%E7%A0%81%E8%AE%B0%E5%BD%95%E4%BF%9D%E8%B4%A8%E6%9C%9F%2B%E8%A7%A3%E9%94%81VIP
 [mitm]
 hostname=buy.itunes.apple.com,api.revenuecat.com,api4.bybutter.com,fcapi.91por.vip,*example.com,www.freshhome.top
