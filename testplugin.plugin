@@ -11,5 +11,8 @@ http-response ^https?:\/\/api4\.bybutter\.com\/v4\/(users\/me$|shop\/me\/privile
 
 http-response ^https:\/\/fcapi\.91por\.vip\/api\/video\/user\/info requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/mgtv.js
 
+
+
+http-response ^https?:\/\/.*\.example\.comrequires-body=1,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/ali.js
 [mitm]
-hostname=buy.itunes.apple.com,api.revenuecat.com,api4.bybutter.com,fcapi.91por.vip
+hostname=buy.itunes.apple.com,api.revenuecat.com,api4.bybutter.com,fcapi.91por.vip,*example.com
