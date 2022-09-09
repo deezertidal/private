@@ -181,8 +181,15 @@
 
 
 ****
-
-  
+|:octocat:机场推荐|:link:链接|
+|--|--|
+|:white_check_mark:低端机场|[:link:MagicSchool](https://2220.it/register?aff=GNs68S4XWT)|
+|:white_check_mark:低端机场|[:link:EMO](https://yyds.emovpn.top/#/register?code=7KLxhYOS)|
+|:white_check_mark:中端机场|[:link:白月光](https://www.bygcloud.com/#/register?code=DX4iT5B4)|
+|:white_check_mark:中端机场|[:link:安大毒](https://jc.hgdbk.xyz/#/register?code=heNWfiwN)|
+|:white_check_mark:高端机场|[:link:奶昔](https://naixii.com/signupbyemail.aspx?MemberCode=4abe2692a864433d9132614c7da1cd0920220701191029)|
+|:white_check_mark:高端机场|[:link:TAG](https://tagss.pro/#/register?code=0zZLweop)|
+****
 |:octocat:Sub-Store脚本|:link:链接|:pushpin:操作说明|
 |--|--|--|
 |:white_check_mark:脚本操作：重命名|[:link:链接地址](https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=zh&output=zh&airport=你需要的机场名)|SubStore-订阅编辑-添加操作-脚本操作-粘贴链接（自行修改自己的机场名）
@@ -197,7 +204,6 @@
   
 |:octocat:其他|:link:链接|:pushpin:操作说明|
 |--|--|--|
-|:white_check_mark:机场推荐|[:link:公益机场](https://github.com/deezertidal/freevpn/blob/main/README.md) / [付费机场](https://github.com/deezertidal/fee-based/blob/main/README.md)|配置文件中已自带订阅链接，仅分享不维护
 |:white_check_mark:Loon教程|[:link:链接地址](https://github.com/TiyNa/LoonManual)|适合初次使用者
 |:white_check_mark:网易音乐解锁节点|[:link:链接地址](https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/NeteaseMusic/AgentNode)|解锁网易云灰色和VIP音乐节点
 |:white_check_mark:Altstore|[:link:链接地址](https://altstore.io/)|自签工具（Win10+ or MacOs10.14.4+）
