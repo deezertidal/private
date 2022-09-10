@@ -177,6 +177,8 @@
 |:white_check_mark:幻影相册|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/hyxc.plugin)|配置-插件-粘贴链接
 |:white_check_mark:精塾国学|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/jsgx.plugin)|配置-插件-粘贴链接
 |:white_check_mark:PrettyUp|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/prettyup.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Cubox|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/cubox.plugin)|配置-插件-粘贴链接
+
 
 
 
