@@ -1,11 +1,17 @@
 # :balloon:Loon脚本插件收集  
 
+<details>
+  <summary>:key:配置文件</summary>    
+    
 |:octocat:配置文件|:link:链接|:pushpin:操作说明|
 |--|--|--|
 |:warning:含完整脚本及插件的配置文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Full.conf)|配置-编辑-从URL下载-粘贴链接（降低维护频率）
 |:white_check_mark:基础配置文件（推荐）|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Loon_Basic.conf)|配置-编辑-从URL下载-粘贴链接（自行添加需要的脚本插件）
 
-****
+</details>
+
+<details>
+   <summary>:key:插件</summary>    
 
 * ### 现已入驻[:balloon:Loon-Gallery插件仓库](https://loon-gallery.vercel.app/)  
 |:octocat:插件|:link:链接|:pushpin:操作说明|
@@ -181,8 +187,13 @@
 |:white_check_mark:pandora订阅管理|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/pandora.plugin)|配置-插件-粘贴链接
 |:white_check_mark:微信阅读积分兑换|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wechatread.plugin)|请查阅脚本内教程
 
+</details>
 
-****
+
+<details>
+  <summary>:key:机场推荐</summary>   
+    
+    
 |:octocat:机场推荐|:link:链接| :pushpin:说明
 |--|--|--|
 |:white_check_mark:低端机场|[:link:MagicSchool](https://2220.it/register?aff=GNs68S4XWT)|专属八折优惠码shadycn(活动套餐除外)
@@ -191,7 +202,13 @@
 |:white_check_mark:中端机场|[:link:安大毒](https://jc.hgdbk.xyz/#/register?code=heNWfiwN)|
 |:white_check_mark:高端机场|[:link:奶昔](https://naixii.com/signupbyemail.aspx?MemberCode=4abe2692a864433d9132614c7da1cd0920220701191029)|
 |:white_check_mark:高端机场|[:link:TAG](https://tagss.pro/#/register?code=0zZLweop)|
-****
+
+</details>  
+
+
+<details>
+  <summary>:key:Substore脚本</summary>  
+
 |:octocat:Sub-Store脚本|:link:链接|:pushpin:操作说明|
 |--|--|--|
 |:white_check_mark:脚本操作：重命名|[:link:链接地址](https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=zh&output=zh&airport=你需要的机场名)|SubStore-订阅编辑-添加操作-脚本操作-粘贴链接（自行修改自己的机场名）
@@ -199,9 +216,12 @@
 |:white_check_mark:脚本过滤：筛选80,443，vmess,ws节点|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/nodes-filter.js)|SubStore-订阅编辑-添加操作-脚本过滤-粘贴链接
 |:white_check_mark:脚本操作：修改host|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/vmess-host.js)|SubStore-订阅编辑-添加操作-脚本操作-粘贴链接（自行修改参数）
 
+</details>
 
-    
-****
+
+<details>
+  <summary>:key:签名工具</summary>  
+
 
   
 |:octocat:其他|:link:链接|:pushpin:操作说明|
@@ -215,7 +235,12 @@
 * 解锁类插件一般需要登录账号恢复购买，如不生效，请卸载重装。
 * 除集合类外，脚本插件均署名原作者，如有署名错误，请联系邮箱更正。
 * 如需修改或分享，请保留作者信息。
-****
+
+</details>
+
+
+ <details>
+  <summary>:key:申明</summary>
 
 ## :warning:免责声明：
 
@@ -294,3 +319,4 @@
 * [@toulanboy](https://github.com/toulanboy/scripts)
 
 * [@lowking](https://github.com/lowking/Scripts)
+ </details>
