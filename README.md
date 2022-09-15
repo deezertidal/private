@@ -179,7 +179,7 @@
 |:white_check_mark:PrettyUp|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/prettyup.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Cubox|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/cubox.plugin)|配置-插件-粘贴链接
 |:white_check_mark:pandora订阅管理|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/pandora.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:微信阅读积分兑换|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wechatread.plugin)|请查阅脚本内教程
 
 
 ****
