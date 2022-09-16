@@ -187,7 +187,7 @@
 |:white_check_mark:pandora订阅管理|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/pandora.plugin)|配置-插件-粘贴链接
 |:white_check_mark:微信阅读积分兑换|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wechatread.plugin)|请查阅脚本内教程
 |:white_check_mark:来音智能陪练|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ly.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:熊掌记|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xzj.plugin)|配置-插件-粘贴链接
 
 </details>
 
