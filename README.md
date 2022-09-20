@@ -190,7 +190,7 @@
 |:white_check_mark:熊掌记|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xzj.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Notboring解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/notboring.plugin)|配置-插件-粘贴链接
 |:white_check_mark:如期扫码解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/rq.plugin)|配置-插件-粘贴链接
-|:white_check_mark:CEO周课|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/ceo.plugin)|配置-插件-粘贴链接
+|:white_check_mark:CEO周课|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ceo.plugin)|配置-插件-粘贴链接
 
 
 
