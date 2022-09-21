@@ -1,0 +1,9 @@
+#!name=1blocker
+#!desc=1blocker会员解锁
+#!homepage=https://github.com/deezertidal
+#!author=89996462
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/1blocker.png
+[Script]
+http-response ^https:\/\/api\.revenuecat\.com\/v1\/subscribers requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/blocker.js
+[MITM]
+hostname=api.revenuecat.com
