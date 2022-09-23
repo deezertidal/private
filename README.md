@@ -193,7 +193,7 @@
 |:white_check_mark:CEO周课|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ceo.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Fileball|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/fileball.plugin)|配置-插件-粘贴链接
 |:white_check_mark:1blocker|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/1blocker.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:AI换脸秀|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ai.plugin)|配置-插件-粘贴链接
 
 
 
