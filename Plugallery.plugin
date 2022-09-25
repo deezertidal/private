@@ -23,10 +23,6 @@ http-response ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|u
 /*京东比价*/
 http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1, script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jd_tb_price.js,tag=京东比价
 
-/*淘宝比价*/
-http-request ^http://.+/amdc/mobileDispatch requires-body=1, script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jd_tb_price.js, tag=淘宝比价
-http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail requires-body=1, script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jd_tb_price.js,tag=淘宝比价
-
 /*微信公众号去广告*/
 #http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js, tag=微信公众号去广告
 
@@ -34,11 +30,6 @@ http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getde
 #http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js, tag=百度云加速
 
 /*酷我年费会员*/
-#http-response ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) requires-body=true, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js, tag=酷我年费会员
-#http-response ^http://(.+).(lrts|kuwo).(me|cn)(/v2/api/user/info|/a.p|/vip/v2/user/vip) requires-body=true,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js, tag=酷我数字专辑解锁
-#http-request ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?.+$ script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js, tag=酷我数字专辑解锁
-#http-response ^http://vip1.kuwo.cn/vip/enc/user/vip.+$ requires-body=true,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js, tag=酷我数字专辑解锁
-#http-response ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver.+$ requires-body=true,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyszzj.js, tag=酷我数字专辑解锁
 http-response ^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).* requires-body=1,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kw.js
 
 /*扫描全能王解锁*/
@@ -82,5 +73,5 @@ http-response ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext(\?.*)$ requires-
 ^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start reject-200
 
 [MITM]
-hostname=sub.store,trade-acs.m.taobao.com,api.m.jd.com,spclient.wg.spotify.com,m.baidu.com,www.google.com,www.youtube.com, m.youtube.com, youtubei.googleapis.com,*.kuwo.cn, *.lrts.me
+hostname=sub.store,api.m.jd.com,spclient.wg.spotify.com,m.baidu.com,www.google.com,www.youtube.com, m.youtube.com, youtubei.googleapis.com,*.kuwo.cn, *.lrts.me
 //mb3admin.com, ap*.intsig.net, *account.wps.com,pan.baidu.com,weixin110.qq.com,mp.weixin.qq.com,account.wps.cn,api.tidal.com
