@@ -195,7 +195,7 @@
 |:white_check_mark:1blocker|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/1blocker.plugin)|配置-插件-粘贴链接
 |:white_check_mark:AI换脸秀|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ai.plugin)|配置-插件-粘贴链接
 |:white_check_mark:proknockout|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/proknockout.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:青柠海报|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/qnhb.plugin)|配置-插件-粘贴链接
 
 </details>
 
