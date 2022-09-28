@@ -1,0 +1,11 @@
+#!name=爱企查
+#!desc=爱企查vip
+#!homepage=https://github.com/deezertidal
+#!author=
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/aqc.png
+
+[Script]
+http-response ^https:\//aiqicha.baidu.com\/usercenter\/getvipinfoajax requires-body=1,script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/aiqicha.js
+
+[MITM]
+hostname = aiqicha.baidu.com
