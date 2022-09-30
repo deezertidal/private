@@ -10,4 +10,4 @@ http-response ^https:\/\/i\.weread\.qq\.com\/pay\/memberCardSummary requires-bod
 
 
 [MITM] 
-hostname = %APPEND% i.weread.qq.com
+hostname = i.weread.qq.com
