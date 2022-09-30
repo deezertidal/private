@@ -200,6 +200,7 @@
 |:white_check_mark:微信听书|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wxts.plugin)|配置-插件-粘贴链接
 |:white_check_mark:人民日报去广告|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/rmrb.plugin)|配置-插件-粘贴链接
 |:white_check_mark:爱企查|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/aqc.plugin)|配置-插件-粘贴链接
+|❓微信读书免费卡解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wxds.plugin)|配置-插件-粘贴链接
 </details>
 
 
