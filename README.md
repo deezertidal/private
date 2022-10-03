@@ -202,9 +202,6 @@
 |:white_check_mark:爱企查|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/aqc.plugin)|配置-插件-粘贴链接
 |:white_check_mark:微信读书免费卡解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wxds.plugin)|配置-插件-粘贴链接
 |:white_check_mark:chic|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/chic.plugin)|配置-插件-粘贴链接
-|:white_check_mark:有道词典|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ydcd.plugin)|配置-插件-粘贴链接
-
-
 </details>
 
 
