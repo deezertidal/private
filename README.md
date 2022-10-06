@@ -205,7 +205,7 @@
 |:white_check_mark:有道词典|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ydcd.plugin)|配置-插件-粘贴链接
 |:white_check_mark:一路听天下|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ylttx.plugin)|配置-插件-粘贴链接
 |:white_check_mark:网速测试大师|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wscsds.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:网速管家|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wsgj.plugin)|配置-插件-粘贴链接
 </details>
 
 
