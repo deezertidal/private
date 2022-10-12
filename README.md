@@ -25,7 +25,7 @@
 |:white_check_mark:历史价格|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Price.plugin)|配置-插件-粘贴链接
 |:white_check_mark:WPS会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/WPS.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Nicegram会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/nicegram.plugin)|配置-插件-粘贴链接
-|:white_check_mark:财新会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/caixin.plugin)|配置-插件-粘贴链接
+|❌财新会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/caixin.plugin)|配置-插件-粘贴链接
 |:white_check_mark:spotify会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/SpotifyPremium.plugin)|配置-插件-粘贴链接
 |:white_check_mark:SoundCloud Go+|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/soundcloud.plugin)|配置-插件-粘贴链接
 |❌Tidal会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Tidal-HiFi.plugin)|配置-插件-粘贴链接
