@@ -209,6 +209,9 @@
 |:white_check_mark:EFEKT美易|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/efekt.plugin)|配置-插件-粘贴链接
 |:white_check_mark:WPS稻壳|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/doc.plugin)|配置-插件-粘贴链接
 |:white_check_mark:米克锁屏|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/mksp.plugin)|配置-插件-粘贴链接
+|:white_check_mark:阿布睡前故事|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/absqgs.plugin)|配置-插件-粘贴链接
+|:white_check_mark:collart|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/collart.plugin)|配置-插件-粘贴链接
+|:white_check_mark:博商小麦|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/bsxm.plugin)|配置-插件-粘贴链接
 
 
 </details>
