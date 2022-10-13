@@ -212,6 +212,8 @@
 |:white_check_mark:阿布睡前故事|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/absqgs.plugin)|配置-插件-粘贴链接
 |:white_check_mark:collart|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/collart.plugin)|配置-插件-粘贴链接
 |:white_check_mark:博商小麦|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/bsxm.plugin)|配置-插件-粘贴链接
+|:white_check_mark:MEMRISE|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/memrise.plugin)|配置-插件-粘贴链接
+
 ****
 * 解锁类插件一般需要登录账号恢复购买，如不生效，请卸载重装。
 * 除集合类外，脚本插件均署名原作者，如有署名错误，请联系邮箱更正。
