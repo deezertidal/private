@@ -214,7 +214,7 @@
 |:white_check_mark:博商小麦|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/bsxm.plugin)|配置-插件-粘贴链接
 |:white_check_mark:MEMRISE|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/memrise.plugin)|配置-插件-粘贴链接
 |:white_check_mark:堆糖|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/duitang.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:Flomo|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/folomo.plugin)|配置-插件-粘贴链接
 
 ****
 * 解锁类插件一般需要登录账号恢复购买，如不生效，请卸载重装。
