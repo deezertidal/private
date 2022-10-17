@@ -41,10 +41,13 @@ http-response ^https?:\/\/(www|m)\.youtube\.com\/youtubei\/v1\/player(\?.*)$ req
 http-request ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext(\?.*)$ requires-body=0, max-size=0, script-path=https://raw.githubusercontent.com/DualSubs/DualSubs/main/js/DualSubs.YouTube.TimedText.request.js, tag=DualSubs.YouTube.TimedText, argument=
 http-response ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext(\?.*)$ requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/DualSubs/DualSubs/main/js/DualSubs.YouTube.TimedText.response.js, tag=DualSubs.YouTube.TimedText, argument=
 
+/*有道词典*/
+http-response ^https:\/\/dict\.youdao\.com\/vip\/user\/status requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/wyydcd.js
+
 [URL Rewrite]
 
 ^https:\/\/www\.google\.com\/search\?q=bd\+([^&]+) https://m.baidu.com/s?word=$1 302
 
 [MITM]
-hostname=sub.store,api.m.jd.com,spclient.wg.spotify.com,m.baidu.com,www.google.com,www.youtube.com, m.youtube.com, youtubei.googleapis.com,*.kuwo.cn, *.lrts.me
+hostname=sub.store,api.m.jd.com,spclient.wg.spotify.com,m.baidu.com,www.google.com,www.youtube.com, m.youtube.com, youtubei.googleapis.com,*.kuwo.cn, *.lrts.me,dict.youdao.com
 //mb3admin.com, ap*.intsig.net, *account.wps.com,pan.baidu.com,weixin110.qq.com,mp.weixin.qq.com,account.wps.cn,api.tidal.com
