@@ -22,16 +22,6 @@ http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness
 /*酷我年费会员*/
 http-response ^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).* requires-body=1,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kw.js
 
-/*节点检测*/
-generic script-path=https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Script/generic_example.js,tag=GeoLocation,timeout=10,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Domestic.png
-generic script-path=https://raw.githubusercontent.com/Loon0x00/LoonScript/main/MediaCheck/ytb_check.js, tag=YouTube-解锁查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
-generic script-path=https://raw.githubusercontent.com/Loon0x00/LoonScript/main/MediaCheck/nf_check.js, tag=Netflix-解锁查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
-generic script-path=https://raw.githubusercontent.com/Loon0x00/LoonScript/main/MediaCheck/disney_check.js, tag=Disney-解锁查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+.png
-generic script-path=https://raw.githubusercontent.com/Loon0x00/LoonScript/main/MediaCheck/param_check.js, tag=Paramount-解锁查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Paramount.png
-generic script-path=https://raw.githubusercontent.com/Loon0x00/LoonScript/main/MediaCheck/dazn_check.js, tag=Dazn-解锁查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DAZN_2.png
-generic script-path=https://raw.githubusercontent.com/Loon0x00/LoonScript/main/MediaCheck/discovery_check.js, tag=Discovery-解锁查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/discovery+.png
-generic script-path=https://raw.githubusercontent.com/Loon0x00/LoonScript/main/MediaCheck/check.js, tag=流媒体-解锁查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ForeignMedia.png
-
 /*模式切换*/
 network-changed script-path=https://raw.githubusercontent.com/deezertidal/private/main/ModeSwitcher.js,tag=Mode Switcher
 
@@ -43,10 +33,6 @@ http-response ^https?:\/\/(www|m)\.youtube\.com\/api\/timedtext(\?.*)$ requires-
 
 /*有道词典*/
 http-response ^https:\/\/dict\.youdao\.com\/vip\/user\/status requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/wyydcd.js
-
-[URL Rewrite]
-
-^https:\/\/www\.google\.com\/search\?q=bd\+([^&]+) https://m.baidu.com/s?word=$1 302
 
 [MITM]
 hostname=sub.store,api.m.jd.com,spclient.wg.spotify.com,m.baidu.com,www.google.com,www.youtube.com, m.youtube.com, youtubei.googleapis.com,*.kuwo.cn, *.lrts.me,dict.youdao.com
