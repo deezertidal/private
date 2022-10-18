@@ -36,4 +36,3 @@ http-response ^https:\/\/dict\.youdao\.com\/vip\/user\/status requires-body=1,sc
 
 [MITM]
 hostname=sub.store,api.m.jd.com,spclient.wg.spotify.com,m.baidu.com,www.google.com,www.youtube.com, m.youtube.com, youtubei.googleapis.com,*.kuwo.cn, *.lrts.me,dict.youdao.com
-//mb3admin.com, ap*.intsig.net, *account.wps.com,pan.baidu.com,weixin110.qq.com,mp.weixin.qq.com,account.wps.cn,api.tidal.com
