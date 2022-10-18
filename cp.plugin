@@ -1,0 +1,11 @@
+#!name=菜谱大全&香哈菜谱
+#!desc=菜谱大全&香哈菜谱解锁会员
+#!homepage=https://github.com/deezertidal
+#!author= I-am-R-E
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/cp.png
+[MITM]
+hostname = apiios_dq.xiangha.com,apiios.xiangha.com
+[Script]
+http-response ^https?:\/\/apiios\.xiangha\.com\/main\d+\/ requires-body=1,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/XiangHaCaiPu.js
+http-response ^https?:\/\/apiios_dq\.xiangha\.com\/v\d\/ requires-body=1,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/CaiPuDaQuan.js
+http-response ^https?:\/\/appweb_dq\.xiangha\.com\/center\/pay\/home requires-body=1,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/CaiPuDaQuan.js
