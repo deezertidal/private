@@ -216,6 +216,14 @@
 |:white_check_mark:堆糖|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/duitang.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Flomo|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/folomo.plugin)|配置-插件-粘贴链接
 |:white_check_mark:APTV|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/aptv.plugin)|配置-插件-粘贴链接
+|:white_check_mark:香哈菜谱大全|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/cp.plugin)|配置-插件-粘贴链接
+|:white_check_mark:长相思|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/cxs.plugin)|配置-插件-粘贴链接
+|:white_check_mark:电子请柬制作|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/dzqj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:黄油相机|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/hyxj.plugin)|配置-插件-粘贴链接
+
+
+
+
 ****
 * 解锁类插件一般需要登录账号恢复购买，如不生效，请卸载重装。
 * 除集合类外，脚本插件均署名原作者，如有署名错误，请联系邮箱更正。
