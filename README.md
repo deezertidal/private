@@ -220,7 +220,7 @@
 |:white_check_mark:长相思|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/cxs.plugin)|配置-插件-粘贴链接
 |:white_check_mark:电子请柬制作|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/dzqj.plugin)|配置-插件-粘贴链接
 |:white_check_mark:黄油相机|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/hyxj.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:Lingokids|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/lingokids.plugin)|配置-插件-粘贴链接
 
 
 
