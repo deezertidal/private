@@ -223,7 +223,13 @@
 |:white_check_mark:Lingokids|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/lingokids.plugin)|配置-插件-粘贴链接
 |:white_check_mark:百度文库阅读解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/bdwk.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Craft|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/craft.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:Panda小组件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/panda.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Keep|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/keep.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Documents|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/documents.plugin)|配置-插件-粘贴链接
+  
+  
+  
+  
 ****
 * 解锁类插件一般需要登录账号恢复购买，如不生效，请卸载重装。
 * 除集合类外，脚本插件均署名原作者，如有署名错误，请联系邮箱更正。
