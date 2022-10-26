@@ -226,8 +226,8 @@
 |:white_check_mark:Panda小组件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/panda.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Keep|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/keep.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Documents|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/documents.plugin)|配置-插件-粘贴链接
-  
-  
+|:white_check_mark:Planny|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/planny.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Ego Reader|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ego.plugin)|配置-插件-粘贴链接
   
   
 ****
@@ -365,4 +365,4 @@
 * [@lowking](https://github.com/lowking/Scripts)
  </details>
 
-![Image text](https://raw.githubusercontent.com/deezertidal/private/main/icons/loon.png)![Image text](https://raw.githubusercontent.com/deezertidal/private/main/icons/newloon.jpg)![Image text](https://raw.githubusercontent.com/deezertidal/freevpn/main/img/award.png)
+![Image text](https://raw.githubusercontent.com/deezertidal/private/main/icons/loon.png)![Image text](https://raw.githubusercontent.com/deezertidal/freevpn/main/img/award.png)
