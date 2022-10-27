@@ -228,8 +228,12 @@
 |:white_check_mark:Documents|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/documents.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Planny|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/planny.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Ego Reader|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ego.plugin)|配置-插件-粘贴链接
-  
-  
+|:white_check_mark:极速扫描仪|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/jssmy.plugin)|配置-插件-粘贴链接
+
+
+
+
+
 ****
 * 解锁类插件一般需要登录账号恢复购买，如不生效，请卸载重装。
 * 除集合类外，脚本插件均署名原作者，如有署名错误，请联系邮箱更正。
