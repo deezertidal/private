@@ -4,6 +4,6 @@
 #!author=ddgksf2013
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/bdsp.png
 [Script]
-http-response https?:\/\/screen-lock\.51wnl-cq\.com\/userApi\/saveUser requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/budingsuoping.js
+http-response https?:\/\/screen-lock\.51wnl-cq\.com\/userApi\/saveUser requires-body=1,script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/budingsuoping.js
 [MITM]
 hostname=screen-lock.51wnl-cq.com
