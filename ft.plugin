@@ -4,6 +4,6 @@
 #!author=ddgksf2013
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/ft.png
 [Script]
-http-response ^https?:\/\/user\.ftmailbox\.cn\/ios-receipt-validation\.php.* requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/ftchinese.js
+http-response ^https?:\/\/user\.ftmailbox\.cn\/ios-receipt-validation\.php.* requires-body=1,script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/ftchinese.js
 [MITM]
 hostname=user.ftmailbox.cn
