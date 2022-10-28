@@ -1,0 +1,7 @@
+a[href*="/entry/register/?i_code="]{display: none! important}
+div.ayx[style="position: fixed;bottom: -10px;right:0;z-index:999;width:250px"]{display: none! important}
+a.open-share{display: none! important}
+a[href*="/index.php/gbook"]{display: none! important}
+a.language{display: none! important}
+div.myui-nav__tabbar{display: none! important}
+div.layui-layer.layui-layer-page{display: none! important}

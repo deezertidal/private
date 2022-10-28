@@ -1,0 +1,11 @@
+{
+  "name": "My_Task",
+  "description": "墨鱼手记",
+  "task": [
+    	"30 8,17 * * 1-5 https://raw.githubusercontent.com/yichahucha/surge/master/clock_in.js, tag=每日打卡提醒",
+      "8 1-18/3 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Backup/Youth_Read.js, tag=文章累计阅读",
+      "0,30 */1 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Backup/youth.js, tag=中青",
+      "0 0,5,10 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Backup/youth_gain.js, tag=浏览赚",
+      "0 0-21/3 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Backup/youthshare.js, tag=分享赚"
+    	]
+}

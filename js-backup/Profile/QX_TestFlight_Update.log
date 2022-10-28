@@ -1,0 +1,2043 @@
+####################################################################################################
+#日志名称：  QuantumultX TF Update Log
+#日志作者：  @Cuttlefish, @kyle, @ddgksf2013
+#更新时间：  2022-10-04
+#微信账号：  公众号墨鱼手记
+#使用说明：  可全局搜索🔍关键词
+#后续更新：  随Testflight陆续更新…
+#通知频道：  https://t.me/ddgksf2021
+#日志提醒：  开发者没版本或撤包，无法获得更新日志以 No Changelog 代替
+#日志地址：  https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QX_TestFlight_Update.log
+##################################################################################################
+
+
+
+1.1.0 (766)
+- 一些兼容性调整
+- 修复某些设备上设置圆角底栏时的显示问题（build 765）
+
+1.1.0 (765)
+- 细节调整
+
+1.1.0 (764)
+- 部分界面布局调整
+
+1.1.0 (763)
+- 移除之前为 iPadOS 16.1 beta 引入的一个 workaround，请务必将之前的 iPadOS 16.1 beta 升级至最新版本 iPadOS 16.1 beta (20B5045d)
+
+1.1.0 (762)
+- Built using Xcode 14 and issue fixes
+
+
+1.1.0 (760)
+- 修复运行临时脚本的记录未在脚本记录页显示的问题
+
+1.1.0 (759)
+- [mitm] 模块增加参数 skip_src_ip 与 skip_dst_ip，具体可参见应用内示例配置
+
+1、skip_src_ip
+当 Quantumult X 在 M 芯片系列的 Mac 上作为局域网网关时，某些局域网安卓设备可能无法进行 MitM 解析。可使用该参数跳过来自某源 IP 连接的 MitM hostname 匹配过程。
+注：Quantumult X 对同网络下的 HTTP 以及 SOCKS5 代理分享功能是完全禁止了 MitM 及 rewrite 功能的，故而无需配置该参数；该参数仅在 Quantumult X 作为局域网网关时且开启了 MitM 时需要配置。
+
+2、skip_dst_ip
+当多个不同的 TCP 连接（非域名类请求）的目标 IP 不同，但这些连接的 TSL 握手 SNI 字段相同时，如需跳过其中某些连接的 MitM hostname 匹配过程，可使用该参数。
+
+一些常见现象说明：
+①、应用 Telegram iOS 访问形如 www.google.com 的请求，部分是进行的 DoH 查询，具体可参见 https://github.com/TelegramMessenger/Telegram-iOS/blob/release-8.9/submodules/MtProtoKit/Sources/MTBackupAddressSignals.m#L80
+
+②、特别需要说明的是 Telegram 该 DoH 查询的请求使用了 domain fronting 机制（https://en.wikipedia.org/wiki/Domain_fronting），即 TCP 目标地址与 TLS 握手信息的 SNI 字段以及其内的 HTTP 请求头中的 host 字段三者均没有关联性。
+例如：TSL 握手的 SNI 为 www.google.com，但其 HTTP 请求头中 host 字段为 dns.google.com，其连接的 IP 地址为 Telegram 自有或其他地址
+
+③、建议 server_check_url 设置为 direct 策略无法连通的网址，例如： server_check_url = http://www.google.com/generate_204 以减少本可避免的问题（同时建议设置自定义 server_check_user_agent 参数）
+原因：好些服务器喜欢对 DNS 查询进行域名"内""外"分流（或出口目标分流），当服务器出现某些故障时，可能只针对 google.com 之类的"外"域名无法解析，但对于 baidu.com 之类的"内"域名可解析，此时使用 baidu.com 进行节点 URL 测试时为连通状态，但实际无法代理需要代理的地址
+
+
+1.1.0 (758)
+- In the HTTP(S) request detail view, tapping the record initated with "fetch" can jump to the related rewrite or task JS record page.
+
+1.0.31 (756)
+- 临时移除 beta build 753 第 2 条更新内容，进一步兼容 iOS Beta 16.0 及 iPadOS Beta 16.1，如升级至该版本遇到 Quantumult X Tunnel 自启产生的网络问题可"邮箱"反馈
+注：
+开启排除路由 0.0.0.0/31 产生的网络（或自启）异常请自行解决（建议的解决方式：关闭该功能并重启设备）
+
+1.0.31 (755)
+- 进一步兼容 iOS Beta 16.0 及 iPadOS Beta 16.1
+
+1.0.31 (753)
+- 修复某些界面在用户设置了加粗字体时的显示异常
+- 该版本及之后版本之间的升级或降级，增加需手动启用 VPN 连接的提示（如升级过程中 Quantumult X Tunnel 正在运行）
+
+1.0.31 (751)
+- 细节完善
+
+1.0.31 (750)
+- 兼容 iPadOS Beta 16.1
+
+
+1.0.31 (749)
+- 当 DNS 查询失败时，网络活动列表页可直接观察到是规则匹配阶段触发的查询失败，还是尝试建立连接阶段（直连为目标域名，代理为节点域名）触发的查询失败
+- 补全部分页面滑动时的顶栏渐隐渐显效果等细节
+
+1.0.32 (748)
+- 修复在垂直切换样式下，部分「编辑保存」类型页面未被禁止下拉返回的问题
+
+1.0.32 (747)
+- Fixes a menu issue related to the page for network data statistics.
+
+1.0.31 (746)
+- Beta Test
+
+1.0.31 (745)
+- 细节完善
+- Beta Test
+
+1.0.31 (744)
+- 修复在部分系统上颜色显示异常的问题
+
+1.0.31 (743)
+- 被 fallback_udp_policy 功能所命中的请求会明确标注在网络活动详情页中
+
+1.0.31 (742)
+- 被 udp_whitelist 功能所阻止的请求也会记录在网络活动中
+
+1.0.31 (741)
+- 流量统计可查看最近几次 VPN 连接时的流量信息
+- 流量统计增加搜索及排序功能（目标地址、流量大小、TCP 连接数）
+- 流量统计搜索页面的流量为已结束连接的流量，活跃连接的流量不会在搜索页面实时刷新
+
+1.0.31 (740)
+- 从网络下载的策略图片缓存位置更改为临时文件夹（使用了自定义图标的策略或浏览了对应的图标库）
+- 目录 "iCloud 云盘 - Quantumult X - Images" 或 "我的 iPhone - Quantumult X - Images" 将仅用于引用用户自定义的本地图片
+- 增加清除图片缓存的功能，如需更新网络下载的策略图片，请手动清除缓存后重新打开应用即可。
+
+1.0.31 (739)
+- Quantumult X Tunnel JS 环境增加 API 以获取当前蜂窝网信息，例：console.log(JSON.stringify($environment.cellular));
+
+1.0.31 (738)
+- 修复部分界面显示异常
+
+1.0.31 (737)
+- 调整部分选项的配置方式
+
+1.0.31 (736)
+- 修复 build 734 日志搜索功能的一处问题
+
+1.0.31 (734)
+- Quantumult X Tunnel 日志增加搜索功能
+- 请求记录详情可直接跳转至规则资源页面，修改对应的分流策略偏好、禁用对应分流或重写规则资源
+
+1.0.31 (733)
+- 允许调整底栏工具
+
+1.0.31 (732)
+- 调整底栏样式
+
+1.0.31 (731)
+- 修复顶部面板顺序被自定义后的一些异常
+
+1.0.31 (730)
+- 细节微调
+
+1.0.31 (729)
+- 细节微调
+
+1.0.31 (728)
+- 细节微调
+
+1.0.31 (727)
+- 允许控制功能面板对应的工具栏展示与否
+
+1.0.31 (726)
+- 布局微调
+
+1.0.31 (725)
+- 布局微调
+
+1.0.31 (724)
+- 允许调整顶部面板顺序
+
+1.0.31 (722)
+- 布局微调
+
+1.0.31 (721)
+- 增加显示 App Store 收据 Token 与iCloud Token
+注：
+1、收据 Token 与下载安装 Quantumult X 的App Store 账号相关
+2、iCloud Token 与当前设备登陆的 iCloud账号相关
+3、如 1 与 2 组合可在任意一台设备上通过验证，Quantumult X 应用版本号旁会显示 iCloud 云朵标志
+4、如 TestFligh 测试版没有显示收据 Token，可重新下载安装 App Store 版后再重新安装测试版本
+
+
+1.0.31 (720)
+- 修复 build 718 被 TestFlight 自动更新时产生的崩溃
+
+1.0.31 (718)
+- 网络活动详情页面增加更多信息，如规则匹配过程中触发了 DNS 查询，也会标记出来
+
+1.0.31 (717)
+- Quantumult X Tunnel 的脚本环境支持读取 iCloud 目录下，Quantumult X/Data 子目录的文件。
+需 iOS 13 或以上系统，示例参见：https://github.com/crossutility/Quantumult-X/blob/master/sample-icloud-storage.js
+
+1.0.31 (716)
+- 增加选项 「Enhanced Compatibility 兼容性增强」（设置-更多设置）
+- 当前设备与家居中枢设备处于同一局域网下且在 Quantumult X VPN 连接时，如无法正常使用"家庭"应用查看流传输的 HomeKit 实况视频，您可以开启此选项
+注：
+如你在关闭 Quantumult X VPN 连接时，本就无法正常查看 HomeKit 实况视频，请自行检查局域网配置
+
+1.0.31 (715)
+- 分流规则增加类型 host-wildcard 进行通配符（* 与 ?）匹配，例如「host-wildcard, *.goo?le.com, proxy」
+- 当启用分流匹配优化时，host-wildcard 优先级仅高于 host-keyword
+
+1.0.31 (714)
+- 应用内各类型对应的 iCloud 或本地资源选择界面可直接滑动进行分享、查看及删除操作
+- 远程资源可分享为 quantumult-x:///add-resource? 相关的应用 URL 或二维码
+- 二维码扫描支持 scheme 为 quantumult-x: 相关的应用 URL
+- 其他细节调整
+
+1.0.31 (713)
+- 当为基于 TLS 协议的代理配置了错误的 ALPN 格式的 tls-alpn 参数时，不再允许保存
+
+1.0.31 (712)
+- 允许自定义所有基于 TLS 代理协议的 TLS Client Hello ALPN 项，例如：tls-alpn=02:68:32:08:68:74:74:70:2f:31:2e:31 代表 Client Hello 中 ALPN 为 h2 及 http/1.1 即 {2, 'h', '2', 8, 'h', 't', 't', 'p', '/', '1', '.', '1'}
+注：
+1、该设置并不会影响客户端上层代理协议（例如：SOCKS5 over TLS 中 ALPN 即使设置为 SPDY/3 并不会影响客户端上层代理协议，依然是 SOCKS5）
+2、假如服务端根据不同 ALPN 来进行流量转发，请勿设置此项，或设定为对应的 ALPN
+3、如输入的 ALPN 格式错误会导致 TLS 握手失败
+
+
+1.0.31 (711)
+- 当同时配置了全局的 DoQ 与 DoH 时，不再忽略全局的 DoH 设置；调整为同时向所有加密的 DNS 服务器发送查询请求
+- 当使用了 HTTP/1.1 协议的 DoH 时，不再强制禁用 DoH 功能；调整为发送通知给予提示
+
+1.0.31 (710)
+- 网络活动详情中 rewrite 栏可直接点击跳转到对应的脚本记录页面
+
+1.0.31 (709)
+- 允许 Rewrite、Task 及 HTTP Backend 所使用资源的 HTTP(S) URL hashtag 内容包含中文字符
+
+1.0.30 (708)
+- 项目 [dns] 下增加条目 circumvent-ipv4-answer 与 circumvent-ipv6-answer，用来指定上游 DNS 服务器返回的 A 及 AAAA 记录中哪些属于无效结果
+例如：「circumvent-ipv4-answer = 127.0.0.1, 0.0.0.0」 用来表示上游服务器返回的 127.0.0.1 与 0.0.0.0 均为无效的查询结果。该条目可使用通配符 ? 与 *
+注：
+1、当并发向多个上游 DNS 进行查询时，如响应最快的上游 DNS 抢答的结果命中了该条目，则 Quantumult X Tunnel DNS 模块会等待其他 DNS 服务器的响应结果（如抢答的结果中至少有一个不属于该条目，则不会等待其他 DNS 的响应，此时有效结果采用不属于该条目的所有记录）
+2、如所有上游 DNS 返回的所有结果均命中该条目，则判定为 DNS 查询失败
+3、如配置的上游 DNS 包含有去广告功能的 DNS 服务器，请勿使用该参数
+
+
+1.0.30 (706)
+- 修复添加非 Quantumult X gallery 结构的 json 文件时导致的应用崩溃
+- 增加 「引用资源 - 重写」 点击 「全部更新」 时所更新的项目：
+build 706 前：仅更新资源本身的内容（包含重写规则、主机名）
+build 706 后：更新资源本身的内容、重写规则所使用的脚本。即使重写规则本身并无改动，其对应的脚本文件也会被更新。
+
+1.0.30 (705)
+- 调整 DNS 记录页面的布局
+
+1.0.30 (703)
+- 支持 DoH3 即 DNS over HTTP/3
+- 目前已知支持 DoH3 的有 doh-server = https://223.5.5.5/dns-query, https://223.6.6.6/dns-query
+注：
+1、如需启用该功能可在 [dns] 项目下设置 prefer-doh3
+2、如对应的 DoH 无法使用 HTTP/3 传输，会回退到 HTTP/2
+3、因 HTTP/3 与 HTTP/2 均支持单连接传输多数据流，更改此项设置不会立即生效；如需立即生效可重新连接 VPN 或手动切换网络环境强制断开该 DNS 查询连接
+4、DNS 记录页面会标注该查询结果使用的是 HTTP/3 还是 HTTP/2
+
+1.0.30 (702)
+- 修复 build 700 中 DoQ 查询解析 IPv6 地址的问题
+
+1.0.30 (700)
+- 支持 DNS over QUIC (DoQ)
+例：「doq-server = quic://dns.adguard.com, quic://dns-family.adguard.com」更详细的示例见应用内示例配置
+注：
+1、不填写端口时 DoQ 默认使用 853 端口，如使用其他端口可自行配置，例如：quic://dns.example.com:784
+2、当配置了多个 DoQ 时，并发请求取响应最快的结果
+2、当配置了全局 DoQ 时，全局 DoH 以及普通的 DNS 配置项会被忽略（特定域名使用特定 DoH 或特定域名使用特定普通 DNS 的配置项不会被忽略，正常生效）
+3、不同网络环境对于不同目的地的 QUIC 协议数据 QoS 及丢包策略不同，请自行测试你所配置的 DoQ 是否适合你的网络
+
+
+1.0.30 (699)
+- Gallery 支持 iCloud 同步（「设置」-「iCloud」-「Quantumult X」处于开启状态即可）
+
+1.0.30 (698)
+- 移除 build 686 增加的选项，新增远程资源配置参数 inserted-resource = true 控制单个资源的加载时机
+
+1.0.30 (697)
+- 当运行中的 Quantumult X Tunnel（VPN）配置被其他应用禁用时会进行通知，可在更多设置中关闭，默认为开启状态。
+注：
+1、正常 VPN 类应用激活（已安装 VPN 配置）本应用 VPN 配置的流程是用户主动点击对应开关后才会声明自身的 VPN 配置为系统默认配置并进行连接（大多数这类应用都是这样的逻辑）。
+2、少部分 VPN 类应用会在进入主应用或进入主应用某个页面就立刻声明自身（已安装）的 VPN 配置为系统默认配置（此时用户无任何感知，因为用户未进行任何开关操作，且它只声明，并不进行连接，状态栏无动画），这样会强制中断正在运行的 VPN（此时系统设置中 VPN 勾选配置已不是之前运行的 VPN 配置）；被取消勾选状态的 VPN 配置是无法自动连接的，因此即使打开了始终开启功能也无法自动连接。
+3、以上情况发生时，Quantumult X 日志最后一行会显示 configuration disabled 或 superceded（用户主动在系统 VPN 配置列表改变勾选的 VPN 项并不属于该类情形）。
+此次更新是在 3 的基础上额外增加的通知，该通知仅在 Quantumult X Tunnel（VPN）运行时且被其他应用挤掉时才会发出。
+
+1.0.30 (696)
+- 收藏的 HTTP 抓取记录可一次全部清除
+- 新增 2 个备选应用图标
+
+1.0.30 (695)
+- 导入 HTTP 抓取记录时，可选择导入或收藏（同名收藏记录自动重命名）
+
+1.0.30 (694)
+- [general] 增加配置 dns_reject_domain_behavior，可选参数为 loopback、no-error-no-answer、nxdomain，默认为 loopback（之前所有版本的行为）。
+注：
+1、纯 TUN 模式的特性及 Quantumult X 的特殊处理，绝大多数 host 类型规则的 reject 行为都发生在第三方请求的 DNS 查询阶段（响应 placeholder/fake IP 的阶段对 reject 域名进行 dns_reject_domain_behavior 操作）
+2、如第三方网络数据请求已发生，则 reject 行为发生在数据传输层（例如有自己 DNS 查询逻辑的那些应用，以 IP 为目标地址的 HTTP 请求中的 header host 字段会被 reject 命中；这也是为什么 Quantumult X 分流规则选择使用关键字 host 而不是 domain 的原因；同时也适用于以 IP 为目标地址的 HTTPS 请求的 SNI 字段）
+  ①、重写及 host 相关类型的 reject 策略是有抗性的（同一域名 reject 越频繁响应越慢，在立即响应与 5 秒之间）
+  ②、重写规则的 reject-(200, img, array, dict) 响应状态码均为 200 的策略是无抗性的，总是会立即响应
+3、此次更新针对的是 1 的行为，另外 no-error-no-answer 也是响应的一种，响应的内容为 NOERROR NOANSWER 并包含 SOA 结果
+
+1.0.30 (693)
+- 配置文件中远程资源、task 以及 http backend 增加参数 require-devices 用来指定加载该条配置的设备，便于不同设备同步同一份配置且使用不同配置项；具体语法可参见应用内示例配置。例如：「require-devices=ID1, ID2」，Quantumult Device ID 可在「设置 - 其他设置 - 关于」中查看与复制
+1、如无 require-devices 参数，加载该条配置
+2、如有 require-devices 参数，当该参数值包含当前 Quantumult Device ID 则加载该条配置，否则不加载该条配置
+3、当前设备未加载的配置项不会展示在界面上
+- 解析器描述文本中的链接支持点击跳转
+
+1.0.30 (692)
+- 配置文件中远程资源、task 以及 http backend 增加参数 require-devices 用来指定加载该条配置的设备，便于不同设备同步同一份配置且使用不同配置项；具体语法可参见应用内示例配置。例如：「require-devices=ID1, ID2」，Quantumult Device ID 可在「设置 - 其他设置 - 关于」中查看与复制
+1、如无 require-devices 参数，加载该条配置
+2、如有 require-devices 参数，当该参数值包含当前 Quantumult Device ID 则加载该条配置，否则不加载该条配置
+3、当前设备未加载的配置项不会展示在界面上
+- 解析器描述文本中的链接支持点击跳转
+
+1.0.30 (691)
+- $configuration.sendMessage 增加接口 get_server_description。参数可参见  https://github.com/crossutility/Quantumult-X/blob/master/sample-configuration-api.js
+注：
+1、该接口必须传入节点 tag 才会得到该节点的配置项
+2、该接口仅适用于 event-interaction 类型脚本，其他类型脚本会返回 permission denied 错误
+3、关于普通脚本增加参数的需求说明。Quantumult X v1.0.25 以来都可用 $environment.sourcePath 获取当前运行脚本的路径；可参照资源解析器的使用方式通过 # 来传入参数，例如：「* * * * * https://example.com/sample.js#the-params, tag=Sample, enabled=true」，因此不会再单独增加普通类型脚本的传参功能
+
+1.0.30 (689)
+- 每当打开 Quantumult X 以及进行资源批量或自动更新时，如遇被 iCloud 机制清掉的文件不再在主页左上角进行红点标记，且会尝试重新拉取（仅限 Profiles 以 Scripts 目录下的文件）
+- 收藏的 HTTP 抓取记录可一次全部导出
+注：
+「导出的记录文件夹 - 长按分享 - 选择使用 Quantumult X 打开」即可完成数据的导入
+
+1.0.30 (688)
+- Icon Gallery 预览的 SF Symbols 更新为 SF Symbols 4 （需 iOS 16.0+）
+
+1.0.30 (687)
+- 可在保持连接的状态下使用 build 686 的调整功能
+
+1.0.30 (686)
+- 允许调整本地规则与远程规则的加载顺序（分流规则，重写规则及 MitM 主机名）
+
+1.0.30 (685)
+- SS URI 方式添加节点时，允许解析器返回多个节点
+
+1.0.30 (684)
+- 节点页面不再强制大写展示节点标签
+
+1.0.30 (683)
+- 允许 host 相关类型规则完全按照规则顺序进行匹配（「设置 - 其他设置 - VPN - 分流匹配优化」关闭即可）
+
+1.0.30 (682)
+- 修复大流量上行请求被 MitM 时内存占用过高的问题
+
+1.0.30 (681)
+- 修复通过 quantumult-x:///ui?module=gallery&action=add 一次添加多个库时导致 Quantumult X 主应用崩溃的问题
+
+1.0.30 (680)
+- 网络活动列表 UDP 栏目中 UDP over TCP 的 UDP 流量不再记录为 0，变更为特殊标识，避免部分用户对流量数字产生误解
+
+1.0.30 (679)
+- Now the resource parser can return additional information to take advantage some of the shadowsocks SIP008 features.
+eg:
+$done({content: theContent, info: {bytes_used: 1073741824, bytes_remaining: 2147483648, expire_date: 1653193966}})
+Note:
+If the response header (HTTP header) of the resource contains related information, then the info from the parser result will be ignored.
+
+1.0.29 (678）
+- Quantumult X Tunnel （VPN） 执行的节点响应测试及网络可用测试的相关请求也会被记录在 TCP 网络活动中，并附有特殊标记；便于在关闭了策略状态通时发现不合适的配置项（例如：配置了极短的 check-interval 与 alive-checking 参数）
+- 完整配置的下载记录可手动清除
+
+1.0.29 (677）
+- 局域网代理共享兼容性问题
+
+1.0.29 (676）
+- 允许连接 HTTP 1.0 的节点
+
+1.0.29 (674）
+- DNS 配置新增参数 included_ssids，当处于 Wi-Fi 下且 included_ssids 包含当前 Wi-Fi 的 SSID 时该条目生效
+server = /*.example.com/223.5.5.5, included_ssids=SSID
+- DNS 新增类型 alias 以映射域名到其他域名
+alias = /example.com/another-example.com
+
+
+1.0.29 (672）
+- URL Scheme 增加（跳转对应 gallery 并添加），具体参见 https://github.com/crossutility/Quantumult-X/blob/master/url-scheme.md
+quantumult-x:///ui?module=gallery&type=task&action=add&content=url-encoded-json
+quantumult-x:///ui?module=gallery&type=icon&action=add&content=url-encoded-json
+注：
+重复 gallery 会跳过
+
+1.0.29 (671）
+- 允许为特定域名使用特定 DoH，示例如下：
+doh-server = /example.com/https://doh.pub/dns-query
+doh-server = /*.example1.com/https://doh.pub/dns-query
+doh-server = /*.example2.com/https://doh.pub/dns-query, excluded_ssids=SSID2
+
+1.0.29 (670）
+- URL Scheme 增加 quantumult-x:///add-resource 参见 https://github.com/crossutility/Quantumult-X/blob/master/url-scheme.md
+注：
+添加资源后会自动更新该资源内容，相同资源（URL 相同）不会重复添加但仍会触发该资源内容更新
+
+1.0.29 (669) 
+- 修复在仅显示 static 类型策略时，更改策略类型会导致应用崩溃的问题
+
+1.0.29 (668) 
+- Build 666 更新（用户可以选择使用亮色模式、暗色模式或跟随系统设定）增加对 iOS 13 系列的支持
+- 部分显示效果调整
+
+1.0.29 (667) 
+- 自定义（非 SF Symbols）策略图标默认（未主动选择背景色）背景调整为透明
+- 自定义策略列表可选择只展示 static 类型策略
+
+1.0.29 (666) 
+- 用户可以选择使用亮色模式、暗色模式或跟随系统设定
+
+1.0.29 (665) 
+- 支持 SS 及 SSR 协议 UDP 代理的 UDP over TCP 传输（目前仅知 SSR Python 版服务端支持）
+
+客户端配置样例如下：
+shadowsocks=example.com:8080, method=chacha20, password=pwd, udp-over-tcp=true, udp-relay=true, tag=ss-udp-over-tcp
+注：
+网络活动页面对应 UDP 记录的流量将显示为 0，对应的 TCP 记录会显示 UDP-over-TCP
+节点流量统计会计算到 TCP 协议栏
+
+1.0.29 (664) 
+- 示例（默认）配置文件将 filter_local 项的 LAN 及 GEO CN 相关规则移除（注释），仅保留 final 规则。 示例配置 filter_remote 项增加对应的（LAN 与 GEO CN）本地 snippet（如该 snippet 不存在则自动创建）
+- 关联配置列表增加显示对应配置的 logo（如有）
+- 配置项 general 增加 udp_drop_list 子项。不同于已有的 udp_whitelist 子项机制，udp_drop_list 不会回发 ICMP（port unreachable）消息，以适应某些用户特殊需求
+
+1.0.29 (663) 
+- 当日志文件过大无法完全显示时，可直接再次点击日志面板加载并显示末尾 1000 条日志，无需再进入日志选择列表中进行该操作。
+
+1.0.29 (662) 
+- 当 MitM 功能开启时，检查 MitM CA 证书是否过期，并予以明确的提示。
+注：
+如 App Store 正式版遇响应体 deflate 解析异常（build 656 已修复），可修改对应请求的请求头字段为 Accept-Encoding: gzip 临时解决。
+例如：原请求头字段 Accept-Encoding: gzip, deflate, br 修改为 Accept-Encoding: gzip 即可。
+
+1.0.29 (661) 
+- 移除对大量重复规则（rewrite 与 filter）的提示。
+- 对不同节点资源使用相同节点标签的节点不再提示重复标签，应用会对该标签进行临时重命名；对 server_local 下可自行编辑的节点保持旧有提示逻辑。
+
+1.0.29 (660) 
+- 替换（build 658）部分 iOS 13 无法显示的 SF Symbols 图标
+
+1.0.29 (658) 
+- 增加新关联配置样式对 iOS 13 系统的支持（重按）
+
+1.0.29 (657) 
+- 关联配置文件浏览界面支持显示后缀为 conf 的中文文件
+- 关联配置文件浏览界面支持复制拷贝当前配置
+
+1.0.29 (656) 
+- 修复某些情况下 HTTP deflate 解析异常
+
+1.0.29 (655) 
+- 修改关联配置样式（iOS 14 及以上系统）以便直接选取本地后缀为 conf 的配置文件
+
+1.0.29 (654) 
+- 允许使用更旧的 GeoIP 数据库替换当前的数据库。
+当手动点击更新 GeoIP 数据库时，如获取的数据库版本早于当前所使用的数据库版本，应用会显示具体的版本信息并提供替换的选项。该选项旨在切换不同来源的 GeoIP 数据库或处理某个版本的数据库异常.
+
+1.0.29 (653) 
+- 修复 build 652 中远程资源无法识别 SOCKS5 类型节点的问题
+
+1.0.29 (652) 
+- 支持 SOCKS5（TLS）代理协议，示例如下：
+socks5=socks5.example.com:1080, username=name, password=pwd, tag=socks5-sample
+socks5=socks5.example.com:443, username=name, password=pwd, over-tls=true, tag=socks5-tls-sample
+更多示例可参见应用内示例配置中相关内容
+
+1.0.29 (651) 
+- 支持配置多个 DoH 服务器，样例如下：
+doh-server=https://doh1.example.com/query, https://doh2.example.com/query
+
+1.0.29 (649) 
+- 在 Quantumult X Tunnel 环境下 $task.fetch 发起的 HTTPS 请求，增加参数 skip-cert-verify 用以跳过 TLS 证书验证；默认不跳过验证。
+- 对于连接重用的请求，以首次请求设置的选项为准（重用的连接后续请求无 TLS 握手）
+例：
+const myRequest = {
+    url: ‘https://example.com’,
+    opts: {
+        ‘skip-cert-verify’: true
+    }
+}
+关于 Quantumult X 中节点参数的一点说明：
+obfs=http 特指 shadowsocks 项目提出的 http 混淆方式（基于部分 WebSocket 协议特征）
+obfs=tls 特指 shadowsocks 项目提出的 tls 混淆方式（基于部分 TLS 协议特征）
+obfs=over-tls 指 TLS 协议本身，可与 tls-verification 等 TLS 相关参数混合使用
+obfs=ws 指 WebSocket 协议本身
+obfs=wss 指 WebSocket TLS 协议本身，可与 tls-verification 等 TLS 相关参数混合使用
+因在 Quantumult X 中以上选项均支持与 shadowsocks 协议搭配，请注意区分（特别是 obfs=tls 与 obfs=over-tls）
+
+1.0.29 (648) 
+- 网络活动中流量统计将包含与代理节点 TLS 握手所消耗的流量
+- NE 脚本模块增加参数 $environment.executeType ($environment.executor) 以获取对应脚本的触发来源，如下：
+ 0 : 由 cron 在特定时间触发
+ 1 : 由 event-network 触发
+ 2 : 由 event-interaction 触发
+ 3 : 由 rewrite script-request-header 触发
+ 4 : 由 rewrite script-request-body 触发
+ 5 : 由 rewrite script-response-header 触发
+ 6 : 由 rewrite script-response-body 触发
+ 7 : 由 rewrite script-echo-response 触发
+ 8 : 由 rewrite script-analyze-echo-response 触发
+ 9 : 由 http backend 触发
+-1 : 手动执行或脚本编辑器执行
+
+1.0.29 (647) 
+- 修复在 iOS 15.4 上当网络切换至 5G 蜂窝网络，且数据模式设置为 “5G 时允许使用更多数据” 时， running_mode_trigger 失效的问题
+注：
+未修复前版本可通过设置数据模式为 “标准“ 临时解决该问题
+
+1.0.29 (646) 
+- 通过使用选项 tls-cert-sha256 或 tls-pubkey-sha256（十六进制样式或冒号分隔的十六进制样式），支持基于 TLS 的代理服务器的自定义 TLS 验证过程，以满足某些用户的特定用途。
+- 如果选项 tls-verification 为 false，这两个新选项将被忽略；如果设置了 tls-pubkey-sha256，则 tls-cert-sha256 将被忽略；如果设置了任何新选项，则将忽略标准验证过程。
+笔记：
+1.如果你有证书（pem）
+您可以通过以下方式生成证书 sha256 指纹：
+openssl x509 -noout -fingerprint -sha256 -inform pem -in your-cert.pem
+您可以通过以下方式生成证书的 pubkey sha256（主题公钥信息 (SPKI) 指纹）：
+openssl x509 -noout -pubkey -inform pem -in your-cert.pem | openssl pkey -pubin -outform der | openssl dgst -sha256 -hex -c
+2.如果你没有证书
+您可以使用以下命令生成 sha256 以从网络主机获取：
+openssl s_client -servername example.com -connect example.com:443 | openssl x509 -noout -fingerprint -sha256
+openssl s_client -servername example.com -connect example.com:443 | openssl x509 -noout -pubkey | openssl pkey -pubin -outform der | openssl dgst -sha256 -hex -c
+3. tls-pubkey-sha256 在您频繁使用相同密钥更新证书或使用相同密钥签署不同证书时很有用。如果您只有一个长寿命定制证书，则 tls-cert-sha256 应该足够了。
+4. 由于选项 tls13 自版本 1.0.26 起已弃用，并且无论您设置什么始终支持 TLS 1.3，因此此选项 (tls13) 的 UI 标记也已在此 (v1.0.29 build 646) 更新中删除。
+
+1.0.28 (645) 
+- 可配置 geo_location_checker=disabled 来禁用该功能，禁用后主页顶部将改为显示对应的节点标签与资源标签
+- Beta Test
+
+1.0.28 (644) 
+- 通过 TLS 代理的请求，网络活动详情将显示 TLS 握手相关信息
+- Beta Test
+                                                                                    
+1.0.28(643)
+- 为避免某些用户误解，DNS 记录页面（TTL）已过期的 DNS 结果将会以中划线标注（某些情况下 Quantumult X 会主动打上过期标识，例如网络环境变化）
+注：
+1、某些域名配置的 TTL 过低（TTL = 1）或某些 DNS 服务器的特殊机制返回的 TTL 过低（TTL = 1），会导致刚得到结果就处于过期状态
+2、一直以来 Quantumult X 都会“尽可能”的使用给所有 DNS 缓存打上过期标识的机制而不是主动清空所有缓存的机制，在命中过期结果时会尝试使用过期结果进行连接并同时触发新的 DNS 查询
+
+1.0.28(642)
+- 请求记录详情页面，增加显示命中分流规则所属资源标签
+注：
+仅变更资源标签并不会触发配置重载，因此仅变更资源标签时，请求记录中分流规则所属标签不会更新
+
+1.0.28(641)
+- 分流规则增加参数 multi-interface-balance （对应全局出口负载均衡设置），例如： geoip, cn, direct,multi-interface-balance
+
+1.0.28(640)
+- 出口接口选项（设置 - 其他设置 - 模式 - 出站接口）新增 ”负载均衡“ 以提供更大的出入口带宽（多连接应用），可类比交换机的链路聚合（layer3+4）功能。
+
+1.0.28(639)
+- 细节修正
+
+1.0.28(638)
+- 支持通过热点连接 Quantumult X 创建的 HTTP 及SOCKS5 代理（先开启热点，再打开 VPN 开关）
+
+1.0.28(637)
+- 延迟测试结果详情面板中增加记录总的时间开销
+- 其他问题修正
+
+1.0.28(636)
+- url-latency-benchmark 类型策略增加参数 alive-checking 。当该参数为 true 时，即使该策略长期处于未使用状态也会在 check-interval 到达时进行测试。如无特殊需求不建议设置为 true ；具体可参见应用内示例配置文件。
+
+1.0.28(635)
+- 修复当移动设备通过有线网络连接时的部分
+
+1.0.28(634)
+
+
+1.0.28(633)
+No change log
+
+1.0.28(632)
+No change log
+
+1.0.28(631)
+- $configuration.sendMessage 增加接口 get_traffic_statistics 以获取当前节点流量使用情况，可参见示例 https://github.com/crossutility/Quantumult-X/blob/master/sample-get-traffic-statistics.js
+- 配置文件 [general] 增加 server_check_timeout 参数，具体说明请参见应用内示例配置
+
+1.0.28(630)
+- 修复对使用 TLS 类型的代理进行 URL latency benchmark 超时时，有可能出现的未立即返回测试结果的问题。
+
+1.0.28(629)
+- 支持 Trojan + WebSocket，配置样例可参见应用内示例配置
+
+1.0.28(628)
+- 不再校验 GEO IP 类型规则的参数是否为有效的 ISO 国家或区域码，以兼容某些自定义区域码的 GEO IP 库
+
+1.0.28(627)
+- Fixes an issue that incorrectly formatted configuraiton profile might cause Quantumult X to crash on launch.
+
+1.0.27(626)
+- 解析器可获取当前应用版本相关信息 $environment.version
+- Beta 
+
+1.0.27(625)
+- Rewrite 响应类脚本执行时可获取对应的请求头 $request.headers
+
+1.0.27(624)
+- 增加对 VMess 协议的 UDP 支持 (UDP over TCP)，需配置 udp-relay=true
+- 网络活动页面对应 UDP 记录的流量将显示为 0，对应的 TCP 记录会显示 UDP-over-TCP
+- 该协议节点流量统计会计算到 TCP 协议类型栏
+
+1.0.27(623)
+- VMess 配置格式增加 aead=false 选项（默认 true），以强制关闭 AEAD Header 特性（如果 V2Ray 服务端小于 4.28 或者其他不支持 AEAD Header 的服务端，请务必设置为 false）
+
+例：
+vmess=example.com:80, method=none, password=4e58f4e8-2173-41e0-976c-bef89ec62204, aead=false, tag=vmess-aead-header-off
+
+1.0.27(622)
+- 代理协议 VMess 的实现调整为使用 AEAD Header
+
+1.0.27(621)
+- Bug fixes for build 620
+
+1.0.27(620)
+- 增加对 trojan 协议的 UDP 支持 (UDP over TCP)，需配置 udp-relay=true
+- 网络活动页面对应 UDP 记录的流量将显示为 0，对应的 TCP 记录会显示 UDP-over-TCP
+- 该协议节点流量统计会计算到 TCP 协议类型栏
+
+1.0.27(619)
+- 允许在 M1 系列的设备上进行 TestFlight 测试
+- 部分问题修正
+
+1.0.27(618)
+- 分流规则 via-interface 字段增加关键字 %TUN% 代表当前 Quantumult X Tunnel 自身的虚拟接口，有特殊需求的用户可自行通过该关键字实现链式代理的功能（需仔细配置相关规则以免造成无限环流）。
+
+例如：
+ip-cidr, ServerA’s IP Range, ServerB
+host-suffix, example.com, ServerA, via-interface=%TUN%
+
+1.0.27(617)
+- 允许 [general] 下参数 network_check_url 生效。如配置该项，请务必设定为直接连接可达的 URL
+
+1.0.27(616)
+- 网络活动记录可以在更多设置中完全关闭。关闭后 Quuantumult X 不再记录新的网络相关活动，“网络活动” 面板也不再显示新的网络请求记录以及拒绝的相关域名记录（不影响脚本运行记录及日志）。需重新开启 VPN 后生效。
+- 分流规则 filter 支持以网络接口名来指定网络出口（部分 M1 设备用户特殊需求），例如 host-suffix, example.com, direct, via-interface=en0
+
+1.0.27(615)
+No change log
+
+1.0.27(614)
+- The profile resource parser adds “$resource.type” field to let users to distinguish the resource type (rewrite, server, filter or the uri) to customize the parsing logic.
+
+1.0.26(613)
+- Beta Test
+
+1.0.26(612)
+- 修复在 iPad 上打开应用可能会崩溃的问题
+
+1.0.26(611)
+- 修复 UIAction 可能会导致 UI 崩溃的问题
+
+1.0.26(610)
+- Decrease the maximum system resource usage when user deployed a lot of large configuraiton snippets with parser enabled.
+
+1.0.26(609)
+- Beta Test
+
+1.0.26(608)
+- Beta Test
+
+1.0.26(607)
+No change log
+
+1.0.26(606)
+- event-interaction 返回值增加 htmlMessage 字段，允许自定义消息显示样式，样例可参见注释代码部分: https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-fetch-opts-policy.js
+
+1.0.26(605)
+- 修复在 iOS 15 下 NE 发出的（配置文件错误等）警告窗不显示的问题
+
+1.0.26(604)
+- event-interaction 关联的 UIAction 图标支持普通的自定义图片
+
+1.0.26(603)
+No change log
+
+1.0.26(602)
+- 修复在 iOS 15 某些情况下 UI 崩溃的问题
+
+1.0.26(601)
+- 自定义策略列表 UIAction 可触发 event-interaction，传入参数为 UIAction 对应的策略名或节点标签。
+- 修复在 Quantumult X Tunnel 环境下 “opts: { redirection: false }” 不生效的问题。
+
+1.0.26(600)
+No changelog
+
+1.0.25(599)
+- 修复在部分设备上打开应用时可能会崩溃的问题
+
+1.0.25(598)
+- Quantumult X Tunnel 环境 $task.fetch 增加选项policy 指定所使用的出站策略，网络活动中命中的分流规则品示为 FETCH, POLICY NAME
+- 增加任务类型 event-interaction 以支持自定义HTTPS API 的 geo_location_ 
+checker （内置的geo_location_checker 模块依然仅支持 HTTP API)仅在 Quantumuit x Tunnel 运行时有效。
+var opts = {
+policy: “direct”
+};
+var myRequest = {
+url: url,
+opts: opts};
+注意：
+使用该参数后的 HTTPS 连接将失去重用机制，即每个使用了该参数的 HTTPS 请求将会有完整的 TCP 握手以及TLS握手，建议在特殊场合使用。
+具体参见：https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-fetch-opts-policy.js
+
+1.0.25(597) 
+- Quantumult X Tunnel 环境下运行的脚本增加以下参数：senvironment.version 应用及系统版本相关信息Senvironment.sourcePath 脚本路径；如为临时脚本，该参数为空。如为 HTTP 或 HTTPS链接，符号＃以及后续内容均会被视为完整路径传入。senvironment.ssid 当前网络 SSID（如有）。
+
+1.0.24(590)
+No changelog
+
+1.0.24(589)
+- Beta Test
+
+1.0.24(588)
+- 部分界面显示修正
+
+1.0.24(587)
+No changelog
+
+1.0.24(586)
+- 网络活动详情页面增加记录所命中 MitM hostname 对应的字符模型
+
+1.0.24(585)
+- 允许保存（使用） HTTP 混淆与 VMess 协议组合的配置，格式见应用内示例。
+
+1.0.24(584)
+- 修复某些 gallery（非 gallery） 链接在 build 583 上的崩溃问题
+- Gallery 搜索不再区分大小写
+
+1.0.24(583)
+- 增加 Gallery 工具栏
+- Gallery 更新机制由进入界面自动更新调整为用户手动点击进行更新
+
+1.0.24(582)
+- 节点资源增加图库入口
+
+1.0.24(581)
+- 增加 Icon Gallery 参见 https://raw.githubusercontent.com/crossutility/Quantumult-X/master/icon-gallery.json
+- 修复 obfs=http_simple (ssr) 在某些组合配置中可能出现的握手失败的问题
+
+1.0.24(580)
+- 脚本记录页面增加脚本所运行的 JS 环境标识符（便于与 tunnel debug 等级日志对照），以及创建该环境时 Network Extension 的可用内存（os_proc_available_memory）
+
+注：
+1、由于延迟加载及缓存机制，Network Extension 可用内存在使用初期可能会明显的逐渐减少，然后趋于稳定。
+2、当使用 console.log 方法时，如果传入的字符串长度超过 32 x 1024 个字符，仅会输出前 32 x 1024 个字符到日志中。如需打印大于该长度字符串，可自行分割字符串后依次调用 console.log 方法。
+3、以下 “重构版本” 特指 “iOS/iPadOS 13 Quantumult X v1.0.21+ （2021-04-19）”、 “iOS/iPadOS 14+ Quantumult X v1.0.17+ （2020-12-07）” 运行的版本，其余运行环境的版本均为 “传统版本”。
+* $task.fetch 可选项 filter 仅作用于 “传统版本”
+* 动态内存压力跳过脚本执行的机制仅存在于 “传统版本”
+* 我们建议仅在 “重构版本” 上使用脚本相关功能
+
+1.0.24(579)
+- 编辑脚本路径或引用资源等路径时，可直接浏览并选取对应目录下的本地文件；资源片段仅显示后缀名为 snippet 的文件。
+
+1.0.24(578)
+- HTTP 抓取记录搜索页面增加一系列常用备选关键字以及对应记录的域名列表以供选择。
+
+1.0.24(577)
+- 网络活动搜索页面增加常用关键字搜索
+
+1.0.24(576)
+- 支持自定义 DoH 请求所使用的 User-Agent 字段，默认值为 Quantumult%20X/版本号
+
+例：
+[general]
+doh_user_agent= Agent/1.0
+
+1.0.24(575)
+- DoH 配置项支持 excluded_ssids 参数（如使用了 no-system 项，请确保在该 SSID 下有其它可用的传统 DNS 配置项）
+doh-server=https://dns.alidns.com/dns-query, excluded_ssids=SSID1, SSID2
+server=119.29.29.29
+
+1.0.24(574)
+- 允许重置设备验证状态（其它设置-隐私权政策-右上角按钮，周期 30 日）。由于验证过程并非实时触发，已为验证通过状态的其它设备可能稍晚才会变更为验证未知状态，再次验证可能需要重新获取 App Store 收据。
+
+注：
+1、未防止恶意分享，Build 574 之前在完全不使用 iCloud 辅助的情况下从 App Store 第一次下载后每半年会增加 5 台设备名额。如进行以上重置，名额会重置为初始的 8 台设备，且额外名额会从重置日开始计算。
+2、恶意分享的用户可能会在不同状态间切换。
+3、特殊情况请邮件联系反馈邮箱（App Store 或 TestFlight 应用介绍内有注明）。
+
+1.0.23(573)
+No changelog
+
+1.0.23(572)
+- Beta Test
+
+1.0.23(570)
+- 修复 NE 环境下执行某些强混淆脚本导致的 JS 环境异常。
+
+1.0.23(569)
+- 修复请求记录页面重用的连接未显示对应标识等问题。
+
+iOS 15 DB 1
+- 当用户启用了 MitM 功能但未正确配置 MitM 证书的情况下，尝试开启 VPN （自动关闭）时未出现弹窗（用户配置错误的原因）的问题。
+
+1.0.23(568)
+- 调整
+
+1.0.23(567)
+- 修复 build 566 某些页面无法滑动的问题
+- MitM 本地失败（不包含 Quantumult X 校验远端证书主动断开不受信连接）将明确显示，不再显示为 n/a
+
+1.0.23(566)
+- 当使用自定义回退效果时，支持从页面中间滑动返回，无需再从屏幕边缘触发（编辑与保存相关页面仍仅允许边缘滑动返回，以免误操作）。
+
+1.0.23(565)
+- Adds DoH support, see sample configuraiton in app for details.
+
+# When DoH server is set, all other regular(has no specific domain related to it) DNS server settings will be ignored.
+# When multiple DoH servers are set, only the first one will be used.
+# When the DoH server in use is NOT based on HTTP/2, the DoH will be temporarily disabled.
+
+* Not recommended for use in firewall related network environments, it is uncertain whether the DoH server can always be reached or not.
+* Not recommended for use if the server is none popular DNS server in your country or region, it may lose the CDN optimized results returned by the ISP DNS server.
+* Not recommended for use if the DoH server is an anti-ads related server (Quantumult X filter module has better perfomance for rejected domains, it can avoid the client’s endless requests).
+
+1.0.22(564)
+- Beta Test
+
+1.0.22(563)
+- 优化内存使用
+
+1.0.22(562)
+- $configuration.sendMessage 增加 dns_clear_cache 以清除全部 DNS 缓存。
+
+1.0.22(561)
+- 调整对有严重性能问题的 rewrite URL 正则的处理方式。
+当 rewrite URL 正则有严重性能问题时，正则评估将会在超过阈值时间后放弃，进行下一条目 rewrite 继续评估。
+例如，当一个 rewrite URL 正则评估一条请求 URL 结束（命中或未命中）需要 60+ 秒（最近一次收到的相关反馈），rewrite 模块将会提前结束匹配并输出错误等级日志，不会等待 60 秒结束。
+
+1.0.22(560)
+- 脚本记录页面可直接用力按对应记录再次运行脚本，VPN 需处于已连接状态。
+
+1.0.22(559)
+- Fixes an issue that might delay the starting proccess of the tunnel in build 557.
+
+1.0.22(558)
+- Fixes an issue that might delay the starting proccess of the tunnel in build 557
+
+1.0.22(557)
+- 增加部分 debug 等级日志
+
+1.0.22(556)
+- 优化 HTTP Backend 内存使用 (iOS 13.0 +)
+
+1.0.22(555)
+- API $task.fetch 兼容某些非法格式的 HTTP 请求头
+- 修复当保存某些格式错误的配置文件条目时造成的一处崩溃
+- $configuration.sendMessage 增加 DNS 相关接口 dns_get_placeholder_ip 与 dns_update_cache。可用于重写第三方应用的 HTTPDNS 请求或更新 DNS 缓存。参数可参见  https://github.com/crossutility/Quantumult-X/blob/master/sample-dns-api.js
+
+1.0.22(554)
+No changelog
+
+1.0.22(553)
+No changelog
+
+1.0.22(552)
+- 解析模块兼容某些不规范的 HTTP 响应
+
+1.0.22(551)
+- 优化 MitM 模块内存使用，以及提升并发效率
+
+1.0.22(550)
+- $notify 增加选项 “update-pasteboard”，点击通知时更新剪切板
+
+1.0.22(549)
+- HTTP backend 请求与响应会记录在网络活动中，完整的请求及响应可被数据抓取功能记录，以方便调试
+
+1.0.22(548)
+- MitM 模块增加对 TLS 1.3 only 请求的支持
+- HTTP backend 增加对 HTTPS 协议请求的支持。HTTPS 请求需以域名形式访问，如以 IP 形式访问，backend 会拒绝接受该请求
+- HTTP backend 在同一端口接收 HTTPS 与 HTTP 请求，backend 会自动识别是否为 TLS 连接
+- HTTP backend 与 MitM 模块共用同一根证书，如需以 HTTPS 形式访问，请先配置好 MitM 模块下的证书
+
+1.0.22(547)
+- DNS 配置增加可选关键字 excluded_ssids 以在特定的网络环境下忽略该项配置，例：
+[dns]
+server=114.114.114.114, excluded_ssids=SSID1, SSID2
+server=8.8.8.8, excluded_ssids=SSID3, SSID4
+
+注意：如配置了 no-system，则请务必确保在忽略了部分自定义 DNS 的配置下至少有一个可用的自定义 DNS 配置。
+
+另：
+1、如需更改 URL 测试 HEAD 请求的 User-Agent 可自行配置（v1.0.21 及以上），例如：
+[general]
+server_check_user_agent= Mozilla/5.0
+
+2、部分用户请求开放 iOS 14+ NE 配置新增的几个布尔属性，目前我们并不打算提供修改相关配置的接口（与外接设备兼容性较差，例如导致 CarPlay 无法连接等问题）。相关 API 及说明：
+https://developer.apple.com/documentation/networkextension/nevpnprotocol/3131931-includeallnetworks
+https://developer.apple.com/documentation/networkextension/nevpnprotocol/3689459-enforceroutes
+https://developer.apple.com/documentation/networkextension/nevpnprotocol/3143658-excludelocalnetworks
+
+1.0.22(546)
+No changelog
+
+1.0.22(545)
+- HTTP backend 增加可选参数 host（该参数会与请求头中的 host 字段进行匹配，暂不支持通配符与正则）来区分不同作用的后端。配置 host 参数后可通过 http://host:port/ 来访问
+- 增加 get_customized_policy，相关内容参见 build 543 示例链接
+
+1.0.22(544) 
+- 修复通过 set_policy_state 无法识别大写内置策略的问题（DIRECT,REJECT）
+
+注意：如需通过 body script 类型 rewrite 中断当前 HTTP 连接且需客户端重新发起连接，可尝试返回类似以下响应（由于内部实现的某种原因 headers 与 body 不能为空）
+$done({status:”HTTP/1.1 408 Request Timeout”, headers:{“Connection”:”close”},body:”  “});
+
+1.0.22(543)
+- 部分代码重构
+- 新增配置相关脚本 API 参见 https://github.com/crossutility/Quantumult-X/blob/master/sample-configuration-api.js
+
+1.0.22(542)
+- 修复某些 chunked encoding 响应体解析错误的问题。
+
+
+1.0.22(541)
+- 修复某些设备上输入资源链接多行显示问题
+- 优化在 M1 系列设备上的部分参数
+
+1.0.21(540)
+No changelog
+
+1.0.21(539)
+- Beta Test
+
+1.0.21(538)
+- Beta Test
+
+1.0.21(537)
+- Beta Test
+
+1.0.21(536)
+- 修复 iOS 13 系统上无清除历史脚本记录（> 1）的选项（针对 build 535 的更新）
+
+1.0.21(535)
+- Rewrite 资源引用列表增加显示对应更新失败的子资源（脚本）数目
+- 脚本日志模块以及对应的脚本模块适配 iOS 13 系列的系统
+
+1.0.21(534)
+- 脚本记录中rewrite 相关条目增加显示所属资源的标签。
+
+1.0.21(533)
+- 资源引用（订阅）页面可直接创建本地配置片段
+- 其它问题修正
+
+1.0.21(532)
+- 创建配置片段后可直接转入对应配置页面
+
+1.0.21(531)
+- 部分调整
+
+1.0.21(530)
+- 脚本记录页面支持分类查看
+
+1.0.21(529)
+- 配置片段支持以面板的形式查看与搜索
+
+1.0.21(528)
+- 改善 gallery 页面在 iPad 上的布局
+
+1.0.21(527)
+- 手动进行策略 URL 延迟测试时不再等待上一轮策略测试结束
+
+1.0.21(526)
+- 修复网络活动搜索界面滑块误触的问题。
+
+1.0.21(525)
+- 修复部分设备上的显示问题
+
+1.0.21(524)
+- 支持查询 JS 持久化存储的所有键值对个数(包括长度为 0的字符串）、总占用空间。
+- 增加可视化自定义策略排序。
+- 部分希望保留默认返回动画效果的用户，可通过滑动顶部功能面板切换（一轮变换一次）。
+
+1.0.21(523)
+- 整合抓包相关功能
+
+1.0.21(522)
+- 修复在非全面屏设备上的动画效果异常问题
+
+1.0.21(521)
+- 修复部分系统上策略图标偶尔会出现异常边框的问题。
+
+1.0.21(520)
+- 修复持续点击页面左边缘有一定几率造成界面卡住的问题
+
+1.0.21(519)
+- 修复某些情况下写入脚本记录导致崩溃的问题。
+
+1.0.21(518)
+- Fixes a display issue related to HTTP header view.
+
+1.0.20(517)
+- 移除与相册有关的功能（包括导出节点二维码到相册、从相册二维码导入节点信息以及抓包图片文件导出到相册；相关功能我们仍在与审核人员持续沟通中）。移除后可通过系统自带应用 “文件” 导入与导出。
+- 抓包记录相关的请求头和响应头支持选择性复制。
+- 下拉返回页面增加边缘右滑返回，其它细节调整。
+
+1.0.20(516)
+- 资源解析器描述内容支持复制等操作
+- Beta Test
+
+1.0.20(515)
+- Beta Test
+
+1.0.20(514)
+- Beta Test
+
+1.0.20(513)
+- 抓包记录中的请求列表增加显示 HTTP 响应状态码、响应体类型、响应体大小（如压缩过则显示压缩后的大小）等信息方便调试
+
+1.0.20(512)
+- 优化脚本记录模块（iOS 14+）的内存使用
+
+1.0.20(511)
+- 旧有的脚本记录文件可以被主动删除。
+
+1.0.20(510)
+- 在 iPad 全屏模式下的显示微调。
+
+1.0.20(509)
+- 当 MitM 证书已配置成功的情况下，仍可继续配置证书以便部署在对应 Apple Watch 上；进而处理 Apple Watch 上的相关网络请求。
+
+注：
+1、如使用导出证书后安装的方式，请务必选择导出到系统自带应用 “文件” 的 “下载项” 文件夹中，仅该文件夹的证书文件点击后可弹出安装选项。
+2、如 Apple Watch 不配置对应证书，Apple Watch 相关网络请求 MitM 将会失败（Apple Watch 目前版本系统仅有安装证书选项，无信任选项；安装即可）。
+
+1.0.20(508)
+- 即使最近一次的脚本记录条目数为 0 也会显示记录按钮（Build 502 增加了显示多份脚本记录的功能，build 502 之前仅显示最近一次的脚本记录）。
+
+1.0.20(507)
+- 修复在 iOS 13 以下的 iPad 设备上各搜索页面无法返回的问题。
+- 脚本记录列表中 rewrite 类型的描述栏目增加所匹配的正则表达式，以减少用户间的沟通成本。
+
+1.0.20(506)
+- 脚本记录页面可强行结束处于活跃状态（正常运行中，或未调用 $done 而处于僵尸状态）的脚本环境，并释放相关资源。
+- 修复部分情况下应用从后台恢复为前台时，顶部面板无法点击的问题。
+
+注：
+1、每当开启 VPN （用户手动，或任何情况下的自动重连）时，均会生成一份新的脚本记录（Build 502 增加了显示多分脚本记录的功能）。
+2、强行结束的功能仅适用于运行中的 VPN（NE）对应的那份脚本记录。
+
+1.0.20(505)
+- 修复本地配置节点栏错误的显示流量信息的问题
+- 单条日志文件最大尺寸调整为 10 MB
+
+1.0.20(504)
+- 优化开启、关闭暗黑模式的过渡效果
+
+1.0.20(503)
+- 调试抓包记录支持组合搜索（URL、请求头、请求体、响应头、响应体）
+
+1.0.20(502)
+- More earlier task records are optional not just only the most recent one (iOS 14 +)
+
+1.0.19(501)
+- Beta Test
+
+1.0.19(500)
+- 部分界面搜索框及布局调整
+
+注：如对 task 图标显示效果不满意，可尝试使用内置的 SF Symbols 图标
+
+1.0.19(499)
+- 调整
+
+1.0.19(498)
+- 修复 $task.fetch HEAD 方法请求成功却通知异常的问题
+
+1.0.19(497)
+- 照顾到使用 iOS 14 以下设备的用户，自定义策略内置背景色增加完全透明的备选项
+
+1.0.19(496) 
+- 脚本日志模块增加搜索支持
+
+1.0.19(495)
+- 部分布局调整
+
+1.0.19(494)
+- 修复 build 493 当隐藏内置策略 PROXY 同时进行 URL 测试时造成的主应用崩溃
+- 支持顶目模块面板向左滑动来返回上一样式
+
+1.0.19(493)
+- 当点击某策略图标对该策略进行 URL 测试时，同时会对其所有的子策略进行 URL 测试并显示对应结果。
+
+1.0.19(492)
+- 允许直接编辑未加载的本地配置片段
+
+1.0.19(491)
+- 部分布局调整
+
+1.0.19(490)
+- 计划任务列表增加搜索支持
+
+1.0.19(489)
+- 分流规则及重写规则面板可作为必要项保留在主页面
+
+1.0.19(488)
+- 部分布局调整
+
+1.0.19(487)
+- 脚本记录页面支持按压操作，便于对文本记录进行部分选择等操作
+- 其它显示调整
+
+1.0.19(486)
+- 调色板允许调整透明度
+- 修复在 iPad 分屏模式下部分界面显示异常
+
+1.0.19(485)
+- 脚本记录页面支持按压操作，便于对文本记录进行部分选择等操作
+- 其它显示调整
+
+1.0.19(484)
+- 允许对内置策略 PROXY 进行折叠或展开
+- 调色板支持（iOS 14.0 +)
+
+1.0.19(483)
+- 当自定义策略选择透明背景时，将使用动态默认背景色以适应暗黑模式。
+
+1.0.19(482)
+- 支持更换自定义策略图标背景
+
+1.0.19(481)
+- 新增顶部面板简约效果，仅建议熟悉 Quantumult X 的用户使用。
+
+1.0.19(480)
+- Script 类型 HTTP rewrite 支持二进制数据修改，增加类型为 ArrayBuffer 的传入参数 $response.bodyBytes 与 $request.bodyBytes（需 iOS 14.0 及以上）
+- 同时 $task.fetch 响应体亦支持类型为 ArrayBuffer 的参数 bodyBytes（需 iOS 14.0 及以上）
+- 示例参见 https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-bytes-rewrite.js
+- 部分界面调整
+
+1.0.19(479)
+- 部分显示调整
+
+1.0.19(478)
+- 调整 GeoIP（MaxMind GeoLite2）数据库更新机制。仅在配置了自定义的 MaxMind 许可密钥或设置了自定义的更新源时才会自动更新。
+原因：
+开启自动更新后，容易集中在同一天更新。MaxMind GeoLite2 是有每日下载限制的(同一许可密钥)，超出后将更新失败。
+建议需要自动更新的用户自行去 MaxMind 申请许可密钥（免费），或添加自定义的 MaxMind GeoIP 格式的数据库。
+
+1.0.19(477)
+- 细节调整
+
+1.0.0(476)
+No changelog
+
+1.0.18(475)
+- Beta Test
+
+1.0.18(474)
+- 调整 iPad 上的显示效果
+- 减少单排面板展示的内容
+
+1.0.18(473)
+- 显示细节调整
+
+1.0.18(472)
+- 修复 build 470 打开应用崩溃的问题
+
+1.0.18(471)
+- 修复 build 470 打开应用崩溃的问题
+
+1.0.18(470)
+- 调整部分显示效果。
+- 策略图标不希望使用内置颜色的，可自行使用彩色图案
+
+1.0.18(469)
+一系列调整：
+
+- 增大触发 URL 测试的点击范围
+- 不再强制使用策略专有颜色渲染策略图标
+- 在运行期间，策略选择页会显示完整策略路径
+
+1.0.18(468)
+- 可直接点击策略组小图标进行 URL 测试
+
+1.0.18(467)
+- 策略页面整合
+
+1.0.18(466)
+- 调整部分显示效果
+
+1.0.18(465)
+- 调整部分显示效果
+
+1.0.18(464)
+- 调整部分显示效果
+
+1.0.18(463)
+- 处理部分用户选择日志可能会卡住的问题。
+
+1.0.18(462)
+- 调整部分设备上显示效果
+
+1.0.18(461)
+- 扩展功能键不再自动显示或隐藏
+- 有需求的用户可自行轻扫主功能键以显示扩展功能键
+
+补充：
+Quantumult X (v1.0.17) 在 iOS 14 系列系统上 NE 环境下 $task.fetch 响应的 statusCode 类型错误的设置成了 string 类型。
+如通过比较 HTTP 响应状态码是否等于 200 来判断 $task.fetch 请求是否成功，可使用 parseInt(statusCode)，或等待下次 App Store 更新。
+
+1.0.18(460)
+- 增加部分功能开关入口
+
+1.0.18(459)
+- 部分显示细节调整。
+
+1.0.18(458)
+- 配置文件支持快速跳转。
+
+1.0.18(457)
+No changelog
+
+1.0.18(456)
+- 配置文件支持快速跳转。
+
+1.0.18(455）
+- 增加额外主页功能键，默认关闭。
+
+注：
+通过公开链接参加测试的用户使用 TestFlight Feedback 是单方向联系的，我们无法知道你的邮箱，无法给予你回复。
+鉴于某位用户对同一个问题发了好几个版本的 TestFlight Feedback，我们只好通过此次测试信息给予你回复。你在 Quantumult X 配置文件中对应节点开启节点的 UDP 转发即可（udp-relay=true），可参见应用内示例配置。
+
+1.0.18(454)
+- 从 gallery 添加的 task 顺序与选中顺序保持一致。
+
+1.0.18(453)
+- Improves network throughput significantly when Quantumult X working as a gateway (M1 chip Mac) for other devices on the same LAN.
+
+1.0.17(452)
+- Beta test
+
+1.0.17(451)
+- 兼容在 Apple M1 chip Mac 上以网关模式运行。
+- 暂无计划针对网关模式进行特别优化。
+
+1.0.17(450)
+- Beta test.
+- Fixes the geo_location_checker issue on Apple M1 chip Mac.
+- Fixes the CA installation issue on Apple M1 chip Mac.
+
+1.0.17(449）
+- Beta test
+- Fixes some issues on Apple M1 chip Mac
+
+1.0.17(448)
+- 修复 gallery 缓存图片显示的问题。
+
+1.0.17(447)
+- 显示细节调整。
+
+1.0.17(446)
+- 完善脚本记录页面，可点击展开对应日志，并长按进行复制
+
+1.0.17(445)
+- Cron task gallery 支持多选添加。
+
+1.0.17(444)
+- Cron task gallery 添加搜索功能。
+
+1.0.17(443)
+- 脚本日志页面增加显示触发运行脚本的 rewrite URL 以及 rewrite 类型等更多信息。
+- 网络活动搜索框可直接输入 fetch 来搜索 NE 内通过 $task.fetch 发送的网络请求。
+
+1.0.17(442)
+- 新增 NE 脚本运行状态相关页面。
+
+1.0.17(441)
+- 修复 gallery 中包含较多内容时，上下滑动严重掉帧的问题。
+
+1.0.15(397)
+- 增加 Intents Extension，可使用 Shortcuts 应用创建Automation 来运行脚本 (Path 输入 Quantumult x 应用中所使用的脚本路径即可，例如：https://example.com/file.js = path/file.js)
+1、在iOs 14下可取消勾选 Automation 中的 AskBefore Running 选项来实现特定时间自动运行。
+2、通过 Automation 运行的脚本无需开启 Quantumuit X的 VPN连接。
+3、Automation 时间设定及设备唤醒机制更接近系统原生。
+4、请务必调用 $done(来结束，1og 会自动作为结果返回。如需查看 log 可使用 Shortcuts 的 Show Result来显示结果。
+5、Intents Extension 内存独立。
+
+1.0.13(347）
+- 日志中将记录是否为越狱系统。
+
+1.0.10(283)
+- 显示细节调整。
+
+1.0.8(259)
+- 增加 running_mode_trigger 在网络环境切换时触发运行模式变更，具体可参见示例配置。
+
+1.0.7(235)
+- 网络活动页面增加“构造请求”入口。
+- UI增加 MitM 主机名配置。
+
+1.0.7(234)
+- 调整使用简洁模式 UI时主菜单的展示方式。
+
+1.0.7(233)
+- 增加配置文件暗黑模式下的的高亮配色。
+
+1.0.7(232)
+- 所有TLS 类型代理配置增加参数(tls13=true） 可支持最高TLS1.3 (openssl)
+
+1.0.7(231)
+- 优化script 类型rewrite 内存使用。
+
+1.0.7(230)
+- Rewrite 支持在详情页面直接编辑本地或 icloud 中script 内容（如rewrite 路径错误则不会显示编辑器）
+
+1.0.7(229)
+- 增加 HTTP rewrite request-body 正则匹配修改.
+例： http://example\.com/resource5/
+
+1.0.7(228)
+- Task 编辑页面支持橙色方式执行，可一边编辑一边测试，无需保存。
+- 以上该特性亦支持从“文件”应用内打
+
+1.0.7(227)
+- 支持“文件”应用内的文件编辑保存，分享选择从 Quantumult X 打开即可 （支持部分语言语法高亮 HTML、CSS、JSON、Javascript、Markdown、YAML、Python 等）
+
+1.0.7(226)
+- 修复非英文编辑问题。
+
+1.0.7(225)
+- 引用的HTTP rewrite 规则支持查看详情（如为script 类规则且script 已缓存，则显示 script 内容）。
+- 增加额外的 Java Script 编辑与浏览高亮样式，可在当前页面选择切换。
+
+1.0.7(224)
+- JavaScript 编辑与浏览页面支持行数显示。
+- JavaScript 编辑与浏览页面暗黑模式下语法高亮颜色调整。
+注：
+编辑模式下如文件过大，将不进行语法高亮渲染。
+
+1.0.7(223)
+- Javascript 编辑与浏览页面支持完整的语法高
+
+1.0.7(222)
+- 增加橙色 task 执行日志页面。
+
+1.0.7(221)
+- Improve brotli compress performance.
+
+1.0.7(220)
+- Add [server remote] support for protocol Trojan.
+
+1.0.7(219)
+- Add support for proxy protocol Trojan.
+注：
+鉴于 Trojan 的协议原理 (https://trojan-gfw.github.io/trojan/protocol)，即使 URL test结果有第二个数值也并不能代表本地密码等配置正确或代理服务器一定可用，因此不建议将该协议的代理服务器加入基于 URLtest 的策略类型(available)
+
+1.0.7(218)
+- Fixes a UI crash when tap the image viewer insome way.
+
+1.0.7(217)
+- 大幅优化同一时间执行大量定时任务时的内存使用。
+- 增加最新日志自动载入及手动刷新（拉到底下最新的记录，再拉一下即可刷新）。
+
+1.0.7(216)  
+- Fixes some customized icon display issues.
+
+1.0.6(215)
+No changelog
+
+1.0.6(214)
+- 引用的节点配置如包含 img-url 字段，则节点列表可品示对应自定义图标；该字段无需配合 as-policy 一起使用。
+
+1.0.6(213)
+- 网络活动页面支持实时刷新。
+
+1.0.6(212)
+- 请求重放导出记录时，会附带原始响应。
+
+1.0.6(211)
+- Beta build 211
+-修复测试版 build 210 在某些环境下验证信息被清的问题。如验证信息被 build 210 清除，请重新安装 App Store 版待得验证通过，再安装测试版build 211。用来验证的 App Store 账号可与参与测试的不同，并不影响测试版使用，
+-配置文件中缺少模块标识将会提示并禁止保存。
+- $task.fetch 支持禁止自动重定向。
+
+1.0.6(210)
+No changelog
+
+1.0.6(209)
+- 移除关键字 empty_snienabled
+- 当 SNI 为空时，是否进行 MitM 将改由请求的目标地址(IP或域名）与配置文件中 hostname 字段的匹配结果决定。
+
+1.0.6(208)
+- 修复某些情况下更新资源的问题。
+
+- 1.0.6(207)
+- 便于测试与反馈，外部资源开启去除时间限制（外部资源功能无计划更新到 App Store 版本）。
+
+1.0.6(206)
+No changelog
+
+1.0.6(205)
+- Task 所引用的外部资源支持点击查看资源内容（需开启外部资源选项）
+- 支持抓包记录重放以及对应请求导出 （导出的格式便于编写 task），重放的请求亦会经过Quantumult X rewrite 模块，暂不支持修改重放，有相关需求请自行编写 task.
+
+1.0.6(204)
+- 修复某些 HTTP 请求解析错误的问题。
+- 感谢反馈 PixEz (ipximg.net, https://apps.apple.com/cn/app/pixez-acg二次元壁纸插画漫画收集/id1494435126)
+
+1.0.6(203)
+- Task 可以被禁用，被禁用的task 亦可手动执行。
+
+1.0.6(202)
+No changelog
+
+1.0.6(201)
+- 橙色task 调试功能在rewrite 开启时也能执行。
+- 不再需要手动关闭rewrite 功能。
+- 橙色 task 调试发起的请求将自动附带请求头”X-Requested-With: Quantumult”.Quantumult X rewrite 模块会直接忽略携带该请求头的请求，如果您希望您在其它应用发起的网络请求不被 Quantumult X rewrite 模块命中，亦可手动添加该请求头。
+
+1.0.6(200)
+- UI支持注释 rewrite 规则。
+- 基于运行时间解锁的功能其解锁状态将仅能与Quantumult X 第一次开启 icloud 的用户的设备同步（该判断条件将与运行时间信息同时存在或同时重置）。
+
+1.0.6(199)
+- Task 增加另外一种调试模式方便测试，该模式下 task 请求将遵循规则，亦会被支持 TCP 抓包的应用捕获。
+- 为了防止请求被 Quantumult X 本身的rewrite功能命中及修改，该模式仅在 Quantumult X rewrite 功能关闭的情况下，或 Quantumult X VPN 关闭的情况下可用。
+
+1.0.6(198)
+- External resources can be enabled for rewrite and task, You still need to check if you are eligible to unlock this feature.
+- The unlock state will be shared through your iCloud if iCloud is enabled for Quantumult X.
+
+1.0.6(197)
+- Fixes an issue when some apps keep sending empty UP payload.
+
+1.0.6(196)
+- 手动执行 task 会刷新对应资源缓存，以便调试。
+MitM 说明:
+- TLS握手按其 SNI 可分为有 SNI （我们假设为 A类型） 和无 SNI （假设为 B 类型配置文件中 hostname 字段控制的是 A 类型中需要进行 MitM 的主机名，如设置 hostname = example.com，将会对 A类型中的 example.comTLS 连接进行 MitM.
+- 配置文件中 empty_sni_enabled 控制的是 B类型，如设置 empty_sni_enabled = true,将会对 B类型所有的TLS连接进行 MitM。未避免不必要的误伤（很多应用为避免被嗅探故意让 SNI 为空)，empty_sni_enabled 请仅在网络测试时使用。
+- 因此“关闭MitM”与“开启 MitM 且hostname 字段为空但 empty_sni_enabled = true”并不相同。
+
+1.0.6(195)
+- Supports rewrite script-request-body.
+
+1.0.6(194)
+- Fixes an issue that the content might be empty when exporting configuration profile from “Flies App”.
+
+1.0.5(193)
+- Supports single URL test.
+
+1.0.5(192)
+- Beta test
+
+1.0.5(191)
+- Beta test
+
+1.0.5(190)
+- 类型为 script-response-body 及 script-response-header 的rewrite 传入参数不再包含request header 以减少内存使用。
+- 如需获得request header, 可使用 script-request-header类型 rewrite.
+
+1.0.5(189)
+- 修正一处内存错误
+- 在ios [13.0- 13.2)环境下，SSID 相关功能不可用提示除了之前版本在开启 VPN 时会提示并断开连接，增加在已连接状态时更改配置文件也会提示并断开连接。
+- 那些绕过提示非要在 IOS [13.0-13.2）下使用SSID 策略，又来反馈 SSID 策略不生效或显示不一致是bug用户，请自行安装支持开启定位权限的历史版本 Quantumult X [1.0.0-1.0.2] 即可。
+- 其它 IOS 环境无该限制，也无需开启定位权限。
+
+1.0.5(188)
+- Supports rewrite script-request-header. 
+- Check sample at https://github.com/crossutility/Quantumult-X/blob/master/sample-rewrite-request-header.js
+
+1.0.5(187)
+- 支持一键清空历史日志或 HTTP 调试记录。
+
+1.0.5(186)
+- 支持使用自定义 MaxMind License Key 更新GeoLite2 Country.
+
+1.0.5(185)
+No changelog
+
+1.0.5(184)
+- 修复build 165引入的 IPv6 查询结果缓存丢失问题。
+
+1.0.5(183)
+- Supports import GeoLite2 Country database.
+- Supports rewrite script-response-header. This is convenience and consumes less memory if you don’t care about the response body or the body is not text related, the original body will be automatically appended to the modified headers. Check sample at https://github.com/crossutility/Quantumult-X/blob/master/sample-rewrite-response-header.js
+
+1.0.5(182)
+- 在运行状态下，可在应用内手动执行请求任务以便调试。
+- console.log（）不再要求日志为 debua 等级，在其它等级下 console.log（亦会输出到日志文件，请合理使用 console.log()以保持运行效率及内存控制。
+
+1.0.5(181)
+- 修复build 180 请求文本编辑问题。
+
+1.0.5(180)
+- 增加请求任务的 UI配置，可点击编辑，向右滑动设置运行时间。
+
+1.0.5(179)
+- 修复部分设备配置文件编辑以及导入的一点问题。
+
+1.0.5(178)
+No changelog
+
+1.0.5(177)
+- 修复build 176 中调用 setTimeout 导致崩溃的问题。
+- 同一个task每一次的执行都会是全新的JSContext
+- 同一 URL可同时匹配两项rewrite 规则，rewrite 类型需属于请求修改与响应修改（重定向及构造响应的类型均不属于修改）
+- 响应内Rewrite 传入参数及需匹配的 URL均为修改前的数据，即使请求头或请求路径被修改过。
+例1:
+^https?://example\.com/api/2/ url request-header “GET/api/2/HTTP/1\.1(r\n) request-header GET /api/1/HTTP/1.1$1
+^https?://example\.com/api/2/ url response-body “info”:\L.+I ,”appid” response-body “info”:[],”appid”
+
+例2:
+^https?://example\.com/resource4/ url request-header (r\n)User-Agent:.+(r\n) request-header$1 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36$2
+^https?://example\.com/resource4/ url script-response-body example.js
+注：Rewrite 中 request-header 匹配的内容包括请求行 （请求行参见 https://tools.ietf.org/html/rfc7230#section-3.1.1 与 https://tools.ietf.org/html/rfc7230#section-5.3） 与所有请求头以及所有换行符 CRLF，可开启调试模式检测是否编写正确。
+注：Available 类型的策略如果触发了该策略下所有节点 URL测试，该测试是并发的，如果你节点供应商或者你目前接入的网络运营商限制过多请不要使用该策略，也不要在主页面进行 URL测试）。
+
+1.0.5(176)
+No changelog
+
+1.0.5(175)
+No changelog
+
+1.0.5(174)
+- HTTP调试历史记录支持查看与搜索。
+- 未进行 MitM 的HTTPS 请求及非 HTTP 类请求不会在记录中展示。
+- 如响应内容为图片类型，图片亦会显示在请求列表中。如被 rewrite reject-img 命中，则为透明图片。
+
+1.0.5(173)
+-新增Settimeout 方法（适用于HTTP sewrite及task),例setTimeout(function()
+{console.log(“abc”);}1000)；
+
+1.0.5(172)
+- HTTP rewrite and task improvements.
+- $prefs.valueForKey(key),$prefs.setValueForKey(value, key),$prefs.
+- removeValueForKey(key),Sprefs.removeAllValues(), value and key should be string. 
+- The data of $prefs will be cleared only when Quantumult X is deleted.
+
+1.0.5(171)
+- $task.fetch() works for HTTP rewrite now.
+
+1.0.5(170)
+No changelog
+
+1.0.5(169)
+- Time in [task local] will be local time not the UTC time for convenience and less feedback (UTC time in build 166, 167).
+ 
+1.0.5(168)
+No changelog
+
+1.0.5(167)
+- Fixes SNI name parsing issue for MitM.
+
+1.0.5(166)
+- Add module task, check sample configurationfor details. No Ul right now.
+
+1.0.5(165)
+- Improvements related to DNS query.
+
+1.0.4(164)
+No changelog
+
+1.0.4(163)
+- Bug fixes.
+
+1.0.4(162)
+- 修复部分设备配置文件编辑的一点问题。
+
+1.0.4(161)
+- 添加 icloud 支持。当开启 icloud后Quantumult X 会从icloud 云盘中读取相关类型的文件，否则读取本机文件。
+- 可自行使用应用“Files”查看及同步对应资源策略图标：
+- 本机：”On My iPhone - Quantumult X - Images”
+- iCloud: “iCloud Drive - Quantumult X - Images”
+
+1.0.4(160)
+No changelog
+
+1.0.4(159)
+- Fixes an issue that some domains skipped placeholder IP even thev are not in the dns_exclusion_list.
+
+1.0.4(158)
+- You can always opt out of beta test by tapping “Stop Testing” in TestFlight app.
+- Script 类型rewrite 如未载入对应脚本文件（或非本地路径文件），会发出通知（需开启显示脚本错误通知）。
+
+1.0.4(157)
+- Improvements.
+注：
+测试版版本信息如显示绿色问号，请先删除TestFlight 测试版。安装 App Store 最新1.0.3版并运行一次，待得版本信息显示为绿色对号后再安装 TestFlight 测试版。
+测试版版本信息如显示红色问号 (rewrite 功能不可用，其它功能包括多策略、MitM 及抓包功能均不受影响），请支持正版。
+
+1.0.4(156)
+- Fixes “Open with” issue when export configuration from other apps or AirDrop.请先运行一次 1.0.3 App Store 版本。
+
+1.0.3(155)
+- MitM 模块配置增加 empty_sni_enabled 字段（见示例配置文件），默认emptv sni enabled = false；请仅在单独调试某应用网络请求时开启(看不懂请务必false）。
+解释如下，关键后半段：
+当 empty_sni_enabled = false 时，MitM 获取 TLS握手 Client Hello 中的域名，对 MitM 配置中的hostname 字段进行匹配、匹配命中后才进行MitM;如果 Client Hello 中不包含域名信息，则该请求不会被进行 MitM.
+当 empty_sni_enabled = true 时， MitM 获取TLS握手 Client Hello 中的域名，对MitM配置中的hostname 字段进行几配，匹配命中后才进行MitM;如果 Client Hello 中不包含域名信息，同样会进行 MitM（该 MitM 在获取服务端证书重签后才正式开始）。
+
+1.0.3(154)
+- MitM 模块配置增加 empty_sni_enabled 字段（见示例配置文件），默认 empty_sni_enabled=false；请仅在单独调试某应用网络请求时开启（看不懂请务必false）。
+解释如下：
+一般MitM 是获取TLS握手Client Hello 中的域名，对 MitM 配置中的hostname 字段进行匹配，匹配命中后才进行 MitM;设置 empty_sni_enabled = true 时， MitM 会作用于所有Client Hello 中不包含域名信息的TLS请求（该MitM 在获取服务端证书重签后才正式开始）。
+
+1.0.3(153)
+- 为配置了over TLS选项(wss、over-tls 以及http 类型代理设置了over-tls=true）的代理协议增加参数 tis-verification；末配置该选项以及配置 ts-verification=true 进行证书验证，配置ts-verification=false 则跳过证书验证。
+
+1.0.3(152)
+- 为配置了over TLS选项(wss、over-tls 以及http 类型代理设置了over-tls=true）的代理协议增加参数 tis-verification；末配置该选项以及配置 ts-verification=true 进行证书验证，配置ts-verification=false 则跳过证书验证。
+
+1.0.3(151)
+- Beta Test
+
+1.0.3(150)
+- 远程节点资源增加字段 as-policy （需同时包含tag宇段），支持类型 static、available、round-robin，如tag 与已有策略名相同则跳过 as-policy特性。
+
+1.0.3(149)
+- Bug fixes for as-policy.
+
+1.0.3(148)
+- 远程节点资源增加字段 as-policy（需同时包含tag字段），支持类型 static、 available、round-robin，如tag 与已有策略名相同则跳过 as-policy特性。
+[server remote]
+https://raw.githubusercontent.com/crossutility/Quantumult-X/master/server-complete.txt,tag=Policy Name, as-policy=static, img-url=http://example.com/icon.png, enabled=true
+
+1.0.3(147)
+No changelog
+
+1.0.3(146)
+- Test
+
+1.0.3(145)
+- 修复循环嵌套策略的策略状态显示问题。
+- 当配置文件中有重复的配置项时 （例如：多个passphrase =、hostname=） ，会进行错误提示而非仅读取第一项的内容。
+- Rewrite 模块与运行模式独立，即在“全部代理”“全部直连”、“规则分流”下rewrite 规则均会生效。
+
+1.0.3(144)
+- IOS 13.2 获取 SSID 已恢复正常（需系统当前选中 VPN为 Quantumult X)，无需再开启位置授权，已移除需开启位置授权才能使用 SSID 相关功能的限制。如 IOS 13 系统用户未升级至 IOS 13.2且使用的是build 144 及之后的版本将无法获取 SSID，不再单独做系统适配。
+
+1.0.3(143)
+- 更改build 141一处设定，“所引用的 JS 文件需注释设备ID”仅对非本地 (On My iPhone Quantumult X） 文件有要求。
+
+1.0.3(142)
+- Add support for tIs1.2 ticket_auth.
+- The tIs1.2 ticket auth has one more RTT than tIs1.2 _ticket _fastauth, it also has one more RTT than obfs tIs, you’d better use tIs1.2 ticket fastauth instead for better
+
+1.0.3(141)
+- script-response-body 类型rewrite 修改响应头时可额外的修改响应状态 ($done (tbody:modifiedBody, headers: modifiedHeaders,status: modifiedStatus))， modifiedStatus 为形如“HTTP/1.1200OK” 的字符串）
+- Rewrite 新增 script-echo-response 类型，匹配对应 URL 请求后直接构造完整响应返回 （与Quantumult 中 simple response 一样，仅配置方式不同）。传入参数仅有$request.url ($done({status: responseStatus,headers: responseHeaders, body:responseBody]), responseStatus 及responseBody 为字符串类型）。
+
+1.0.3(140)
+- script-response-body 类型rewrite 可额外的修改响应头 ($done(fbody: modifiedBody,headers: modifiedHeaders}) 不支持仅修改响应头不修改响应体），Content-Length、Content-Encoding 及 Transfer-Encoding 字段勿更改，rewrite 模块会自行处理。
+- 恢复支持远程引用 response body 类rewrite 规则资源（包含rewrite 引用与js文件）
+- js 文件中需注释当前设备1才可被执行 (ID随机生成，重新安装应用可能会改变），可填写多个ID；当前设备ID可进入菜单页面右上角更多界面底部查看；作为网络调试功能此额外操作一点也算不上是麻烦，没办法，有些人太夸张。
+例：
+/** 
+*@supported 23AD6B11 55BE3B10 63ED6F86
+*/
+
+1.0.3(139)
+No changelog
+
+1.0.3(138)
+- 配置编辑器关键字高亮显示。
+
+1.0.2(137)
+No changelog
+
+1.0.2(136)
+- 对HTTP 代理协议远程引用的 Quantumult x 配置片段的支持。
+
+1.0.2(135)
+No changelog
+
+1.0.2(134)
+No changelog
+
+1.0.2(133)
+- 节点页面 URL Test 记录增加TCP握手数据。
+- 因rewrite HTTP response body 类型不再支持引用远程资源，故而rewrite 引用中所包含的response body 类型不再生效（其它rewrite类型依然生效）。
+
+1.0.2(132)>@Cuttlefish
+- 内置策略可自定义图标 (“On My iPhone Quantumult X”对应资源目录中命名为proxy.png、direct.png、reject.png 的图片）
+- Rewrite HTTP response body 类型不再支持引用远程资源，仅支持读取本地(“On My iPhone”).
+- Quantumult X”对应资源目录） 相关资源。
+
+1.0.1(131)
+No changelog
+
+1.0.1(130)>@Cuttlefish
+- 修复开启了 Alwavs On 的情况下弹窗的问题。
+- 恢复配置文本行数显示。
+
+1.0.1(129)
+No changelog
+
+1.0.1(128)>@Cuttlefish
+- Rewrite script-response-body 将自动跳过包含以下关键字的脚本，防止相关功能滥用：renew、vip、paid、premium 等。
+- 临时取消配置文本的行数显示。
+
+1.0.1(127)>@Cuttlefish
+- 开启了Force policy 的分流资源将会在列表中显示对应的 policy
+
+1.0.1(126)>@Cuttlefish
+- 增加 Always On 功能。当该功能启用时response-body 及 script-response-body 类型的rewrite 将会放宽响应体大小限制。
+
+1.0.1(125)
+No changelog
+
+1.0.1(124)
+- 增加仅 VMess over TLS 的支持，配置格式参考示例配置文件 (vmess,mess + tIs, mess + wS, vmess + ws + ts 均己支持）。
+
+1.0.1(123)>@Cuttlefish
+- 节点列表不再显示节点地址，改为显示协议类型。目前仅显示两种 vmess 及 shadowsocks （使用了 ssr 混淆插件和协议插件的节点亦统一显示 shadowsocks)
+- 对 VMess 远程引用的 Quantumult X 配置片段的支持。
+- wss 暂不支持自签名证书。
+
+1.0.1(122)>@Cuttlefish
+- 允许配置不带 ws 或 wss 的VMess (TCP)配置格式参考示例配置文件 (vmess + ws + ts上个测试版build 121已支持）
+- Link 方式添加 VMess 暂未支持。
+注：不支持 VMess UDP 转发。
+
+1.0.1(121)>@Cuttlefish
+- VMess 协议(vmess+ws+tis）支持（终于不用再回复如何搭建 ss+ws+tis的问题了），配置格式参考示例配置文件。
+- 已知bug：节点列表界面点击生成 VMess 节点：维码或 URI 会闪退。
+
+1.0.0(120)>@Cuttlefish
+- 修复一处解析配置导致开启连接时崩溃的问题。
+
+1.0.0(119)>@Cuttlefish
+- 当配置了自定义 DNS时（例server=223.5.5.5） ，如需强制某域名（例example.com）仅使用系统 DNS 而不额外使用自定义的 DNS（例 223.5.5.5） 进行查询，可以配置为 server=lexample.com/system
+
+1.0.0(118)>@Cuttlefish
+- SSID 类策略如仅配置了 Wi-Fi与蜂窝网子策略，未配置具体 SSID 下的子策略时，该SSID 策略将无须开启定位权限 (iOS 13)
+- ss+ws及ss+ws+tls配置生成的二维码遵循”SIP002 URI Scheme”
+
+1.0.0(117)>@Cuttlefish
+- 二维码增加 obts-uri 参数。
+- 修复当 ws 配置末设置 obfs-host 参数时连接失败的问题。
+Tips for ws:
+服务端如使用 v2ray-plugin 仅支持最新commit(非release） 版自行编译(mux=0)。
+
+1.0.0(116)>@Cuttlefish
+- 除下拉外，额外增加长按节点进行网页响应测试；下拉测试所有展开节点，长按仅测试该节点所属资源的所有节点。
+
+1.0.0(115)>@Cuttlefish
+- 修复在 ios 10上点击下载配置文件时，界面崩溃的问题
+- 修复当从不同尺寸 ihone 设备备份中恢复时，部分元素尺寸不正确的问题．
+- DHCP lease time 到期的事件不会再进行网络变动通知。
+
+1.0.0(114)
+- 当本机开启热点连接时，主应用节点界面下拉时不再进行 URL test.
+关于 Quantumult X 不支持 vmess 协议的说明：Quantumult 最初打算支持 vmess 协议并不是因为 wss 完整的tls握手过程或者 vmess 本身，而是因为 vmess + ws 可以通过 CDN；现在Quantumult X 已支持 ss + ws (v2ray-core or v2ray-plugin） 亦可通过 CDN，故而不再支持vmess 协议。
+
+1.0.0(113)>@Cuttlefish
+- Fixes color issue on iOS 11 or earlier.
+
+1.0.0(112)>@Cuttlefish
+- 增加 shortcut
+
+1.0.0(111)
+No changelog
+
+1.0.0(110)>@Cuttlefish
+- 额外增加策略选择方式：运行时，可在策略（路径）状态中选择所需策略。
+
+1.0.0(109)>@Cuttlefish
+- SSR 二维码包含混淆参数形如”’example.com#key: Value” 会仅保留example.com 为 Quantumult X 配置中 obfs-host参数，而非直接抛出错误提示。
+- 配置文件中 obfs-host 参数如含有＃之类的特殊符号将会提示错误。
+- 其它优化。
+以下看不懂可略过，鉴于好些人问，统一回答：
+(下文所述“Quantumult 中 HTTP(S) 模块”特指“HTTP(S)本地（回环）代理服务器”)
+1、Quantumult x 中所有的 HTTP(S)解析全部都是 TUN 口的原始 TCP 数据。
+2、Quantumult X 对TUN 口的解析及对应功能在Quantumult 上做了大幅升级，支持所有在Quantumult 中 HTTP(S)模块已经实现的功能，并增加更多相关功能（完整的请求及响应解析，改写请求头，改写响应体）；也意味着对强制只走 TUN 口的应用所进行的 HTTP(S) 请求也能进行修改(Body rewrite)。
+3、由于 Quantumult X 中的 HTTP(S)解析及相关功能已无须开启一个HTTP(S） 本地（回环）代理服务器来实现（TUN 口的原始 TCP数据的HTTP(S) 解析及修改功能已全部支持），故而Quantumult X 移除了在Quantumult 中的HTTP(S) 模块。移除以上模块后将兼容更多检测系统代理环境应用（如：浦发手机银行 app 开启即提示代理环境等）；移除以上模块后在 ios 12上不会再产生偶发的 siri 失灵问题；意味着Quantumult X 有着更强的兼容性，并同时具有更多的HTTP(S) 数据的解析与修改功能。
+
+1.0.0(108)
+- 修复使用 SSR 协议插件的UDP转发导致崩溃的问题。
+
+1.0.0(107)
+- 由手上个版本(build 106） 未对脚本rewrite 的响应体尺寸进行限制，导致运行不稳定，故而恢复尺寸限制。感谢使用微博用户的反馈。
+
+1.0.0(106)
+No changelog
+
+1.0.0(105)>@Cuttlefish
+- 修复无法识别节点地址为IPv6 格式的节点二维码（SSR-URl，订阅）的问题。
+
+1.0.0(104)
+- 进一步支持 static=policy-name-1, Sample-A, Sample-B, Sample-C, img-url=icon.png
+tips:
+1、希望使用 ss+v2ray-plugin 的用户，自行把 v2ray-plugin main.go 中的 case”websocket”: 下的connectionReuse = true注释掉后即可禁用 mux.cool,禁用 mux.cool后自行编译即可与 Quantumult X 兼容。
+2、Quantumult X 是以并发吞吐量为前提的，后续不会支持mux.cool（即多个网络请求通过同一个TCP连接来传输数据）；特别的，TCP 连接吞吐量易受网络波动影响（相同的原地址端口与目标地址端口的两个 TCP 连接，由于网络波动及拥塞算法的关系，可能吞吐量差别巨大），当多个请求封装在一个TCP 连接中时，受影响的效果将会被放大（虽然mux.cool 因连接复用的关系会减少子连接的网络请求握手延迟，但这个特性不在Quantumult X 考虑内，因己有下FO支持）。另外运营商也可能会对每个 TCP 连接做蒂宽限制。
+
+1.0.0(103)
+- 策略图标可附带在配置条目中，下载后的图标文件会缓存在Images 文件夹下。符合要求的图标才会显示，缓存的图标没有后缀名无需手动添加后缀。如网络图标有更新，请手动清理对应缓存，之后会重新下载。如无img-url 参数，则按之前的设定载入策略图标。static=policy-name-1, Sample-A, Sample-B,Sample-C,img-url=http://example.com/icon.png 
+
+1.0.0(102)
+No changelog
+
+1.0.0(101)
+- 为某些 IPv6 用户的特殊需求增加新的 DNS 设置项。
+address=/example.com/force-timeout-v4
+address=/example.com/force-timeout-v6
+
+1.0.0(100)
+- 临时使用位置服务（始终）开启 iOS 13 Beta 上的SSID 策略支持。
+- 允许某指定域名 A记录查询强制使用 IPv6 地址的 DNS 服务器。
+- 允许某指定域名 AAAA 记录查询强制使用 IPv4地址的 DNS 服务器。
+
+1.0.0(99)
+- 修复合法的 DNS 格式却提示格式错误的问题。
+- 允许 IPv4 与 IPV6 双环境下无 IPv4 DNS 情况下进行 IPv4 域名查询与访问。
+- 双排简洁模式仅对 +12h 用户开放。
+
+1.0.0(98)
+No changelog
+
+1.0.0(97)
+No changelog
+
+1.0.0(96)
+No changelog
+
+1.0.0(95)
+- 简洁模式下的UI调整，请多策略用户自行使用含义清晰的图案。
+- 引用的分流规则资源列表会显示策略偏好。
+
+1.0.0(94)
+- 兼容某些局域网设备的访问。
+- 策略列表颜色一致性（策略状态，请求记录，运行模式）调整。
+
+1.0.0(93)
+- 因策略图标可
+- 主页功能键长按功能默认关闭，用户可按自身状况决定是否启用。
+- 优化非透明背景自定义图标在策略列表中的显示效果。
+提示：
+Rewrite 类型，能用 response-body(regx) 解决，就不要使用 script-response-body(js).如果您不在乎内存超出系统限制进而中断连接，请随意。
+
+1.0.0(91)>@Cuttlefish
+- Fixes an issue related to response-body rewrite.
+
+1.0.0(90)
+- Policy list supports customized policy image。
+- Supports lowercase extension (png) of policy image file。
+- Fixes an issue (UI) on iOS 13 Beta when loading QR code image from album。
+Tips:
+Quantumult: VMess + WebSocket + TLS (Service deployed by V2Ray)。
+Quantumult X: Shadowsocks + WebSocket +TLS (Service deployed by V2Ray. Not compatible with v2ray-plugin that is Shadowsocks + Mux.Cool + WebSocket + TLS)。
+
+1.0.0(89)
+- 优化策略图像显示，忽略尺寸不符的图像。
+
+1.0.0(88)
+- 自动为引用分流规则创建所需策略时，通知内容将同时显示该策略对应的资源 URL
+- 允许为自定义策略设置图标。要求：图标文件名为策略名，后缀名为大写 PNG，存储路径为本地 mages 文件夹。尺寸见示例https://raw.githubusercontent.com/crossutility/Quantumult-X/master/icon-sample.PNG
+
+1.0.0(87)
+- 各远程资源节点变更通知将单独显示。
+- 自动为引用分流规则创建所需策路时，将发送通知。
+- 进行节点远程资源同步时如有节点减少，包含该节点的策略会自动移除该节点（必要条件：1、移除该节点后，策略至少还有一个或两个其他节点或策略可以引用。2、直接引用该节点的策略不能为 ssid 类型策略。)
+
+1.0.0(86)
+- 更新节点订阅如有节点移除时，不会再自动移除有关策略中的节点。
+- 如某策略所有候选节点与某节点订阅包含的节点数量与名称均相同，则该策略与该订阅视为相互关联，被关联的策略候选节点会随着所关联的订阅同步更新。
+
+1.0.0(85)
+- UI 修复引用资源列表排序（iOS 13 以下）。
+- UI 修复暗色与亮色模式变换 (IOS 13)。
+
+1.0.0(84)>@Cuttlefish
+- UI修复节点折叠列表过多时的卡顿。
+
+1.0.0(83)
+- 必要时，在下次开启应用时会自动保持节点(订阅）列表展开与收起状态。
+- 降低触发 available 策略测试所需的失败连接个数（5 减为 1）
+。
+1.0.0(82)
+- 调整节点列表显示。
+
+1.0.0(81)>@Cuttlefish
+- geo_location_checker 支持对响应数据的处理(chunked, zip等）
+
+1.0.0(79)
+- 调整为远程资源自动创建策路的时机，不再出现对远程资源所使用的策略（或force-policy）提示未知第路。如文本编辑删除对应策略，Quantumult 会再次自动生成远程资源所需的策略。
+
+1.0.0(78)
+No changelog
+
+1.0.0(76)
+No changelog
+
+1.0.0(75)
+- 大幅提升 MitM 处理性能。
+- 修复某些环境下响应缓慢的问题。
+
+1.0.0(74)
+- 支持在网络活动详情页面直接修改所命中的分流规则（如命中的规则为远程引用，则只能查看所引用的资源路径） 或新建规则。
+- 点击主页红色小圆点可直接跳转到所对应的更新失败的资源列表。
+
+1.0.0(72)
+- 支持引用本地脚本 (^http://examplel.com/resource6/ script-response-body script-response-body sample.js),脚本需存在于 Scripts 目录下，可使用 Files app 查看。
+- 支持 iTunes 文件共享（包含Scripts 目录）。
+- 支持UI更改 final 策略
+
+1.0.0(71)
+- 订阅的节点变更通知将显示完整的节点标签（增加的和移除的）如显示内容过多可 3D Touch 该通知查看更多内容。
+- 更新（检测） 节点订阅时，如服务器响应头包含节点流量信息（格式与 Quantumult 支持相同），将会弹出流量使用通知。
+
+1.0.0(70)
+- 资源引用列表 UI修复 (IOS 10)
+
+1.0.0(69)
+- 增加可用网络状态通知。
+- 增加通知分类设置。
+
+1.0.0(68)
+- 修复build 58引入的一处bug.
+- 网络不稳定的通知加入通知最短间隔时间（5秒)。
+- 修复配置文件的一处误报。
+
+1.0.0(63)
+- 增加一键更新所有引用的远程资源。
+
+1.0.0(62)
+- 修复一处拼写错误，如有使用负载均衡（轮询）策略，请参照示例更改对应参数名称。
+- 修复使用多个负载均衡（轮询）策略会崩溃的问题。
+- 修复保存不符合格式的 DNS 设蛋导致崩溃的问题。
+
+1.0.0(60)
+- 增加自定义主页显示节点落地信息的数据获取方式 (geo_location_checker)。
+- 增加长按节点获取节点落地信息的功能（需有配置 geo_location_checker)。
+- 范例中脚本各返回值为必须，否则显示查询失败。如不在意某个值，脚本返回任意固定值即可。
+- 为提高查询效率节点信息查询接口的请求仅支持http，范例如下：
+[general]
+geo_location_checker=http://extreme-ip-lookup.com/json/, https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-location-with-script.js
+
+1.0.0(59)
+- 调整 force_sni_domain name 为 false 时的处理机制。
+- 移除导入功能，减少无法区分功能模块的用户反馈。
+
+1.0.0(55)
+- 增加 Content-Encoding 为br 的HTTP body 解析与修改。
+- 更新 $notify 增加副标题。
+
+1.0.0(50)
+- 增加 rewrite 类型 script-response-body，具体参见 https://github.com/crossutility/Quantumult-X/blob/master/rewrite.md
+- Fixes issues when modifing response bodywith chucked transfer encoding.
+
+1.0.0(49)
+- 增加通知功能。
+- 针对订阅节点的变更，增加策略自动调整功能。进行节点远程资源同步时如有节点减少，包含该节点的策路会自动移除该节点（必要条件：1、移除该节点后，策略至少还有一个其他节点或策略可以引用。2、直接引用该节点的策略不能为 ssid 类型策略。 ）
+- 进行节点远程资源同步时如有节点名称变更，会有通知提示（如启用了通知。）
+- 类型为 available 策略的可用性指向如果有变动，会有通知提示（如启用了通知。）
+
+1.0.0(47)
+- 增加 MitM 配置界面及开关。
+
+1.0.0(45)
+- 当引用的分流规则启用了个性化策略且在该策略名不存在的情况下 （文本编辑时会发生），同步该资源会自动为其创建一个简单的静态策略，之后可长按策略面板进行策略调整。
+- HTTP 请求体与响应体文本浏览编码方式可自行选择。
+
+1.0.0(44)
+- 修复在 iOS 13 iPad 上的显示问题（请删除重新安装）。
+- 其它 i0S 13 兼容。
+
+1.0.0(43)
+- 支持 iOS 13 暗黑模式。
+- 支持 iPad 设备。
+
+1.0.0(42)
+- 重新使用 Xcode 正式版编译（暂不支持 IOS13 黑暗模式），防止测试版自动撤回。
+- 修复添加分流规则资源时禁止自动创建策略失效的问题。
+- 引用（订阅）的远程资源采用异步更新，分流规则资源的更新增加额外选项（强制单策略替换，开启后将不会自动创建策略）。
+- 节点订阅列表向右滑动可一键生成 static 类型策路 （包含该订阅下所有节点)。
+
+1.0.0(41)
+
+1.0.0(40)
+- 引用（订阅）的远程资源采用异步更新。
+- 分流规则资源的更新增加额外选项（强制单一策略替换，开启后将不会自动创建策略)。
+- 节点订阅列表向右滑动可一键生成 static 类型策略(包含该订阅下所有节点)。
+
+1.0.0(39)
+- 支持 iOS 13 暗黑模式。
+- 在ios 13 上SSID 策略暂不支持。
+
+1.0.0(37)
+- 远程规则资源同步时将自动创建不存在的策略。
+
+1.0.0(36)
+- IOS 13 兼容性更新 （如使用 iOS 13 请更新）。
+
+1.0.0(34)
+- 修复在 IOS 13上MitM 根证书信任状态的检测。
+
+1.0.0(33)
+- 增加rewrite 订阅，格式与导入rewrite样并可包含 MitM 主机名，不识别的条目将会自动跳过，参见 https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-import-rewrite.txt
+- 订阅的配置和本地配置同时 （包括 MitM 主机名）生效，，rewrite 匹配按顺序，先本地后订阅、不同订阅按由上自下处理。
+
+1.0.0(32)
+- 支持从 URL导入rewrite 条目，不识别的条目将会自动跳过，格式参照 https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-import-rewrite.txt
+
+1.0.0(31)
+- Rewrite 302 307 将会自动跳过无变化 URL.
+
+1.0.0(30)
+- SSR 二维码识别修复。
+
+1.0.0(29)
+- 增加部分配置UI操作。
+
+1.0.0(27)
+- Record the whole request and response(including body) by enabling HTTP Analyzer.
+
+1.0.0(25)
+- Fixes issues when modifing response body with chucked transfer encoding.
+
+1.0.0(24)
+- Updated sample configuration.
+
+1.0.0(21)
+- Fixes filter issue for IP-CIDR.
+
+1.0.0(20)
+- Updated sample configuration.
+
+1.0.0(18)
+- 修复 SSR 二维码扫描。请测试以下 Ⅰ+Ⅱ+Ⅲ组合（无需兼容模式）
+Ⅰ:AEAD 系列算法(aes-128-gcm, aes-192-gem, aes-256- gcm, chacha20-ietf-poly1305, xchacha20-ietfpoly1305), 非AEAD 系列亦支持，也可进行测试。
+Ⅱ:SSR 协议插件(auth_sha1,sha1_v2,sha1_v4.auth_es128_md5,auth_aes128_sha1, auth_chaina, auth_chain_b)
+Ⅲ:SSR 混淆插件或 SS 混淆插件(http_simple,http_post, tls1.2_ticket_fastauth, tls1.2_ticket_auth, obfs-http, obfs-tls)
+
+1.0.0(17)
+- Supports SSR (You can scan the SSR QRCode to find the configuration format).
+Extra for SSR:
+SSR protocol plugin with SS obfs plugin(obfs-http, obfs-tls).
+SR with AEAD ciphers.
+SR protocol plugin with V2Ray websocket.
+
+Notice: Since the v2ray-plugin for shadowsocks enabled the multiplex( V2RayMux.Cool) by default, even when mux is 1 itstill has Mux.Cool meta.
+You may want to change the source file (main.go of v2ray-plugin) by removing the MultiplexingConfig settings if you want it work with current version of Quantumult X.
+Issues:
+The SSR-URI generator may not work.
+
+1.0.0(16)
+*支持SS超过V2Rav WebSocket (TLS)．读取样本配置的细节，*为自签署的证书,你应该手动信任你自己的CA在设置应用程序或其他的握手会失败。要测试这个应用程序，打开试飞在iPhone或iPod Touch上使用10S 10.0或更晚安装更新。
+
+1.0.0(14)
+* SS-URI 相关功能增加识别以 SSR-URI描述的SS配置(origin, plain, simple_obfs http,simple_obfs_http_compatible, simple_obfs_tls,simple_obfs_tls_compatible)
+* SS-URI related functions can get SS configuration from SSR-URI if it contains the SS compatible info(origin, plain, simple_obfs_http,simple_obfs_http_compatible, simple_obfs_tls, simple_obfs_tls_compatible)
+
+￼1.0.0(9)
+- 修复初始添加节点订阅失败及重名节点品示为无节点的问题。
+
+￼1.0.0(8)
+- 分离订阅节点与本地配置节点。如通过订阅更新节点时提示节点名重复，请删除本地配置中同名节点再更新。
+- 增加 UDP 端口白名单。
+- 节点可单独设置自身的 server_check_url 参数；如未设置，则使用全局server check ur 参数。server check uri 记员增加 web 服务器返回的 HTTP response header 部分。当用户使用自己的web 服务器作为 server_check_url时，可自行设置相应的 response header 返回更多信息。
+
+￼1.0.0(4)
+更新进度异常缓慢，还未到公开测试程度，望悉知。
+- Completely rebuilt from scratch.
+- Only in the middle of SS.
+- Stability test.
+
+▼1.0.0
+⚠️
+The developer has no version or withdrawn the package, and cannot get the change log “No changelog”

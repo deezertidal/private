@@ -1,0 +1,7 @@
+div.ssr1 {display: none! important;}
+div#leo-pic-slider{display: none! important;}
+div[style^="height: 121px"]{display: none! important;}
+div[style*="line-height: 35px"] {display:none !important}
+div.leo-gonggao-body.leo-bg-a {display: none! important;}
+nav.leo-foot-wrap.leo-bg-a.leo-po-fi{display: none! important}
+div[aui-popup-for*="bottom-right"]{display: none! important}

@@ -1,0 +1,12 @@
+// ==UserScript==
+// @Name              QX 解锁网易云服务器
+// @Author            Cuttlefish
+// @TgChannel         https://t.me/ddgksf2021
+// @WechatID          公众号墨鱼手记
+// @UpdateTime        20201028
+// @Explain           #网抑云 
+// @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Server/Netease.list
+// ==/UserScript==
+
+
+http=106.52.127.72:19951, over-tls=false, fast-open=false, udp-relay=false, tag=网易云音乐1

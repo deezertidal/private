@@ -1,0 +1,14 @@
+div#popup{display: none! important}
+div.myui-panel.myui-panel-bg.clearfix.wapad{display: none! important}
+div.myui-panel.myui-panel-bg.clearfix.pcad{display: none! important}
+a[href*="?channelCode="] > img[src*=".com:"]{display: none! important}
+a[href*="?invite_code="] > img[src*=".com"]{display: none! important}
+div.playtop.col-pd{display: none! important}
+div.playerad{display: none! important}
+div.myui-nav__tabbar{display: none! important}
+div#home_slide{display: none! important}
+a.open-share{display: none! important}
+div.myui-panel.myui-panel-bg.clearfix.hiddex-xs{display: none! important}
+div.visible-xs.col-pd{display: none! important}
+div.is_mb{display: none! important}
+div.shortcuts-mobile-overlay{display: none! important}

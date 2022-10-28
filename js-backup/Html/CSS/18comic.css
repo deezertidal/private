@@ -1,0 +1,17 @@
+div[style*="margin: 5px"]{display:none!important}
+div.pull-right{display:none!important}
+div[style^="display: flex"]{display:none!important}
+div[data-height="250"][data-width="300"]{display:none!important}
+div[data-height="90"][data-width="728"]{display:none!important}
+div.bot-per-back{display:none!important}
+div.bot-per-times{display:none!important}
+div#billboard-modal{display:none!important}
+div.container.phpage-bottom.switch-group.visible-xs.visible-sm{display:none!important}
+div.top-menu{display:none!important}
+div.ph-bottom.switch-group.visible-xs.visible-sm{display:none!important}
+div.bot-per.visible-xs.visible-sm{display:none!important}
+div.row.visible-xs.center{display:none!important}
+div.owl-carousel.partial-view.owl-loaded.owl-drag{display:none!important}
+div.modal-dialog.billboard-modal8888{display:none!important}
+div.modal-backdrop.fade.in{display:none!important}
+a[target="_blank"]{display:none!important}

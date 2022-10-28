@@ -1,0 +1,6 @@
+div#popup{display:none!important}
+div.footer{display:none!important}
+div.logo{display:none!important}
+a[href*="app"]{display:none!important}
+a[href*="t.me"]{display:none!important}
+a[href*="new.html"]{display:none!important}

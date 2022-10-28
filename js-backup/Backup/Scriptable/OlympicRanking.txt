@@ -1,0 +1,624 @@
+// Variables used by Scriptable.
+// These must be at the very top of the file. Do not edit.
+// icon-color: deep-purple; icon-glyph: magic;
+
+const baseSettings = {
+    day: {
+        bgc: ’#ffffff‘,
+        fc: ’#000000‘
+    },
+    night: {
+        bgc: ’#000000‘,
+        fc: ’#ffffff‘
+    }
+}
+
+function getSettings() {
+    let settings = {}
+    if (Keychain.contains(Script.name())) {
+        settings = JSON.parse(Keychain.get(Script.name()))
+    }
+    return settings
+}
+function saveSettings(settings) {
+    Keychain.set(Script.name(), JSON.stringify(settings))
+}
+async function notify(title, msg) {
+    const notification = new Notification()
+    notification.title = title
+    notification.body = msg
+    return await notification.schedule()
+}
+async function getData() {
+    const url = ’https://api.cntv.cn/olympic/getBjOlyMedals?serviceId=2022dongao&itemcode=GEN-——————————‘
+    const req = new Request(url)
+    req.method = ’get‘
+    req.headers = {
+        ’User-Agent‘: ’Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15‘,
+        ’Accept-Language‘: ’zh-CN,zh-Hans;q=0.9‘,
+        ’host‘: ’api.cntv.cn‘
+    }
+    const res = await req.loadJSON()
+    if (res && res.data && res.data.medalsList) {
+        return res.data.medalsList
+    } else {
+        return null
+    }
+}
+async function getImage(url) {
+    const req = new Request(url)
+    req.method = ’get‘
+    return await req.loadImage()
+}
+function zeroPad(numToPad) {
+    if (numToPad > 9) {
+        return numToPad
+    } else {
+        return `0${numToPad}`
+    }
+}
+const render = {
+    Small: async () => {
+        log(”开始渲染小尺寸组件“)
+        let countryName = args.widgetParameter || ’中国‘
+        let data = await getData()
+        if (data) {
+            data = data.find(item => item.countryname === countryName)
+            if (data) {
+                const currentSettings = getSettings()
+                const widget = new ListWidget()
+                const header = widget.addStack()
+                const title = header.addText(`冬奥会奖牌`)
+                title.font = Font.boldSystemFont(16)
+                title.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                title.centerAlignText()
+
+                widget.addSpacer(5)
+
+                const countryRow = widget.addStack()
+                const countryFlag = countryRow.addImage(await getImage(`https://p1.img.cctvpic.com/sports/data/olympic/teamImg/${data.countryid}.png`))
+                countryFlag.imageSize = new Size(20, 20)
+                const country = countryRow.addText(`       ${data.countryname}`)
+                country.font = Font.systemFont(16)
+                country.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+
+                let goldRow = widget.addStack()
+                let goldFlag = goldRow.addImage(await getImage(`https://search-operate.cdn.bcebos.com/aec5a78d18e7dd650651bb2164c6b0f1.png`))
+                goldFlag.leftAlignImage()
+                goldFlag.imageSize = new Size(16, 16)
+                let goldNum = goldRow.addText(’    -     ‘ + data.gold)
+                goldNum.font = Font.systemFont(16)
+                goldNum.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                widget.addSpacer(3)
+
+                let silverRow = widget.addStack()
+                let silverFlag = silverRow.addImage(await getImage(`https://search-operate.cdn.bcebos.com/81aa79c261d9211749f1187cf3ff143f.png`))
+                silverFlag.leftAlignImage()
+                silverFlag.imageSize = new Size(16, 16)
+                let silverNum = silverRow.addText(’    -     ‘ + data.silver)
+                silverNum.font = Font.systemFont(16)
+                silverNum.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                widget.addSpacer(3)
+
+                let bronzeRow = widget.addStack()
+                let bronzeFlag = bronzeRow.addImage(await getImage(`https://search-operate.cdn.bcebos.com/b554700c0272a25b10e0c8f0117f6b37.png`))
+                bronzeFlag.leftAlignImage()
+                bronzeFlag.imageSize = new Size(16, 16)
+                let bronzeNum = bronzeRow.addText(’    -     ‘ + data.bronze)
+                bronzeNum.font = Font.systemFont(16)
+                bronzeNum.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                bronzeNum.rightAlignText()
+
+                let lineRow = widget.addStack()
+                let line = lineRow.addText(’—————————————‘)
+                line.font = Font.lightSystemFont(5)
+                line.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+
+                let countRow = widget.addStack()
+                let count = countRow.addText(”当前排名:  “)
+                count.font = Font.systemFont(16)
+                count.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                let countNum = countRow.addText(data.rank)
+                countNum.font = Font.systemFont(16)
+                countNum.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+
+                let updateTimeRow = widget.addStack()
+                let reloadSymbol = SFSymbol.named(”arrow.triangle.2.circlepath“)
+                let reloadImage = updateTimeRow.addImage(reloadSymbol.image)
+                reloadImage.imageSize = new Size(8, 8)
+                reloadImage.tintColor = Color.gray()
+                let now = new Date()
+                let updateTime = updateTimeRow.addText(`  ${zeroPad(now.getMonth() + 1)}-${zeroPad(now.getDate())} ${zeroPad(now.getHours())}:${zeroPad(now.getMinutes())}`)
+                updateTime.font = Font.systemFont(8)
+                updateTime.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                updateTime.rightAlignText()
+                return widget
+            } else {
+                return renderError(’没有找到所选国家的数据……‘)
+            }
+        } else {
+            return renderError(’获取数据失败，请稍后再试……‘)
+        }
+    },
+    Medium: async () => {
+        log(”开始渲染中尺寸组件“)
+        let pinCountry = args.widgetParameter || ’中国‘
+        let data = await getData()
+        if (data) {
+            let widget = new ListWidget()
+            const currentSettings = getSettings()
+
+            let header = widget.addStack()
+
+            let titleArea = header.addStack()
+            let icon = titleArea.addImage(await getImage(’https://s2.loli.net/2022/02/06/RPeQqYBf9UOFJDr.png‘))
+            icon.imageSize = new Size(20, 22)
+            let title = titleArea.addText(’   北京冬奥会奖牌榜   ‘)
+            title.font = Font.boldSystemFont(20)
+            title.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+
+            let infoArea = header.addStack()
+            infoArea.layoutVertically()
+            let info = infoArea.addText(’数据来自于CNTV‘)
+            info.font = Font.lightSystemFont(10)
+            info.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+
+            let updateTimeArea = infoArea.addStack()
+            let reloadSymbol = SFSymbol.named(”arrow.triangle.2.circlepath“)
+            let reloadImage = updateTimeArea.addImage(reloadSymbol.image)
+            reloadImage.imageSize = new Size(8, 8)
+            reloadImage.tintColor = Color.gray()
+            let now = new Date()
+            let updateTime = updateTimeArea.addText(`  ${zeroPad(now.getMonth() + 1)}-${zeroPad(now.getDate())} ${zeroPad(now.getHours())}:${zeroPad(now.getMinutes())}`)
+            updateTime.font = Font.systemFont(8)
+            updateTime.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+
+            widget.addSpacer(5)
+            let body = widget.addStack()
+            body.layoutVertically()
+
+            let bodyHeader = body.addStack()
+
+            let bodyHeaderRankArea = bodyHeader.addStack()
+            let headerRank = bodyHeaderRankArea.addText(’排名‘)
+            headerRank.font = Font.systemFont(14)
+            headerRank.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+            bodyHeaderRankArea.layoutVertically()
+            bodyHeader.addSpacer(10)
+
+            let bodyHeaderRegionArea = bodyHeader.addStack()
+            let headerRegion = bodyHeaderRegionArea.addText(”国家/地区“)
+            headerRegion.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+            headerRegion.font = Font.systemFont(14)
+            bodyHeaderRegionArea.layoutVertically()
+            bodyHeader.addSpacer(25)
+
+            let bodyHeaderGoldFlagArea = bodyHeader.addStack()
+            let headerGoldFlag = bodyHeaderGoldFlagArea.addImage(await getImage(`https://search-operate.cdn.bcebos.com/aec5a78d18e7dd650651bb2164c6b0f1.png`))
+            headerGoldFlag.imageSize = new Size(14, 14)
+            bodyHeaderGoldFlagArea.layoutVertically()
+            bodyHeader.addSpacer(20)
+
+            let bodyHeaderSilverFlagArea = bodyHeader.addStack()
+            let headerSilverFlag = bodyHeaderSilverFlagArea.addImage(await getImage(`https://search-operate.cdn.bcebos.com/81aa79c261d9211749f1187cf3ff143f.png`))
+            headerSilverFlag.imageSize = new Size(14, 14)
+            bodyHeaderSilverFlagArea.layoutVertically()
+            bodyHeader.addSpacer(20)
+
+            let bodyHeaderBronzeFlagArea = bodyHeader.addStack()
+            let headerBronzeFlag = bodyHeaderBronzeFlagArea.addImage(await getImage(`https://search-operate.cdn.bcebos.com/b554700c0272a25b10e0c8f0117f6b37.png`))
+            headerBronzeFlag.imageSize = new Size(14, 14)
+            bodyHeaderBronzeFlagArea.layoutVertically()
+            bodyHeader.addSpacer(20)
+
+            let bodyHeaderCountArea = bodyHeader.addStack()
+            let headerCount = bodyHeaderCountArea.addText(”总计“)
+            headerCount.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+            headerCount.font = Font.systemFont(14)
+            bodyHeaderCountArea.layoutVertically()
+
+            for (let i = 0; i < 3; i++) {
+                let rank = bodyHeaderRankArea.addText(data[i].rank)
+                rank.font = Font.systemFont(14)
+                rank.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                let region = bodyHeaderRegionArea.addStack()
+                region.addImage(await getImage(`https://p1.img.cctvpic.com/sports/data/olympic/teamImg/${data[i].countryid}.png`)).imageSize = new Size(14, 14)
+                let cn = region.addText(’  ‘ + data[i].countryname)
+                cn.font = Font.systemFont(14)
+                cn.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                let gold = bodyHeaderGoldFlagArea.addText(data[i].gold)
+                gold.font = Font.systemFont(14)
+                gold.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                let silver = bodyHeaderSilverFlagArea.addText(data[i].silver)
+                silver.font = Font.systemFont(14)
+                silver.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                let bronze = bodyHeaderBronzeFlagArea.addText(data[i].bronze)
+                bronze.font = Font.systemFont(14)
+                bronze.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                let count = bodyHeaderCountArea.addText(data[i].count)
+                count.font = Font.systemFont(14)
+                count.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+            }
+
+            let lineArea = body.addStack()
+            let line = lineArea.addText(’   ——————————————————‘)
+            line.font = Font.lightSystemFont(10)
+            line.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+            line.centerAlignText()
+
+            let pinCountryData = data.find(item => item.countryname === pinCountry)
+            if (pinCountryData) {
+                let pindRow = body.addStack()
+
+                let pindRowRankArea = pindRow.addStack()
+                pindRowRankArea.layoutVertically()
+                let rank = pindRowRankArea.addText(pinCountryData.rank)
+                rank.font = Font.systemFont(14)
+                rank.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                pindRow.addSpacer(30)
+
+                let pindRowRegionArea = pindRow.addStack()
+                pindRowRegionArea.layoutVertically()
+                let region = pindRowRegionArea.addStack()
+                region.addImage(await getImage(`https://p1.img.cctvpic.com/sports/data/olympic/teamImg/${pinCountryData.countryid}.png`)).imageSize = new Size(14, 14)
+                let cn = region.addText(’  ‘ + pinCountryData.countryname)
+                cn.font = Font.systemFont(14)
+                cn.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+
+                pindRow.addSpacer(82)
+
+                let pindRowGoldFlagArea = pindRow.addStack()
+                pindRowGoldFlagArea.layoutVertically()
+                let gold = pindRowGoldFlagArea.addText(pinCountryData.gold)
+                gold.font = Font.systemFont(14)
+                gold.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                pindRow.addSpacer(25)
+
+                let pindRowSilverFlagArea = pindRow.addStack()
+                pindRowSilverFlagArea.layoutVertically()
+                let silver = pindRowSilverFlagArea.addText(pinCountryData.silver)
+                silver.font = Font.systemFont(14)
+                silver.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                pindRow.addSpacer(25)
+
+                let pindRowBronzeFlagArea = pindRow.addStack()
+                pindRowBronzeFlagArea.layoutVertically()
+                let bronze = pindRowBronzeFlagArea.addText(pinCountryData.bronze)
+                bronze.font = Font.systemFont(14)
+                bronze.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                pindRow.addSpacer(25)
+
+                let pindRowCountArea = pindRow.addStack()
+                pindRowCountArea.layoutVertically()
+                let count = pindRowCountArea.addText(pinCountryData.count)
+                count.font = Font.systemFont(14)
+                count.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+            }
+            return widget
+        } else {
+            return renderError(’获取数据失败，请稍后再试……‘)
+        }
+    },
+    Large: async () => {
+        log(”开始渲染大尺寸组件“)
+        let data = await getData()
+        if (data) {
+            let widget = new ListWidget()
+            const currentSettings = getSettings()
+
+            let header = widget.addStack()
+
+            let titleArea = header.addStack()
+            let icon = titleArea.addImage(await getImage(’https://s2.loli.net/2022/02/06/RPeQqYBf9UOFJDr.png‘))
+            icon.imageSize = new Size(20, 22)
+            let title = titleArea.addText(’   北京冬奥会奖牌榜   ‘)
+            title.font = Font.boldSystemFont(20)
+            title.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+
+            let infoArea = header.addStack()
+            infoArea.layoutVertically()
+            let info = infoArea.addText(’数据来自于CNTV‘)
+            info.font = Font.lightSystemFont(10)
+            info.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+
+            let updateTimeArea = infoArea.addStack()
+            let reloadSymbol = SFSymbol.named(”arrow.triangle.2.circlepath“)
+            let reloadImage = updateTimeArea.addImage(reloadSymbol.image)
+            reloadImage.imageSize = new Size(8, 8)
+            reloadImage.tintColor = Color.gray()
+            let now = new Date()
+            let updateTime = updateTimeArea.addText(`  ${zeroPad(now.getMonth() + 1)}-${zeroPad(now.getDate())} ${zeroPad(now.getHours())}:${zeroPad(now.getMinutes())}`)
+            updateTime.font = Font.systemFont(8)
+            updateTime.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+
+            widget.addSpacer(5)
+            let body = widget.addStack()
+            body.layoutVertically()
+
+            let bodyHeader = body.addStack()
+
+            let bodyHeaderRankArea = bodyHeader.addStack()
+            let headerRank = bodyHeaderRankArea.addText(’排名‘)
+            headerRank.font = Font.systemFont(14)
+            headerRank.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+            bodyHeaderRankArea.layoutVertically()
+            bodyHeader.addSpacer(10)
+
+            let bodyHeaderRegionArea = bodyHeader.addStack()
+            let headerRegion = bodyHeaderRegionArea.addText(”国家/地区“)
+            headerRegion.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+            headerRegion.font = Font.systemFont(14)
+            bodyHeaderRegionArea.layoutVertically()
+            bodyHeader.addSpacer(25)
+
+            let bodyHeaderGoldFlagArea = bodyHeader.addStack()
+            let headerGoldFlag = bodyHeaderGoldFlagArea.addImage(await getImage(`https://search-operate.cdn.bcebos.com/aec5a78d18e7dd650651bb2164c6b0f1.png`))
+            headerGoldFlag.imageSize = new Size(14, 14)
+            bodyHeaderGoldFlagArea.layoutVertically()
+            bodyHeader.addSpacer(20)
+
+            let bodyHeaderSilverFlagArea = bodyHeader.addStack()
+            let headerSilverFlag = bodyHeaderSilverFlagArea.addImage(await getImage(`https://search-operate.cdn.bcebos.com/81aa79c261d9211749f1187cf3ff143f.png`))
+            headerSilverFlag.imageSize = new Size(14, 14)
+            bodyHeaderSilverFlagArea.layoutVertically()
+            bodyHeader.addSpacer(20)
+
+            let bodyHeaderBronzeFlagArea = bodyHeader.addStack()
+            let headerBronzeFlag = bodyHeaderBronzeFlagArea.addImage(await getImage(`https://search-operate.cdn.bcebos.com/b554700c0272a25b10e0c8f0117f6b37.png`))
+            headerBronzeFlag.imageSize = new Size(14, 14)
+            bodyHeaderBronzeFlagArea.layoutVertically()
+            bodyHeader.addSpacer(20)
+
+            let bodyHeaderCountArea = bodyHeader.addStack()
+            let headerCount = bodyHeaderCountArea.addText(”总计“)
+            headerCount.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+            headerCount.font = Font.systemFont(14)
+            bodyHeaderCountArea.layoutVertically()
+
+            for (let i = 0; i < 15; i++) {
+                let rank = bodyHeaderRankArea.addText(data[i].rank)
+                rank.font = Font.systemFont(14)
+                rank.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                let region = bodyHeaderRegionArea.addStack()
+                region.addImage(await getImage(`https://p1.img.cctvpic.com/sports/data/olympic/teamImg/${data[i].countryid}.png`)).imageSize = new Size(14, 14)
+                let cn = region.addText(’  ‘ + data[i].countryname)
+                cn.font = Font.systemFont(14)
+                cn.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                let gold = bodyHeaderGoldFlagArea.addText(data[i].gold)
+                gold.font = Font.systemFont(14)
+                gold.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                let silver = bodyHeaderSilverFlagArea.addText(data[i].silver)
+                silver.font = Font.systemFont(14)
+                silver.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                let bronze = bodyHeaderBronzeFlagArea.addText(data[i].bronze)
+                bronze.font = Font.systemFont(14)
+                bronze.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+                let count = bodyHeaderCountArea.addText(data[i].count)
+                count.font = Font.systemFont(14)
+                count.textColor = new Color(Device.isUsingDarkAppearance() ? currentSettings.night.fc : currentSettings.day.fc)
+            }
+            return widget
+        } else {
+            return render.Error(’获取数据失败，请稍后再试……‘)
+        }
+    },
+    Error: (notice = ’发生错误了，请稍后再试或等待后更新脚本再试……‘) => {
+        const widget = new ListWidget()
+        const note = widget.addText(notice)
+        note.centerAlignText()
+        note.font = Font.boldSystemFont(20)
+        note.textColor = Color.red()
+        return widget
+    }
+
+}
+async function renderPreferences() {
+
+    const table = new UITable()
+    const previewOnClick = async (item) => {
+        if (item.val === ’ExtraLarge‘) {
+            const alert = new Alert()
+            alert.title = ’无法完成渲染‘
+            alert.message = ’因为没有iPad，很抱歉没有制作这一尺寸的组件‘
+            alert.presentAlert()
+            return Script.complete()
+        }
+        try {
+            let widget = await render[item.val]()
+            let type = Device.isUsingDarkAppearance() ? ’night‘ : ’day‘
+            const settings = getSettings()
+            widget.backgroundColor = new Color(settings[type][’bgc‘])
+            widget[`present${item.val}`]()
+        } catch (error) {
+            return await notify(’发生错误‘, error.message)
+        }
+    }
+
+    // 预览组件相关设置
+    const previewHeader = new UITableRow()
+    const previewHeaderTitle = previewHeader.addText(’预览组件‘)
+    previewHeaderTitle.centerAligned()
+    previewHeaderTitle.titleFont = Font.boldSystemFont(20)
+    table.addRow(previewHeader)
+    // 可预览项
+    const previewList = [
+        {
+            icon: ’https://z3.ax1x.com/2021/03/26/6v5wIP.png‘,
+            title: ’小尺寸‘,
+            val: ’Small‘,
+            previewOnClick
+        },
+        {
+            icon: ’https://z3.ax1x.com/2021/03/26/6v5dat.png‘,
+            title: ’中尺寸‘,
+            val: ’Medium‘,
+            previewOnClick
+        },
+        {
+            icon: ’https://z3.ax1x.com/2021/03/26/6v5BPf.png‘,
+            title: ’大尺寸‘,
+            val: ’Large‘,
+            previewOnClick
+        },
+        {
+            icon: ’https://z3.ax1x.com/2021/03/26/6v5BPf.png‘,
+            title: ’特大尺寸‘,
+            val: ’ExtraLarge‘,
+            previewOnClick
+        }
+    ]
+    // 将可预览项渲染到设置页面
+    for (const vo of previewList) {
+        const previewItemRow = new UITableRow()
+        const icon = previewItemRow.addImageAtURL(vo.icon)
+        icon.widthWeight = 10
+        const title = previewItemRow.addText(vo.title)
+        title.titleFont = Font.systemFont(15)
+        title.widthWeight = 40
+        title.leftAligned()
+        const rightText = previewItemRow.addText(’展示‘)
+        title.titleFont = Font.systemFont(15)
+        rightText.widthWeight = 50
+        rightText.rightAligned()
+        previewItemRow.onSelect = async () => {
+            await vo.previewOnClick(vo)
+        }
+        if (vo.val === ’ExtraLarge‘) {//单独处理特大号小组件的现实
+            if (Device.isPad() && parseInt(Device.systemVersion()) >= 15) {
+                table.addRow(previewItemRow)
+            }
+        } else {
+            table.addRow(previewItemRow)
+        }
+    }
+
+    // 组件参数相关设置
+    const settingHeader = new UITableRow()
+    const settingHeaderTitle = settingHeader.addText(’组件参数‘)
+    settingHeaderTitle.centerAligned()
+    settingHeaderTitle.titleFont = Font.boldSystemFont(20)
+    table.addRow(settingHeader)
+    const settingOnClick = async (item) => {
+        let currentSettings = getSettings()
+        if (item.type === ’reset‘) {
+            const alert = new Alert()
+            alert.title = item.title
+            alert.message = ’是否要将设置恢复默认？‘
+            alert.addAction(’确定‘)
+            alert.addCancelAction(’取消‘)
+            if ((await alert.presentAlert()) !== -1) {
+                saveSettings(baseSettings)
+                notify(’恢复成功‘, `组件稍后刷新。`)
+            }
+        } else {
+            const alert = new Alert()
+            alert.title = item.title
+            alert.message = ’请填写Hex格式的颜色‘
+            alert.addTextField(’‘, item.val)
+            alert.addAction(’确定‘)
+            alert.addCancelAction(’取消‘)
+            if ((await alert.presentAlert()) !== -1) {
+                currentSettings[item.type][item.key] = alert.textFieldValue(0)
+                saveSettings(currentSettings)
+                notify(’修改成功‘, `修改${item.title}成功，组件稍后刷新。`)
+            }
+        }
+    }
+    const currentSettings = getSettings()
+    const settingList = [
+        {
+            title: ’白天背景颜色‘,
+            val: currentSettings.day.bgc,
+            key: ’bgc‘,
+            type: ’day‘,
+            settingOnClick
+        },
+        {
+            title: ’晚上背景颜色‘,
+            key: ’bgc‘,
+            type: ’night‘,
+            val: currentSettings.night.bgc,
+            settingOnClick
+        },
+        {
+            title: ’白天字体颜色‘,
+            key: ’fc‘,
+            type: ’day‘,
+            val: currentSettings.day.fc,
+            settingOnClick
+        },
+        {
+            title: ’晚上字体颜色‘,
+            val: currentSettings.night.fc,
+            type: ’night‘,
+            key: ’fc‘,
+            settingOnClick
+        },
+        {
+            title: ’恢复默认设置‘,
+            val: ’reset‘,
+            type: ’reset‘,
+            key: ’reset‘,
+            settingOnClick
+        }
+    ]
+
+    for (const vo of settingList) {
+        const settingListRow = new UITableRow()
+        const title = settingListRow.addText(vo.title)
+        title.titleFont = Font.systemFont(15)
+        title.widthWeight = 50
+        title.leftAligned()
+        const rightText = settingListRow.addText(vo.val)
+        rightText.titleFont = Font.systemFont(15)
+        rightText.titleColor = vo.type === ’reset‘ ? Color.red() : Color.blue()
+        rightText.widthWeight = 50
+        rightText.rightAligned()
+        table.addRow(settingListRow)
+        settingListRow.onSelect = async () => {
+            await vo.settingOnClick(vo)
+        }
+    }
+
+    table.reload()
+    return table.present()
+}
+
+async function init() {
+
+    let currentSettings = getSettings()
+    if (!Object.keys(currentSettings).length) {
+        saveSettings(baseSettings)
+    }
+    if (config.runsInWidget) {// 在组件运行
+        try {
+            let widget
+            switch (config.widgetFamily) {
+                case ”small“://渲染小组件
+                    widget = await render.Small()
+                    break;
+                case ’medium‘://渲染中组件
+                    widget = await render.Medium()
+                    break;
+                case ’large‘://渲染大组件
+                    widget = await render.Large()
+                    break;
+                default://渲染iPad用超大组件
+                    break;
+
+            }
+            let type = Device.isUsingDarkAppearance() ? ’night‘ : ’day‘
+            const settings = getSettings()
+            widget.backgroundColor = new Color(settings[type].bgc)
+            Script.setWidget(widget)
+        } catch (error) {
+            return await notify(’发生错误‘, error.message)
+        }
+    } else if (config.runsInApp) {//在应用中运行
+        console.log(’渲染配置页面‘)
+        await renderPreferences()
+    }
+
+}
+
+await init()

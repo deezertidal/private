@@ -1,0 +1,13 @@
+{
+  "name": "JD_Task",
+  "description": "墨鱼手记",
+  "task": [
+	"0 0,8,20 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/Task/jd_cash.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_cash.png",
+	"5 6-18/6 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/Task/jd_fruit.js, tag=东东农场 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png",
+    	"20 7-19/6 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/Task/jd_pet.js, tag=东东萌宠 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdmc.png",
+    	"10 7-21/2 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/Task/jd_plantBean.js, tag=京东种豆得豆 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png",
+	"10 0 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/Task/jd_jdzz.js, tag=京东赚赚, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzz.png",
+	"12 * * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/Task/jd_pigPet.js, tag=京东金融养猪猪, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdyz.png",
+    	"0 7 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/Task/jd_speed_signfaker.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+	]
+}

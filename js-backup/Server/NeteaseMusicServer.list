@@ -1,0 +1,5 @@
+shadowsocks=music.desperadoj.com:30003, method=aes-128-gcm, password=desperadoj.com_free_proxy_emx2, fast-open=false, udp-relay=false, tag=🎵 解锁节点1
+http=106.52.127.72:19951, fast-open=false, udp-relay=false, tag=🎵 解锁节点2
+http=taron.top:200, fast-open=false, udp-relay=false, tag=🎵 解锁节点3
+http=music.lolico.me:39000, fast-open=false, udp-relay=false, tag=🎵 解锁节点4
+http=lolico.me:443,fast-open=false, udp-relay=false, tag=🎵 解锁节点5

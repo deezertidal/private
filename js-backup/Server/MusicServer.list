@@ -1,0 +1,2 @@
+http=lolico.me:443, over-tls=false, fast-open=false, udp-relay=false,tag=云音乐1 
+http=106.52.127.72:19951, over-tls=false, fast-open=false, udp-relay=false,tag=云音乐2
