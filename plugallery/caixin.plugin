@@ -4,7 +4,7 @@
 #!author=cuttlefish
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/caixin.png
 [Script]
-http-request ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth) script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/caixin.js, timeout=10, tag=财新会员
+http-request ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth) script-path=https://github.com/deezertidal/private/raw/master/js-backup/Crack/caixin.js, timeout=10, tag=财新会员
 
 [MITM]
 hostname = gateway.caixin.com

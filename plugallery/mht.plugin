@@ -8,4 +8,4 @@
 hostname=comic.321mh.com
 
 [Script]
-http-response ^https?:\/\/comic\.321mh\.com\/app_api\/v\d\/getcomicinfo_body requires-body=1,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/manhuatailite.js
+http-response ^https?:\/\/comic\.321mh\.com\/app_api\/v\d\/getcomicinfo_body requires-body=1,script-path=https://github.com/deezertidal/private/raw/master/js-backup/Crack/manhuatailite.js

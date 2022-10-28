@@ -8,4 +8,4 @@
 hostname= server.yoyiapp.com
 
 [Script]
-http-response ^https://server.yoyiapp.com/fimo-user/user$ requires-body=1,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/fimo.js
+http-response ^https://server.yoyiapp.com/fimo-user/user$ requires-body=1,script-path=https://github.com/deezertidal/private/raw/master/js-backup/Crack/fimo.js
