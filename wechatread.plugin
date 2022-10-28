@@ -4,6 +4,6 @@
 #!homepage=https://github.com/deezertidal
 #!author=ddgksf2013
 [Script]
-http-response ^https?://mp\.weixin\.qq\.com/s\?.*  requires-body=1,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/wechat_auto_read.js
+http-response ^https?://mp\.weixin\.qq\.com/s\?.*  requires-body=1,script-path=https://github.com/deezertidal/private/raw/master/js-backup/Script/wechat_auto_read.js
 [MITM]
 hostname = mp.weixin.qq.com

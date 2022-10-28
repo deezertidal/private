@@ -493,11 +493,11 @@ http-response https?:\/\/gw\.aoscdn\.com\/base\/vip\/client\/authorizations$ req
 http-response ^https?:\/\/appraven\.net\/AppRaven\/(app|social|buy) requires-body=1,script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/appraven.js,tag=Appraven
 http-response https?:\/\/screen-lock\.51wnl-cq\.com\/userApi\/saveUser requires-body=1,script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/budingsuoping.js,tag=布丁锁屏
 http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? requires-body=1,script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Script/bilibili_diy.js,tag=Bili 1080P
-http-response ^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ requires-body=1,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/boom.js,tag=Boom
+http-response ^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ requires-body=1,script-path=https://github.com/deezertidal/private/raw/master/js-backup/Crack/boom.js,tag=Boom
 http-response ^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll) requires-body=1,script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/clarity.js,tag=克拉壁纸
 http-response https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) requires-body=1,script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/caiyun.js,tag=彩云天气pro
 http-response https?:\/\/bookapi\.ellabook\.cn\/rest\/api\/service$ requires-body=1,script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/elabook.js,tag=ellabook
-http-response ^https://server.yoyiapp.com/fimo-user/user$ requires-body=1,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/fimo.js,tag=Fimo
+http-response ^https://server.yoyiapp.com/fimo-user/user$ requires-body=1,script-path=https://github.com/deezertidal/private/raw/master/js-backup/Crack/fimo.js,tag=Fimo
 http-response ^https?:\/\/user\.ftmailbox\.cn\/ios-receipt-validation\.php.* requires-body=1,script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/ftchinese.js,tag=FT中文网
 http-response https://service.ilovepdf.com/v1/user requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/lovePdf.js,tag=I Love PDF
 http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ requires-body=1,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiTuXiuXiu.js,tag=美图秀秀
