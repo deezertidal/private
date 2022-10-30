@@ -230,7 +230,7 @@
 |:white_check_mark:Ego Reader|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ego.plugin)|配置-插件-粘贴链接
 |:white_check_mark:极速扫描仪|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/jssmy.plugin)|配置-插件-粘贴链接
 |:white_check_mark:指尖笔记|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/zjbj.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:钱迹|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/qj.plugin)|配置-插件-粘贴链接
 
 
 
