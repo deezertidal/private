@@ -232,7 +232,7 @@
 |:white_check_mark:指尖笔记|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/zjbj.plugin)|配置-插件-粘贴链接
 |:white_check_mark:钱迹|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/qj.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Agenda|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/agenda.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:多重搜索|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/multisearch.plugin)|配置-插件-粘贴链接
 
 ****
 * 解锁类插件一般需要登录账号恢复购买，如不生效，请卸载重装。
