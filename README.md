@@ -234,6 +234,11 @@
 |:white_check_mark:Agenda|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/agenda.plugin)|配置-插件-粘贴链接
 |:white_check_mark:多重搜索|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/multisearch.plugin)|配置-插件-粘贴链接
 |:white_check_mark:即刻运动|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/jkyd.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Day One|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/dayone.plugin)|配置-插件-粘贴链接
+
+
+
+
 
 ****
 * 解锁类插件一般需要登录账号恢复购买，如不生效，请卸载重装。
