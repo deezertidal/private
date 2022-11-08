@@ -234,6 +234,11 @@
 |:white_check_mark:Agenda|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/agenda.plugin)|配置-插件-粘贴链接
 |:white_check_mark:多重搜索|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/multisearch.plugin)|配置-插件-粘贴链接
 |:white_check_mark:即刻运动|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/jkyd.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Day One|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/dayone.plugin)|配置-插件-粘贴链接
+
+
+
+
 
 ****
 * 解锁类插件一般需要登录账号恢复购买，如不生效，请卸载重装。
@@ -251,7 +256,7 @@
 |--|--|--|
 |:white_check_mark:MagicSchool|[:link:官网](https://2220.it/register?aff=GNs68S4XWT)|9.9元/120G/月，19.9元/260G/月，本仓库专属八折优惠码shadycn(活动套餐除外)
 |:white_check_mark:EMO|[:link:官网](https://yyds.emovpn.top/#/register?code=7KLxhYOS)|0元300G/月，5元1000G/月
-|:white_check_mark:白月光|[:link:官网](https://www.bygcloud.com/#/register?code=DX4iT5B4)|22元/140G/月，28元/230G/月
+|:white_check_mark:白月光|[:link:官网](https://www.bygcloud.com/#/register?code=DX4iT5B4)|22元/140G/月，28元/230G/月（半年付95折码BYG05OFFHA，年付9折码BYG10OFFAN）
 * 推荐月付或季付
 
 </details>  
