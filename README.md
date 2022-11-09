@@ -235,7 +235,7 @@
 |:white_check_mark:多重搜索|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/multisearch.plugin)|配置-插件-粘贴链接
 |:white_check_mark:即刻运动|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/jkyd.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Day One|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/dayone.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:Usage|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/usage.plugin)|配置-插件-粘贴链接
 
 
 
