@@ -237,7 +237,7 @@
 |:white_check_mark:Day One|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/dayone.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Usage|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/usage.plugin)|配置-插件-粘贴链接
 |:white_check_mark:谜底时钟|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/mdsz.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:MoenyThings|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/moneythings.plugin)|配置-插件-粘贴链接
 
 
 ****
