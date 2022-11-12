@@ -239,6 +239,10 @@
 |:white_check_mark:谜底时钟|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/mdsz.plugin)|配置-插件-粘贴链接
 |:white_check_mark:MoenyThings|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/moneythings.plugin)|配置-插件-粘贴链接
 |:white_check_mark:手机扫描仪|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/sjsmy.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Sorted|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/sorted.plugin)|配置-插件-粘贴链接
+
+
+
 
 ****
 * 解锁类插件一般需要登录账号恢复购买，如不生效，请卸载重装。
