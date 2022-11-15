@@ -242,6 +242,11 @@
 |:white_check_mark:Sorted|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/sorted.plugin)|配置-插件-粘贴链接
 |:white_check_mark:尽简衣橱|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/jjyc.plugin)|配置-插件-粘贴链接
 |:white_check_mark:看理想|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/klx.plugin)|配置-插件-粘贴链接
+|:white_check_mark:目标地图|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/mbdt.plugin)|配置-插件-粘贴链接
+
+
+
+
 
 
 ****
