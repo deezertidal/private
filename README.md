@@ -246,6 +246,9 @@
 |:white_check_mark:拼图酱|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ptj.plugin)|配置-插件-粘贴链接
 |:white_check_mark:向日葵阅读|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xrk.plugin)|配置-插件-粘贴链接
 |:white_check_mark:卡片日记|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/kprj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:莉景天气|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ljtq.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Motivation|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/motivation.plugin)|配置-插件-粘贴链接
+
 
 
 
