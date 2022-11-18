@@ -245,7 +245,7 @@
 |:white_check_mark:目标地图|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/mbdt.plugin)|配置-插件-粘贴链接
 |:white_check_mark:拼图酱|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ptj.plugin)|配置-插件-粘贴链接
 |:white_check_mark:向日葵阅读|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xrk.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:卡片日记|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/kprj.plugin)|配置-插件-粘贴链接
 
 
 
