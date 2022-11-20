@@ -248,7 +248,9 @@
 |:white_check_mark:卡片日记|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/kprj.plugin)|配置-插件-粘贴链接
 |:white_check_mark:莉景天气|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ljtq.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Motivation|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/motivation.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:PDF Viewer|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/pdfviewer.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Percento|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/percento.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Pixelance|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/pixelance.plugin)|配置-插件-粘贴链接
 
 
 
