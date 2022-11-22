@@ -253,6 +253,11 @@
 |:white_check_mark:Pixelance|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/pixelance.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Retake|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/retake.plugin)|配置-插件-粘贴链接
 |:white_check_mark:色采|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/sc.plugin)|配置-插件-粘贴链接
+|:white_check_mark:闪萌表情|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/smbq.plugin)|配置-插件-粘贴链接
+|:white_check_mark:音频剪辑|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ypjj.plugin)|配置-插件-粘贴链接
+
+
+
 
 ****
 * 解锁类插件一般需要登录账号恢复购买，如不生效，请卸载重装。
