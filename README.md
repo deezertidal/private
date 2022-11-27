@@ -255,7 +255,7 @@
 |:white_check_mark:色采|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/sc.plugin)|配置-插件-粘贴链接
 |:white_check_mark:闪萌表情|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/smbq.plugin)|配置-插件-粘贴链接
 |:white_check_mark:音频剪辑|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ypjj.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:Varlens|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/varlens.plugin)|配置-插件-粘贴链接
 
 
 
