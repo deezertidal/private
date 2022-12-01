@@ -258,7 +258,7 @@
 |:white_check_mark:Varlens|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/varlens.plugin)|配置-插件-粘贴链接
 |:white_check_mark:一木记账|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ymjz.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Drafts|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/drafts.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:叮叮水印相机|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ddsyxj.plugin)|配置-插件-粘贴链接
 
 
 
