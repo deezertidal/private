@@ -261,7 +261,7 @@
 |:white_check_mark:叮叮水印相机|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ddsyxj.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Emote|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/emote.plugin)|配置-插件-粘贴链接
 |:white_check_mark:灵敢足迹|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/lgzj.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:7分钟HIIT运动|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/seven.plugin)|配置-插件-粘贴链接
 
 
 
