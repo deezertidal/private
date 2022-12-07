@@ -264,7 +264,7 @@
 |:white_check_mark:7分钟HIIT运动|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/seven.plugin)|配置-插件-粘贴链接
 |:white_check_mark:私密相册管家|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/smxcgj.plugin)|配置-插件-粘贴链接
 |:white_check_mark:FitnessView|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/fnv.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:TODO清单|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/todo.plugin)|配置-插件-粘贴链接
 
 
 ****
