@@ -266,6 +266,16 @@
 |:white_check_mark:FitnessView|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/fnv.plugin)|配置-插件-粘贴链接
 |:white_check_mark:TODO清单|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/todo.plugin)|配置-插件-粘贴链接
 |:white_check_mark:淘票票评分|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/tpp.plugin)|配置-插件-粘贴链接
+|:white_check_mark:天天豆|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ttd.plugin)|配置-插件-粘贴链接
+
+
+
+
+
+
+
+
+
 
 ****
 * 解锁类插件一般需要登录账号恢复购买，如不生效，请卸载重装。
