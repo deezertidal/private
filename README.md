@@ -270,7 +270,7 @@
 |:white_check_mark:咖映|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ky.plugin)|配置-插件-粘贴链接
 |:white_check_mark:VCUS|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/vcus.plugin)|配置-插件-粘贴链接
 |:white_check_mark:傲软PDF编辑|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/arpdfbj.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:傲软投屏|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/artp.plugin)|配置-插件-粘贴链接
 
 
 
