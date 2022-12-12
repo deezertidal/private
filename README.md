@@ -272,7 +272,7 @@
 |:white_check_mark:傲软PDF编辑|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/arpdfbj.plugin)|配置-插件-粘贴链接
 |:white_check_mark:傲软投屏|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/artp.plugin)|配置-插件-粘贴链接
 |:white_check_mark:幻休|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/hx.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:绘影字幕|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/hyzm.plugin)|配置-插件-粘贴链接
 
 
 
