@@ -274,7 +274,7 @@
 |:white_check_mark:幻休|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/hx.plugin)|配置-插件-粘贴链接
 |:white_check_mark:绘影字幕|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/hyzm.plugin)|配置-插件-粘贴链接
 |:white_check_mark:汇中考|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/hzk.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:iScreen|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/iscreen.plugin)|配置-插件-粘贴链接
 
 
 ****
