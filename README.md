@@ -277,6 +277,9 @@
 |:white_check_mark:小组件盒子|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/xzjhz.plugin)|配置-插件-粘贴链接
 |:white_check_mark:佐糖|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/zt.plugin)|配置-插件-粘贴链接
 |:white_check_mark:飞鱼计划|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/fyjh.plugin)|配置-插件-粘贴链接
+|:white_check_mark:过期啦|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/gql.plugin)|配置-插件-粘贴链接
+
+
 
 
 
