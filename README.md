@@ -281,7 +281,7 @@
 |:white_check_mark:乃糖小组件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/nt.plugin)|配置-插件-粘贴链接
 |:white_check_mark:一书一课|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ysyk.plugin)|配置-插件-粘贴链接
 |:white_check_mark:充电助手|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/cdzs.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:电视家|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/dsj.plugin)|配置-插件-粘贴链接
 
 ****
 * 解锁类插件一般需要登录账号恢复购买，如不生效，请卸载重装。
