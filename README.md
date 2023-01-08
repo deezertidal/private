@@ -283,7 +283,7 @@
 |:white_check_mark:充电助手|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/cdzs.plugin)|配置-插件-粘贴链接
 |:white_check_mark:电视家|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/dsj.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Endel|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/endel.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark格至日记|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/gzrj.plugin)|配置-插件-粘贴链接
 
 
 
