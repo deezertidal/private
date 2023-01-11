@@ -577,7 +577,7 @@ http-response ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(hotWords|
 # > ku'an
 http-response ^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList) requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
 # > ShunFeng
-https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryInfoFlow requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/shunfeng_json.js
+http-response https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryInfoFlow requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/shunfeng_json.js
 # > Stay
 http-response ^https?:\/\/api\.shenyin\.name\/stay-fork\/browse\/featured$ requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/stay.js
 # > WeChat110
