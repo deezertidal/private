@@ -287,7 +287,7 @@
 |:white_check_mark:高德地图去广告|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/gddt.plugin)|配置-插件-粘贴链接
 |:white_check_mark:好事发生|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/hsfs.plugin)|配置-插件-粘贴链接
 |:white_check_mark:简讯|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/jianxun.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:可拍|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/kepai.plugin)|配置-插件-粘贴链接
 
 
 
