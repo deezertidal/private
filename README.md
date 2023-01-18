@@ -290,7 +290,7 @@
 |:white_check_mark:可拍|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/kepai.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Lifeviewer|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/lifeviewer.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Relens|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/relens.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:Vivacut|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/vivacut.plugin)|配置-插件-粘贴链接
 
 
 
