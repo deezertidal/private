@@ -1,5 +1,6 @@
 # LOON免流配置片段
 # 适用场景：WiFi下 国外网站走高端机场，国内网站走DIRECT。蜂窝下 国外网站走免流机场的国外节点，国内网站都免流机场的国内节点。仅针对这一种使用场景，其他使用场景相对简单，请自行理解
+# 建议开启LOON设置中的网络状态通知
 
 [Remote Proxy]
 高端机场 = 订阅链接1,parser-enabled = true,udp=false,fast-open=false,vmess-aead=true,enabled=true
