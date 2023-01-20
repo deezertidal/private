@@ -1,0 +1,29 @@
+# LOON免流配置片段
+# 适用场景：WiFi下 国外网站走高端机场，国内网站走DIRECT。蜂窝下 国外网站走免流机场的国外节点，国内网站都免流机场的国内节点。仅针对这一种使用场景，其他使用场景相对简单，请自行理解
+
+[Remote Proxy]
+高端机场 = 订阅链接1,parser-enabled = true,udp=false,fast-open=false,vmess-aead=true,enabled=true
+免流机场 = 订阅链接2,parser-enabled = true,udp=false,fast-open=false,vmess-aead=true,enabled=true
+
+[Remote Filter]
+# 分离出免流机场的国内外节点
+国外免流节点 = NameRegex,免流机场, FilterKey = 正则筛选出免流机场的国外节点
+国内免流节点 = NameRegex,免流机场, FilterKey = 正则筛选出免流机场的国内节点
+
+[Proxy Group]
+# 创建高端机场节点，国内免流节点，国外免流节点三个策略，策略类型根据个人喜好设定
+GlobalCellular = load-balance,国外免流节点,url = http://cp.cloudflare.com/generate_204,interval = 2400,max-timeout = 300,algorithm = random
+CNCellular = load-balance,国内免流节点,url = http://cp.cloudflare.com/generate_204,interval = 1200,max-timeout = 200,algorithm = random
+WIFI= url-test,高端机场,url = http://cp.cloudflare.com/generate_204,interval = 1200,tolerance = 50
+
+# 创建两个SSID策略，其中 SSID-Global表示国外网站(对应本配置的FINAL兜底规则)在wifi下走高端机场，蜂窝下走国外免流节点。SSID-China表示国内网站（对应本配置的ASN-CN规则）在wifi下走DIRECT,蜂窝下国内免流节点。
+SSID-Global = ssid,default=WIFI,cellular=GlobalCellular,""=DIRECT
+SSID-China = ssid,default=DIRECT,cellular=CNCellular,""=DIRECT
+
+[Remote Rule]
+# 国内分流规则，走SSID-China策略
+https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list, policy=SSID-China, tag=ASN-CN, enabled=true
+
+[Rule]
+# 兜底规则，走SSID-Global策略
+FINAL,SSID-Global
