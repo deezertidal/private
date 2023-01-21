@@ -292,7 +292,7 @@
 |:white_check_mark:Relens|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/relens.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Vivacut|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/vivacut.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Watchout|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/watchout.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:无痕去水印|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/whqsy.plugin)|配置-插件-粘贴链接
 
 
 
