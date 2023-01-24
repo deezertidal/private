@@ -17,14 +17,16 @@ GlobalCellular = load-balance,国外免流节点,url = http://cp.cloudflare.com/
 CNCellular = load-balance,国内免流节点,url = http://cp.cloudflare.com/generate_204,interval = 1200,max-timeout = 200,algorithm = random
 WIFI= url-test,高端机场,url = http://cp.cloudflare.com/generate_204,interval = 1200,tolerance = 50
 
-# 创建两个SSID策略，其中 SSID-Global表示国外网站(对应本配置的FINAL兜底规则)在wifi下走高端机场，蜂窝下走国外免流节点。SSID-China表示国内网站（对应本配置的ASN-CN规则）在wifi下走DIRECT,蜂窝下国内免流节点。
+# 创建两个SSID策略，其中 SSID-Global表示国外网站(对应本配置的FINAL兜底规则)在wifi下走高端机场，蜂窝下走国外免流节点。SSID-China表示国内网站（对应本配置的GEOIP,CN）在wifi下走DIRECT,蜂窝下国内免流节点。
 SSID-Global = ssid,default=WIFI,cellular=GlobalCellular,""=DIRECT
 SSID-China = ssid,default=DIRECT,cellular=CNCellular,""=DIRECT
 
 [Remote Rule]
-# 国内分流规则，走SSID-China策略
-https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list, policy=SSID-China, tag=ASN-CN, enabled=true
+# 非必要可忽略
+# http://raw.github.....去广告订阅规则.list,policy=REJECT
+# http://raw.github.....国外网站订阅规则.list,policy=SSID-Global
+# http://raw.github.....国内网站订阅规则.list,policy=SSID-China
 
 [Rule]
-# 兜底规则，走SSID-Global策略
+GEOIP,CN,SSID-China
 FINAL,SSID-Global
