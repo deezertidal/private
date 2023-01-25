@@ -1,0 +1,7 @@
+#!name=GeoLocation
+#!desc=节点信息查询
+#!homepage=https://github.com/deezertidal
+#!author=
+#!icon= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Domestic.png
+[Script]
+generic scrit-path=https://api.revenuecat.com/v1/(receipts|subscribers)/* requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/APTV.js
