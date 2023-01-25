@@ -4,4 +4,4 @@
 #!author=
 #!icon= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Domestic.png
 [Script]
-generic scrit-path=https://raw.githubusercontent.com/deezertidal/private/main/ip-api.js
+generic script-path=https://raw.githubusercontent.com/deezertidal/private/main/ip-api.js
