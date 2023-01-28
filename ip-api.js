@@ -12,8 +12,8 @@ var requestParams = {
 }
 
 var message = ""
-const paras = ["query","isp","as","country","city","timezone"];
-const paran = ["🗺️IP","🖥️ISP","#️⃣ASN","🌍国家/地区","🏙城市","🕗时区"];
+const paras = ["query","isp","as","country","city","timezone","lon","lat"];
+const paran = ["🗺️IP","🖥️ISP","#️⃣ASN","🌍国家/地区","🏙城市","时区","📍经度","📍纬度"];
 
 $httpClient.get(requestParams, (error, response, data) => {
     if (error) {
