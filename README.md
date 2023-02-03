@@ -299,7 +299,7 @@
 |:white_check_mark:流媒体解锁查询|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/MediaChecker.plugin)|配置-插件-粘贴链接
 |:white_check_mark:7动|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/7dong.plugin)|配置-插件-粘贴链接
 
-|:white_check_mark:流媒体解锁查询|[:link:链接地址](loon://import?plugin=encode(https%3A%2F%2Fraw.githubusercontent.com%2Fdeezertidal%2Fprivate%2Fmain%2FMediaChecker.plugin)|
+|:white_check_mark:流媒体解锁查询|[:link:链接地址](loon://import?plugin=encode(https%3A%2F%2Fraw.githubusercontent.com%2Fdeezertidal%2Fprivate%2Fmain%2FMediaChecker.plugin))|0
 
 
 
