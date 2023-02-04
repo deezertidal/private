@@ -1,4 +1,4 @@
-//自用  generic script-path=https://raw.githubusercontent.com/deezertidal/private/main/netchanged.js,tag=网络状态通知优化
+//自用  network-changed script-path=https://raw.githubusercontent.com/deezertidal/private/main/netchanged.js,tag=网络状态通知优化
 var confStr = $config.getConfig()
 console.log(confStr)
 var conf = JSON.parse(confStr)
