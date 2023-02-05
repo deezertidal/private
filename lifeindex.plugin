@@ -4,5 +4,5 @@
 #!icon= https://raw.githubusercontent.com/deezertidal/private/main/icons/lifeindex.png
 #!openUrl=https://github.com/deezertidal/private
 
-[Script]
-cron "15 08 07 ? * *" script-path=https://raw.githubusercontent.com/deezertidal/private/main/lifeindex.js,tag=生活指数
+[task]
+cron "7 7 7 ? * *" script-path=https://raw.githubusercontent.com/deezertidal/private/main/lifeindex.js,tag=生活指数
