@@ -299,7 +299,7 @@
 |:white_check_mark:流媒体解锁查询|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/MediaChecker.plugin)|配置-插件-粘贴链接
 |:white_check_mark:7动|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/7dong.plugin)|配置-插件-粘贴链接
 |:white_check_mark:生活指数通知|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/lifeindex.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:海报工厂|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/hbgc.plugin)|配置-插件-粘贴链接
 
 
 ****
