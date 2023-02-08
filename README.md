@@ -300,7 +300,7 @@
 |:white_check_mark:7动|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/7dong.plugin)|配置-插件-粘贴链接
 |:white_check_mark:生活指数通知|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/lifeindex.plugin)|配置-插件-粘贴链接
 |:white_check_mark:海报工厂|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/hbgc.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:我的番茄|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wdfq.plugin)|配置-插件-粘贴链接
 
 ****
 * 解锁类插件一般需要登录账号恢复购买，如不生效，请卸载重装。
