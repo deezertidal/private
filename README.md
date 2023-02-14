@@ -302,7 +302,7 @@
 |:white_check_mark:海报工厂|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/hbgc.plugin)|配置-插件-粘贴链接
 |:white_check_mark:我的番茄|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/wdfq.plugin)|配置-插件-粘贴链接
 |:white_check_mark:FoMz|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/fomz.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:日杂相机|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/rzxj.plugin)|配置-插件-粘贴链接
 
 
 
