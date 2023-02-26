@@ -307,7 +307,7 @@
 |:white_check_mark:Mondly|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/mondly.plugin)|配置-插件-粘贴链接
 |:white_check_mark:猫头鹰文件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/mtywj.plugin)|配置-插件-粘贴链接
 |:white_check_mark:YouTube去广告|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/youtube.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:汉堡儿童故事|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/hbetgs.plugin)|配置-插件-粘贴链接
 
 
 
