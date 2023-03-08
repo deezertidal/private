@@ -310,7 +310,7 @@
 |:white_check_mark:汉堡儿童故事|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/hbetgs.plugin)|配置-插件-粘贴链接
 |:white_check_mark:iconKiller|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/iconkiller.plugin)|配置-插件-粘贴链接
 |:white_check_mark:中华诗词库|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/zhsck.plugin)|配置-插件-粘贴链接
-
+|:white_check_mark:字体册|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ztc.plugin)|配置-插件-粘贴链接
 
 
 
