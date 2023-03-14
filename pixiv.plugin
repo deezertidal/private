@@ -5,4 +5,4 @@
 [MITM]
 hostname=oauth.secure.pixiv.net
 [Script]
-http-response ^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) requires-body=1,script-path=https://github.com/deezertidal/private/raw/master/js-backup/Crack/pixivpro.js
+http-response ^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) requires-body=1,script-path=https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/js/pixiv.js
