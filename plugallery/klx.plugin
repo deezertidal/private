@@ -5,7 +5,7 @@
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/klx.png
 
 [Script]
-http-response ^https:\/\/api\.vistopia\.com\.cn\/api requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/kanlixiang.js
+http-response ^https:\/\/api\.vistopia\.com\.cn\/api requires-body=1,script-path=https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/js/klx.js
 
 [MITM] 
 hostname = api.vistopia.com.cn

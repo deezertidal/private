@@ -5,6 +5,6 @@
 #!author=CheeryTodo
 
 [Script]
-http-response https://app.api.versa-ai.com/pay/order/iap/check requires-body=1 ,script-path=https://raw.githubusercontent.com/demo2099/jscool/master/Script/mkl.js
+http-response https://app.api.versa-ai.com/pay/order/iap/check requires-body=1 ,script-path=https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/js/mklwt.js
 [MITM]
 hostname = app.api.versa-ai.com
