@@ -1,0 +1,15 @@
+#!name=阿里云盘签到
+#!desc=阿里云盘定时签到
+#!homepage=https://github.com/deezertidal
+#!author=lowking
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/aliyun.png
+
+[Script]
+cron "0 10 0 * * ?" script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js, timeout=300, tag=阿里云盘签到
+
+
+#cookie获取成功后请禁用
+http-response https:\/\/auth.aliyundrive.com\/v2\/account\/token script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js, requires-body=true, timeout=10, enabled=false, tag=阿里云盘签到cookie
+
+[MITM]
+hostname = auth.aliyundrive.com
