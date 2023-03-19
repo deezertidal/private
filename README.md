@@ -312,6 +312,10 @@
 |:white_check_mark:字体册|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/ztc.plugin)|配置-插件-粘贴链接
 |:white_check_mark:配音|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/peiyin.plugin)|配置-插件-粘贴链接
 |:white_check_mark:AdGuard|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/adguard.plugin)|配置-插件-粘贴链接
+|:white_check_mark:阿里云盘签到|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/aliyun.plugin)|配置-插件-粘贴链接
+
+
+
 
 
 ****
