@@ -27,7 +27,6 @@
 |:white_check_mark:财新文章解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/caixin.plugin)|配置-插件-粘贴链接
 |:white_check_mark:spotify会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/SpotifyPremium.plugin)|配置-插件-粘贴链接
 |:white_check_mark:SoundCloud Go+|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/soundcloud.plugin)|配置-插件-粘贴链接
-|❌Tidal会员解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Tidal-HiFi.plugin)|配置-插件-粘贴链接
 |:white_check_mark:切换百度搜索|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/B-Search.plugin)|配置-插件-粘贴链接 地址栏输入bd+空格+关键字
 |:white_check_mark:代理链路检测|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/NodeLinkCheck.plugin)|配置-插件-粘贴链接
 |:white_check_mark:网络模式切换|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/Running-Mode.plugin)|配置-插件-粘贴链接 自行修改[脚本](https://raw.githubusercontent.com/deezertidal/private/main/Running-Mode.js)参数
