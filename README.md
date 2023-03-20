@@ -47,7 +47,6 @@
 |:white_check_mark:巴哈姆特动画疯|[:link:链接地址](https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_Bahamut_ADS.plugin)|配置-插件-粘贴链接
 |:white_check_mark:115网盘|[:link:链接地址](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/115.plugin)|配置-插件-粘贴链接
 |:white_check_mark:节点流媒体支持检测|[:link:链接地址](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/MediaCheck.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Youtube去广告|[:link:链接地址](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/YouTubeAds.plugin)|配置-插件-粘贴链接
 |:white_check_mark:微博去广告|[:link:链接地址](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/WeiboAds.plugin)|配置-插件-粘贴链接
 |:white_check_mark:知乎去广告|[:link:链接地址](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/ZhiHu.plugin)|配置-插件-粘贴链接
 |:white_check_mark:跳过代理检测|[:link:链接地址](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/skip-proxy.plugin)|配置-插件-粘贴链接
