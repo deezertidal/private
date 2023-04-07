@@ -1,12 +1,13 @@
 # :balloon:Loon脚本插件收集  
 
 
-
 <details>
-   <summary>:key:插件</summary>    
+   <summary>:key:插件</summary>   
+
 
 |:octocat:插件|:link:链接|:pushpin:操作说明|
 |--|--|--|
+|:balloon:插件直装|[:link:链接地址](https://ybnet.ga/loon.html)|手机访问
 |:white_check_mark:Sub-Store|[:link:链接地址](https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Loon.plugin)|配置-插件-粘贴链接
 |:white_check_mark:百度云加速|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/BaiduCloud.plugin)|配置-插件-粘贴链接
 |:white_check_mark:扫描全能王|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/CamScanner.plugin)|配置-插件-粘贴链接
