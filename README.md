@@ -1,1 +1,1 @@
-[:balloon:Loon-Gallery插件仓库](https://loon-gallery.vercel.app/)  
+# 此分支不再维护 请移步ybnet.ga
