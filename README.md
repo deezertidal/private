@@ -1,5 +1,5 @@
 # :balloon:Loon脚本插件收集  
-
+### 🔔[个人网站](https://ybnet.ga)支持搜索功能
 
 <details>
    <summary>:key:插件</summary>   
