@@ -9,6 +9,9 @@
 |--|--|--|
 |:balloon:插件直装|[:link:链接地址](https://ybnet.ga/loon.html)|手机访问
 |:white_check_mark:插件合集|[:link:链接地址](https://ybnet.ga/plugin/4in1.plugin)|配置-插件-粘贴链接
+|:white_check_mark:去广告|[:link:链接地址](https://ybnet.ga/plugin/startingad.plugin)|配置-插件-粘贴链接
+|:white_check_mark:去广告mix|[:link:链接地址](https://ybnet.ga/plugin/adultra.plugin)|配置-插件-粘贴链接
+|:white_check_mark:去广告mix+|[:link:链接地址](https://ybnet.ga/plugin/adultraplus.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Sub-Store|[:link:链接地址](https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Loon.plugin)|配置-插件-粘贴链接
 |:white_check_mark:百度云加速|[:link:链接地址](https://ybnet.ga/plugin/BaiduCloud.plugin)|配置-插件-粘贴链接
 |:white_check_mark:扫描全能王|[:link:链接地址](https://ybnet.ga/plugin/CamScanner.plugin)|配置-插件-粘贴链接
@@ -24,7 +27,6 @@
 |:white_check_mark:切换百度搜索|[:link:链接地址](https://ybnet.ga/plugin/B-Search.plugin)|配置-插件-粘贴链接 地址栏输入bd+空格+关键字
 |:white_check_mark:代理链路检测|[:link:链接地址](https://ybnet.ga/plugin/NodeLinkCheck.plugin)|配置-插件-粘贴链接
 |:white_check_mark:网络模式切换|[:link:链接地址](https://ybnet.ga/plugin/Running-Mode.plugin)|配置-插件-粘贴链接 自行修改[脚本](https://ybnet.ga/plugin/Running-Mode.js)参数
-|:white_check_mark:广告屏蔽|[:link:链接地址](https://ybnet.ga/plugin/AdBlock.plugin)|配置-插件-粘贴链接
 |:white_check_mark:波点音乐|[:link:链接地址](https://ybnet.ga/plugin/Bodian.plugin)|配置-插件-粘贴链接
 |:white_check_mark:禁用iOS更新|[:link:链接地址](https://ybnet.ga/plugin/DisableUpdate.plugin)|配置-插件-粘贴链接
 |:white_check_mark:奈飞评分|[:link:链接地址](https://ybnet.ga/plugin/Ratings.plugin)|配置-插件-粘贴链接
@@ -135,7 +137,6 @@
 |:white_check_mark:Xmind思维导图|[:link:链接地址](https://ybnet.ga/plugin/xmind.plugin)|配置-插件-粘贴链接
 |:white_check_mark:微信公众号去广告|[:link:链接地址](https://ybnet.ga/plugin/wechatad.plugin)|配置-插件-粘贴链接
 |:white_check_mark:微博去广告|[:link:链接地址](https://ybnet.ga/plugin/weiboad.plugin)|配置-插件-粘贴链接
-|:white_check_mark:APP启动页去广告|[:link:链接地址](https://ybnet.ga/plugin/startingad.plugin)|配置-插件-粘贴链接
 |:white_check_mark:哔哩哔哩去广告|[:link:链接地址](https://ybnet.ga/plugin/biliad.plugin)|配置-插件-粘贴链接
 |:white_check_mark:喜马拉雅去广告|[:link:链接地址](https://ybnet.ga/plugin/xmlyad.plugin)|配置-插件-粘贴链接
 |:white_check_mark:网易蜗牛阅读|[:link:链接地址](https://ybnet.ga/plugin/wnds.plugin)|配置-插件-粘贴链接
