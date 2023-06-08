@@ -1,7 +1,7 @@
 #!name=MyFitnessPal
 #!desc=MyFitnessPal会员解锁
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/myfitnesspal.png
-#!homepage=https://ybnet.ga
+#!homepage=https://yfamily.ml
 #!author=Marol62926
 [Script]
 http-response https://premium-api.myfitnesspal.com/v3/subscriptions/MFP/* script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/myFitnessPal.js,requires-body=1,max-size=0
