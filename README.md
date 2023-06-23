@@ -8,7 +8,8 @@
 |:octocat:插件|:link:链接|:pushpin:操作说明|
 |--|--|--|
 |:balloon:插件直装|[:link:链接地址](https://yfamily.ml/loon.html)|手机访问
-|:white_check_mark:插件合集|[:link:链接地址](https://yfamily.ml/plugin/4in1.plugin)|配置-插件-粘贴链接
+|:balloon:插件仓库|[:link:链接地址](https://loons.vercel.app)|手机访问
+|:white_check_mark:4in1|[:link:链接地址](https://yfamily.ml/plugin/4in1.plugin)|配置-插件-粘贴链接
 |:white_check_mark:去广告|[:link:链接地址](https://yfamily.ml/plugin/startingad.plugin)|配置-插件-粘贴链接
 |:white_check_mark:去广告mix|[:link:链接地址](https://yfamily.ml/plugin/adultra.plugin)|配置-插件-粘贴链接
 |:white_check_mark:去广告mix+|[:link:链接地址](https://yfamily.ml/plugin/adultraplus.plugin)|配置-插件-粘贴链接
