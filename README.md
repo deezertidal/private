@@ -4,7 +4,7 @@
 <details>
    <summary>:key:插件</summary>   
 
-
+🌟想加入[插件仓库](https://loons.vercel.app)（原作者peng-ym） 请在issue里填写插件路径 示例：用户名/仓库名/文件夹名
 |:octocat:插件|:link:链接|:pushpin:操作说明|
 |--|--|--|
 |:balloon:插件直装|[:link:链接地址](https://yfamily.ml/loon.html)|手机访问
