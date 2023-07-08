@@ -1,4 +1,3 @@
-以下脚本是兼容quantumultx surge loon的脚本 检查脚本语法
 let provname;
 if (typeof $argument !== "undefined") {
   provname = $argument;
