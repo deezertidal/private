@@ -5,7 +5,7 @@ if (typeof $argument !== "undefined") {
 
   provname = "江苏";
 }
-
+//默认江苏油价
 const encodedprovname = encodeURIComponent(provname);
 const apiurl = `https://apis.tianapi.com/oilprice/index?key=d718b0f7c2b6d71cb3a9814e90bf847f&prov=${encodedprovname}`;
 
