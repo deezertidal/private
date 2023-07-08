@@ -1,13 +1,37 @@
-const apiurl = "https://www.tianqiapi.com/life/lifepro?appid=79171417&appsecret=LP9yfUKd"  //自行申请apikey,个人apikey请勿滥用
+const apiurl = "https://www.tianqiapi.com/life/lifepro?appid=79171417&appsecret=LP9yfUKd";
 
-$httpClient.get(apiurl, function(error, response, data){
-    if (error){
-        console.log(error);
-        $done();                   
+const isQuantumultX = typeof $task !== "undefined";
+const isSurge = typeof $httpClient !== "undefined";
+const isLoon = typeof $loon !== "undefined";
+
+if (isQuantumultX) {
+  $task.fetch({ url: apiurl }).then(
+    (response) => {
+      handleResponse(response.body);
+    },
+    (reason) => {
+      console.log(reason.error);
+      $done();
+    }
+  );
+} else if (isSurge || isLoon) {
+  $httpClient.get(apiurl, function (error, response, data) {
+    if (error) {
+      console.log(error);
+      $done();
     } else {
-var obj = JSON.parse(data);
-        console.log(obj);
-      
+      handleResponse(data);
+    }
+  });
+} else {
+  console.log("Unsupported runtime");
+  $done();
+}
+
+function handleResponse(data) {
+  var obj = JSON.parse(data);
+  console.log(obj);
+
         var title = obj.city+"生活指数"+obj.update_time;
         var subtitle = "下拉查看更多";
         var kongtiao=obj.data.kongtiao.name+":"+obj.data.kongtiao.level+","+obj.data.kongtiao.desc;
@@ -41,10 +65,12 @@ var obj = JSON.parse(data);
         var yusan=obj.data.yusan.name+":"+obj.data.yusan.level+","+obj.data.yusan.desc;
         var zhongshu=obj.data.zhongshu.name+":"+obj.data.zhongshu.level+","+obj.data.zhongshu.desc;
         var kouzhao=obj.data.kouzhao.name+":"+obj.data.kouzhao.level+","+obj.data.kouzhao.desc;
-      
-        $notification.post(title,subtitle,"👕"+chuanyi+'\n'+"🧴"+fangshai+'\n'+"🤒"+ganmao+'\n'+"🌁"+wuran+'\n'+"🚗"+xiche+'\n'+"☂️"+yusan+'\n'+"🌡︎"+zhongshu
-);
-        $done();
-    }
+
+  if (isQuantumultX) {
+    $notify(title, subtitle, "👕" + chuanyi + '\n' + "🧴" + fangshai + '\n' + "🤒" + ganmao + '\n' + "🌁" + wuran + '\n' + "🚗" + xiche + '\n' + "☂️" + yusan + '\n' + "🌡︎" + zhongshu);
+  } else if (isSurge || isLoon) {
+    $notification.post(title, subtitle, "👕" + chuanyi + '\n' + "🧴" + fangshai + '\n' + "🤒" + ganmao + '\n' + "🌁" + wuran + '\n' + "🚗" + xiche + '\n' + "☂️" + yusan + '\n' + "🌡︎" + zhongshu);
+  }
+
+  $done();
 }
-);
