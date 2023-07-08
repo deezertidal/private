@@ -1,3 +1,4 @@
+以下脚本是兼容quantumultx surge loon的脚本 检查脚本语法
 let provname;
 if (typeof $argument !== "undefined") {
   provname = $argument;
@@ -7,7 +8,7 @@ if (typeof $argument !== "undefined") {
 }
 
 const encodedprovname = encodeURIComponent(provname);
-const apiurl = https://apis.tianapi.com/oilprice/index?key=d718b0f7c2b6d71cb3a9814e90bf847f&prov=${encodedprovname};
+const apiurl = `https://apis.tianapi.com/oilprice/index?key=d718b0f7c2b6d71cb3a9814e90bf847f&prov=${encodedprovname}`;
 
 if (typeof $httpClient !== "undefined") {
   $httpClient.get(apiurl, function (error, response, data) {
