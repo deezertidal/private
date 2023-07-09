@@ -35,7 +35,7 @@ function handleResponse(data) {
     var title = book.title;
     var author = book.author;
     var rating = book.rating || "暂无";
-    notificationContent += ${i + 1}. ${title}\n作者:${author} 评分:${rating}\n;
+    notificationContent += `${i + 1}. ${title}\n作者:${author} 评分:${rating}\n`;
   }
 
   if (typeof $task !== 'undefined') {
