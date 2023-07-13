@@ -46,9 +46,9 @@ function handleResponse(body) {
           rankChange = `↓${Math.abs(rankDiff)}`;
         }
       } else {
-        rankChange = '';
+        rankChange = '🆕';
       }
-      const notification = `${rank}${name} - ${artist} ${rankChange}`;
+      const notification = `${rank}🎧${name} - ${artist} ${rankChange}`;
       notifications.push(notification);
     }
 
