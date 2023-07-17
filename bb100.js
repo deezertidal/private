@@ -1,14 +1,28 @@
-let songCount;
-if (typeof $argument !== "undefined") {
-  songCount = $argument;
-} else {
-  songCount = "5";
+let songCount = 5;
+let sort = 'billboard-hot-100';
+
+if (typeof $argument !== 'undefined' && $argument !== '') {
+  const params = getParams($argument);
+  if (params.songCount !== undefined && !isNaN(params.songCount)) {
+    songCount = parseInt(params.songCount);
+  }
+  if (params.sort !== undefined && params.sort !== '') {
+    sort = params.sort;
+  }
+} else if (typeof $persistentStore !== 'undefined') {
+  const persistentValue = $persistentStore.read("songCount");
+  if (persistentValue !== undefined && !isNaN(persistentValue)) {
+    songCount = parseInt(persistentValue);
+  }
+  const persistentValue2 = $persistentStore.read("sort");
+  if (persistentValue2 !== undefined && persistentValue2 !== '') {
+    sort = persistentValue2;
+  }
 }
 
-const url = 'https://raw.githubusercontent.com/KoreanThinker/billboard-json/main/billboard-hot-100/recent.json';
+const url = `https://raw.githubusercontent.com/KoreanThinker/billboard-json/main/${sort}/recent.json`;
 
 if (typeof $task !== "undefined") {
-
   $task.fetch({ url: url }).then(
     function(response) {
       handleResponse(response.body);
@@ -19,7 +33,6 @@ if (typeof $task !== "undefined") {
     }
   );
 } else if (typeof $httpClient !== "undefined") {
-
   $httpClient.get(url, function(error, response, body) {
     if (error) {
       console.log("请求失败:", error);
@@ -48,19 +61,32 @@ function handleResponse(body) {
       } else {
         rankChange = '🆕';
       }
-      const notification = `${rank}🎧${name} - ${artist} ${rankChange}`;
+      let notification = `${rank}🎧`;
+      if (name !== undefined && name !== null) {
+        notification += `${name} - `;
+      }
+      if (artist !== undefined && artist !== null) {
+        notification += `${artist} `;
+      }
+      notification += rankChange;
       notifications.push(notification);
     }
-
     if (typeof $task !== "undefined") {
-
-      $notify(`Top ${songCount} of Billboard Hot 100`, '', notifications.join('\n'));
+      $notify(`Top ${songCount} of ${sort}`, '', notifications.join('\n'));
     } else if (typeof $httpClient !== "undefined") {
-      $notification.post(`Top ${songCount} of Billboard Hot 100`, '', notifications.join('\n'));
+      $notification.post(`Top ${songCount} of ${sort}`, '', notifications.join('\n'));
     }
   } else {
     console.log('无法获取歌曲数据');
   }
-
   $done();
+}
+
+function getParams(param) {
+  return Object.fromEntries(
+    param
+      .split('&')
+      .map(item => item.split('='))
+      .map(([k, v]) => [k, decodeURIComponent(v)])
+  );
 }
