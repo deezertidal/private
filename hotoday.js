@@ -1,14 +1,17 @@
-let platform = '今日头条';//quantumultx用户在此处修改平台
-let count = 6;//quantumultx用户在此处修改数量
-
+let platform = '今日头条';
+let count = 6;
 if (typeof $argument !== 'undefined' && $argument !== '') {
   const params = getParams($argument);
-  platform = params.platform || '今日头条';
-  count = parseInt(params.count) || 6;
+  platform = params.platform || platform;
+  count = parseInt(params.count) || count;
+} else if (typeof $persistentStore !== 'undefined') {
+  platform = $persistentStore.read("platform") || platform;
+  count = parseInt($persistentStore.read("count")) || count;
 }
+//loon用户可以在插件里可视化配置参数
+
 
 let platformValue;
-
 
 
 if (platform === '微博') {
