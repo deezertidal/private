@@ -33,7 +33,7 @@ if (typeof $httpClient !== "undefined") {
               const rumor = rumorMatch[1].replace(/<[^>]+>/g, "").trim();
               const truth = truthMatch[1].replace(/<[^>]+>/g, "").trim();
               const notificationContent = `今日谣言：${rumor}\n🔍真相：${truth}`;
-              $notification.post(notificationContent,"","");
+              $notification.post("","",notificationContent);
             }
           }
           $done();
@@ -67,7 +67,7 @@ if (typeof $httpClient !== "undefined") {
               const rumor = rumorMatch[1].replace(/<[^>]+>/g, "").trim();
               const truth = truthMatch[1].replace(/<[^>]+>/g, "").trim();
               const notificationContent = `今日谣言：${rumor}\n🔍真相：${truth}`;
-              $notify(notificationContent,"","");
+              $notify("","",notificationContent);
             }
             $done();
           },
