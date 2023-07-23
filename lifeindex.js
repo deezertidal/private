@@ -1,5 +1,5 @@
 //const apiurl = "https://www.tianqiapi.com/life/lifepro?appid=79171417&appsecret=LP9yfUKd";
-const apiurl = "https://www.tianqiapi.com/life/lifepro?appid=83952424&appsecret=bg4NeEHO";
+const apiurl = "https://www.tianqiapi.com/life/lifepro?appid=77634847&appsecret=r1yT8ZId";
 
 const isQuantumultX = typeof $task !== "undefined";
 const isSurge = typeof $httpClient !== "undefined";
