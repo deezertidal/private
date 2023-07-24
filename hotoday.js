@@ -46,6 +46,8 @@ if (platform === '微博') {
   platformValue = 'VaobmGneAj';
 } else if (platform === '纵横小说') {
   platformValue = 'b0vmYyJvB1';
+} else if (platform === '北美票房') {
+  platformValue = 'n6YoVPadZa';
 } else {
   platformValue = '';
 }
