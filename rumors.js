@@ -22,8 +22,8 @@ if (typeof $httpClient !== "undefined") {
           if (error) {
             $notification.post("获取辟谣内容失败", error);
           } else {
-            const rumorRegex = /<p tabindex="0">&emsp;&emsp;<span style="color: .+?;"><strong>谣言：(.*?)<\/strong><\/span><\/p>/;
-            const truthRegex = /<strong>真相：<\/strong>(.*?)<\/p>/;
+const rumorRegex = /谣言：(.*?)<\/strong><\/span><\/p>/;
+const truthRegex = /<strong>真相：<\/strong>(.*?)<\/p>/;
             const rumorMatch = data.match(rumorRegex);
             const truthMatch = data.match(truthRegex);
 
