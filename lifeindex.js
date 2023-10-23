@@ -1,37 +1,60 @@
-//const apiurl = "https://www.tianqiapi.com/life/lifepro?appid=79171417&appsecret=LP9yfUKd";
-const apiurl = "https://www.tianqiapi.com/life/lifepro?appid=22756429&appsecret=4jyd8izR";
+const apiUrls  = [
+  "https://www.tianqiapi.com/life/lifepro?appid=32189289&appsecret=3RdKetVh",
+  "https://www.tianqiapi.com/life/lifepro?appid=24222488&appsecret=5rwuHzOJ",
+  "https://www.tianqiapi.com/life/lifepro?appid=47273245&appsecret=BCK1QTW5",
+  "https://www.tianqiapi.com/life/lifepro?appid=22756429&appsecret=4jyd8izR",
+  "https://www.tianqiapi.com/life/lifepro?appid=55944146&appsecret=qndepHp7"
+];
+
+let currentIndex = 0;
 
 const isQuantumultX = typeof $task !== "undefined";
 const isSurge = typeof $httpClient !== "undefined";
 const isLoon = typeof $loon !== "undefined";
 
-if (isQuantumultX) {
-  $task.fetch({ url: apiurl }).then(
-    (response) => {
-      handleResponse(response.body);
-    },
-    (reason) => {
-      console.log(reason.error);
-      $done();
-    }
-  );
-} else if (isSurge || isLoon) {
-  $httpClient.get(apiurl, function (error, response, data) {
-    if (error) {
-      console.log(error);
-      $done();
-    } else {
-      handleResponse(data);
-    }
-  });
-} else {
-  console.log("Unsupported runtime");
-  $done();
+function testNextUrl() {
+  if (currentIndex >= apiUrls.length) {
+    console.log("All URLs failed");
+    $done();
+    return;
+  }
+
+  const apiUrl = apiUrls[currentIndex];
+
+  if (isQuantumultX) {
+    $task.fetch({ url: apiUrl }).then(
+      (response) => {
+        const responseData = response.body;
+        handleResponse(responseData);
+      },
+      (reason) => {
+        console.log(`Error for URL ${currentIndex + 1}: ${reason.error}`);
+        currentIndex++;
+        testNextUrl();
+      }
+    );
+  } else if (isSurge || isLoon) {
+    $httpClient.get(apiUrl, function (error, response, data) {
+      if (error) {
+        console.log(`Error for URL ${currentIndex + 1}: ${error}`);
+        currentIndex++;
+        testNextUrl();
+      } else {
+        const responseData = data;
+        handleResponse(responseData);
+      }
+    });
+  }
 }
 
 function handleResponse(data) {
   var obj = JSON.parse(data);
   console.log(obj);
+
+  if (obj.errcode === 100) {
+    currentIndex++;
+    testNextUrl();
+  } else {
 
         var title = obj.city+"生活指数"+obj.update_time;
         var subtitle = "下拉查看更多";
@@ -74,4 +97,6 @@ function handleResponse(data) {
   }
 
   $done();
+ }
 }
+testNextUrl();
