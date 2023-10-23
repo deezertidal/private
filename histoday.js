@@ -37,7 +37,7 @@ function handleResponse(data) {
     if (typeof $task !== "undefined") {
       $notify("历史上的今天", "", events.join("\n"));
     } else if (typeof $httpClient !== "undefined") {
-      $notification.post("历史上的今天" ,"", "📓"+events.join("\n"));
+      $notification.post("📓历史上的今天" ,"", events.join("\n"));
     }
   }
 
