@@ -102,7 +102,6 @@
 |:white_check_mark:彩云天气SVIP|[:link:链接地址](https://yfamily.vercel.app/plugin/colorweather.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Ellabook VIP|[:link:链接地址](https://yfamily.vercel.app/plugin/ellabook.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Fimo Pro|[:link:链接地址](https://yfamily.vercel.app/plugin/fimo.plugin)|配置-插件-粘贴链接
-|:white_check_mark:FT中文网|[:link:链接地址](https://yfamily.vercel.app/plugin/ft.plugin)|配置-插件-粘贴链接
 |:white_check_mark:i Love PDF解锁|[:link:链接地址](https://yfamily.vercel.app/plugin/ilovepdf.plugin)|配置-插件-粘贴链接
 |:white_check_mark:美图秀秀VIP|[:link:链接地址](https://yfamily.vercel.app/plugin/meituxx.plugin)|配置-插件-粘贴链接
 |:white_check_mark:起伏会员解锁|[:link:链接地址](https://yfamily.vercel.app/plugin/qifu.plugin)|配置-插件-粘贴链接
