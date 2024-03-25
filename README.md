@@ -1,5 +1,6 @@
-# :balloon:Loon脚本插件收集  
-### 🔔[个人网站](https://whatshub.top)支持搜索功能
+# 🔔[个人网站](https://whatshub.top)
+### :balloon:Loon脚本插件收集  
+
 
 <details>
    <summary>:key:插件</summary>   
