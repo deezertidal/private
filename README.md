@@ -1,15 +1,12 @@
 # 🔔[个人网站](https://whatshub.top)
 ### :balloon:Loon脚本插件收集  
-
-
+* #### [插件直装地址](https://whatshub.top/loon)
+* #### [分流规则](https://whatshub.top/rule)
 <details>
    <summary>:key:插件</summary>   
 
-🌟加入[插件仓库](https://loons.vercel.app)（原作者peng-ym） 请在[这里](https://github.com/deezertidal/private/issues/2)回复插件路径
 |:octocat:插件|:link:链接|:pushpin:操作说明|
 |--|--|--|
-|:balloon:插件直装|[:link:链接地址](https://whatshub.top/loon.html)|手机访问
-|:balloon:插件仓库|[:link:链接地址](https://loons.vercel.app)|手机访问
 |:white_check_mark:4in1|[:link:链接地址](https://whatshub.top/plugin/4in1.plugin)|配置-插件-粘贴链接
 |:white_check_mark:去广告|[:link:链接地址](https://whatshub.top/plugin/startingad.plugin)|配置-插件-粘贴链接
 |:white_check_mark:去广告mix|[:link:链接地址](https://whatshub.top/plugin/adultra.plugin)|配置-插件-粘贴链接
