@@ -1,36 +1,36 @@
-# 🔔[个人网站](https://whatshub.top)
+# 🔔[个人网站](https://yfamilys.com)
 ### :balloon:Loon脚本插件收集  
-* #### [插件直装地址](https://whatshub.top/loon)
-* #### [分流规则](https://whatshub.top/rule)
+* #### [插件直装地址](https://yfamilys.com/loon)
+* #### [分流规则](https://yfamilys.com/rule)
 <details>
    <summary>:key:插件</summary>   
 
 |:octocat:插件|:link:链接|:pushpin:操作说明|
 |--|--|--|
-|:white_check_mark:4in1|[:link:链接地址](https://whatshub.top/plugin/4in1.plugin)|配置-插件-粘贴链接
-|:white_check_mark:去广告|[:link:链接地址](https://whatshub.top/plugin/startingad.plugin)|配置-插件-粘贴链接
-|:white_check_mark:去广告mix|[:link:链接地址](https://whatshub.top/plugin/adultra.plugin)|配置-插件-粘贴链接
-|:white_check_mark:去广告mix+|[:link:链接地址](https://whatshub.top/plugin/adultraplus.plugin)|配置-插件-粘贴链接
+|:white_check_mark:4in1|[:link:链接地址](https://yfamilys.com/plugin/4in1.plugin)|配置-插件-粘贴链接
+|:white_check_mark:去广告|[:link:链接地址](https://yfamilys.com/plugin/startingad.plugin)|配置-插件-粘贴链接
+|:white_check_mark:去广告mix|[:link:链接地址](https://yfamilys.com/plugin/adultra.plugin)|配置-插件-粘贴链接
+|:white_check_mark:去广告mix+|[:link:链接地址](https://yfamilys.com/plugin/adultraplus.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Sub-Store|[:link:链接地址](https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Loon.plugin)|配置-插件-粘贴链接
-|:white_check_mark:百度云加速|[:link:链接地址](https://whatshub.top/plugin/BaiduCloud.plugin)|配置-插件-粘贴链接
-|:white_check_mark:扫描全能王|[:link:链接地址](https://whatshub.top/plugin/CamScanner.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Emby|[:link:链接地址](https://whatshub.top/plugin/Emby.plugin)|配置-插件-粘贴链接
-|:white_check_mark:酷我会员|[:link:链接地址](https://whatshub.top/plugin/KuwoVip.plugin)|配置-插件-粘贴链接
-|:white_check_mark:酷我数字专辑解锁|[:link:链接地址](https://whatshub.top/plugin/kuwo-unlock.plugin)|配置-插件-粘贴链接
-|:white_check_mark:历史价格|[:link:链接地址](https://whatshub.top/plugin/Price.plugin)|配置-插件-粘贴链接
-|:white_check_mark:WPS会员解锁|[:link:链接地址](https://whatshub.top/plugin/WPS.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Nicegram会员解锁|[:link:链接地址](https://whatshub.top/plugin/nicegram.plugin)|配置-插件-粘贴链接
-|:white_check_mark:财新文章解锁|[:link:链接地址](https://whatshub.top/plugin/caixin.plugin)|配置-插件-粘贴链接
-|:white_check_mark:spotify会员解锁|[:link:链接地址](https://whatshub.top/plugin/SpotifyPremium.plugin)|配置-插件-粘贴链接
-|:white_check_mark:SoundCloud Go+|[:link:链接地址](https://whatshub.top/plugin/soundcloud.plugin)|配置-插件-粘贴链接
-|:white_check_mark:切换百度搜索|[:link:链接地址](https://whatshub.top/plugin/B-Search.plugin)|配置-插件-粘贴链接 地址栏输入bd+空格+关键字
-|:white_check_mark:代理链路检测|[:link:链接地址](https://whatshub.top/plugin/NodeLinkCheck.plugin)|配置-插件-粘贴链接
-|:white_check_mark:网络模式切换|[:link:链接地址](https://whatshub.top/plugin/Running-Mode.plugin)|配置-插件-粘贴链接 自行修改[脚本](https://whatshub.top/plugin/Running-Mode.js)参数
-|:white_check_mark:波点音乐|[:link:链接地址](https://whatshub.top/plugin/Bodian.plugin)|配置-插件-粘贴链接
-|:white_check_mark:禁用iOS更新|[:link:链接地址](https://whatshub.top/plugin/DisableUpdate.plugin)|配置-插件-粘贴链接
-|:white_check_mark:奈飞评分|[:link:链接地址](https://whatshub.top/plugin/Ratings.plugin)|配置-插件-粘贴链接
-|:white_check_mark:番茄小说|[:link:链接地址](https://whatshub.top/plugin/fanqienovel.plugin)|配置-插件-粘贴链接
-|:white_check_mark:TestFlight|[:link:链接地址](https://whatshub.top/plugin/iRingo_TestFlight.plugin)|配置-插件-粘贴链接
+|:white_check_mark:百度云加速|[:link:链接地址](https://yfamilys.com/plugin/BaiduCloud.plugin)|配置-插件-粘贴链接
+|:white_check_mark:扫描全能王|[:link:链接地址](https://yfamilys.com/plugin/CamScanner.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Emby|[:link:链接地址](https://yfamilys.com/plugin/Emby.plugin)|配置-插件-粘贴链接
+|:white_check_mark:酷我会员|[:link:链接地址](https://yfamilys.com/plugin/KuwoVip.plugin)|配置-插件-粘贴链接
+|:white_check_mark:酷我数字专辑解锁|[:link:链接地址](https://yfamilys.com/plugin/kuwo-unlock.plugin)|配置-插件-粘贴链接
+|:white_check_mark:历史价格|[:link:链接地址](https://yfamilys.com/plugin/Price.plugin)|配置-插件-粘贴链接
+|:white_check_mark:WPS会员解锁|[:link:链接地址](https://yfamilys.com/plugin/WPS.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Nicegram会员解锁|[:link:链接地址](https://yfamilys.com/plugin/nicegram.plugin)|配置-插件-粘贴链接
+|:white_check_mark:财新文章解锁|[:link:链接地址](https://yfamilys.com/plugin/caixin.plugin)|配置-插件-粘贴链接
+|:white_check_mark:spotify会员解锁|[:link:链接地址](https://yfamilys.com/plugin/SpotifyPremium.plugin)|配置-插件-粘贴链接
+|:white_check_mark:SoundCloud Go+|[:link:链接地址](https://yfamilys.com/plugin/soundcloud.plugin)|配置-插件-粘贴链接
+|:white_check_mark:切换百度搜索|[:link:链接地址](https://yfamilys.com/plugin/B-Search.plugin)|配置-插件-粘贴链接 地址栏输入bd+空格+关键字
+|:white_check_mark:代理链路检测|[:link:链接地址](https://yfamilys.com/plugin/NodeLinkCheck.plugin)|配置-插件-粘贴链接
+|:white_check_mark:网络模式切换|[:link:链接地址](https://yfamilys.com/plugin/Running-Mode.plugin)|配置-插件-粘贴链接 自行修改[脚本](https://yfamilys.com/plugin/Running-Mode.js)参数
+|:white_check_mark:波点音乐|[:link:链接地址](https://yfamilys.com/plugin/Bodian.plugin)|配置-插件-粘贴链接
+|:white_check_mark:禁用iOS更新|[:link:链接地址](https://yfamilys.com/plugin/DisableUpdate.plugin)|配置-插件-粘贴链接
+|:white_check_mark:奈飞评分|[:link:链接地址](https://yfamilys.com/plugin/Ratings.plugin)|配置-插件-粘贴链接
+|:white_check_mark:番茄小说|[:link:链接地址](https://yfamilys.com/plugin/fanqienovel.plugin)|配置-插件-粘贴链接
+|:white_check_mark:TestFlight|[:link:链接地址](https://yfamilys.com/plugin/iRingo_TestFlight.plugin)|配置-插件-粘贴链接
 |:white_check_mark:BoxJS|[:link:链接地址](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.tf.plugin)|配置-插件-粘贴链接-safari-boxjs.com-添加到主屏幕
 |:white_check_mark:Bili换区|[:link:链接地址](https://raw.githubusercontent.com/Coldvvater/Loon/master/Plugin/Bili_Auto_Regions.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Q-Search|[:link:链接地址](https://raw.githubusercontent.com/Coldvvater/Loon/master/Plugin/Q-Search.plugin)|配置-插件-粘贴链接（需设置duckduckgo为默认搜索引擎）
@@ -52,259 +52,259 @@
 |:white_check_mark:Siri|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/Siri.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Apple News|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/News.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Apple TV|[:link:链接地址](https://raw.githubusercontent.com/VirgilClyne/iRingo/main/plugin/TV.plugin)|配置-插件-粘贴链接
-|:white_check_mark:流利说解锁|[:link:链接地址](https://whatshub.top/plugin/lls.plugin)|配置-插件-粘贴链接
-|:white_check_mark:JibJab|[:link:链接地址](https://whatshub.top/plugin/jibjab.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Mix Camera|[:link:链接地址](https://whatshub.top/plugin/mix.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Picsart|[:link:链接地址](https://whatshub.top/plugin/picsart.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Polarr|[:link:链接地址](https://whatshub.top/plugin/polarr.plugin)|配置-插件-粘贴链接
-|:white_check_mark:皮皮虾|[:link:链接地址](https://whatshub.top/plugin/ppx.plugin)|配置-插件-粘贴链接
-|:white_check_mark:VSCO|[:link:链接地址](https://whatshub.top/plugin/vsco.plugin)|配置-插件-粘贴链接
-|:white_check_mark:小影|[:link:链接地址](https://whatshub.top/plugin/xiaoying.plugin)|配置-插件-粘贴链接
-|:white_check_mark:香蕉视频|[:link:链接地址](https://whatshub.top/plugin/xjsp.plugin)|配置-插件-粘贴链接
-|:white_check_mark:ColorWidgets小组件|[:link:链接地址](https://whatshub.top/plugin/colorwidgets.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Alarmy闹钟解锁|[:link:链接地址](https://whatshub.top/plugin/alarmy.plugin)|配置-插件-粘贴链接
-|:white_check_mark:彩云天气提醒|[:link:链接地址](https://whatshub.top/plugin/caiyun.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Aloha浏览器|[:link:链接地址](https://whatshub.top/plugin/aloha.plugin)|配置-插件-粘贴链接
-|:white_check_mark:BedtimeFan助眠风扇|[:link:链接地址](https://whatshub.top/plugin/BedtimeFan.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Bazaart解锁|[:link:链接地址](https://whatshub.top/plugin/bazaart.plugin)|配置-插件-粘贴链接
-|:white_check_mark:DailyYoga解锁|[:link:链接地址](https://whatshub.top/plugin/daily-yoga.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Darkroom解锁|[:link:链接地址](https://whatshub.top/plugin/darkroom.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Fabulous解锁|[:link:链接地址](https://whatshub.top/plugin/fabulous.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Invideo解锁|[:link:链接地址](https://whatshub.top/plugin/invideo.plugin)|配置-插件-粘贴链接
-|:white_check_mark:忆飞Gif解锁|[:link:链接地址](https://whatshub.top/plugin/giftr.plugin)|配置-插件-粘贴链接
-|:white_check_mark:句读解锁|[:link:链接地址](https://whatshub.top/plugin/judou.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Kika会员解锁|[:link:链接地址](https://whatshub.top/plugin/kika.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Mojo会员解锁|[:link:链接地址](https://whatshub.top/plugin/mojo.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Musixmatch解锁|[:link:链接地址](https://whatshub.top/plugin/musixmatch.plugin)|配置-插件-粘贴链接
-|:white_check_mark:MyFitnessPal解锁|[:link:链接地址](https://whatshub.top/plugin/myfitnesspal.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Now冥想解锁|[:link:链接地址](https://whatshub.top/plugin/now.plugin)|配置-插件-粘贴链接
-|:white_check_mark:奶由壁纸解锁|[:link:链接地址](https://whatshub.top/plugin/nybz.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Piccollage解锁|[:link:链接地址](https://whatshub.top/plugin/piccollage.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Pixelcut解锁|[:link:链接地址](https://whatshub.top/plugin/pixelcut.plugin)|配置-插件-粘贴链接
-|:white_check_mark:时光手账解锁|[:link:链接地址](https://whatshub.top/plugin/sgsz.plugin)|配置-插件-粘贴链接
-|:white_check_mark:ShadowLink解锁会员节点|[:link:链接地址](https://whatshub.top/plugin/shadowlinkvpn.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Smallpdf解锁|[:link:链接地址](https://whatshub.top/plugin/smallpdf.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Tangerine解锁|[:link:链接地址](https://whatshub.top/plugin/tangerine.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Ten Percent解锁|[:link:链接地址](https://whatshub.top/plugin/tenpercent.plugin)|配置-插件-粘贴链接
-|:white_check_mark:迅雷会员解锁|[:link:链接地址](https://whatshub.top/plugin/thunder.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Workout For Women解锁|[:link:链接地址](https://whatshub.top/plugin/wfw.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Widgetsmith解锁|[:link:链接地址](https://whatshub.top/plugin/widgetsmith.plugin)|配置-插件-粘贴链接
-|:white_check_mark:万能变声器解锁|[:link:链接地址](https://whatshub.top/plugin/wnbsq.plugin)|配置-插件-粘贴链接
-|:white_check_mark:指尖时光解锁会员|[:link:链接地址](https://whatshub.top/plugin/zjsg.plugin)|配置-插件-粘贴链接
-|:white_check_mark:傲软抠图会员|[:link:链接地址](https://whatshub.top/plugin/apowersoft.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Appraven Pro|[:link:链接地址](https://whatshub.top/plugin/appraven.plugin)|配置-插件-粘贴链接
-|:white_check_mark:布丁锁屏|[:link:链接地址](https://whatshub.top/plugin/bdsp.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Bilibili 1080P|[:link:链接地址](https://whatshub.top/plugin/bili.plugin)|配置-插件-粘贴链接
-|:white_check_mark:BOOM会员解锁|[:link:链接地址](https://whatshub.top/plugin/boom.plugin)|配置-插件-粘贴链接
-|:white_check_mark:克拉壁纸|[:link:链接地址](https://whatshub.top/plugin/clarity.plugin)|配置-插件-粘贴链接
-|:white_check_mark:彩云天气SVIP|[:link:链接地址](https://whatshub.top/plugin/colorweather.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Ellabook VIP|[:link:链接地址](https://whatshub.top/plugin/ellabook.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Fimo Pro|[:link:链接地址](https://whatshub.top/plugin/fimo.plugin)|配置-插件-粘贴链接
-|:white_check_mark:i Love PDF解锁|[:link:链接地址](https://whatshub.top/plugin/ilovepdf.plugin)|配置-插件-粘贴链接
-|:white_check_mark:美图秀秀VIP|[:link:链接地址](https://whatshub.top/plugin/meituxx.plugin)|配置-插件-粘贴链接
-|:white_check_mark:起伏会员解锁|[:link:链接地址](https://whatshub.top/plugin/qifu.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Symbolab Pro|[:link:链接地址](https://whatshub.top/plugin/symbolab.plugin)|配置-插件-粘贴链接
+|:white_check_mark:流利说解锁|[:link:链接地址](https://yfamilys.com/plugin/lls.plugin)|配置-插件-粘贴链接
+|:white_check_mark:JibJab|[:link:链接地址](https://yfamilys.com/plugin/jibjab.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Mix Camera|[:link:链接地址](https://yfamilys.com/plugin/mix.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Picsart|[:link:链接地址](https://yfamilys.com/plugin/picsart.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Polarr|[:link:链接地址](https://yfamilys.com/plugin/polarr.plugin)|配置-插件-粘贴链接
+|:white_check_mark:皮皮虾|[:link:链接地址](https://yfamilys.com/plugin/ppx.plugin)|配置-插件-粘贴链接
+|:white_check_mark:VSCO|[:link:链接地址](https://yfamilys.com/plugin/vsco.plugin)|配置-插件-粘贴链接
+|:white_check_mark:小影|[:link:链接地址](https://yfamilys.com/plugin/xiaoying.plugin)|配置-插件-粘贴链接
+|:white_check_mark:香蕉视频|[:link:链接地址](https://yfamilys.com/plugin/xjsp.plugin)|配置-插件-粘贴链接
+|:white_check_mark:ColorWidgets小组件|[:link:链接地址](https://yfamilys.com/plugin/colorwidgets.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Alarmy闹钟解锁|[:link:链接地址](https://yfamilys.com/plugin/alarmy.plugin)|配置-插件-粘贴链接
+|:white_check_mark:彩云天气提醒|[:link:链接地址](https://yfamilys.com/plugin/caiyun.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Aloha浏览器|[:link:链接地址](https://yfamilys.com/plugin/aloha.plugin)|配置-插件-粘贴链接
+|:white_check_mark:BedtimeFan助眠风扇|[:link:链接地址](https://yfamilys.com/plugin/BedtimeFan.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Bazaart解锁|[:link:链接地址](https://yfamilys.com/plugin/bazaart.plugin)|配置-插件-粘贴链接
+|:white_check_mark:DailyYoga解锁|[:link:链接地址](https://yfamilys.com/plugin/daily-yoga.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Darkroom解锁|[:link:链接地址](https://yfamilys.com/plugin/darkroom.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Fabulous解锁|[:link:链接地址](https://yfamilys.com/plugin/fabulous.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Invideo解锁|[:link:链接地址](https://yfamilys.com/plugin/invideo.plugin)|配置-插件-粘贴链接
+|:white_check_mark:忆飞Gif解锁|[:link:链接地址](https://yfamilys.com/plugin/giftr.plugin)|配置-插件-粘贴链接
+|:white_check_mark:句读解锁|[:link:链接地址](https://yfamilys.com/plugin/judou.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Kika会员解锁|[:link:链接地址](https://yfamilys.com/plugin/kika.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Mojo会员解锁|[:link:链接地址](https://yfamilys.com/plugin/mojo.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Musixmatch解锁|[:link:链接地址](https://yfamilys.com/plugin/musixmatch.plugin)|配置-插件-粘贴链接
+|:white_check_mark:MyFitnessPal解锁|[:link:链接地址](https://yfamilys.com/plugin/myfitnesspal.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Now冥想解锁|[:link:链接地址](https://yfamilys.com/plugin/now.plugin)|配置-插件-粘贴链接
+|:white_check_mark:奶由壁纸解锁|[:link:链接地址](https://yfamilys.com/plugin/nybz.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Piccollage解锁|[:link:链接地址](https://yfamilys.com/plugin/piccollage.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Pixelcut解锁|[:link:链接地址](https://yfamilys.com/plugin/pixelcut.plugin)|配置-插件-粘贴链接
+|:white_check_mark:时光手账解锁|[:link:链接地址](https://yfamilys.com/plugin/sgsz.plugin)|配置-插件-粘贴链接
+|:white_check_mark:ShadowLink解锁会员节点|[:link:链接地址](https://yfamilys.com/plugin/shadowlinkvpn.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Smallpdf解锁|[:link:链接地址](https://yfamilys.com/plugin/smallpdf.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Tangerine解锁|[:link:链接地址](https://yfamilys.com/plugin/tangerine.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Ten Percent解锁|[:link:链接地址](https://yfamilys.com/plugin/tenpercent.plugin)|配置-插件-粘贴链接
+|:white_check_mark:迅雷会员解锁|[:link:链接地址](https://yfamilys.com/plugin/thunder.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Workout For Women解锁|[:link:链接地址](https://yfamilys.com/plugin/wfw.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Widgetsmith解锁|[:link:链接地址](https://yfamilys.com/plugin/widgetsmith.plugin)|配置-插件-粘贴链接
+|:white_check_mark:万能变声器解锁|[:link:链接地址](https://yfamilys.com/plugin/wnbsq.plugin)|配置-插件-粘贴链接
+|:white_check_mark:指尖时光解锁会员|[:link:链接地址](https://yfamilys.com/plugin/zjsg.plugin)|配置-插件-粘贴链接
+|:white_check_mark:傲软抠图会员|[:link:链接地址](https://yfamilys.com/plugin/apowersoft.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Appraven Pro|[:link:链接地址](https://yfamilys.com/plugin/appraven.plugin)|配置-插件-粘贴链接
+|:white_check_mark:布丁锁屏|[:link:链接地址](https://yfamilys.com/plugin/bdsp.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Bilibili 1080P|[:link:链接地址](https://yfamilys.com/plugin/bili.plugin)|配置-插件-粘贴链接
+|:white_check_mark:BOOM会员解锁|[:link:链接地址](https://yfamilys.com/plugin/boom.plugin)|配置-插件-粘贴链接
+|:white_check_mark:克拉壁纸|[:link:链接地址](https://yfamilys.com/plugin/clarity.plugin)|配置-插件-粘贴链接
+|:white_check_mark:彩云天气SVIP|[:link:链接地址](https://yfamilys.com/plugin/colorweather.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Ellabook VIP|[:link:链接地址](https://yfamilys.com/plugin/ellabook.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Fimo Pro|[:link:链接地址](https://yfamilys.com/plugin/fimo.plugin)|配置-插件-粘贴链接
+|:white_check_mark:i Love PDF解锁|[:link:链接地址](https://yfamilys.com/plugin/ilovepdf.plugin)|配置-插件-粘贴链接
+|:white_check_mark:美图秀秀VIP|[:link:链接地址](https://yfamilys.com/plugin/meituxx.plugin)|配置-插件-粘贴链接
+|:white_check_mark:起伏会员解锁|[:link:链接地址](https://yfamilys.com/plugin/qifu.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Symbolab Pro|[:link:链接地址](https://yfamilys.com/plugin/symbolab.plugin)|配置-插件-粘贴链接
 |:white_check_mark:Pixiv Show|[:link:链接地址](https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/PixivShow/Loon.plugin)|配置-插件-粘贴链接
-|:white_check_mark:B612咔叽|[:link:链接地址](https://whatshub.top/plugin/b612.plugin)|配置-插件-粘贴链接
-|:white_check_mark:儿歌点点会员|[:link:链接地址](https://whatshub.top/plugin/egdd.plugin)|配置-插件-粘贴链接
-|:white_check_mark:hyperweb会员解锁|[:link:链接地址](https://whatshub.top/plugin/hyperweb.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Molycam会员|[:link:链接地址](https://whatshub.top/plugin/molycam.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Photomath会员|[:link:链接地址](https://whatshub.top/plugin/photomath.plugin)|配置-插件-粘贴链接
-|:white_check_mark:西窗烛解锁|[:link:链接地址](https://whatshub.top/plugin/xcz.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Accuweather解锁|[:link:链接地址](https://whatshub.top/plugin/accu.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Meistertask解锁|[:link:链接地址](https://whatshub.top/plugin/meistertask.plugin)|配置-插件-粘贴链接
-|:white_check_mark:一言解锁|[:link:链接地址](https://whatshub.top/plugin/yiyan.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Fantastical解锁|[:link:链接地址](https://whatshub.top/plugin/fantastical.plugin)|配置-插件-粘贴链接
-|:white_check_mark:云听解锁|[:link:链接地址](https://whatshub.top/plugin/yunting.plugin)|配置-插件-粘贴链接
-|:white_check_mark:豌豆清单解锁|[:link:链接地址](https://whatshub.top/plugin/wdqd.plugin)|配置-插件-粘贴链接
-|:white_check_mark:EMMO解锁|[:link:链接地址](https://whatshub.top/plugin/emmo.plugin)|配置-插件-粘贴链接
-|:white_check_mark:小习惯解锁|[:link:链接地址](https://whatshub.top/plugin/xxg.plugin)|配置-插件-粘贴链接
-|:white_check_mark:读书笔记解锁|[:link:链接地址](https://whatshub.top/plugin/dsbj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:斑马海报解锁|[:link:链接地址](https://whatshub.top/plugin/zebra.plugin)|配置-插件-粘贴链接
-|:white_check_mark:My Plate解锁|[:link:链接地址](https://whatshub.top/plugin/myplate.plugin)|配置-插件-粘贴链接
-|❌I AM解锁|[:link:链接地址](https://whatshub.top/plugin/iam.plugin)|配置-插件-粘贴链接
-|:white_check_mark:iMuseum解锁|[:link:链接地址](https://whatshub.top/plugin/imuseum.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Audiomack解锁|[:link:链接地址](https://whatshub.top/plugin/audiomack.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Grammarly解锁|[:link:链接地址](https://whatshub.top/plugin/grammarly.plugin)|配置-插件-粘贴链接
-|:white_check_mark:TOKCAM解锁|[:link:链接地址](https://whatshub.top/plugin/tokcam.plugin)|配置-插件-粘贴链接
-|:white_check_mark:图图记账解锁|[:link:链接地址](https://whatshub.top/plugin/tutu.plugin)|配置-插件-粘贴链接
-|:white_check_mark:WallCraft解锁|[:link:链接地址](https://whatshub.top/plugin/wallcraft.plugin)|配置-插件-粘贴链接
-|:white_check_mark:新语听书解锁|[:link:链接地址](https://whatshub.top/plugin/xyts.plugin)|配置-插件-粘贴链接
-|:white_check_mark:一甜相机解锁|[:link:链接地址](https://whatshub.top/plugin/yitian.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Grow解锁|[:link:链接地址](https://whatshub.top/plugin/grow.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Xmind思维导图|[:link:链接地址](https://whatshub.top/plugin/xmind.plugin)|配置-插件-粘贴链接
-|:white_check_mark:微信公众号去广告|[:link:链接地址](https://whatshub.top/plugin/wechatad.plugin)|配置-插件-粘贴链接
-|:white_check_mark:微博去广告|[:link:链接地址](https://whatshub.top/plugin/weiboad.plugin)|配置-插件-粘贴链接
-|:white_check_mark:哔哩哔哩去广告|[:link:链接地址](https://whatshub.top/plugin/biliad.plugin)|配置-插件-粘贴链接
-|:white_check_mark:喜马拉雅去广告|[:link:链接地址](https://whatshub.top/plugin/xmlyad.plugin)|配置-插件-粘贴链接
-|:white_check_mark:网易蜗牛阅读|[:link:链接地址](https://whatshub.top/plugin/wnds.plugin)|配置-插件-粘贴链接
-|:white_check_mark:马卡龙玩图|[:link:链接地址](https://whatshub.top/plugin/mklwt.plugin)|配置-插件-粘贴链接
-|:white_check_mark:第一弹解锁|[:link:链接地址](https://whatshub.top/plugin/dyd.plugin)|配置-插件-粘贴链接
-|:white_check_mark:海豚记账本|[:link:链接地址](https://whatshub.top/plugin/htjzb.plugin)|配置-插件-粘贴链接
-|:white_check_mark:PEAK解锁|[:link:链接地址](https://whatshub.top/plugin/peak.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Pillow解锁|[:link:链接地址](https://whatshub.top/plugin/pillow.plugin)|配置-插件-粘贴链接
-|:white_check_mark:PocketLists解锁|[:link:链接地址](https://whatshub.top/plugin/pocketlists.plugin)|配置-插件-粘贴链接
-|:white_check_mark:知音漫客解锁|[:link:链接地址](https://whatshub.top/plugin/zymk.plugin)|配置-插件-粘贴链接
-|:white_check_mark:有道云笔记解锁|[:link:链接地址](https://whatshub.top/plugin/ydybj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Vista看天下解锁|[:link:链接地址](https://whatshub.top/plugin/vista.plugin)|配置-插件-粘贴链接
-|:white_check_mark:PhotosShop Express会员解锁|[:link:链接地址](https://whatshub.top/plugin/photoshop.plugin)|配置-插件-粘贴链接
-|:white_check_mark:人人视频去广告|[:link:链接地址](https://whatshub.top/plugin/rrsp.plugin)|配置-插件-粘贴链接
-|:white_check_mark:七猫小说解锁|[:link:链接地址](https://whatshub.top/plugin/qmxs.plugin)|配置-插件-粘贴链接
-|:white_check_mark:漫画台小程序解锁|[:link:链接地址](https://whatshub.top/plugin/mht.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Notability解锁|[:link:链接地址](https://whatshub.top/plugin/notability.plugin)|配置-插件-粘贴链接
-|:white_check_mark:爱美剧解锁|[:link:链接地址](https://whatshub.top/plugin/amj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:白描黄金会员|[:link:链接地址](https://whatshub.top/plugin/baimiao.plugin)|配置-插件-粘贴链接
-|:white_check_mark:OldRoll相机解锁|[:link:链接地址](https://whatshub.top/plugin/oldroll.plugin)|配置-插件-粘贴链接
-|:white_check_mark:少年得到解锁会员|[:link:链接地址](https://whatshub.top/plugin/sndd.plugin)|配置-插件-粘贴链接
-|:white_check_mark:大蓝鲸|[:link:链接地址](https://whatshub.top/plugin/dalanjing.plugin)|配置-插件-粘贴链接
-|:white_check_mark:螺畤大语文解锁会员|[:link:链接地址](https://whatshub.top/plugin/lsdyw.plugin)|配置-插件-粘贴链接
-|:white_check_mark:语文趣配音解锁会员|[:link:链接地址](https://whatshub.top/plugin/ywqpy.plugin)|配置-插件-粘贴链接
-|:white_check_mark:配音秀解锁会员|[:link:链接地址](https://whatshub.top/plugin/pyx.plugin)|配置-插件-粘贴链接
-|:white_check_mark:纸条年度会员解锁|[:link:链接地址](https://whatshub.top/plugin/zhitiao.plugin)|配置-插件-粘贴链接
-|:white_check_mark:石墨文档解锁|[:link:链接地址](https://whatshub.top/plugin/smwd.plugin)|配置-插件-粘贴链接
-|:white_check_mark:美篇解锁vip|[:link:链接地址](https://whatshub.top/plugin/meipian.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Adobe LightRoom解锁|[:link:链接地址](https://whatshub.top/plugin/lightroom.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Calm解锁|[:link:链接地址](https://whatshub.top/plugin/calm.plugin)|配置-插件-粘贴链接
-|:white_check_mark:NFC门禁卡公交卡|[:link:链接地址](https://whatshub.top/plugin/nfc.plugin)|配置-插件-粘贴链接
-|:white_check_mark:搜图神器|[:link:链接地址](https://whatshub.top/plugin/stsq.plugin)|配置-插件-粘贴链接
-|:white_check_mark:https抓包|[:link:链接地址](https://whatshub.top/plugin/https.plugin)|配置-插件-粘贴链接
-|:white_check_mark:SSA丝社|[:link:链接地址](https://whatshub.top/plugin/ssa.plugin)|配置-插件-粘贴链接
-|:white_check_mark:小小优趣|[:link:链接地址](https://whatshub.top/plugin/xxyq.plugin)|配置-插件-粘贴链接
-|:white_check_mark:幻影相册|[:link:链接地址](https://whatshub.top/plugin/hyxc.plugin)|配置-插件-粘贴链接
-|:white_check_mark:精塾国学|[:link:链接地址](https://whatshub.top/plugin/jsgx.plugin)|配置-插件-粘贴链接
-|:white_check_mark:PrettyUp|[:link:链接地址](https://whatshub.top/plugin/prettyup.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Cubox|[:link:链接地址](https://whatshub.top/plugin/cubox.plugin)|配置-插件-粘贴链接
-|:white_check_mark:pandora订阅管理|[:link:链接地址](https://whatshub.top/plugin/pandora.plugin)|配置-插件-粘贴链接
-|:white_check_mark:微信阅读积分兑换|[:link:链接地址](https://whatshub.top/plugin/wechatread.plugin)|请查阅脚本内教程
-|:white_check_mark:来音智能陪练|[:link:链接地址](https://whatshub.top/plugin/ly.plugin)|配置-插件-粘贴链接
-|:white_check_mark:熊掌记|[:link:链接地址](https://whatshub.top/plugin/xzj.plugin)|配置-插件-粘贴链接
-|❌Notboring解锁|[:link:链接地址](https://whatshub.top/plugin/notboring.plugin)|配置-插件-粘贴链接
-|:white_check_mark:如期扫码解锁|[:link:链接地址](https://whatshub.top/plugin/rq.plugin)|配置-插件-粘贴链接
-|:white_check_mark:CEO周课|[:link:链接地址](https://whatshub.top/plugin/ceo.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Fileball|[:link:链接地址](https://whatshub.top/plugin/fileball.plugin)|配置-插件-粘贴链接
-|:white_check_mark:1blocker|[:link:链接地址](https://whatshub.top/plugin/1blocker.plugin)|配置-插件-粘贴链接
-|:white_check_mark:AI换脸秀|[:link:链接地址](https://whatshub.top/plugin/ai.plugin)|配置-插件-粘贴链接
-|:white_check_mark:proknockout|[:link:链接地址](https://whatshub.top/plugin/proknockout.plugin)|配置-插件-粘贴链接
-|:white_check_mark:青柠海报|[:link:链接地址](https://whatshub.top/plugin/qnhb.plugin)|配置-插件-粘贴链接
-|:white_check_mark:FainTV|[:link:链接地址](https://whatshub.top/plugin/faintv.plugin)|配置-插件-粘贴链接
-|:white_check_mark:微信听书|[:link:链接地址](https://whatshub.top/plugin/wxts.plugin)|配置-插件-粘贴链接
-|:white_check_mark:人民日报去广告|[:link:链接地址](https://whatshub.top/plugin/rmrb.plugin)|配置-插件-粘贴链接
-|:white_check_mark:爱企查|[:link:链接地址](https://whatshub.top/plugin/aqc.plugin)|配置-插件-粘贴链接
-|:white_check_mark:微信读书免费卡解锁|[:link:链接地址](https://whatshub.top/plugin/wxds.plugin)|配置-插件-粘贴链接
-|:white_check_mark:chic|[:link:链接地址](https://whatshub.top/plugin/chic.plugin)|配置-插件-粘贴链接
-|:white_check_mark:有道词典|[:link:链接地址](https://whatshub.top/plugin/ydcd.plugin)|配置-插件-粘贴链接
-|:white_check_mark:一路听天下|[:link:链接地址](https://whatshub.top/plugin/ylttx.plugin)|配置-插件-粘贴链接
-|:white_check_mark:网速测试大师|[:link:链接地址](https://whatshub.top/plugin/wscsds.plugin)|配置-插件-粘贴链接
-|:white_check_mark:网速管家|[:link:链接地址](https://whatshub.top/plugin/wsgj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:EFEKT美易|[:link:链接地址](https://whatshub.top/plugin/efekt.plugin)|配置-插件-粘贴链接
-|:white_check_mark:WPS稻壳|[:link:链接地址](https://whatshub.top/plugin/doc.plugin)|配置-插件-粘贴链接
-|:white_check_mark:米克锁屏|[:link:链接地址](https://whatshub.top/plugin/mksp.plugin)|配置-插件-粘贴链接
-|:white_check_mark:阿布睡前故事|[:link:链接地址](https://whatshub.top/plugin/absqgs.plugin)|配置-插件-粘贴链接
-|:white_check_mark:collart|[:link:链接地址](https://whatshub.top/plugin/collart.plugin)|配置-插件-粘贴链接
-|:white_check_mark:博商小麦|[:link:链接地址](https://whatshub.top/plugin/bsxm.plugin)|配置-插件-粘贴链接
-|:white_check_mark:MEMRISE|[:link:链接地址](https://whatshub.top/plugin/memrise.plugin)|配置-插件-粘贴链接
-|:white_check_mark:堆糖|[:link:链接地址](https://whatshub.top/plugin/duitang.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Flomo|[:link:链接地址](https://whatshub.top/plugin/folomo.plugin)|配置-插件-粘贴链接
-|:white_check_mark:APTV|[:link:链接地址](https://whatshub.top/plugin/aptv.plugin)|配置-插件-粘贴链接
-|:white_check_mark:香哈菜谱大全|[:link:链接地址](https://whatshub.top/plugin/cp.plugin)|配置-插件-粘贴链接
-|:white_check_mark:长相思|[:link:链接地址](https://whatshub.top/plugin/cxs.plugin)|配置-插件-粘贴链接
-|:white_check_mark:电子请柬制作|[:link:链接地址](https://whatshub.top/plugin/dzqj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:黄油相机|[:link:链接地址](https://whatshub.top/plugin/hyxj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Lingokids|[:link:链接地址](https://whatshub.top/plugin/lingokids.plugin)|配置-插件-粘贴链接
-|:white_check_mark:百度文库阅读解锁|[:link:链接地址](https://whatshub.top/plugin/bdwk.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Craft|[:link:链接地址](https://whatshub.top/plugin/craft.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Panda小组件|[:link:链接地址](https://whatshub.top/plugin/panda.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Keep|[:link:链接地址](https://whatshub.top/plugin/keep.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Documents|[:link:链接地址](https://whatshub.top/plugin/documents.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Planny|[:link:链接地址](https://whatshub.top/plugin/planny.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Ego Reader|[:link:链接地址](https://whatshub.top/plugin/ego.plugin)|配置-插件-粘贴链接
-|:white_check_mark:极速扫描仪|[:link:链接地址](https://whatshub.top/plugin/jssmy.plugin)|配置-插件-粘贴链接
-|:white_check_mark:指尖笔记|[:link:链接地址](https://whatshub.top/plugin/zjbj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:钱迹|[:link:链接地址](https://whatshub.top/plugin/qj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Agenda|[:link:链接地址](https://whatshub.top/plugin/agenda.plugin)|配置-插件-粘贴链接
-|:white_check_mark:多重搜索|[:link:链接地址](https://whatshub.top/plugin/multisearch.plugin)|配置-插件-粘贴链接
-|:white_check_mark:即刻运动|[:link:链接地址](https://whatshub.top/plugin/jkyd.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Day One|[:link:链接地址](https://whatshub.top/plugin/dayone.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Usage|[:link:链接地址](https://whatshub.top/plugin/usage.plugin)|配置-插件-粘贴链接
-|:white_check_mark:谜底时钟|[:link:链接地址](https://whatshub.top/plugin/mdsz.plugin)|配置-插件-粘贴链接
-|:white_check_mark:MoenyThings|[:link:链接地址](https://whatshub.top/plugin/moneythings.plugin)|配置-插件-粘贴链接
-|:white_check_mark:手机扫描仪|[:link:链接地址](https://whatshub.top/plugin/sjsmy.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Sorted|[:link:链接地址](https://whatshub.top/plugin/sorted.plugin)|配置-插件-粘贴链接
-|:white_check_mark:尽简衣橱|[:link:链接地址](https://whatshub.top/plugin/jjyc.plugin)|配置-插件-粘贴链接
-|:white_check_mark:看理想|[:link:链接地址](https://whatshub.top/plugin/klx.plugin)|配置-插件-粘贴链接
-|:white_check_mark:目标地图|[:link:链接地址](https://whatshub.top/plugin/mbdt.plugin)|配置-插件-粘贴链接
-|:white_check_mark:拼图酱|[:link:链接地址](https://whatshub.top/plugin/ptj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:向日葵阅读|[:link:链接地址](https://whatshub.top/plugin/xrk.plugin)|配置-插件-粘贴链接
-|:white_check_mark:卡片日记|[:link:链接地址](https://whatshub.top/plugin/kprj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:莉景天气|[:link:链接地址](https://whatshub.top/plugin/ljtq.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Motivation|[:link:链接地址](https://whatshub.top/plugin/motivation.plugin)|配置-插件-粘贴链接
-|:white_check_mark:PDF Viewer|[:link:链接地址](https://whatshub.top/plugin/pdfviewer.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Percento|[:link:链接地址](https://whatshub.top/plugin/percento.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Pixelance|[:link:链接地址](https://whatshub.top/plugin/pixelance.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Retake|[:link:链接地址](https://whatshub.top/plugin/retake.plugin)|配置-插件-粘贴链接
-|:white_check_mark:色采|[:link:链接地址](https://whatshub.top/plugin/sc.plugin)|配置-插件-粘贴链接
-|:white_check_mark:闪萌表情|[:link:链接地址](https://whatshub.top/plugin/smbq.plugin)|配置-插件-粘贴链接
-|:white_check_mark:音频剪辑|[:link:链接地址](https://whatshub.top/plugin/ypjj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Varlens|[:link:链接地址](https://whatshub.top/plugin/varlens.plugin)|配置-插件-粘贴链接
-|:white_check_mark:一木记账|[:link:链接地址](https://whatshub.top/plugin/ymjz.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Drafts|[:link:链接地址](https://whatshub.top/plugin/drafts.plugin)|配置-插件-粘贴链接
-|:white_check_mark:叮叮水印相机|[:link:链接地址](https://whatshub.top/plugin/ddsyxj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Emote|[:link:链接地址](https://whatshub.top/plugin/emote.plugin)|配置-插件-粘贴链接
-|:white_check_mark:灵敢足迹|[:link:链接地址](https://whatshub.top/plugin/lgzj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:7分钟HIIT运动|[:link:链接地址](https://whatshub.top/plugin/seven.plugin)|配置-插件-粘贴链接
-|:white_check_mark:私密相册管家|[:link:链接地址](https://whatshub.top/plugin/smxcgj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:FitnessView|[:link:链接地址](https://whatshub.top/plugin/fnv.plugin)|配置-插件-粘贴链接
-|:white_check_mark:TODO清单|[:link:链接地址](https://whatshub.top/plugin/todo.plugin)|配置-插件-粘贴链接
-|:white_check_mark:淘票票评分|[:link:链接地址](https://whatshub.top/plugin/tpp.plugin)|配置-插件-粘贴链接
-|:white_check_mark:天天豆|[:link:链接地址](https://whatshub.top/plugin/ttd.plugin)|配置-插件-粘贴链接
-|:white_check_mark:咖映|[:link:链接地址](https://whatshub.top/plugin/ky.plugin)|配置-插件-粘贴链接
-|:white_check_mark:VCUS|[:link:链接地址](https://whatshub.top/plugin/vcus.plugin)|配置-插件-粘贴链接
-|:white_check_mark:傲软PDF编辑|[:link:链接地址](https://whatshub.top/plugin/arpdfbj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:傲软投屏|[:link:链接地址](https://whatshub.top/plugin/artp.plugin)|配置-插件-粘贴链接
-|:white_check_mark:幻休|[:link:链接地址](https://whatshub.top/plugin/hx.plugin)|配置-插件-粘贴链接
-|:white_check_mark:绘影字幕|[:link:链接地址](https://whatshub.top/plugin/hyzm.plugin)|配置-插件-粘贴链接
-|:white_check_mark:汇中考|[:link:链接地址](https://whatshub.top/plugin/hzk.plugin)|配置-插件-粘贴链接
-|:white_check_mark:iScreen|[:link:链接地址](https://whatshub.top/plugin/iscreen.plugin)|配置-插件-粘贴链接
-|:white_check_mark:小组件盒子|[:link:链接地址](https://whatshub.top/plugin/xzjhz.plugin)|配置-插件-粘贴链接
-|:white_check_mark:佐糖|[:link:链接地址](https://whatshub.top/plugin/zt.plugin)|配置-插件-粘贴链接
-|:white_check_mark:飞鱼计划|[:link:链接地址](https://whatshub.top/plugin/fyjh.plugin)|配置-插件-粘贴链接
-|:white_check_mark:过期啦|[:link:链接地址](https://whatshub.top/plugin/gql.plugin)|配置-插件-粘贴链接
-|:white_check_mark:乃糖小组件|[:link:链接地址](https://whatshub.top/plugin/nt.plugin)|配置-插件-粘贴链接
-|:white_check_mark:一书一课|[:link:链接地址](https://whatshub.top/plugin/ysyk.plugin)|配置-插件-粘贴链接
-|:white_check_mark:充电助手|[:link:链接地址](https://whatshub.top/plugin/cdzs.plugin)|配置-插件-粘贴链接
-|:white_check_mark:电视家|[:link:链接地址](https://whatshub.top/plugin/dsj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Endel|[:link:链接地址](https://whatshub.top/plugin/endel.plugin)|配置-插件-粘贴链接
-|:white_check_mark:格至日记|[:link:链接地址](https://whatshub.top/plugin/gzrj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:高德地图去广告|[:link:链接地址](https://whatshub.top/plugin/gddt.plugin)|配置-插件-粘贴链接
-|:white_check_mark:好事发生|[:link:链接地址](https://whatshub.top/plugin/hsfs.plugin)|配置-插件-粘贴链接
-|:white_check_mark:简讯|[:link:链接地址](https://whatshub.top/plugin/jianxun.plugin)|配置-插件-粘贴链接
-|:white_check_mark:可拍|[:link:链接地址](https://whatshub.top/plugin/kepai.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Lifeviewer|[:link:链接地址](https://whatshub.top/plugin/lifeviewer.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Relens|[:link:链接地址](https://whatshub.top/plugin/relens.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Vivacut|[:link:链接地址](https://whatshub.top/plugin/vivacut.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Watchout|[:link:链接地址](https://whatshub.top/plugin/watchout.plugin)|配置-插件-粘贴链接
-|:white_check_mark:无痕去水印|[:link:链接地址](https://whatshub.top/plugin/whqsy.plugin)|配置-插件-粘贴链接
-|:white_check_mark:节点信息查询|[:link:链接地址](https://whatshub.top/plugin/GeoLocation.plugin)|配置-插件-粘贴链接
-|:white_check_mark:一键换脸|[:link:链接地址](https://whatshub.top/plugin/yjhl.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Styleart|[:link:链接地址](https://whatshub.top/plugin/styleart.plugin)|配置-插件-粘贴链接
-|:white_check_mark:流媒体解锁查询|[:link:链接地址](https://whatshub.top/plugin/MediaChecker.plugin)|配置-插件-粘贴链接
-|:white_check_mark:7动|[:link:链接地址](https://whatshub.top/plugin/7dong.plugin)|配置-插件-粘贴链接
-|:white_check_mark:生活指数通知|[:link:链接地址](https://whatshub.top/plugin/lifeindex.plugin)|配置-插件-粘贴链接
-|:white_check_mark:海报工厂|[:link:链接地址](https://whatshub.top/plugin/hbgc.plugin)|配置-插件-粘贴链接
-|:white_check_mark:我的番茄|[:link:链接地址](https://whatshub.top/plugin/wdfq.plugin)|配置-插件-粘贴链接
-|:white_check_mark:FoMz|[:link:链接地址](https://whatshub.top/plugin/fomz.plugin)|配置-插件-粘贴链接
-|:white_check_mark:日杂相机|[:link:链接地址](https://whatshub.top/plugin/rzxj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:古诗词大全|[:link:链接地址](https://whatshub.top/plugin/gscdq.plugin)|配置-插件-粘贴链接
-|:white_check_mark:Mondly|[:link:链接地址](https://whatshub.top/plugin/mondly.plugin)|配置-插件-粘贴链接
-|:white_check_mark:猫头鹰文件|[:link:链接地址](https://whatshub.top/plugin/mtywj.plugin)|配置-插件-粘贴链接
-|:white_check_mark:YouTube去广告|[:link:链接地址](https://whatshub.top/plugin/youtube.plugin)|配置-插件-粘贴链接
-|:white_check_mark:汉堡儿童故事|[:link:链接地址](https://whatshub.top/plugin/hbetgs.plugin)|配置-插件-粘贴链接
-|:white_check_mark:iconKiller|[:link:链接地址](https://whatshub.top/plugin/iconkiller.plugin)|配置-插件-粘贴链接
-|:white_check_mark:中华诗词库|[:link:链接地址](https://whatshub.top/plugin/zhsck.plugin)|配置-插件-粘贴链接
-|:white_check_mark:字体册|[:link:链接地址](https://whatshub.top/plugin/ztc.plugin)|配置-插件-粘贴链接
-|:white_check_mark:配音|[:link:链接地址](https://whatshub.top/plugin/peiyin.plugin)|配置-插件-粘贴链接
-|:white_check_mark:AdGuard|[:link:链接地址](https://whatshub.top/plugin/adguard.plugin)|配置-插件-粘贴链接
-|:white_check_mark:阿里云盘签到|[:link:链接地址](https://whatshub.top/plugin/aliyun.plugin)|配置-插件-粘贴链接
+|:white_check_mark:B612咔叽|[:link:链接地址](https://yfamilys.com/plugin/b612.plugin)|配置-插件-粘贴链接
+|:white_check_mark:儿歌点点会员|[:link:链接地址](https://yfamilys.com/plugin/egdd.plugin)|配置-插件-粘贴链接
+|:white_check_mark:hyperweb会员解锁|[:link:链接地址](https://yfamilys.com/plugin/hyperweb.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Molycam会员|[:link:链接地址](https://yfamilys.com/plugin/molycam.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Photomath会员|[:link:链接地址](https://yfamilys.com/plugin/photomath.plugin)|配置-插件-粘贴链接
+|:white_check_mark:西窗烛解锁|[:link:链接地址](https://yfamilys.com/plugin/xcz.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Accuweather解锁|[:link:链接地址](https://yfamilys.com/plugin/accu.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Meistertask解锁|[:link:链接地址](https://yfamilys.com/plugin/meistertask.plugin)|配置-插件-粘贴链接
+|:white_check_mark:一言解锁|[:link:链接地址](https://yfamilys.com/plugin/yiyan.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Fantastical解锁|[:link:链接地址](https://yfamilys.com/plugin/fantastical.plugin)|配置-插件-粘贴链接
+|:white_check_mark:云听解锁|[:link:链接地址](https://yfamilys.com/plugin/yunting.plugin)|配置-插件-粘贴链接
+|:white_check_mark:豌豆清单解锁|[:link:链接地址](https://yfamilys.com/plugin/wdqd.plugin)|配置-插件-粘贴链接
+|:white_check_mark:EMMO解锁|[:link:链接地址](https://yfamilys.com/plugin/emmo.plugin)|配置-插件-粘贴链接
+|:white_check_mark:小习惯解锁|[:link:链接地址](https://yfamilys.com/plugin/xxg.plugin)|配置-插件-粘贴链接
+|:white_check_mark:读书笔记解锁|[:link:链接地址](https://yfamilys.com/plugin/dsbj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:斑马海报解锁|[:link:链接地址](https://yfamilys.com/plugin/zebra.plugin)|配置-插件-粘贴链接
+|:white_check_mark:My Plate解锁|[:link:链接地址](https://yfamilys.com/plugin/myplate.plugin)|配置-插件-粘贴链接
+|❌I AM解锁|[:link:链接地址](https://yfamilys.com/plugin/iam.plugin)|配置-插件-粘贴链接
+|:white_check_mark:iMuseum解锁|[:link:链接地址](https://yfamilys.com/plugin/imuseum.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Audiomack解锁|[:link:链接地址](https://yfamilys.com/plugin/audiomack.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Grammarly解锁|[:link:链接地址](https://yfamilys.com/plugin/grammarly.plugin)|配置-插件-粘贴链接
+|:white_check_mark:TOKCAM解锁|[:link:链接地址](https://yfamilys.com/plugin/tokcam.plugin)|配置-插件-粘贴链接
+|:white_check_mark:图图记账解锁|[:link:链接地址](https://yfamilys.com/plugin/tutu.plugin)|配置-插件-粘贴链接
+|:white_check_mark:WallCraft解锁|[:link:链接地址](https://yfamilys.com/plugin/wallcraft.plugin)|配置-插件-粘贴链接
+|:white_check_mark:新语听书解锁|[:link:链接地址](https://yfamilys.com/plugin/xyts.plugin)|配置-插件-粘贴链接
+|:white_check_mark:一甜相机解锁|[:link:链接地址](https://yfamilys.com/plugin/yitian.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Grow解锁|[:link:链接地址](https://yfamilys.com/plugin/grow.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Xmind思维导图|[:link:链接地址](https://yfamilys.com/plugin/xmind.plugin)|配置-插件-粘贴链接
+|:white_check_mark:微信公众号去广告|[:link:链接地址](https://yfamilys.com/plugin/wechatad.plugin)|配置-插件-粘贴链接
+|:white_check_mark:微博去广告|[:link:链接地址](https://yfamilys.com/plugin/weiboad.plugin)|配置-插件-粘贴链接
+|:white_check_mark:哔哩哔哩去广告|[:link:链接地址](https://yfamilys.com/plugin/biliad.plugin)|配置-插件-粘贴链接
+|:white_check_mark:喜马拉雅去广告|[:link:链接地址](https://yfamilys.com/plugin/xmlyad.plugin)|配置-插件-粘贴链接
+|:white_check_mark:网易蜗牛阅读|[:link:链接地址](https://yfamilys.com/plugin/wnds.plugin)|配置-插件-粘贴链接
+|:white_check_mark:马卡龙玩图|[:link:链接地址](https://yfamilys.com/plugin/mklwt.plugin)|配置-插件-粘贴链接
+|:white_check_mark:第一弹解锁|[:link:链接地址](https://yfamilys.com/plugin/dyd.plugin)|配置-插件-粘贴链接
+|:white_check_mark:海豚记账本|[:link:链接地址](https://yfamilys.com/plugin/htjzb.plugin)|配置-插件-粘贴链接
+|:white_check_mark:PEAK解锁|[:link:链接地址](https://yfamilys.com/plugin/peak.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Pillow解锁|[:link:链接地址](https://yfamilys.com/plugin/pillow.plugin)|配置-插件-粘贴链接
+|:white_check_mark:PocketLists解锁|[:link:链接地址](https://yfamilys.com/plugin/pocketlists.plugin)|配置-插件-粘贴链接
+|:white_check_mark:知音漫客解锁|[:link:链接地址](https://yfamilys.com/plugin/zymk.plugin)|配置-插件-粘贴链接
+|:white_check_mark:有道云笔记解锁|[:link:链接地址](https://yfamilys.com/plugin/ydybj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Vista看天下解锁|[:link:链接地址](https://yfamilys.com/plugin/vista.plugin)|配置-插件-粘贴链接
+|:white_check_mark:PhotosShop Express会员解锁|[:link:链接地址](https://yfamilys.com/plugin/photoshop.plugin)|配置-插件-粘贴链接
+|:white_check_mark:人人视频去广告|[:link:链接地址](https://yfamilys.com/plugin/rrsp.plugin)|配置-插件-粘贴链接
+|:white_check_mark:七猫小说解锁|[:link:链接地址](https://yfamilys.com/plugin/qmxs.plugin)|配置-插件-粘贴链接
+|:white_check_mark:漫画台小程序解锁|[:link:链接地址](https://yfamilys.com/plugin/mht.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Notability解锁|[:link:链接地址](https://yfamilys.com/plugin/notability.plugin)|配置-插件-粘贴链接
+|:white_check_mark:爱美剧解锁|[:link:链接地址](https://yfamilys.com/plugin/amj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:白描黄金会员|[:link:链接地址](https://yfamilys.com/plugin/baimiao.plugin)|配置-插件-粘贴链接
+|:white_check_mark:OldRoll相机解锁|[:link:链接地址](https://yfamilys.com/plugin/oldroll.plugin)|配置-插件-粘贴链接
+|:white_check_mark:少年得到解锁会员|[:link:链接地址](https://yfamilys.com/plugin/sndd.plugin)|配置-插件-粘贴链接
+|:white_check_mark:大蓝鲸|[:link:链接地址](https://yfamilys.com/plugin/dalanjing.plugin)|配置-插件-粘贴链接
+|:white_check_mark:螺畤大语文解锁会员|[:link:链接地址](https://yfamilys.com/plugin/lsdyw.plugin)|配置-插件-粘贴链接
+|:white_check_mark:语文趣配音解锁会员|[:link:链接地址](https://yfamilys.com/plugin/ywqpy.plugin)|配置-插件-粘贴链接
+|:white_check_mark:配音秀解锁会员|[:link:链接地址](https://yfamilys.com/plugin/pyx.plugin)|配置-插件-粘贴链接
+|:white_check_mark:纸条年度会员解锁|[:link:链接地址](https://yfamilys.com/plugin/zhitiao.plugin)|配置-插件-粘贴链接
+|:white_check_mark:石墨文档解锁|[:link:链接地址](https://yfamilys.com/plugin/smwd.plugin)|配置-插件-粘贴链接
+|:white_check_mark:美篇解锁vip|[:link:链接地址](https://yfamilys.com/plugin/meipian.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Adobe LightRoom解锁|[:link:链接地址](https://yfamilys.com/plugin/lightroom.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Calm解锁|[:link:链接地址](https://yfamilys.com/plugin/calm.plugin)|配置-插件-粘贴链接
+|:white_check_mark:NFC门禁卡公交卡|[:link:链接地址](https://yfamilys.com/plugin/nfc.plugin)|配置-插件-粘贴链接
+|:white_check_mark:搜图神器|[:link:链接地址](https://yfamilys.com/plugin/stsq.plugin)|配置-插件-粘贴链接
+|:white_check_mark:https抓包|[:link:链接地址](https://yfamilys.com/plugin/https.plugin)|配置-插件-粘贴链接
+|:white_check_mark:SSA丝社|[:link:链接地址](https://yfamilys.com/plugin/ssa.plugin)|配置-插件-粘贴链接
+|:white_check_mark:小小优趣|[:link:链接地址](https://yfamilys.com/plugin/xxyq.plugin)|配置-插件-粘贴链接
+|:white_check_mark:幻影相册|[:link:链接地址](https://yfamilys.com/plugin/hyxc.plugin)|配置-插件-粘贴链接
+|:white_check_mark:精塾国学|[:link:链接地址](https://yfamilys.com/plugin/jsgx.plugin)|配置-插件-粘贴链接
+|:white_check_mark:PrettyUp|[:link:链接地址](https://yfamilys.com/plugin/prettyup.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Cubox|[:link:链接地址](https://yfamilys.com/plugin/cubox.plugin)|配置-插件-粘贴链接
+|:white_check_mark:pandora订阅管理|[:link:链接地址](https://yfamilys.com/plugin/pandora.plugin)|配置-插件-粘贴链接
+|:white_check_mark:微信阅读积分兑换|[:link:链接地址](https://yfamilys.com/plugin/wechatread.plugin)|请查阅脚本内教程
+|:white_check_mark:来音智能陪练|[:link:链接地址](https://yfamilys.com/plugin/ly.plugin)|配置-插件-粘贴链接
+|:white_check_mark:熊掌记|[:link:链接地址](https://yfamilys.com/plugin/xzj.plugin)|配置-插件-粘贴链接
+|❌Notboring解锁|[:link:链接地址](https://yfamilys.com/plugin/notboring.plugin)|配置-插件-粘贴链接
+|:white_check_mark:如期扫码解锁|[:link:链接地址](https://yfamilys.com/plugin/rq.plugin)|配置-插件-粘贴链接
+|:white_check_mark:CEO周课|[:link:链接地址](https://yfamilys.com/plugin/ceo.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Fileball|[:link:链接地址](https://yfamilys.com/plugin/fileball.plugin)|配置-插件-粘贴链接
+|:white_check_mark:1blocker|[:link:链接地址](https://yfamilys.com/plugin/1blocker.plugin)|配置-插件-粘贴链接
+|:white_check_mark:AI换脸秀|[:link:链接地址](https://yfamilys.com/plugin/ai.plugin)|配置-插件-粘贴链接
+|:white_check_mark:proknockout|[:link:链接地址](https://yfamilys.com/plugin/proknockout.plugin)|配置-插件-粘贴链接
+|:white_check_mark:青柠海报|[:link:链接地址](https://yfamilys.com/plugin/qnhb.plugin)|配置-插件-粘贴链接
+|:white_check_mark:FainTV|[:link:链接地址](https://yfamilys.com/plugin/faintv.plugin)|配置-插件-粘贴链接
+|:white_check_mark:微信听书|[:link:链接地址](https://yfamilys.com/plugin/wxts.plugin)|配置-插件-粘贴链接
+|:white_check_mark:人民日报去广告|[:link:链接地址](https://yfamilys.com/plugin/rmrb.plugin)|配置-插件-粘贴链接
+|:white_check_mark:爱企查|[:link:链接地址](https://yfamilys.com/plugin/aqc.plugin)|配置-插件-粘贴链接
+|:white_check_mark:微信读书免费卡解锁|[:link:链接地址](https://yfamilys.com/plugin/wxds.plugin)|配置-插件-粘贴链接
+|:white_check_mark:chic|[:link:链接地址](https://yfamilys.com/plugin/chic.plugin)|配置-插件-粘贴链接
+|:white_check_mark:有道词典|[:link:链接地址](https://yfamilys.com/plugin/ydcd.plugin)|配置-插件-粘贴链接
+|:white_check_mark:一路听天下|[:link:链接地址](https://yfamilys.com/plugin/ylttx.plugin)|配置-插件-粘贴链接
+|:white_check_mark:网速测试大师|[:link:链接地址](https://yfamilys.com/plugin/wscsds.plugin)|配置-插件-粘贴链接
+|:white_check_mark:网速管家|[:link:链接地址](https://yfamilys.com/plugin/wsgj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:EFEKT美易|[:link:链接地址](https://yfamilys.com/plugin/efekt.plugin)|配置-插件-粘贴链接
+|:white_check_mark:WPS稻壳|[:link:链接地址](https://yfamilys.com/plugin/doc.plugin)|配置-插件-粘贴链接
+|:white_check_mark:米克锁屏|[:link:链接地址](https://yfamilys.com/plugin/mksp.plugin)|配置-插件-粘贴链接
+|:white_check_mark:阿布睡前故事|[:link:链接地址](https://yfamilys.com/plugin/absqgs.plugin)|配置-插件-粘贴链接
+|:white_check_mark:collart|[:link:链接地址](https://yfamilys.com/plugin/collart.plugin)|配置-插件-粘贴链接
+|:white_check_mark:博商小麦|[:link:链接地址](https://yfamilys.com/plugin/bsxm.plugin)|配置-插件-粘贴链接
+|:white_check_mark:MEMRISE|[:link:链接地址](https://yfamilys.com/plugin/memrise.plugin)|配置-插件-粘贴链接
+|:white_check_mark:堆糖|[:link:链接地址](https://yfamilys.com/plugin/duitang.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Flomo|[:link:链接地址](https://yfamilys.com/plugin/folomo.plugin)|配置-插件-粘贴链接
+|:white_check_mark:APTV|[:link:链接地址](https://yfamilys.com/plugin/aptv.plugin)|配置-插件-粘贴链接
+|:white_check_mark:香哈菜谱大全|[:link:链接地址](https://yfamilys.com/plugin/cp.plugin)|配置-插件-粘贴链接
+|:white_check_mark:长相思|[:link:链接地址](https://yfamilys.com/plugin/cxs.plugin)|配置-插件-粘贴链接
+|:white_check_mark:电子请柬制作|[:link:链接地址](https://yfamilys.com/plugin/dzqj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:黄油相机|[:link:链接地址](https://yfamilys.com/plugin/hyxj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Lingokids|[:link:链接地址](https://yfamilys.com/plugin/lingokids.plugin)|配置-插件-粘贴链接
+|:white_check_mark:百度文库阅读解锁|[:link:链接地址](https://yfamilys.com/plugin/bdwk.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Craft|[:link:链接地址](https://yfamilys.com/plugin/craft.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Panda小组件|[:link:链接地址](https://yfamilys.com/plugin/panda.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Keep|[:link:链接地址](https://yfamilys.com/plugin/keep.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Documents|[:link:链接地址](https://yfamilys.com/plugin/documents.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Planny|[:link:链接地址](https://yfamilys.com/plugin/planny.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Ego Reader|[:link:链接地址](https://yfamilys.com/plugin/ego.plugin)|配置-插件-粘贴链接
+|:white_check_mark:极速扫描仪|[:link:链接地址](https://yfamilys.com/plugin/jssmy.plugin)|配置-插件-粘贴链接
+|:white_check_mark:指尖笔记|[:link:链接地址](https://yfamilys.com/plugin/zjbj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:钱迹|[:link:链接地址](https://yfamilys.com/plugin/qj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Agenda|[:link:链接地址](https://yfamilys.com/plugin/agenda.plugin)|配置-插件-粘贴链接
+|:white_check_mark:多重搜索|[:link:链接地址](https://yfamilys.com/plugin/multisearch.plugin)|配置-插件-粘贴链接
+|:white_check_mark:即刻运动|[:link:链接地址](https://yfamilys.com/plugin/jkyd.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Day One|[:link:链接地址](https://yfamilys.com/plugin/dayone.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Usage|[:link:链接地址](https://yfamilys.com/plugin/usage.plugin)|配置-插件-粘贴链接
+|:white_check_mark:谜底时钟|[:link:链接地址](https://yfamilys.com/plugin/mdsz.plugin)|配置-插件-粘贴链接
+|:white_check_mark:MoenyThings|[:link:链接地址](https://yfamilys.com/plugin/moneythings.plugin)|配置-插件-粘贴链接
+|:white_check_mark:手机扫描仪|[:link:链接地址](https://yfamilys.com/plugin/sjsmy.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Sorted|[:link:链接地址](https://yfamilys.com/plugin/sorted.plugin)|配置-插件-粘贴链接
+|:white_check_mark:尽简衣橱|[:link:链接地址](https://yfamilys.com/plugin/jjyc.plugin)|配置-插件-粘贴链接
+|:white_check_mark:看理想|[:link:链接地址](https://yfamilys.com/plugin/klx.plugin)|配置-插件-粘贴链接
+|:white_check_mark:目标地图|[:link:链接地址](https://yfamilys.com/plugin/mbdt.plugin)|配置-插件-粘贴链接
+|:white_check_mark:拼图酱|[:link:链接地址](https://yfamilys.com/plugin/ptj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:向日葵阅读|[:link:链接地址](https://yfamilys.com/plugin/xrk.plugin)|配置-插件-粘贴链接
+|:white_check_mark:卡片日记|[:link:链接地址](https://yfamilys.com/plugin/kprj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:莉景天气|[:link:链接地址](https://yfamilys.com/plugin/ljtq.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Motivation|[:link:链接地址](https://yfamilys.com/plugin/motivation.plugin)|配置-插件-粘贴链接
+|:white_check_mark:PDF Viewer|[:link:链接地址](https://yfamilys.com/plugin/pdfviewer.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Percento|[:link:链接地址](https://yfamilys.com/plugin/percento.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Pixelance|[:link:链接地址](https://yfamilys.com/plugin/pixelance.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Retake|[:link:链接地址](https://yfamilys.com/plugin/retake.plugin)|配置-插件-粘贴链接
+|:white_check_mark:色采|[:link:链接地址](https://yfamilys.com/plugin/sc.plugin)|配置-插件-粘贴链接
+|:white_check_mark:闪萌表情|[:link:链接地址](https://yfamilys.com/plugin/smbq.plugin)|配置-插件-粘贴链接
+|:white_check_mark:音频剪辑|[:link:链接地址](https://yfamilys.com/plugin/ypjj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Varlens|[:link:链接地址](https://yfamilys.com/plugin/varlens.plugin)|配置-插件-粘贴链接
+|:white_check_mark:一木记账|[:link:链接地址](https://yfamilys.com/plugin/ymjz.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Drafts|[:link:链接地址](https://yfamilys.com/plugin/drafts.plugin)|配置-插件-粘贴链接
+|:white_check_mark:叮叮水印相机|[:link:链接地址](https://yfamilys.com/plugin/ddsyxj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Emote|[:link:链接地址](https://yfamilys.com/plugin/emote.plugin)|配置-插件-粘贴链接
+|:white_check_mark:灵敢足迹|[:link:链接地址](https://yfamilys.com/plugin/lgzj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:7分钟HIIT运动|[:link:链接地址](https://yfamilys.com/plugin/seven.plugin)|配置-插件-粘贴链接
+|:white_check_mark:私密相册管家|[:link:链接地址](https://yfamilys.com/plugin/smxcgj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:FitnessView|[:link:链接地址](https://yfamilys.com/plugin/fnv.plugin)|配置-插件-粘贴链接
+|:white_check_mark:TODO清单|[:link:链接地址](https://yfamilys.com/plugin/todo.plugin)|配置-插件-粘贴链接
+|:white_check_mark:淘票票评分|[:link:链接地址](https://yfamilys.com/plugin/tpp.plugin)|配置-插件-粘贴链接
+|:white_check_mark:天天豆|[:link:链接地址](https://yfamilys.com/plugin/ttd.plugin)|配置-插件-粘贴链接
+|:white_check_mark:咖映|[:link:链接地址](https://yfamilys.com/plugin/ky.plugin)|配置-插件-粘贴链接
+|:white_check_mark:VCUS|[:link:链接地址](https://yfamilys.com/plugin/vcus.plugin)|配置-插件-粘贴链接
+|:white_check_mark:傲软PDF编辑|[:link:链接地址](https://yfamilys.com/plugin/arpdfbj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:傲软投屏|[:link:链接地址](https://yfamilys.com/plugin/artp.plugin)|配置-插件-粘贴链接
+|:white_check_mark:幻休|[:link:链接地址](https://yfamilys.com/plugin/hx.plugin)|配置-插件-粘贴链接
+|:white_check_mark:绘影字幕|[:link:链接地址](https://yfamilys.com/plugin/hyzm.plugin)|配置-插件-粘贴链接
+|:white_check_mark:汇中考|[:link:链接地址](https://yfamilys.com/plugin/hzk.plugin)|配置-插件-粘贴链接
+|:white_check_mark:iScreen|[:link:链接地址](https://yfamilys.com/plugin/iscreen.plugin)|配置-插件-粘贴链接
+|:white_check_mark:小组件盒子|[:link:链接地址](https://yfamilys.com/plugin/xzjhz.plugin)|配置-插件-粘贴链接
+|:white_check_mark:佐糖|[:link:链接地址](https://yfamilys.com/plugin/zt.plugin)|配置-插件-粘贴链接
+|:white_check_mark:飞鱼计划|[:link:链接地址](https://yfamilys.com/plugin/fyjh.plugin)|配置-插件-粘贴链接
+|:white_check_mark:过期啦|[:link:链接地址](https://yfamilys.com/plugin/gql.plugin)|配置-插件-粘贴链接
+|:white_check_mark:乃糖小组件|[:link:链接地址](https://yfamilys.com/plugin/nt.plugin)|配置-插件-粘贴链接
+|:white_check_mark:一书一课|[:link:链接地址](https://yfamilys.com/plugin/ysyk.plugin)|配置-插件-粘贴链接
+|:white_check_mark:充电助手|[:link:链接地址](https://yfamilys.com/plugin/cdzs.plugin)|配置-插件-粘贴链接
+|:white_check_mark:电视家|[:link:链接地址](https://yfamilys.com/plugin/dsj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Endel|[:link:链接地址](https://yfamilys.com/plugin/endel.plugin)|配置-插件-粘贴链接
+|:white_check_mark:格至日记|[:link:链接地址](https://yfamilys.com/plugin/gzrj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:高德地图去广告|[:link:链接地址](https://yfamilys.com/plugin/gddt.plugin)|配置-插件-粘贴链接
+|:white_check_mark:好事发生|[:link:链接地址](https://yfamilys.com/plugin/hsfs.plugin)|配置-插件-粘贴链接
+|:white_check_mark:简讯|[:link:链接地址](https://yfamilys.com/plugin/jianxun.plugin)|配置-插件-粘贴链接
+|:white_check_mark:可拍|[:link:链接地址](https://yfamilys.com/plugin/kepai.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Lifeviewer|[:link:链接地址](https://yfamilys.com/plugin/lifeviewer.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Relens|[:link:链接地址](https://yfamilys.com/plugin/relens.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Vivacut|[:link:链接地址](https://yfamilys.com/plugin/vivacut.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Watchout|[:link:链接地址](https://yfamilys.com/plugin/watchout.plugin)|配置-插件-粘贴链接
+|:white_check_mark:无痕去水印|[:link:链接地址](https://yfamilys.com/plugin/whqsy.plugin)|配置-插件-粘贴链接
+|:white_check_mark:节点信息查询|[:link:链接地址](https://yfamilys.com/plugin/GeoLocation.plugin)|配置-插件-粘贴链接
+|:white_check_mark:一键换脸|[:link:链接地址](https://yfamilys.com/plugin/yjhl.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Styleart|[:link:链接地址](https://yfamilys.com/plugin/styleart.plugin)|配置-插件-粘贴链接
+|:white_check_mark:流媒体解锁查询|[:link:链接地址](https://yfamilys.com/plugin/MediaChecker.plugin)|配置-插件-粘贴链接
+|:white_check_mark:7动|[:link:链接地址](https://yfamilys.com/plugin/7dong.plugin)|配置-插件-粘贴链接
+|:white_check_mark:生活指数通知|[:link:链接地址](https://yfamilys.com/plugin/lifeindex.plugin)|配置-插件-粘贴链接
+|:white_check_mark:海报工厂|[:link:链接地址](https://yfamilys.com/plugin/hbgc.plugin)|配置-插件-粘贴链接
+|:white_check_mark:我的番茄|[:link:链接地址](https://yfamilys.com/plugin/wdfq.plugin)|配置-插件-粘贴链接
+|:white_check_mark:FoMz|[:link:链接地址](https://yfamilys.com/plugin/fomz.plugin)|配置-插件-粘贴链接
+|:white_check_mark:日杂相机|[:link:链接地址](https://yfamilys.com/plugin/rzxj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:古诗词大全|[:link:链接地址](https://yfamilys.com/plugin/gscdq.plugin)|配置-插件-粘贴链接
+|:white_check_mark:Mondly|[:link:链接地址](https://yfamilys.com/plugin/mondly.plugin)|配置-插件-粘贴链接
+|:white_check_mark:猫头鹰文件|[:link:链接地址](https://yfamilys.com/plugin/mtywj.plugin)|配置-插件-粘贴链接
+|:white_check_mark:YouTube去广告|[:link:链接地址](https://yfamilys.com/plugin/youtube.plugin)|配置-插件-粘贴链接
+|:white_check_mark:汉堡儿童故事|[:link:链接地址](https://yfamilys.com/plugin/hbetgs.plugin)|配置-插件-粘贴链接
+|:white_check_mark:iconKiller|[:link:链接地址](https://yfamilys.com/plugin/iconkiller.plugin)|配置-插件-粘贴链接
+|:white_check_mark:中华诗词库|[:link:链接地址](https://yfamilys.com/plugin/zhsck.plugin)|配置-插件-粘贴链接
+|:white_check_mark:字体册|[:link:链接地址](https://yfamilys.com/plugin/ztc.plugin)|配置-插件-粘贴链接
+|:white_check_mark:配音|[:link:链接地址](https://yfamilys.com/plugin/peiyin.plugin)|配置-插件-粘贴链接
+|:white_check_mark:AdGuard|[:link:链接地址](https://yfamilys.com/plugin/adguard.plugin)|配置-插件-粘贴链接
+|:white_check_mark:阿里云盘签到|[:link:链接地址](https://yfamilys.com/plugin/aliyun.plugin)|配置-插件-粘贴链接
 
 
 
