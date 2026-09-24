@@ -1,9 +1,0 @@
-#!name=APTV
-#!desc=APTV解锁会员
-#!homepage=https://yfamily.ml
-#!author=89996462
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/aptv.png
-[Script]
-http-response https://api.revenuecat.com/v1/(receipts|subscribers)/* requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/APTV.js
-[MITM]
-hostname = api.revenuecat.com

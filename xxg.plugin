@@ -1,9 +1,0 @@
-#!name=小习惯
-#!desc=小习惯解锁会员
-#!homepage=https://yfamily.ml
-#!author=ddgksf2013
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/xxg.png
-[MITM]
-hostname=xianbeikeji.com
-[Script]
-http-response https://xianbeikeji.com/daily/app/user/query requires-body=1,script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/mzjz.js

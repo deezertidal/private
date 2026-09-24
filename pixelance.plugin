@@ -1,9 +1,0 @@
-#!name=Pixelance
-#!desc=Pixelance解锁会员
-#!homepage=https://yfamily.ml
-#!author= 89996462
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/pixelance.png
-[MITM]
-hostname = iap.etm.tech
-[Script]
-http-response ^https:\/\/iap\.etm\.tech\/receipts requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Pixelance.js
